@@ -9,12 +9,18 @@
 \begin{document}
 
 \frontmatter*
-\include{frontbackmatter/title}
-\include{frontbackmatter/abstract}
-\include{frontbackmatter/acknowledgements.tex}
+\input{frontbackmatter/title}
+\input{frontbackmatter/abstract}
+\acknowledgements
+\input{frontbackmatter/acknowledgements.tex}
+\clearpage
+
 \tableofcontents
+\clearpage
 \listoffigures
+\clearpage
 \listoftables
+\clearpage
 
 \mainmatter*
 \chapter{Ultrafast spectroscopy}

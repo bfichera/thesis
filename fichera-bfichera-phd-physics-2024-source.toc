@@ -1,12 +1,12 @@
 \contentsline {chapter}{Contents}{3}{}%
-\contentsline {chapter}{List of Figures}{3}{}%
-\contentsline {chapter}{List of Tables}{4}{}%
-\contentsline {chapter}{\chapternumberline {1}Ultrafast spectroscopy}{5}{}%
-\contentsline {chapter}{\chapternumberline {2}Ultrafast control}{7}{}%
-\contentsline {chapter}{\chapternumberline {3}Second harmonic generation: theory}{9}{}%
-\contentsline {chapter}{\chapternumberline {4}Second harmonic generation: practical}{11}{}%
-\contentsline {chapter}{\chapternumberline {5}Second harmonic generation as a probe of broken mirror symmetry in 1\textit {T}-\ce {TaS2}}{13}{}%
-\contentsline {chapter}{\chapternumberline {6}Light-induced reorientation transition in the antiferromagnetic semiconductor \ce {CaMn2Bi2}}{15}{}%
-\contentsline {chapter}{\chapternumberline {7}Amplitude-mode electromagnon in the XXZ chain \ce {CuBr2}}{17}{}%
-\contentsline {chapter}{\chapternumberline {8}Concluding remarks}{19}{}%
-\contentsline {chapter}{Bibliography}{21}{}%
+\contentsline {chapter}{List of Figures}{4}{}%
+\contentsline {chapter}{List of Tables}{5}{}%
+\contentsline {chapter}{\chapternumberline {1}Ultrafast spectroscopy}{7}{}%
+\contentsline {chapter}{\chapternumberline {2}Ultrafast control}{9}{}%
+\contentsline {chapter}{\chapternumberline {3}Second harmonic generation: theory}{11}{}%
+\contentsline {chapter}{\chapternumberline {4}Second harmonic generation: practical}{13}{}%
+\contentsline {chapter}{\chapternumberline {5}Second harmonic generation as a probe of broken mirror symmetry in 1\textit {T}-\ce {TaS2}}{15}{}%
+\contentsline {chapter}{\chapternumberline {6}Light-induced reorientation transition in the antiferromagnetic semiconductor \ce {CaMn2Bi2}}{17}{}%
+\contentsline {chapter}{\chapternumberline {7}Amplitude-mode electromagnon in the XXZ chain \ce {CuBr2}}{19}{}%
+\contentsline {chapter}{\chapternumberline {8}Concluding remarks}{21}{}%
+\contentsline {chapter}{Bibliography}{23}{}%
