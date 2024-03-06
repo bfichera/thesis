@@ -1,0 +1,45 @@
+\usepackage{tabularx}
+\usepackage{palatino}
+\usepackage{blindtext}
+\usepackage{xspace}
+\usepackage{siunitx}
+\usepackage{mhchem}
+\usepackage{cite}
+\usepackage{nicefrac}
+\usepackage{bm}
+\usepackage{glossaries-extra}
+\usepackage{cleveref}
+
+\bibliographystyle{natbib}
+
+% Lengths
+\newlength{\linespace} \setlength{\linespace}{\baselineskip}
+\newlength{\topfiddle} \setlength{\topfiddle}{2\linespace}
+
+
+\newcommand{\defendmonth}{May\xspace}
+\newcommand{\defendday}{?\xspace}
+\newcommand{\defendyear}{2024\xspace}
+\newcommand{\defenddate}{\defendmonth \defendday, \defendyear}
+
+\newcommand{\pretoctitle}[1]{{\Large\bfseries\clearpage\vspace{\topfiddle}#1\par\vspace{\topfiddle}}}
+\newcommand{\acknowledgements}{\pretoctitle{Acknowledgements}}
+\newcommand{\preface}{\pretoctitle{Preface}}
+
+\newcommand{\etal}{\textit{et al.}\xspace}
+
+\newcommand{\onlinecref}[1]{Ref.~\citenum{#1}\xspace}
+
+
+\newabbreviation{afm}{AFM}{antiferromagnetic}
+\newabbreviation{cdw}{CDW}{charge density wave}
+\newabbreviation{shg}{SHG}{second harmonic generation}
+\newabbreviation{trshg}{tr-SHG}{time resolved second harmonic generation}
+
+\newcommand{\suchthat}{\mathrm{s.t.}}
+\newcommand{\tastwo}{$1$-\textit{T}\ce{TaS2}}
+
+\newtheorem{theorem}{Theorem}[section]
+
+
+\chapterstyle{brotherton}

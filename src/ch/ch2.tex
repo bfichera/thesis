@@ -1,0 +1,54 @@
+\section{Space groups and point groups}
+
+The utility of \gls{shg} in studying condensed matter systems is derived from the following simple statement, attributed to Franz Neumann\cite{neumann_vorlesungen_1885} and later Pierre Curie\cite{curie_sur_1894}:
+
+\begin{theorem}[Neumann's principle]\label{thm:neumann}
+Let $P_G$ be the symmetry group of a crystal structure and $P_H$ the symmetry group of some physical property of that crystal.
+Then, $G$ is a subgroup of $H$.
+\end{theorem}
+
+There are a few things to digest here.
+Let us start by understanding the meaning of the phrase ``symmetry group''.
+For any given crystal, there exists some infinitely large set of operations $G$ under which the crystal structure is symmetric.
+Each of these operations may be decomposed into two parts: a ``point-preserving operation'' $R$, corresponding to either the identity, rotation, inversion, mirror, or the product of mirror and rotation, followed by a translation by some vector $\bm{\tau}$:
+
+\begin{equation}\label{eq:spacegroup}
+G = \{(R|\bm{\tau})\}
+\end{equation}
+
+where $(R|\bm{\tau})$ means ``Perform $R$, then translate by $\bm{\tau}$''.
+Clearly, the set $G$ forms a group, since if both $g_1$ and $g_2 \in G$ leave the crystal structure invariant, so does the product $g_1g_2$, and so $g_1g_2 \in G$.
+Thus, $G$ is called the \emph{space group} of the crystal.
+In three dimensions, there are $230$ crystallographic space groups, which are tabulated in a number of places, most usefully Wikipedia\cite{wiki:spacegroups}.
+
+For $73$ of these groups, the translation parts of the $\bm{\tau}$s in \cref{eq:spacegroup} are only ever linear combinations of integer multiples of the lattice vectors $\bm{a}$, $\bm{b}$, and $\bm{c}$; these are called \emph{symmorphic} space groups.
+The remaining $157$ groups involve translations that are not integer multiples of the lattice vectors; these are one's screw axes and glide planes, and so these groups are called \emph{asymmorphic}.
+
+Importantly, the ``physical properties'' of \cref{thm:neumann} refer to the truly macroscopic properties of the crystal, like it's conductivity, dielectric, or pyroelectric tensors.
+Consider, for example, that in \gls{shg}, we are typically studying the sample at optical wavelengths, where the wavelength of light is three or four orders of magnitude larger than the lattice spacing.
+Clearly, then, these properties do not care whether the correct symmetry is $(R|\bm{\tau})$ or $(R|\bm{\tau}+\nicefrac{\bm{a}}{2})$.
+A more useful group, then, is the \emph{point group} of the crystal
+
+\begin{equation}
+P_G = \{R~\suchthat~\exists~\bm{\tau}~\suchthat~(R|\bm{\tau})~\in~G\}
+\end{equation}
+
+i.e., the point group is the set of point-preserving operations $R$ for which $R$ appears in $G$, regardless of whether you need to perform a translation with it.
+Once can show that $P_G$ is also a group, and thus it is $P_G$ which is involved in Neumann's principle for all intents and purposes\footnote{Of course this breaks down when the wavelength of light is comparable to the lattice spacing; in that case you need to consider the full space group.}.
+
+The last ingredient that we need to understand \cref{thm:neumann} is the concept of what is meant by ``physical propery''.
+The idea is that the response of the crystal $J_{i_1i_2\cdots i_n}$ (i.e., the current $J_i$, or the quadrupole moment $Q_{ij}$) is proportional to some field $F_{i_1'i_2'\cdots \i_m'}$ via some tensor $\chi$:
+\begin{equation}
+J_{i_1i_2\cdots i_n} = \chi_{i_1i_2\cdots i_n i_1' i_2'\cdots i_m'}F_{i_1' i_2' \cdots \i_m'}.
+\end{equation}
+For example, the conductivity $\sigma_{ij}$ relates a current density $J_i$ to an applied electric field $E_j$:
+\begin{equation}
+J_i = \sigma_{ij} E_j.
+\end{equation}
+Likewise, the polarization $P_i$ due to the pyroelectric effect is related to the a temperature difference $\Delta T$ by a tensor $p_i$:
+\begin{equation}
+P_i = p_i \Delta T.
+\end{equation}
+The tensors $\sigma_{ij}$, $p_i$, and generally, $\chi_{i_1 i_2 \cdots \i_n i_1' i_2' \cdots i_m'}$ are commonly referred to as \emph{matter tensors}\cite{powell}, to emphasize the fact that they are the only part of the response equations that depend on the material.
+
+We are now ready to restate \cref{thm:neumann}.

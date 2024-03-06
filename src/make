@@ -1,5 +1,6 @@
 #!/bin/bash
 
+./makebib
 pdflatex fichera-bfichera-phd-physics-2024-source.tex
 bibtex bibliography
 pdflatex fichera-bfichera-phd-physics-2024-source.tex

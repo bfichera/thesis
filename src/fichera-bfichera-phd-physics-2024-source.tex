@@ -14,6 +14,9 @@
 \acknowledgements
 \input{frontbackmatter/acknowledgements.tex}
 \clearpage
+\preface
+\input{frontbackmatter/preface.tex}
+\clearpage
 
 \tableofcontents
 \clearpage
@@ -23,16 +26,18 @@
 \clearpage
 
 \mainmatter*
-\chapter{Ultrafast spectroscopy}
-\chapter{Ultrafast control}
-\chapter{Second harmonic generation: theory}
+\chapter{Ultrafast optics in correlated electron systems\label{ch:ch1}}
+\input{ch/ch1}
+\chapter{Second harmonic generation: theory\label{ch:ch2}}
+\input{ch/ch2}
 \chapter{Second harmonic generation: practical}
+\input{ch/ch3}
 \chapter{Second harmonic generation as a probe of broken mirror symmetry in 1\textit{T}-\ce{TaS2}}
 \chapter{Light-induced reorientation transition in the antiferromagnetic semiconductor \ce{CaMn2Bi2}}
 \chapter{Amplitude-mode electromagnon in the XXZ chain \ce{CuBr2}}
 \chapter{Concluding remarks}
 
-\backmatter
+\backmatter*
 \begin{thebibliography}
 \bibliography{bibliography.bib}
 \end{thebibliography}
