@@ -1,10 +1,10 @@
-\section{Space groups and point groups}
+\section{Space groups, point groups, and Neumann's principle}
 
 The utility of \gls{shg} in studying condensed matter systems is derived from the following simple statement, attributed to Franz Neumann\cite{neumann_vorlesungen_1885} and later Pierre Curie\cite{curie_sur_1894}:
 
 \begin{theorem}[Neumann's principle]\label{thm:neumann}
 Let $P_G$ be the symmetry group of a crystal structure and $P_H$ the symmetry group of some physical property of that crystal.
-Then, $G$ is a subgroup of $H$.
+Then, $P_G$ is a subgroup of $P_H$.
 \end{theorem}
 
 There are a few things to digest here.
@@ -24,7 +24,7 @@ In three dimensions, there are $230$ crystallographic space groups, which are ta
 For $73$ of these groups, the translation parts of the $\bm{\tau}$s in \cref{eq:spacegroup} are only ever linear combinations of integer multiples of the lattice vectors $\bm{a}$, $\bm{b}$, and $\bm{c}$; these are called \emph{symmorphic} space groups.
 The remaining $157$ groups involve translations that are not integer multiples of the lattice vectors; these are one's screw axes and glide planes, and so these groups are called \emph{asymmorphic}.
 
-Importantly, the ``physical properties'' of \cref{thm:neumann} refer to the truly macroscopic properties of the crystal, like it's conductivity, dielectric, or pyroelectric tensors.
+Importantly, the ``physical properties'' of \cref{thm:neumann} refer to the truly macroscopic properties of the crystal, like its conductivity, dielectric, or pyroelectric tensors.
 Consider, for example, that in \gls{shg}, we are typically studying the sample at optical wavelengths, where the wavelength of light is three or four orders of magnitude larger than the lattice spacing.
 Clearly, then, these properties do not care whether the correct symmetry is $(R|\bm{\tau})$ or $(R|\bm{\tau}+\nicefrac{\bm{a}}{2})$.
 A more useful group, then, is the \emph{point group} of the crystal
@@ -50,5 +50,133 @@ Likewise, the polarization $P_i$ due to the pyroelectric effect is related to th
 P_i = p_i \Delta T.
 \end{equation}
 The tensors $\sigma_{ij}$, $p_i$, and generally, $\chi_{i_1 i_2 \cdots \i_n i_1' i_2' \cdots i_m'}$ are commonly referred to as \emph{matter tensors}\cite{powell}, to emphasize the fact that they are the only part of the response equations that depend on the material.
+It should be noted that matter tensors generically come in two types: those that transform like a vector under inversion and those that transform like a pseudovector under inversion.
+You can tell which is which by applying inversion to either side of the response equation.
+For example, the tensor $\epsilon_{ij}$ relating the displacement field to the electric field
+\begin{equation}
+D_i = \epsilon_{ij}E_j
+\end{equation} 
+is a polar tensor, whereas the tensor $\chi^{me}_{ij}$ describing the magnetoelectric effect
+\begin{equation}
+M_i = \chi^{me}_{ij} E_j
+\end{equation}
+is an axial tensor.
 
-We are now ready to restate \cref{thm:neumann}.
+We are now ready to restate \cref{thm:neumann} in a slightly more useful form, using the terminology we have developed about point groups and matter tensors:
+\begin{theorem}[Neumann's principle, restated]\label{thm:neumannrestated}
+Let $P_G$ be the point group of a given crystal, and let $\chi$ be a matter tensor describing some response function of that crystal.
+Then, for all $g \in P_G$, we have
+\begin{equation}\label{eq:nmmath}
+g(\chi) = \chi.
+\end{equation}
+\end{theorem}
+
+\Cref{eq:nmmath} can be more usefully expressed if we know the matrix $R^g_{ij}$ corresponding to $g$.
+For example, if $g$ is ``threefold rotation about the $z$ axis'', we have
+\begin{equation}
+R^g_{ij} = \left(\begin{matrix}
+-\frac{1}{2} & -\frac{\sqrt{3}}{2} & \phantom{-}0\phantom{-} \\
+\phantom{-}\frac{\sqrt{3}}{2} & -\frac{1}{2} & \phantom{-}0\phantom{-} \\
+\phantom{-}0 & \phantom{-}0 & \phantom{-}1\phantom{-}
+\end{matrix}\right),
+\end{equation}
+in which case one can show that \cref{eq:nmmath} reads
+\begin{equation}\label{eq:nmindex}
+(\det{R^g})^tR^g_{i_1i_1'}R^g_{i_2i_2'}\cdots R^g_{i_ni_n'}\chi_{i_1'i_2'\cdots i_n'} = \chi_{i_1i_2\cdots i_n},
+\end{equation}
+where $t$ is $0$ if $\chi$ is a polar tensor and $1$ if $\chi$ is an axial tensor.
+\Cref{thm:neumannrestated} tells us that there is one copy of \cref{eq:nmindex} for each $g \in P_G$. 
+
+Apparently, each element $g \in P_G$ gives us a \emph{constraint} on the numbers $\chi_{i_1i_2\cdots i_n}$, in that they have to satisfy \cref{eq:nmindex}. 
+This is a remarkably useful fact.
+Since different point groups enforce different constraints on $\chi$, that means the \emph{form} of $\chi$ (e.g. when written as a list of numbers) depends quite sensitively on the point group of the crystal we are studying.
+As an example, here is the dielectric permittivity tensor for crystals with the point group (in Schoenflies notation) $C_2$:
+\begin{equation}
+\epsilon_{ij} = \left(\begin{matrix}
+a & 0 & e \\
+0 & b & 0 \\
+e & 0 & c
+\end{matrix}\right)_{ij}
+\end{equation}
+versus in the point group $D_{3d}$:
+\begin{equation}
+\epsilon_{ij} = \left(\begin{matrix}
+a & 0 & 0 \\
+0 & a & 0 \\
+0 & 0 & c
+\end{matrix}\right)_{ij}.
+\end{equation}
+Clearly, any \emph{measurement} of $\epsilon_{ij}$ will be able to easily differentiate a crystal with point group $C_2$ from one with point group $D_{3d}$.
+This is the fundamental basis, then, for \gls{shg}.
+In \gls{shg}, we measure the tensor $\chi_{ijk}$ corresponding to the response equation\footnote{This discussion is a bit simplified in the sense that there are actually \emph{many} response functions which will give you light at $2\omega$; for a more detailed discussion, see \cref{sec:manyshgterms}.}
+\begin{equation}\label{eq:shgsimple}
+P_i(2\omega) = \chi_{ijk}E_j(\omega)E_k(\omega);
+\end{equation}
+the numbers $\chi_{ijk}$ thus tell us about the crystallographic point group we are measuring from.
+
+There are a couple of advantages to measuring $\chi_{ijk}$ over any other matter tensor in a given system.
+For one thing, $\chi_{ijk}$ is a third rank tensor, which means it has a few more degrees of freedom to work with compared to $\epsilon_{ij}$, and thus does a better job at uniquely specifying each point group.
+It also doesn't have \emph{too many} degrees of freedom, so that most of the time your experiment will be able to tell you all of your tensor elements\footnote{Quadrupole \gls{shg} has this problem, see \cref{sec:manyshgterms}.}.
+In addition, since we are typically doing \gls{shg} at optical wavelengths, the form of $\chi_{ijk}$ reflects the symmetry of the \emph{charge distribution} $\rho(\bm{x})$, in contrast to e.g. x-ray diffraction, where the relevant tensors will tell instead you about the electron distribution, $n(\bm{x})$.
+This can be advantageous in cases where the long range order you are trying to study involves an ordering of the valence electrons but not the electrons in the cores of atoms.
+This is entirely the result of the fact that Neumann's principle, as expressed both in \cref{thm:neumann} and \cref{thm:neumannrestated}, tells us that the point group of our crystal is a \emph{subgroup} of the point group we get from our measurement -- the measurement can always be more symmetric than the crystal!
+
+As another example of this fact, let us note that the response equation given by \cref{eq:shgsimple} clearly has an additional symmetry $j \leftrightarrow k$, since the two copies of the electric field on the right hand side are equivalent.
+Obviously this is not a result of the material we are studying, it is simply a fact of doing \gls{shg}.
+Thus, in addition to the constraints given by Neumann's principle and \cref{eq:nmindex}, we have the additional constraint
+\begin{equation}
+\chi_{ijk} = \chi_{ikj} \forall i,j,k.
+\end{equation}
+This is known as \emph{particularization}\cite{birss}.
+
+\section{A classical understanding of \gls{shg}}
+
+In the last section we considered the \gls{shg} response function given by \cref{eq:shgsimple}.
+Where does this relationship come from, and how is $P(2\omega)$ eventually measured?
+Our starting point in the classical treatment will be the inhomogenous electromagnetic wave equation
+\begin{equation}\label{eq:maxwell}
+\left(\nabla^2 - \frac{1}{c^2}\frac{\partial^2}{\partial t^2}\right) E_i(\bm{x}, t) = S_i(\bm{x}, t),
+\end{equation}
+which we understand as defining the field $E_i(\bm{x}, t)$ radiated by the source term $S_i(\bm{x}, t)$, which is induced by the incident field.
+To lowest order in a multipole expansion, $S_i(\bm{x}, t)$ is given by\cite{jackson,kumar}
+\begin{equation}
+\mu_0 \frac{\partial^2 P_i(\bm{x}, t)}{\partial t^2} + \mu_0\left(\epsilon_{ijk}\nabla_j \frac{\partial M_k(\bm{x}, t)}{\partial t}\right) -\mu_0\left(\nabla_j \frac{\partial^2 Q_{ij}(\bm{x}, t)}{\partial t^2}\right)
+\end{equation}
+where $P_i(\bm{x}, t)$, $M_i(\bm{x}, t)$, and $Q_{ij}(\bm{x}, t)$ are the induced electric dipole, magnetic dipole, and electric quadrupole densities, and $\epsilon_{ijk}$ is the Levi-Civita tensor.
+
+If the incident electric field is small, then the terms $P_i(\bm{x}, t)$, $M_i(\bm{x}, t)$, and $Q_{ij}(\bm{x}, t)$ are linear functions of that electric field.
+However, for larger incident fields (such as those generated by pulsed lasers), they may be more generally written as a taylor series:
+\begin{align}
+P_i &= \chi^{ee}_{ij} E_j+\chi^{em}_{ij} H_j+\chi^{eee}_{ijk} E_j E_k+\chi^{eem}_{ijk} E_j H_k+\cdots\label{eq:plong}\\
+M_i &= \chi^{me}_{ij} E_j+\chi^{mm}_{ij} H_j+\chi^{mee}_{ijk} E_j E_k+\chi^{mem}_{ijk} E_j H_k+\cdots\label{eq:mlong}\\
+Q_{ij} &= \chi^{qe}_{ijk} E_k+\chi^{qm}_{ijk} H_k+\chi^{qee}_{ijkl} E_k E_l+\chi^{qem}_{ijkl} E_k H_l+\cdots\label{eq:qlong}
+\end{align}
+where we have suppressed the arguments $\bm{x}$ and $t$ for brevity.
+
+Assuming the incident field is monochromatic,
+\begin{align}
+E_i(\bm{x}, t) &= E_i(\omega) e^{i(\bm{k}\cdot \bm{x} -\omega t)}+\mathrm{c.c.}\\
+H_i(\bm{x}, t) &= H_i(\omega) e^{i(\bm{k}\cdot \bm{x} -\omega t)}+\mathrm{c.c.}
+\end{align}
+the induced sources are also monochromatic, and (keeping only terms proportional to $e^{i2\omega t}$) we thus get 
+\begin{align}
+P_i(2\omega) &= \chi_{ijk}^{eee}E_j(\omega)E_k(\omega)+\chi_{ijk}^{eem}E_j(\omega)H_k(\omega)\label{eq:pshort}\\
+M_i(2\omega) &= \chi_{ijk}^{mee}E_j(\omega)E_k(\omega)+\chi_{ijk}^{mem}E_j(\omega)H_k(\omega)\label{eq:mshort}\\
+Q_{ij}(2\omega) &= \chi_{ijkl}^{qee}E_k(\omega)E_l(\omega)+\chi_{ijkl}^{qem}E_k(\omega)H_l(\omega)\label{eq:qshort}.
+\end{align}
+
+Since \cref{eq:maxwell} is linear, the electric field radiated by $S_i(\bm{x}, t)$ is simply proportional to it.
+In the limit where the first term of \cref{eq:pshort} dominates, the intensity measured at our detector thus satisfies
+\begin{equation}
+I(2\omega) \propto |\hat{e}^\mathrm{out}_i \chi^{eee}_{ijk} \hat{e}^\mathrm{in}_j \hat{e}^\mathrm{in}_k|^2,
+\end{equation}
+where $\hat{\bm{e}}^\mathrm{in}$ and $\hat{\bm{e}}^\mathrm{out}$ are unit vectors in the direction of the incoming and measured electric fields\footnote{Usually there are polarizers in the experiment which define these directions.}.
+$\chi^{eee}_{ijk}$ does typically dominate when inversion symmetry is broken, but if not, you have to consider all of the terms in \crefrange{eq:pshort}{eq:qshort}.
+Actually, each of these terms needs to be considered twice, since there is both a surface contribution and a bulk contribution\footnote{The space group which constrains the surface contributions is the bulk space group less the operations which involve some change in the $z$ coordinate.}.
+In my experience, the heirarchy of contributions (from most to least important, and assuming everything is allowed by symmetry) is typically:
+\begin{enumerate}
+\item\label{item:contribution1} Bulk electric dipole
+\item\label{item:contribution2} Surface electric dipole, bulk electric quadrupole, and bulk magnetic dipole, at the same order\footnote{Somehow the bulk electric quadrupole and magnetic dipole contributions have been labelled ``exotic'' by some in the community, but that has not been my experience. If I had to guess, almost half of the materials I have measured with inversion symmetry show electric quadrupole \gls{shg}.}
+\item Everything else
+\end{enumerate}
+I've never seen anything outside of \cref{item:contribution1,item:contribution2}, but in rare cases an electronic resonance may cause an enhancement in one of the other contributions\cite{fiebig_second_2001}.

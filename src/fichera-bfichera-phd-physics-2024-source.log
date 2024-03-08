@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.25)  6 MAR 2024 10:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.25)  7 MAR 2024 18:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -884,7 +884,7 @@ LaTeX Warning: Reference `ch:ch6' on page 1 undefined on input line 46.
 LaTeX Warning: Reference `ch:ch7' on page 1 undefined on input line 49.
 
 ) [7] [8] (./fichera-bfichera-phd-physics-2024-source.toc
-Overfull \hbox (5.89046pt too wide) in paragraph at lines 9--9
+Overfull \hbox (5.89046pt too wide) in paragraph at lines 10--10
  [][] []\OT1/ppl/b/n/12 Light-induced re-ori-en-ta-tion tran-si-tion in the an-
 ti-fer-ro-mag-netic 
  []
@@ -923,26 +923,61 @@ LaTeX Warning: Command \i invalid in math mode on input line 40.
 
 LaTeX Warning: Command \i invalid in math mode on input line 42.
 
+[16]
 
 LaTeX Warning: Command \i invalid in math mode on input line 52.
 
 
-LaTeX Warning: Citation `powell' on page 16 undefined on input line 52.
+LaTeX Warning: Citation `powell' on page 17 undefined on input line 52.
 
-[16]) [17] [18
 
-] (./ch/ch3.tex) [19] [20
+Class memoir Warning: The material used in the headers is too large
+(28.99998pt) for the given head height (14.5pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 94.
 
-] [21] [22
 
-] [23] [24
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[17]
+
+LaTeX Warning: Reference `sec:manyshgterms' on page 1 undefined on input line 1
+11.
+
+
+LaTeX Warning: Reference `sec:manyshgterms' on page 1 undefined on input line 1
+19.
+
+[18]
+
+LaTeX Warning: Citation `birss' on page 19 undefined on input line 130.
+
+
+LaTeX Warning: Citation `jackson' on page 19 undefined on input line 141.
+
+
+LaTeX Warning: Citation `kumar' on page 19 undefined on input line 141.
+
+[19] [20]
+
+LaTeX Warning: Citation `fiebig_second_2001' on page 21 undefined on input line
+ 182.
+
+) [21] [22
+
+] (./ch/ch3.tex) [23] [24
 
 ] [25] [26
 
-] [27]
-[28
+] [27] [28
 
 ] [29] [30
+
+] [31]
+[32
+
+] [33] [34
 
 ]
 bibitemlist
@@ -950,7 +985,13 @@ No file fichera-bfichera-phd-physics-2024-source.bbl.
 
 LaTeX Warning: Empty `thebibliography' environment on input line 43.
 
-[31]
+
+Class memoir Warning: The material used in the headers is too large
+(28.99998pt) for the given head height (14.5pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 45.
+
+[35]
 \tf@toc=\write4
 \openout4 = `fichera-bfichera-phd-physics-2024-source.toc'.
 
@@ -966,31 +1007,34 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 19745 strings out of 477909
- 398857 string characters out of 5838516
- 1861388 words of memory out of 5000000
- 39694 multiletter control sequences out of 15000+600000
+ 19778 strings out of 477909
+ 399356 string characters out of 5838516
+ 1866388 words of memory out of 5000000
+ 39727 multiletter control sequences out of 15000+600000
  549399 words of font info for 128 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 114i,11n,107p,2335b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmex
-tra/cmmib8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
-fb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf
--dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/u
-rw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
-fb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on fichera-bfichera-phd-physics-2024-source.pdf (31 pages, 19706
-4 bytes).
+ 114i,12n,107p,2335b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
+pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/urw/p
+alatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb>
+</usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-di
+st/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/p
+alatino/uplri8a.pfb>
+Output written on fichera-bfichera-phd-physics-2024-source.pdf (35 pages, 24726
+2 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+ 213 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

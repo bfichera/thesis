@@ -3,10 +3,11 @@
 \contentsline {chapter}{List of Tables}{11}{}%
 \contentsline {chapter}{\chapternumberline {1}Ultrafast optics in correlated electron systems}{13}{}%
 \contentsline {chapter}{\chapternumberline {2}Second harmonic generation: theory}{15}{}%
-\contentsline {section}{\numberline {2.1}Space groups and point groups}{15}{}%
-\contentsline {chapter}{\chapternumberline {3}Second harmonic generation: practical}{19}{}%
-\contentsline {chapter}{\chapternumberline {4}Second harmonic generation as a probe of broken mirror symmetry in 1\textit {T}-\ce {TaS2}}{21}{}%
-\contentsline {chapter}{\chapternumberline {5}Light-induced reorientation transition in the antiferromagnetic semiconductor \ce {CaMn2Bi2}}{23}{}%
-\contentsline {chapter}{\chapternumberline {6}Amplitude-mode electromagnon in the XXZ chain \ce {CuBr2}}{25}{}%
-\contentsline {chapter}{\chapternumberline {7}Concluding remarks}{27}{}%
-\contentsline {chapter}{Bibliography}{31}{}%
+\contentsline {section}{\numberline {2.1}Space groups, point groups, and Neumann's principle}{15}{}%
+\contentsline {section}{\numberline {2.2}A classical understanding of \gls {shg}}{19}{}%
+\contentsline {chapter}{\chapternumberline {3}Second harmonic generation: practical}{23}{}%
+\contentsline {chapter}{\chapternumberline {4}Second harmonic generation as a probe of broken mirror symmetry in 1\textit {T}-\ce {TaS2}}{25}{}%
+\contentsline {chapter}{\chapternumberline {5}Light-induced reorientation transition in the antiferromagnetic semiconductor \ce {CaMn2Bi2}}{27}{}%
+\contentsline {chapter}{\chapternumberline {6}Amplitude-mode electromagnon in the XXZ chain \ce {CuBr2}}{29}{}%
+\contentsline {chapter}{\chapternumberline {7}Concluding remarks}{31}{}%
+\contentsline {chapter}{Bibliography}{35}{}%
