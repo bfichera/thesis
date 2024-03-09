@@ -21,7 +21,7 @@ Clearly, the set $G$ forms a group, since if both $g_1$ and $g_2 \in G$ leave th
 Thus, $G$ is called the \emph{space group} of the crystal.
 In three dimensions, there are $230$ crystallographic space groups, which are tabulated in a number of places, most usefully Wikipedia\cite{wiki:spacegroups}.
 
-For $73$ of these groups, the translation parts of the $\bm{\tau}$s in \cref{eq:spacegroup} are only ever linear combinations of integer multiples of the lattice vectors $\bm{a}$, $\bm{b}$, and $\bm{c}$; these are called \emph{symmorphic} space groups.
+For $73$ of these groups, the translation parts of the $\bm{\tau}$'s in \cref{eq:spacegroup} are only ever linear combinations of integer multiples of the lattice vectors $\bm{a}$, $\bm{b}$, and $\bm{c}$; these are called \emph{symmorphic} space groups.
 The remaining $157$ groups involve translations that are not integer multiples of the lattice vectors; these are one's screw axes and glide planes, and so these groups are called \emph{asymmorphic}.
 
 Importantly, the ``physical properties'' of \cref{thm:neumann} refer to the truly macroscopic properties of the crystal, like its conductivity, dielectric, or pyroelectric tensors.
@@ -180,3 +180,90 @@ In my experience, the heirarchy of contributions (from most to least important, 
 \item Everything else
 \end{enumerate}
 I've never seen anything outside of \cref{item:contribution1,item:contribution2}, but in rare cases an electronic resonance may cause an enhancement in one of the other contributions\cite{fiebig_second_2001}.
+
+Let us take a moment now to emphasize the following extremely common misconception about \gls{shg}: just because you see \gls{shg} in your experiment, that does not mean that inversion symmetry is broken in your material!
+It also does not mean that your material is a ferroelectric, or really that there's anything special at all about your material, at least before you've done any further analysis.
+Similarly, if you \emph{don't} see \gls{shg}, that doesn't mean inversion symmetry is preserved, either.
+I have repeatedly seen large electric quadrupole \gls{shg} show up in materials with inversion symmetry, while materials which definitely break inversion symmetry have absolutely zero \gls{shg} observable in the experiment.
+The reason for this is ultimately due to resonance, a topic which I will discuss in \cref{sec:resonance}, but I mention it here because it is truly quite common in the literature and it is surely a mistake worth avoiding.
+You are ``allowed'' to say your material breaks inversion symmetry only if there is no other contribution in \crefrange{eq:pshort}{eq:qshort} which fits your data, and you are basically never allowed to say that your material preserves inversion symmetry when there is no \gls{shg} (a fact that should be obvious on a careful reading of \cref{thm:neumann}).
+
+\section{\Gls{shg} in quantum mechanics}
+
+The description of \gls{shg} in the previous section is probably the most useful for understanding \gls{shg} from an ``optics'' perspective, but it gives little insight into the true microscopic origin of the \gls{shg} intensity.
+The quantum description, on the other hand, will tell you exactly where the \gls{shg} is coming from microscopically, but only if you have access to the eigenfunctions $\ket{\psi}$ of your hamiltonian -- it is of little use otherwise.
+Nevertheless, we can still gain intuition about the dependence of our \gls{shg} intensity on the frequency of the light in the quantum picture, which will be useful for clearing up a whole other slew of misconceptions that have somehow made their way into the \gls{shg} literature.
+This treatment closely follows that of \onlinecref{boyd}.
+
+The starting point is to describe the system under study as a statistical ensemble specified by a Hamiltonian
+\begin{equation}
+H = H_0+\lambda V
+\end{equation}
+and a density matrix
+\begin{equation}
+\rho(t) = \sum_i p_i(t) \ket{\psi_i(t)}\bra{\psi_i(t)}
+\end{equation}
+where the $p_i(t)$'s specify the classical probability of the system being in state $i$ at time $t$, and the $\ket{\psi_i}$'s are wavefunctions given by
+\begin{equation}
+\ket{\psi_i(t)} = \sum_n c_n^i(t) \ket{n}
+\end{equation}
+for some $\{c_n^i(t)\}$, where
+\begin{equation}
+H_0\ket{n} = E_n \ket{n}
+\end{equation}
+for all $n$.
+In the presence of damping, the elements
+\begin{equation}
+\rho_{nm} = \bra{\psi_n}\rho\ket{\psi_m}
+\end{equation}
+of $\rho$ satisfy the differential equation
+\begin{equation}\label{eq:rhodot}
+\dot{\rho_{nm}} = \frac{1}{i\hbar}[H, \rho]_{nm}-\gamma_{nm}(\rho_{nm}-\rho_{nm}^\mathrm{(eq)}),
+\end{equation}
+where $\gamma_{nm}$ is a matrix of (phenomenological) damping parameters\footnote{This is just one choice of $p_i(t)$.}, and $\rho_{nm}^\mathrm{(eq)}$ is the density matrix corresponding to the equilibrium steady state of the system.
+
+We consider the case where $V$ may be treated as a perturbation on top of $H_0$, i.e. where $\lambda$ is small.
+In this case, \cref{eq:rhodot} can be written
+\begin{equation}
+\dot{\rho}_{nm} = -i \omega_{nm} \rho_{nm}+\frac{1}{i\hbar}\sum_k \lambda(V_{nk}\rho_{km}-\rho_{nk}V_{km})-\gamma_{nm}(\rho_{nm}-\rho_{nm}^\mathrm{(eq)}),
+\end{equation}
+where $\omega_{nm}=E_{nm}/\hbar$, and we seek a solution
+\begin{equation}
+\rho_{nm}=\rho_{nm}^{(0)}+\lambda\rho_{nm}^{(1)}+\lambda^2\rho_{nm}^{(2)}+\cdots.
+\end{equation}
+Turning the crank (see \onlinecref{boyd} for details) gives us the solution
+\begin{equation}
+\rho_{nm}^{(N)}(t) = \int_{-\infty}^t \frac{1}{i\hbar}[\lambda V(t'), \rho^{(N-1)}(t')]_{nm}e^{(i\omega_{nm}+\gamma_{nm})(t'-t)} \, dt'.
+\end{equation}
+Carrying out this series to second order in $\lambda$ with the perturbation $V(t)=-\bm{\mu}\cdot\bm{E}(t)$, where $\bm{\mu}$ is the dipole moment and $\bm{E}(t) = \sum_q\bm{E}(\omega_q)e^{-i\omega_q t}$ is the incident electric field, we get an expression for the density matrix $\rho_{nm}^{(2)}(t)$ as a function of the dipole matrix elements
+\begin{equation}
+\bm{\mu}_{nm} = \bra{n}\bm{\mu}\ket{m},
+\end{equation}
+the frequencies $\omega_q$, the damping constants $\gamma_{nm}$, and $\rho_{nm}^{(0)}$.
+
+Once we have $\rho_{nm}^{(2)}(t)$, we can compute the expectation value
+\begin{equation}
+\left<\bm{\mu}(t)\right>=\sum_{nm}\rho_{nm}(t)\bm{\mu}_{nm},
+\end{equation}
+from which the susceptibility can be computed by taking two derivatives with respect to the electric field amplitudes\footnote{We are specializing here to the case of electric dipole \gls{shg}, although the calculation proceeds similarly for magnetic dipole and electric quadrupole.}.
+Reproducing the final answer here (again, from \onlinecref{boyd}):
+\begin{equation}\label{eq:bigshg}
+\begin{aligned}
+\chi_{ijk}^{(2)}(\omega_p+&\omega_q, \omega_q, \omega_p) = \frac{1}{2\epsilon_0\hbar^2}\sum_{lmn}(\rho_{ll}^{(0)}-\rho_{mm}^{(0)})\times\Big\{\\
+&\frac{\mu^i_{ln}\mu^j_{nm}\mu^k_{ml}}{[(\omega_{nl}-\omega_p-\omega_q)-i\gamma_{nl}][(\omega_{ml}-\omega_p)-i\gamma_{ml}]}\\
++&\frac{\mu^i_{ln}\mu^k_{nm}\mu^j_{ml}}{[(\omega_{nl}-\omega_p-\omega_q)-i\gamma_{nl}][(\omega_{ml}-\omega_q)-i\gamma_{ml}]}\\
++&\frac{\mu^j_{ln}\mu^i_{nm}\mu^k_{ml}}{[(\omega_{nm}+\omega_p+\omega_q)+i\gamma_{nm}][(\omega_{ml}-\omega_p)-i\gamma_{ml}]}\\
++&\frac{\mu^k_{ln}\mu^i_{nm}\mu^j_{ml}}{[(\omega_{nm}+\omega_p+\omega_q)+i\gamma_{nm}][(\omega_{ml}-\omega_q)-i\gamma_{ml}]}\\
+\Big\},
+\end{aligned}
+\end{equation}
+where $\omega_{nm}=\omega_n-\omega_m$.
+The \gls{shg} susceptibility tensor is then obtained by taking the limit $\omega_p=\omega_q$.
+
+We learned two things by doing the quantum calculation.
+First of all, clearly if we know all of the eigenfunctions $\ket{n}$ of our unperturbed Hamiltonian, we can calculate the susceptibility tensor \textit{a priori}, although this is obviously difficult except in the simplest of cases.
+Secondly, we notice that there are two types of denominators in \cref{eq:bigshg}: those occuring at $2\omega$ (remember we have set $\omega_q=\omega_p$) and those occuring at $\omega$.
+Both can cause resonances in the \gls{shg} intensity and are observed abundantly in experiment\cite{fiebig_second_2001}.
+The existence of resonances in the \gls{shg} spectrum makes comparison between different materials quite difficult if reference is made only to the \gls{shg} intensity at a single color.
+In one imfamous example, Wu \etal (\onlinecref{wu_giant_2016}) incorrectly attributed the large \gls{shg} amplitude at optical wavelengths in \ce{TaAs} to the presence of Weyl nodes near the Fermi level; later \gls{shg} spectroscopy measurements demonstrated that the enhancement was due to a simple band resonance at the excitation frequency used in that paper\cite{patankar_resonance-enhanced_2018}.
+The emerging consensus is that the \gls{shg} intensity at optical frequencies has more or less nothing to do with the low-energy excitation spectrum or its topology.

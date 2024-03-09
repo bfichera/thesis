@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.25)  7 MAR 2024 18:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.25)  8 MAR 2024 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -559,7 +559,8 @@ Package mhchem Warning: You did not specify a 'version' option for the mhchem
 (mhchem)                different output with the same input in future versions
 .
 
-) (/usr/share/texmf-dist/tex/latex/cite/cite.sty
+) (/usr/share/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/share/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
@@ -884,7 +885,7 @@ LaTeX Warning: Reference `ch:ch6' on page 1 undefined on input line 46.
 LaTeX Warning: Reference `ch:ch7' on page 1 undefined on input line 49.
 
 ) [7] [8] (./fichera-bfichera-phd-physics-2024-source.toc
-Overfull \hbox (5.89046pt too wide) in paragraph at lines 10--10
+Overfull \hbox (5.89046pt too wide) in paragraph at lines 11--11
  [][] []\OT1/ppl/b/n/12 Light-induced re-ori-en-ta-tion tran-si-tion in the an-
 ti-fer-ro-mag-netic 
  []
@@ -964,20 +965,50 @@ LaTeX Warning: Citation `kumar' on page 19 undefined on input line 141.
 LaTeX Warning: Citation `fiebig_second_2001' on page 21 undefined on input line
  182.
 
-) [21] [22
 
-] (./ch/ch3.tex) [23] [24
+LaTeX Warning: Reference `sec:resonance' on page 1 undefined on input line 188.
 
-] [25] [26
+
+
+LaTeX Warning: Citation `boyd' on page 21 undefined on input line 196.
+
+[21] [22]
+
+LaTeX Warning: Citation `boyd' on page 23 undefined on input line 234.
+
+
+LaTeX Warning: Citation `boyd' on page 23 undefined on input line 249.
+
+
+Underfull \vbox (badness 2351) has occurred while \output is active []
+
+ [23]
+
+LaTeX Warning: Citation `fiebig_second_2001' on page 24 undefined on input line
+ 266.
+
+
+LaTeX Warning: Citation `wu_giant_2016' on page 24 undefined on input line 268.
+
+
+
+LaTeX Warning: Citation `patankar_resonance-enhanced_2018' on page 24 undefined
+ on input line 268.
+
+) [24] (./ch/ch3.tex) [25
+
+] [26
 
 ] [27] [28
 
 ] [29] [30
 
-] [31]
-[32
+] [31] [32
 
 ] [33] [34
+
+]
+[35] [36
 
 ]
 bibitemlist
@@ -991,7 +1022,7 @@ Class memoir Warning: The material used in the headers is too large
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 45.
 
-[35]
+[37]
 \tf@toc=\write4
 \openout4 = `fichera-bfichera-phd-physics-2024-source.toc'.
 
@@ -1007,10 +1038,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 19778 strings out of 477909
- 399356 string characters out of 5838516
+ 19827 strings out of 477909
+ 400249 string characters out of 5838516
  1866388 words of memory out of 5000000
- 39727 multiletter control sequences out of 15000+600000
+ 39772 multiletter control sequences out of 15000+600000
  549399 words of font info for 128 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  114i,12n,107p,2335b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1018,23 +1049,24 @@ Here is how much of TeX's memory you used:
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
-pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/urw/p
-alatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb>
-</usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-di
-st/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/p
-alatino/uplri8a.pfb>
-Output written on fichera-bfichera-phd-physics-2024-source.pdf (35 pages, 24726
-2 bytes).
+mmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
+.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.
+pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/tex
+mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/
+urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a
+.pfb>
+Output written on fichera-bfichera-phd-physics-2024-source.pdf (37 pages, 27157
+9 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
+ 227 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
