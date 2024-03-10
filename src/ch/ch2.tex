@@ -129,7 +129,7 @@ Thus, in addition to the constraints given by Neumann's principle and \cref{eq:n
 \end{equation}
 This is known as \emph{particularization}\cite{birss}.
 
-\section{A classical understanding of \gls{shg}}
+\section{A classical understanding of \gls{shg}}\label{sec:manyshgterms}
 
 In the last section we considered the \gls{shg} response function given by \cref{eq:shgsimple}.
 Where does this relationship come from, and how is $P(2\omega)$ eventually measured?
@@ -188,7 +188,7 @@ I have repeatedly seen large electric quadrupole \gls{shg} show up in materials 
 The reason for this is ultimately due to resonance, a topic which I will discuss in \cref{sec:resonance}, but I mention it here because it is truly quite common in the literature and it is surely a mistake worth avoiding.
 You are ``allowed'' to say your material breaks inversion symmetry only if there is no other contribution in \crefrange{eq:pshort}{eq:qshort} which fits your data, and you are basically never allowed to say that your material preserves inversion symmetry when there is no \gls{shg} (a fact that should be obvious on a careful reading of \cref{thm:neumann}).
 
-\section{\Gls{shg} in quantum mechanics}
+\section{\Gls{shg} in quantum mechanics}\label{sec:resonance}
 
 The description of \gls{shg} in the previous section is probably the most useful for understanding \gls{shg} from an ``optics'' perspective, but it gives little insight into the true microscopic origin of the \gls{shg} intensity.
 The quantum description, on the other hand, will tell you exactly where the \gls{shg} is coming from microscopically, but only if you have access to the eigenfunctions $\ket{\psi}$ of your hamiltonian -- it is of little use otherwise.
@@ -265,5 +265,5 @@ First of all, clearly if we know all of the eigenfunctions $\ket{n}$ of our unpe
 Secondly, we notice that there are two types of denominators in \cref{eq:bigshg}: those occuring at $2\omega$ (remember we have set $\omega_q=\omega_p$) and those occuring at $\omega$.
 Both can cause resonances in the \gls{shg} intensity and are observed abundantly in experiment\cite{fiebig_second_2001}.
 The existence of resonances in the \gls{shg} spectrum makes comparison between different materials quite difficult if reference is made only to the \gls{shg} intensity at a single color.
-In one imfamous example, Wu \etal (\onlinecref{wu_giant_2016}) incorrectly attributed the large \gls{shg} amplitude at optical wavelengths in \ce{TaAs} to the presence of Weyl nodes near the Fermi level; later \gls{shg} spectroscopy measurements demonstrated that the enhancement was due to a simple band resonance at the excitation frequency used in that paper\cite{patankar_resonance-enhanced_2018}.
+In one imfamous example, Wu \etal (\onlinecref{wu_giant_2017}) incorrectly attributed the large \gls{shg} amplitude at optical wavelengths in \ce{TaAs} to the presence of Weyl nodes near the Fermi level; later \gls{shg} spectroscopy measurements demonstrated that the enhancement was due to a simple band resonance at the excitation frequency used in that paper\cite{patankar_resonance-enhanced_2018}.
 The emerging consensus is that the \gls{shg} intensity at optical frequencies has more or less nothing to do with the low-energy excitation spectrum or its topology.

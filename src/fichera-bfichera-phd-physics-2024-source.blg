@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Arch Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: fichera-bfichera-phd-physics-2024-source.aux
+The style file: ieeetr.bst
+Database file #1: fichera-bfichera-phd-physics-2024-source.bib
+Warning--I'm ignoring neumann_vorlesungen_1885's extra "author" field
+--line 4 of file fichera-bfichera-phd-physics-2024-source.bib
+Warning--I didn't find a database entry for "kumar"
+You've used 12 entries,
+            1876 wiz_defined-function locations,
+            552 strings with 6392 characters,
+and the built_in function-call counts, 3484 in all, are:
+= -- 276
+> -- 269
+< -- 0
++ -- 96
+- -- 84
+* -- 282
+:= -- 558
+add.period$ -- 19
+call.type$ -- 12
+change.case$ -- 9
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 144
+empty$ -- 270
+format.name$ -- 84
+if$ -- 798
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 15
+newline$ -- 46
+num.names$ -- 12
+pop$ -- 49
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 98
+stack$ -- 0
+substring$ -- 124
+swap$ -- 60
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 22
+width$ -- 14
+write$ -- 118
+(There were 2 warnings)

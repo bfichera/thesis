@@ -1,8 +1,10 @@
 #!/bin/bash
 
 ./makebib
-pdflatex fichera-bfichera-phd-physics-2024-source.tex
-bibtex bibliography
-pdflatex fichera-bfichera-phd-physics-2024-source.tex
+pdflatex -draftmode fichera-bfichera-phd-physics-2024-source.tex
+mv bibliography.bib fichera-bfichera-phd-physics-2024-source.bib
+bibtex fichera-bfichera-phd-physics-2024-source
+mv fichera-bfichera-phd-physics-2024-source.bib bibliography.bib
+pdflatex -draftmode fichera-bfichera-phd-physics-2024-source.tex
 pdflatex fichera-bfichera-phd-physics-2024-source.tex
 mv fichera-bfichera-phd-physics-2024-source.pdf fichera-bfichera-phd-physics-2024-thesis.pdf

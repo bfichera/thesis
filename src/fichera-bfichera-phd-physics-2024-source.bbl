@@ -1,0 +1,70 @@
+\begin{thebibliography}{10}
+
+\bibitem{kibble_introduction_2008}
+T.~Kibble and G.~Pickett, ``Introduction. {Cosmology} meets condensed matter,''
+  {\em Phil. Trans. R. Soc. A.}, vol.~366, pp.~2793--2802, Aug. 2008.
+
+\bibitem{alexandradinata_future_2022}
+A.~Alexandradinata, N.~P. Armitage, A.~Baydin, W.~Bi, Y.~Cao, H.~J. Changlani,
+  E.~Chertkov, E.~H. d.~S. Neto, L.~Delacretaz, I.~E. Baggari, G.~M. Ferguson,
+  W.~J. Gannon, S.~A.~A. Ghorashi, B.~H. Goodge, O.~Goulko, G.~Grissonnanche,
+  A.~Hallas, I.~M. Hayes, Y.~He, E.~W. Huang, A.~Kogar, D.~Kumah, J.~Y. Lee,
+  A.~Legros, F.~Mahmood, Y.~Maximenko, N.~Pellatz, H.~Polshyn, T.~Sarkar,
+  A.~Scheie, K.~L. Seyler, Z.~Shi, B.~Skinner, L.~Steinke,
+  K.~Thirunavukkuarasu, T.~V. Trevisan, M.~Vogl, P.~A. Volkov, Y.~Wang,
+  Y.~Wang, D.~Wei, K.~Wei, S.~Yang, X.~Zhang, Y.-H. Zhang, L.~Zhao, and
+  A.~Zong, ``The {Future} of the {Correlated} {Electron} {Problem},'' July
+  2022.
+\newblock arXiv:2010.00584 [cond-mat].
+
+\bibitem{neumann_vorlesungen_1885}
+F.~Neumann, {\em Vorlesungen über die Theorie der Elasticität der festen
+  Körper und des Lichtäthers, gehalten an der Universität Königsberg}.
+\newblock Leipzig, B. G. Teubner, 1885.
+
+\bibitem{curie_sur_1894}
+P.~Curie, ``Sur la symétrie dans les phénomènes physiques, symétrie d'un
+  champ électrique et d'un champ magnétiqueu,'' {\em J. Phys. Theor. Appl.},
+  vol.~3, no.~1, pp.~393--415, 1894.
+
+\bibitem{wiki:spacegroups}
+{Wikipedia contributors}, ``List of space groups --- {W}ikipedia{,} the free
+  encyclopedia,'' 2024.
+\newblock [Online; accessed 06-March-2024].
+
+\bibitem{powell}
+R.~C. Powell, {\em Symmetry, Group Theory, and the Physical Properties of
+  Crystals}.
+\newblock Springer New York, NY, 2010.
+
+\bibitem{birss}
+R.~R. Birss, {\em Symmetry and Magnetism}.
+\newblock North-Holland Pub. Co., 1964.
+
+\bibitem{jackson}
+J.~D. Jackson, {\em Classical electrodynamics}.
+\newblock New York, {NY}: Wiley, 3rd ed.~ed., 1999.
+
+\bibitem{fiebig_second_2001}
+M.~Fiebig, D.~Fröhlich, T.~Lottermoser, V.~V. Pavlov, R.~V. Pisarev, and H.-J.
+  Weber, ``Second {Harmonic} {Generation} in the {Centrosymmetric}
+  {Antiferromagnet} {NiO},'' {\em Phys. Rev. Lett.}, vol.~87, p.~137202, Sept.
+  2001.
+
+\bibitem{boyd}
+R.~Boyd, {\em Nonlinear Optics}.
+\newblock Academic Press, third~ed., mar 2008.
+
+\bibitem{wu_giant_2017}
+L.~Wu, S.~Patankar, T.~Morimoto, N.~L. Nair, E.~Thewalt, A.~Little, J.~G.
+  Analytis, J.~E. Moore, and J.~Orenstein, ``Giant anisotropic nonlinear
+  optical response in transition metal monopnictide {Weyl} semimetals,'' {\em
+  Nature Phys}, vol.~13, pp.~350--355, Apr. 2017.
+
+\bibitem{patankar_resonance-enhanced_2018}
+S.~Patankar, L.~Wu, B.~Lu, M.~Rai, J.~D. Tran, T.~Morimoto, D.~E. Parker, A.~G.
+  Grushin, N.~L. Nair, J.~G. Analytis, J.~E. Moore, J.~Orenstein, and D.~H.
+  Torchinsky, ``Resonance-enhanced optical nonlinearity in the {Weyl} semimetal
+  {TaAs},'' {\em Phys. Rev. B}, vol.~98, p.~165113, Oct. 2018.
+
+\end{thebibliography}
