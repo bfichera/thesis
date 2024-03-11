@@ -1,4 +1,4 @@
-\section{Space groups, point groups, and Neumann's principle}
+\section{Space groups, point groups, and Neumann's principle}\label{sec:neumann}
 
 The utility of \gls{shg} in studying condensed matter systems is derived from the following simple statement, attributed to Franz Neumann\cite{neumann_vorlesungen_1885} and later Pierre Curie\cite{curie_sur_1894}:
 
@@ -91,7 +91,7 @@ Apparently, each element $g \in P_G$ gives us a \emph{constraint} on the numbers
 This is a remarkably useful fact.
 Since different point groups enforce different constraints on $\chi$, that means the \emph{form} of $\chi$ (e.g. when written as a list of numbers) depends quite sensitively on the point group of the crystal we are studying.
 As an example, here is the dielectric permittivity tensor for crystals with the point group (in Schoenflies notation) $C_2$:
-\begin{equation}
+\begin{equation}\label{eq:c2eps}
 \epsilon_{ij} = \left(\begin{matrix}
 a & 0 & e \\
 0 & b & 0 \\
@@ -99,7 +99,7 @@ e & 0 & c
 \end{matrix}\right)_{ij}
 \end{equation}
 versus in the point group $D_{3d}$:
-\begin{equation}
+\begin{equation}\label{eq:d3deps}
 \epsilon_{ij} = \left(\begin{matrix}
 a & 0 & 0 \\
 0 & a & 0 \\
@@ -267,3 +267,62 @@ Both can cause resonances in the \gls{shg} intensity and are observed abundantly
 The existence of resonances in the \gls{shg} spectrum makes comparison between different materials quite difficult if reference is made only to the \gls{shg} intensity at a single color.
 In one imfamous example, Wu \etal (\onlinecref{wu_giant_2017}) incorrectly attributed the large \gls{shg} amplitude at optical wavelengths in \ce{TaAs} to the presence of Weyl nodes near the Fermi level; later \gls{shg} spectroscopy measurements demonstrated that the enhancement was due to a simple band resonance at the excitation frequency used in that paper\cite{patankar_resonance-enhanced_2018}.
 The emerging consensus is that the \gls{shg} intensity at optical frequencies has more or less nothing to do with the low-energy excitation spectrum or its topology.
+
+\section{SHG in the Ginzburg-Landau paradigm}
+
+While \cref{eq:bigshg} is quite general and completely correct microscopically, it obviously lends very little intuition into what kind of phenomenology we can expect to find in the \gls{shg} signal, say, across a phase transition, where the dipole matrix elements which determine \cref{eq:bigshg} certainly change but may not do so in a simple or straightforward way.
+An alternative approach is to treat \gls{shg} in a generalized Ginzburg-Landau paradigm, in which all of the physics of the system is cast in terms of an order parameter $\op_{i_1i_2...i_r}$.
+This approach was mainly developed by Sa \etal\cite{sa_generalized_2000}, based off of early work by Pershan\cite{pershan_nonlinear_1963} in the 1960s.
+
+The key insight of Pershan is that one can define a ``time-averaged free energy'' in nonlinear optics by considering the term (assuming the incident field $E^\mathrm{in}(t)$ is monochromatic with frequency $\omega$)
+\begin{align}
+F_{SHG} &= -P_i(2\omega)E_i^{*\mathrm{out}}(2\omega)+\mathrm{c.c.}\\
+&= -[\chi_{ijk}E_i^{*\mathrm{out}}(2\omega)E_j^\mathrm{in}(\omega)E_k^\mathrm{in}(\omega)+\mathrm{c.c.}]\label{eq:pershan}.
+\end{align}
+Since $F$ is a free energy, it must be a real, totally symmetric scalar, and \cref{eq:pershan} thus gives us a way to \emph{derive} the form of the tensor $\chi_{ijk}$ in a particular point group using similar arguments as in \cref{sec:neumann}.
+
+In the context of a (spontaneous) symmetry-breaking transition at $T_c$, the Ginzburg Landau paradigm asserts that the free energy of \cref{eq:pershan} still obeys the symmetry group of the high temperature phase, even though the low temperature phase explicitly breaks some of those symmetries.
+This is because the spontaneous symmetry breaking is considered a property of the \emph{solution} of the free energy minimization problem, rather than a property of the minimization problem itself.
+Thus, a valid expression for the free energy in the low temperature phase is given by
+\begin{equation}\label{eq:sa}
+F = -[\chi_{ijkl_1 l_2 \cdots l_r}(T>T_c)E_i^{*\mathrm{out}}(2\omega)E_j^\mathrm{in}(\omega)E_k^\mathrm{in}(\omega)+\mathrm{c.c.}]\op_{l_1 l_2 \cdots l_r}.
+\end{equation}
+Comparing \cref{eq:sa,eq:pershan}, we have an equation for the \gls{shg} susceptibility tensor in the low temperature phase
+\begin{equation}\label{eq:sashg}
+\chi_{ijk}(T<T_c) = \chi_{ijkl_1l_2\cdots l_r}(T>T_c)\op_{l_1l_2\cdots l_r}.
+\end{equation}
+
+In light of \cref{eq:sashg}, let us consider the consequences of the symmetry of $\op$ on the \gls{shg} signal.
+For simplicity, let us consider a situation that resembles a ferroelectric phase transition; i.e., the high temperature phase preserves inversion symmetry, but the low temperature phase involves the emergence of a rank-$1$ order parameter $\op_l$ which is odd under inversion.
+In that case, we have
+\begin{equation}\label{eq:sashg_simple}
+\chi_{ijk}(T<T_c) = \chi_{ijkl}(T>T_c)\op_{l}(T),
+\end{equation}
+i.e. the \gls{shg} at low temperature is simply a product of a high-temperature tensor and the order parameter $\op$.
+We of course need to check that $\chi_{ijkl}$ is allowed in the high temperature phase; here, we need $\chi_{ijkl}$ to be an even rank polar tensor, which is allowed in the presence of inversion symmetry (see \cref{eq:nmindex}).
+
+Let us now imagine that the polarization $\op_{l}$ is known to be directed along the $y$ axis, i.e.
+\begin{equation}
+\op_l = (0, P_0, 0)_l,
+\end{equation}
+for some $P_0$.
+Then, by \cref{eq:sashg_simple}, we have
+\begin{equation}
+\chi_{ijk}(T<T_c) = \chi_{ijky}(T>T_c)P_0.
+\end{equation}
+Besides telling us that the susceptibility tensor is linear in the polarization magnitude $P_0$, what this formulation gets us is also that the elements of $\chi_{ijk}$ are just the elements of $\chi_{ijkl}$ with $l=y$.
+In many cases this is more information than you would have if you only knew the point group of the low temperature phase!
+
+\Cref{eq:sashg} is also quite useful in the case where the low temperature phase is heterogenous; i.e. the order parameter $\op$ varies spatially from one point to another.
+This is commonly the case in magnets, for example, where rotational symmetry is spontaneously broken at $T_c$ and the low temperature free energy thus consists of multiple energetically degenerate states related to each other by elements $R$ of the high temperature point group which are broken at low temperature.
+These states have the same free energy since, again, the symmetry-breaking is due to to the order parameter, not due to the free energy itself.
+The order parameter in the different domains are thus related to each other via
+\begin{equation}\label{eq:opdomain}
+\op_{i_1i_2\cdots i_r}(\bm{x}_1) = R[\op_{i_1i_2\cdots i_r}(\bm{x}_2)],
+\end{equation}
+where the right hand side is given by \cref{eq:nmindex}.
+Combining \cref{eq:sashg} and \cref{eq:opdomain}, the \gls{shg} tensor thus satisfies
+\begin{equation}\label{eq:shgdomain}
+\chi_{ijk}(\bm{x}_1) = R[\chi_{ijk}(\bm{x}_2)].
+\end{equation}
+\Cref{eq:shgdomain} is the fundamental basis for our \gls{shg} works on \tastwo and \ce{CaMn2Bi2}, discussed in chapters \cref{ch:ch4} and \cref{ch:ch5}.

@@ -6,9 +6,12 @@ Database file #1: fichera-bfichera-phd-physics-2024-source.bib
 Warning--I'm ignoring neumann_vorlesungen_1885's extra "author" field
 --line 4 of file fichera-bfichera-phd-physics-2024-source.bib
 Warning--I didn't find a database entry for "kumar"
+Warning--I didn't find a database entry for "sa_generalized_2000"
+Warning--I didn't find a database entry for "pershan_nonlinear_1963"
+Warning--I didn't find a database entry for "torchinsky_low_2014"
 You've used 12 entries,
             1876 wiz_defined-function locations,
-            552 strings with 6392 characters,
+            555 strings with 6452 characters,
 and the built_in function-call counts, 3484 in all, are:
 = -- 276
 > -- 269
@@ -47,4 +50,4 @@ warning$ -- 0
 while$ -- 22
 width$ -- 14
 write$ -- 118
-(There were 2 warnings)
+(There were 5 warnings)

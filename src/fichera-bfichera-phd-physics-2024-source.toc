@@ -6,9 +6,10 @@
 \contentsline {section}{\numberline {2.1}Space groups, point groups, and Neumann's principle}{15}{}%
 \contentsline {section}{\numberline {2.2}A classical understanding of \gls {shg}}{19}{}%
 \contentsline {section}{\numberline {2.3}\Gls {shg} in quantum mechanics}{21}{}%
-\contentsline {chapter}{\chapternumberline {3}Second harmonic generation: practical}{25}{}%
-\contentsline {chapter}{\chapternumberline {4}Second harmonic generation as a probe of broken mirror symmetry in 1\textit {T}-\ce {TaS2}}{27}{}%
-\contentsline {chapter}{\chapternumberline {5}Light-induced reorientation transition in the antiferromagnetic semiconductor \ce {CaMn2Bi2}}{29}{}%
-\contentsline {chapter}{\chapternumberline {6}Amplitude-mode electromagnon in the XXZ chain \ce {CuBr2}}{31}{}%
-\contentsline {chapter}{\chapternumberline {7}Concluding remarks}{33}{}%
-\contentsline {chapter}{Bibliography}{37}{}%
+\contentsline {section}{\numberline {2.4}SHG in the Ginzburg-Landau paradigm}{25}{}%
+\contentsline {chapter}{\chapternumberline {3}Second harmonic generation: practical}{29}{}%
+\contentsline {chapter}{\chapternumberline {4}Second harmonic generation as a probe of broken mirror symmetry in 1\textit {T}-\ce {TaS2}}{33}{}%
+\contentsline {chapter}{\chapternumberline {5}Light-induced reorientation transition in the antiferromagnetic semiconductor \ce {CaMn2Bi2}}{35}{}%
+\contentsline {chapter}{\chapternumberline {6}Amplitude-mode electromagnon in the XXZ chain \ce {CuBr2}}{37}{}%
+\contentsline {chapter}{\chapternumberline {7}Concluding remarks}{39}{}%
+\contentsline {chapter}{Bibliography}{43}{}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.25)  10 MAR 2024 14:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.25)  11 MAR 2024 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -342,6 +342,30 @@ Package verse [2008/07/23] emulated by memoir.
 (/usr/share/texmf-dist/tex/latex/psnfss/palatino.sty
 Package: palatino 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks24
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen187
+\Gin@req@width=\dimen188
+)
 (/usr/share/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
@@ -367,9 +391,13 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count326
 \c@blind@pangrammax=\count327
 )
+(/usr/share/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+)
 (/usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2023-03-04 v3.2.2 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen187
+\l__siunitx_angle_tmp_dim=\dimen189
 \l__siunitx_angle_marker_box=\box56
 \l__siunitx_angle_unit_box=\box57
 \l__siunitx_compound_count_int=\count328
@@ -407,19 +435,19 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks24
-\ex@=\dimen188
+\@emptytoks=\toks25
+\ex@=\dimen190
 ))
 \l__siunitx_table_tmp_box=\box58
-\l__siunitx_table_tmp_dim=\dimen189
-\l__siunitx_table_column_width_dim=\dimen190
+\l__siunitx_table_tmp_dim=\dimen191
+\l__siunitx_table_column_width_dim=\dimen192
 \l__siunitx_table_integer_box=\box59
 \l__siunitx_table_decimal_box=\box60
 \l__siunitx_table_uncert_box=\box61
 \l__siunitx_table_before_box=\box62
 \l__siunitx_table_after_box=\box63
-\l__siunitx_table_before_dim=\dimen191
-\l__siunitx_table_carry_dim=\dimen192
+\l__siunitx_table_before_dim=\dimen193
+\l__siunitx_table_carry_dim=\dimen194
 \l__siunitx_unit_tmp_int=\count338
 \l__siunitx_unit_position_int=\count339
 \l__siunitx_unit_total_int=\count340
@@ -442,8 +470,8 @@ Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count342
 \calc@Bcount=\count343
-\calc@Adimen=\dimen193
-\calc@Bdimen=\dimen194
+\calc@Adimen=\dimen195
+\calc@Bdimen=\dimen196
 \calc@Askip=\skip190
 \calc@Bskip=\skip191
 LaTeX Info: Redefining \setlength on input line 80.
@@ -458,7 +486,7 @@ Package: amsmath 2022/04/08 v2.17n AMS math features
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen195
+\pmbraise@=\dimen197
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
@@ -480,7 +508,7 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen196
+\big@size=\dimen198
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count350
@@ -493,21 +521,21 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \dotsspace@=\muskip16
 \c@parentequation=\count352
 \dspbrk@lvl=\count353
-\tag@help=\toks25
+\tag@help=\toks26
 \row@=\count354
 \column@=\count355
 \maxfields@=\count356
-\andhelp@=\toks26
-\eqnshift@=\dimen197
-\alignsep@=\dimen198
-\tagshift@=\dimen199
-\tagwidth@=\dimen256
-\totwidth@=\dimen257
-\lineht@=\dimen258
-\@envbody=\toks27
+\andhelp@=\toks27
+\eqnshift@=\dimen199
+\alignsep@=\dimen256
+\tagshift@=\dimen257
+\tagwidth@=\dimen258
+\totwidth@=\dimen259
+\lineht@=\dimen260
+\@envbody=\toks28
 \multlinegap=\skip194
 \multlinetaggap=\skip195
-\mathdisplay@stack=\toks28
+\mathdisplay@stack=\toks29
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
@@ -520,20 +548,6 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
 \l__chemgreek_tmpa_int=\count357
 \g__chemgreek_tmpa_int=\count358
 )
-(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 107.
-
-(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-))
 \l__mhchem_ce_distanceFromLastComma_int=\count359
 \__mhchem_arrow_extPgfLength_skip=\skip196
 \mhchem@minispace@tmp=\skip197
@@ -546,10 +560,10 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \mhchem@bondtmp@minussidebearingleft=\skip260
 \mhchem@bondtmp@minussidebearingright=\skip261
 \l__mhchem_option_version_int=\count360
-\mhchem@option@minusmathsidebearingleft=\dimen259
-\mhchem@option@minusmathsidebearingright=\dimen260
-\mhchem@option@minustextsidebearingleft=\dimen261
-\mhchem@option@minustextsidebearingright=\dimen262
+\mhchem@option@minusmathsidebearingleft=\dimen261
+\mhchem@option@minusmathsidebearingright=\dimen262
+\mhchem@option@minustextsidebearingleft=\dimen263
+\mhchem@option@minustextsidebearingright=\dimen264
 
 
 Package mhchem Warning: You did not specify a 'version' option for the mhchem
@@ -576,10 +590,11 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ))
 (/usr/share/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup4
-\symboldletters=\mathgroup5
-\symboldsymbols=\mathgroup6
+\symboldoperators=\mathgroup5
+\symboldletters=\mathgroup6
+\symboldsymbols=\mathgroup7
 Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/rsfs/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
 (/usr/share/texmf-dist/tex/latex/glossaries-extra/glossaries-extra.sty
@@ -590,10 +605,9 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks29
-\XKV@tempa@toks=\toks30
-
-(/usr/share/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@toks=\toks30
+\XKV@tempa@toks=\toks31
+)
 \XKV@depth=\count361
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
@@ -602,8 +616,8 @@ Package: glossaries 2022/11/03 v4.52 (NLCT)
 
 (/usr/share/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
-\@glsmfirst=\toks31
-\@glsmrest=\toks32
+\@glsmfirst=\toks32
+\@glsmrest=\toks33
 )
 (/usr/share/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
@@ -666,7 +680,7 @@ Package: fp-upn 1996/10/21
 (/usr/share/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks33
+\@dtl@toks=\toks34
 \@dtl@tmpcount=\count374
 \dtl@tmplength=\skip265
 \dtl@sortresult=\count375
@@ -677,12 +691,12 @@ Package: fp-eval 1995/04/03
 \@dtl@foreach@level=\count380
 )
 \gls@level=\count381
-\@gls@tmpb=\toks34
+\@gls@tmpb=\toks35
 \gls@tmplen=\skip266
-\glskeylisttok=\toks35
-\glslabeltok=\toks36
-\glsshorttok=\toks37
-\glslongtok=\toks38
+\glskeylisttok=\toks36
+\glslabeltok=\toks37
+\glsshorttok=\toks38
+\glslongtok=\toks39
 
 (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
 Package: glossary-hypernav 2022/11/03 v4.52 (NLCT)
@@ -701,7 +715,7 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTpre=\skip270
 \LTpost=\skip271
 \LTchunksize=\count382
-\LTcapwidth=\dimen263
+\LTcapwidth=\dimen265
 \LT@head=\box67
 \LT@firsthead=\box68
 \LT@foot=\box69
@@ -711,7 +725,7 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LT@rows=\count384
 \c@LT@tables=\count385
 \c@LT@chunks=\count386
-\LT@p@ftn=\toks39
+\LT@p@ftn=\toks40
 )
 \glsdescwidth=\skip272
 \glspagelistwidth=\skip273
@@ -722,19 +736,19 @@ Package: glossary-super 2022/11/03 v4.52 (NLCT)
 (/usr/share/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
 \c@tracingst=\count387
-\ST@wd=\dimen264
+\ST@wd=\dimen266
 \ST@rightskip=\skip274
 \ST@leftskip=\skip275
 \ST@parfillskip=\skip276
-\ST@pageleft=\dimen265
-\ST@headht=\dimen266
-\ST@tailht=\dimen267
-\ST@pagesofar=\dimen268
-\ST@pboxht=\dimen269
-\ST@lineht=\dimen270
-\ST@prevht=\dimen271
-\ST@toadd=\dimen272
-\ST@dimen=\dimen273
+\ST@pageleft=\dimen267
+\ST@headht=\dimen268
+\ST@tailht=\dimen269
+\ST@pagesofar=\dimen270
+\ST@pboxht=\dimen271
+\ST@lineht=\dimen272
+\ST@prevht=\dimen273
+\ST@toadd=\dimen274
+\ST@dimen=\dimen275
 \ST@pbox=\box72
 ))
 (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
@@ -744,8 +758,8 @@ Package: glossary-tree 2022/11/03 v4.52 (NLCT)
 \@glsxtr@leveloffset=\count388
 \glsxtrresourcecount=\count389
 \@glsxtrnewgls@inner=\count390
-\glsshortpltok=\toks40
-\glslongpltok=\toks41
+\glsshortpltok=\toks41
+\glslongpltok=\toks42
 
 (/usr/share/texmf-dist/tex/latex/glossaries-extra/glossaries-extra-abbrstyles.d
 ef
@@ -786,6 +800,28 @@ LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count393
+\scratchdimen=\dimen276
+\scratchbox=\box73
+\nofMPsegments=\count394
+\nofMParguments=\count395
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count396
+\MPscratchDim=\dimen277
+\MPnumerator=\count397
+\makeMPintoPDFobject=\count398
+\everyMPtoPDFconversion=\toks44
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 (/usr/share/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
 
@@ -805,34 +841,14 @@ or `english'. on input line 9.
 
 Package chemgreek Info: Activating mapping `default' on line 9.
 
- (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count393
-\scratchdimen=\dimen274
-\scratchbox=\box73
-\nofMPsegments=\count394
-\nofMParguments=\count395
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count396
-\MPscratchDim=\dimen275
-\MPnumerator=\count397
-\makeMPintoPDFobject=\count398
-\everyMPtoPDFconversion=\toks43
-) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-(./frontbackmatter/title.tex
+ (./frontbackmatter/title.tex
 LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 1
 4.
- (/usr/share/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+
+(/usr/share/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
+(/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd)
 Underfull \hbox (badness 10000) in alignment at lines 28--28
 [][] 
  []
@@ -877,7 +893,7 @@ LaTeX Warning: Reference `ch:ch6' on page 1 undefined on input line 46.
 LaTeX Warning: Reference `ch:ch7' on page 1 undefined on input line 49.
 
 ) [7] [8] (./fichera-bfichera-phd-physics-2024-source.toc
-Overfull \hbox (5.89046pt too wide) in paragraph at lines 11--11
+Overfull \hbox (5.89046pt too wide) in paragraph at lines 12--12
  [][] []\OT1/ppl/b/n/12 Light-induced re-ori-en-ta-tion tran-si-tion in the an-
 ti-fer-ro-mag-netic 
  []
@@ -925,32 +941,85 @@ LaTeX Warning: Citation `kumar' on page 19 undefined on input line 141.
 [19] [20] [21] [22]
 Underfull \vbox (badness 2351) has occurred while \output is active []
 
- [23])
-[24] (./ch/ch3.tex) [25
+ [23]
 
-] [26
+LaTeX Warning: Citation `sa_generalized_2000' on page 24 undefined on input lin
+e 275.
 
-] [27] [28
 
-] [29] [30
+LaTeX Warning: Citation `pershan_nonlinear_1963' on page 24 undefined on input 
+line 275.
 
-] [31] [32
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Overfull \hbox (9.58731pt too wide) in paragraph at lines 284--287
+\OT1/ppl/m/n/12 still obeys the sym-me-try group of the high tem-per-a-ture pha
+se, even though
+ []
+
+[25]
+Overfull \hbox (1.49898pt too wide) in paragraph at lines 300--303
+\OT1/ppl/m/n/12 i.e. the SHG at low tem-per-a-ture is sim-ply a prod-uct of a h
+igh-temperature
+ []
+
+
+LaTeX Warning: Reference `ch:ch4' on page 1 undefined on input line 328.
+
+
+LaTeX Warning: Reference `ch:ch5' on page 1 undefined on input line 328.
+
+)
+Overfull \hbox (5.81519pt too wide) in paragraph at lines 327--33
+\OT1/ppl/m/n/12 Equation (2.46) is the fun-da-men-tal ba-sis for our SHG works 
+on $\OT1/cmr/m/n/12 1$\OT1/ppl/m/it/12 T\OT1/ppl/m/n/12 -$[][][]$and
+ []
+
+[26] [27] [28
+
+] (./ch/ch3.tex
+
+LaTeX Warning: Citation `torchinsky_low_2014' on page 29 undefined on input lin
+e 3.
+
+
+LaTeX Warning: Reference `sec:beforeyoubuild' on page 1 undefined on input line
+ 9.
+
+[29]
+<gfx/ch3/pdf/setup.pdf, id=115, 698.10274pt x 199.10564pt>
+File: gfx/ch3/pdf/setup.pdf Graphic file (type pdf)
+<use gfx/ch3/pdf/setup.pdf>
+Package pdftex.def Info: gfx/ch3/pdf/setup.pdf  used on input line 22.
+(pdftex.def)             Requested size: 383.0pt x 109.235pt.
+)
+Underfull \vbox (badness 7012) has occurred while \output is active []
+
+ [30 <./gfx/ch3/pdf/setup.pdf>] [31] [32
 
 ] [33] [34
 
+] [35] [36
+
+] [37] [38
+
+] [39] [40
+
 ]
-(./fichera-bfichera-phd-physics-2024-source.bbl [35] [36
+(./fichera-bfichera-phd-physics-2024-source.bbl [41] [42
 
 ]
 bibitemlist
-[37])
+[43])
 
 Class memoir Warning: The material used in the headers is too large
 (28.99998pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 43.
 
-[38]
+[44]
 \tf@toc=\write4
 \openout4 = `fichera-bfichera-phd-physics-2024-source.toc'.
 
@@ -966,13 +1035,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 19834 strings out of 477909
- 400392 string characters out of 5838516
+ 20083 strings out of 477909
+ 405092 string characters out of 5838516
  1866388 words of memory out of 5000000
- 39778 multiletter control sequences out of 15000+600000
- 548410 words of font info for 126 fonts, out of 8000000 for 9000
+ 40013 multiletter control sequences out of 15000+600000
+ 549894 words of font info for 135 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 114i,12n,107p,2335b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,12n,107p,2335b,535s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -985,16 +1054,16 @@ msfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
 .pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.
-pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/tex
-mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/
-urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a
-.pfb>
-Output written on fichera-bfichera-phd-physics-2024-source.pdf (38 pages, 27883
-8 bytes).
+c/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/rsfs/rsfs10.p
+fb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf
+-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/u
+rw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
+fb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on fichera-bfichera-phd-physics-2024-source.pdf (44 pages, 31623
+2 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
+ 334 PDF objects out of 1000 (max. 8388607)
+ 238 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
