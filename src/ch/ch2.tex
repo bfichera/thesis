@@ -1,6 +1,6 @@
 \section{Space groups, point groups, and Neumann's principle}\label{sec:neumann}
 
-The utility of \gls{shg} in studying condensed matter systems is derived from the following simple statement, attributed to Franz Neumann\cite{neumann_vorlesungen_1885} and later Pierre Curie\cite{curie_sur_1894}:
+The utility of \gls{shg} in studying condensed matter systems is derived from the following simple statement, attributed to Franz Neumann\citep{neumann_vorlesungen_1885} and later Pierre Curie\citep{curie_sur_1894}:
 
 \begin{theorem}[Neumann's principle]\label{thm:neumann}
 Let $P_G$ be the symmetry group of a crystal structure and $P_H$ the symmetry group of some physical property of that crystal.
@@ -19,7 +19,7 @@ G = \{(R|\bm{\tau})\}
 where $(R|\bm{\tau})$ means ``Perform $R$, then translate by $\bm{\tau}$''.
 Clearly, the set $G$ forms a group, since if both $g_1$ and $g_2 \in G$ leave the crystal structure invariant, so does the product $g_1g_2$, and so $g_1g_2 \in G$.
 Thus, $G$ is called the \emph{space group} of the crystal.
-In three dimensions, there are $230$ crystallographic space groups, which are tabulated in a number of places, most usefully Wikipedia\cite{wiki:spacegroups}.
+In three dimensions, there are $230$ crystallographic space groups, which are tabulated in a number of places, most usefully Wikipedia\citep{wiki:spacegroups}.
 
 For $73$ of these groups, the translation parts of the $\bm{\tau}$'s in \cref{eq:spacegroup} are only ever linear combinations of integer multiples of the lattice vectors $\bm{a}$, $\bm{b}$, and $\bm{c}$; these are called \emph{symmorphic} space groups.
 The remaining $157$ groups involve translations that are not integer multiples of the lattice vectors; these are one's screw axes and glide planes, and so these groups are called \emph{asymmorphic}.
@@ -49,7 +49,7 @@ Likewise, the polarization $P_i$ due to the pyroelectric effect is related to th
 \begin{equation}
 P_i = p_i \Delta T.
 \end{equation}
-The tensors $\sigma_{ij}$, $p_i$, and generally, $\chi_{i_1 i_2 \cdots \i_n i_1' i_2' \cdots i_m'}$ are commonly referred to as \emph{matter tensors}\cite{powell}, to emphasize the fact that they are the only part of the response equations that depend on the material.
+The tensors $\sigma_{ij}$, $p_i$, and generally, $\chi_{i_1 i_2 \cdots \i_n i_1' i_2' \cdots i_m'}$ are commonly referred to as \emph{matter tensors}\citep{powell}, to emphasize the fact that they are the only part of the response equations that depend on the material.
 It should be noted that matter tensors generically come in two types: those that transform like a vector under inversion and those that transform like a pseudovector under inversion.
 You can tell which is which by applying inversion to either side of the response equation.
 For example, the tensor $\epsilon_{ij}$ relating the displacement field to the electric field
@@ -127,7 +127,7 @@ Thus, in addition to the constraints given by Neumann's principle and \cref{eq:n
 \begin{equation}
 \chi_{ijk} = \chi_{ikj} \forall i,j,k.
 \end{equation}
-This is known as \emph{particularization}\cite{birss}.
+This is known as \emph{particularization}\citep{birss}.
 
 \section{A classical understanding of \gls{shg}}\label{sec:manyshgterms}
 
@@ -138,7 +138,7 @@ Our starting point in the classical treatment will be the inhomogenous electroma
 \left(\nabla^2 - \frac{1}{c^2}\frac{\partial^2}{\partial t^2}\right) E_i(\bm{x}, t) = S_i(\bm{x}, t),
 \end{equation}
 which we understand as defining the field $E_i(\bm{x}, t)$ radiated by the source term $S_i(\bm{x}, t)$, which is induced by the incident field.
-To lowest order in a multipole expansion, $S_i(\bm{x}, t)$ is given by\cite{jackson,kumar}
+To lowest order in a multipole expansion, $S_i(\bm{x}, t)$ is given by\citep{jackson,kumar_magnetic_2017}
 \begin{equation}
 \mu_0 \frac{\partial^2 P_i(\bm{x}, t)}{\partial t^2} + \mu_0\left(\epsilon_{ijk}\nabla_j \frac{\partial M_k(\bm{x}, t)}{\partial t}\right) -\mu_0\left(\nabla_j \frac{\partial^2 Q_{ij}(\bm{x}, t)}{\partial t^2}\right)
 \end{equation}
@@ -179,7 +179,7 @@ In my experience, the heirarchy of contributions (from most to least important, 
 \item\label{item:contribution2} Surface electric dipole, bulk electric quadrupole, and bulk magnetic dipole, at the same order\footnote{Somehow the bulk electric quadrupole and magnetic dipole contributions have been labelled ``exotic'' by some in the community, but that has not been my experience. If I had to guess, almost half of the materials I have measured with inversion symmetry show electric quadrupole \gls{shg}.}
 \item Everything else
 \end{enumerate}
-I've never seen anything outside of \cref{item:contribution1,item:contribution2}, but in rare cases an electronic resonance may cause an enhancement in one of the other contributions\cite{fiebig_second_2001}.
+I've never seen anything outside of \cref{item:contribution1,item:contribution2}, but in rare cases an electronic resonance may cause an enhancement in one of the other contributions\citep{fiebig_second_2001}.
 
 Let us take a moment now to emphasize the following extremely common misconception about \gls{shg}: just because you see \gls{shg} in your experiment, that does not mean that inversion symmetry is broken in your material!
 It also does not mean that your material is a ferroelectric, or really that there's anything special at all about your material, at least before you've done any further analysis.
@@ -193,7 +193,7 @@ You are ``allowed'' to say your material breaks inversion symmetry only if there
 The description of \gls{shg} in the previous section is probably the most useful for understanding \gls{shg} from an ``optics'' perspective, but it gives little insight into the true microscopic origin of the \gls{shg} intensity.
 The quantum description, on the other hand, will tell you exactly where the \gls{shg} is coming from microscopically, but only if you have access to the eigenfunctions $\ket{\psi}$ of your hamiltonian -- it is of little use otherwise.
 Nevertheless, we can still gain intuition about the dependence of our \gls{shg} intensity on the frequency of the light in the quantum picture, which will be useful for clearing up a whole other slew of misconceptions that have somehow made their way into the \gls{shg} literature.
-This treatment closely follows that of \onlinecref{boyd}.
+This treatment closely follows that of \citet{boyd}.
 
 The starting point is to describe the system under study as a statistical ensemble specified by a Hamiltonian
 \begin{equation}
@@ -231,7 +231,7 @@ where $\omega_{nm}=E_{nm}/\hbar$, and we seek a solution
 \begin{equation}
 \rho_{nm}=\rho_{nm}^{(0)}+\lambda\rho_{nm}^{(1)}+\lambda^2\rho_{nm}^{(2)}+\cdots.
 \end{equation}
-Turning the crank (see \onlinecref{boyd} for details) gives us the solution
+Turning the crank (see \citet{boyd} for details) gives us the solution
 \begin{equation}
 \rho_{nm}^{(N)}(t) = \int_{-\infty}^t \frac{1}{i\hbar}[\lambda V(t'), \rho^{(N-1)}(t')]_{nm}e^{(i\omega_{nm}+\gamma_{nm})(t'-t)} \, dt'.
 \end{equation}
@@ -246,7 +246,7 @@ Once we have $\rho_{nm}^{(2)}(t)$, we can compute the expectation value
 \left<\bm{\mu}(t)\right>=\sum_{nm}\rho_{nm}(t)\bm{\mu}_{nm},
 \end{equation}
 from which the susceptibility can be computed by taking two derivatives with respect to the electric field amplitudes\footnote{We are specializing here to the case of electric dipole \gls{shg}, although the calculation proceeds similarly for magnetic dipole and electric quadrupole.}.
-Reproducing the final answer here (again, from \onlinecref{boyd}):
+Reproducing the final answer here (again, from \citet{boyd}):
 \begin{equation}\label{eq:bigshg}
 \begin{aligned}
 \chi_{ijk}^{(2)}(\omega_p+&\omega_q, \omega_q, \omega_p) = \frac{1}{2\epsilon_0\hbar^2}\sum_{lmn}(\rho_{ll}^{(0)}-\rho_{mm}^{(0)})\times\Big\{\\
@@ -263,16 +263,16 @@ The \gls{shg} susceptibility tensor is then obtained by taking the limit $\omega
 We learned two things by doing the quantum calculation.
 First of all, clearly if we know all of the eigenfunctions $\ket{n}$ of our unperturbed Hamiltonian, we can calculate the susceptibility tensor \textit{a priori}, although this is obviously difficult except in the simplest of cases.
 Secondly, we notice that there are two types of denominators in \cref{eq:bigshg}: those occuring at $2\omega$ (remember we have set $\omega_q=\omega_p$) and those occuring at $\omega$.
-Both can cause resonances in the \gls{shg} intensity and are observed abundantly in experiment\cite{fiebig_second_2001}.
+Both can cause resonances in the \gls{shg} intensity and are observed abundantly in experiment\citep{fiebig_second_2001}.
 The existence of resonances in the \gls{shg} spectrum makes comparison between different materials quite difficult if reference is made only to the \gls{shg} intensity at a single color.
-In one imfamous example, Wu \etal (\onlinecref{wu_giant_2017}) incorrectly attributed the large \gls{shg} amplitude at optical wavelengths in \ce{TaAs} to the presence of Weyl nodes near the Fermi level; later \gls{shg} spectroscopy measurements demonstrated that the enhancement was due to a simple band resonance at the excitation frequency used in that paper\cite{patankar_resonance-enhanced_2018}.
+In one imfamous example, \citet{wu_giant_2017} incorrectly attributed the large \gls{shg} amplitude at optical wavelengths in \ce{TaAs} to the presence of Weyl nodes near the Fermi level; later \gls{shg} spectroscopy measurements demonstrated that the enhancement was due to a simple band resonance at the excitation frequency used in that paper\citep{patankar_resonance-enhanced_2018}.
 The emerging consensus is that the \gls{shg} intensity at optical frequencies has more or less nothing to do with the low-energy excitation spectrum or its topology.
 
 \section{SHG in the Ginzburg-Landau paradigm}
 
 While \cref{eq:bigshg} is quite general and completely correct microscopically, it obviously lends very little intuition into what kind of phenomenology we can expect to find in the \gls{shg} signal, say, across a phase transition, where the dipole matrix elements which determine \cref{eq:bigshg} certainly change but may not do so in a simple or straightforward way.
 An alternative approach is to treat \gls{shg} in a generalized Ginzburg-Landau paradigm, in which all of the physics of the system is cast in terms of an order parameter $\op_{i_1i_2...i_r}$.
-This approach was mainly developed by Sa \etal\cite{sa_generalized_2000}, based off of early work by Pershan\cite{pershan_nonlinear_1963} in the 1960s.
+This approach was mainly developed by \citet{sa_generalized_2000}, based off of early work by \citet{pershan_nonlinear_1963} in the 1960s.
 
 The key insight of Pershan is that one can define a ``time-averaged free energy'' in nonlinear optics by considering the term (assuming the incident field $E^\mathrm{in}(t)$ is monochromatic with frequency $\omega$)
 \begin{align}

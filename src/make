@@ -1,6 +1,13 @@
 #!/bin/bash
 
 ./makebib
+rm *.aux
+rm *.bbl
+rm *.blg
+rm *.lof
+rm *.log
+rm *.lot
+rm *.toc
 pdflatex -draftmode fichera-bfichera-phd-physics-2024-source.tex
 mv bibliography.bib fichera-bfichera-phd-physics-2024-source.bib
 bibtex fichera-bfichera-phd-physics-2024-source

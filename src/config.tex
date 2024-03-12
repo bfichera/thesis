@@ -1,19 +1,27 @@
 \usepackage{tabularx}
 \usepackage{palatino}
 \usepackage{graphicx}
+\usepackage[numbers,sort&compress]{natbib}
 \usepackage{blindtext}
 \usepackage{xspace}
 \usepackage{mathrsfs}
 \usepackage{siunitx}
 \usepackage{mhchem}
 \usepackage{braket}
-\usepackage{cite}
 \usepackage{nicefrac}
 \usepackage{bm}
 \usepackage{glossaries-extra}
+\glsdisablehyper
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    allcolors=cyan,
+}
 \usepackage{cleveref}
 
-\bibliographystyle{ieeetr}
+
+\bibstyle{plainnat_noclutter}
+\bibliographystyle{plainnat_noclutter}
 
 % Lengths
 \newlength{\linespace} \setlength{\linespace}{\baselineskip}
@@ -29,9 +37,9 @@
 \newcommand{\acknowledgements}{\pretoctitle{Acknowledgements}}
 \newcommand{\preface}{\pretoctitle{Preface}}
 
-\newcommand{\etal}{\textit{et al.}\xspace}
+% \newcommand{\etal}{\textit{et al.}\xspace}
 
-\newcommand{\onlinecref}[1]{Ref.~\citenum{#1}\xspace}
+% \newcommand{\onlinecref}[1]{Ref.~\citenum{#1}\xspace}
 
 
 \newabbreviation{afm}{AFM}{antiferromagnetic}
