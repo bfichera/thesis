@@ -8,8 +8,11 @@
 \contentsline {section}{\numberline {2.3}\Gls {shg} in quantum mechanics}{21}{section.2.3}%
 \contentsline {section}{\numberline {2.4}SHG in the Ginzburg-Landau paradigm}{25}{section.2.4}%
 \contentsline {chapter}{\chapternumberline {3}Second harmonic generation: practical}{29}{chapter.3}%
-\contentsline {chapter}{\chapternumberline {4}Second harmonic generation as a probe of broken mirror symmetry in 1\textit {T}-\ce {TaS2}}{33}{chapter.4}%
-\contentsline {chapter}{\chapternumberline {5}Light-induced reorientation transition in the antiferromagnetic semiconductor \ce {CaMn2Bi2}}{35}{chapter.5}%
-\contentsline {chapter}{\chapternumberline {6}Amplitude-mode electromagnon in the XXZ chain \ce {CuBr2}}{37}{chapter.6}%
-\contentsline {chapter}{\chapternumberline {7}Concluding remarks}{39}{chapter.7}%
-\contentsline {chapter}{Bibliography}{43}{chapter*.4}%
+\contentsline {section}{\numberline {3.1}Before you build}{31}{section.3.1}%
+\contentsline {subsection}{Spot size}{31}{section*.4}%
+\contentsline {subsection}{Oblique vs. normal incidence}{32}{section*.5}%
+\contentsline {chapter}{\chapternumberline {4}Second harmonic generation as a probe of broken mirror symmetry in 1\textit {T}-\ce {TaS2}}{35}{chapter.4}%
+\contentsline {chapter}{\chapternumberline {5}Light-induced reorientation transition in the antiferromagnetic semiconductor \ce {CaMn2Bi2}}{37}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {6}Amplitude-mode electromagnon in the XXZ chain \ce {CuBr2}}{39}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {7}Concluding remarks}{41}{chapter.7}%
+\contentsline {chapter}{Bibliography}{45}{chapter*.6}%

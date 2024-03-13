@@ -29,3 +29,59 @@ The phase mask, incoming polarizer, and outgoing polarizer are mounted on rotati
 The motor thus continuously rotates the plane of incidence of the experiment, since the latter is entirely defined by the phase mask and the polarizers.
 The rotation angle is tracked as a function of time by an optical rotary encoder, consisting of a laser pointer passed through a chopper wheel (with 100 slots) mounted at the end of the motor shaft and detected via photodiode.
 The encoder signal and the lock-in signal are both sent to a homemade oscilloscope (an Arduino Uno microcontroller which separates the lock-in signal into different individual rotations by looking for peaks in the encoder signal), the output of which is sent to a computer for further data processing.
+
+\section{Before you build}\label{sec:beforeyoubuild}
+
+I list here a few essential aspects of \gls{shg} that should be considered before designing a new setup.
+
+\subsection{Spot size}
+
+One of the most important quantities in an \gls{shg} setup is the diameter of the probe spot.
+Ideally, this diameter is as small as possible, so as to measure the smallest samples or domain sizes.
+However, there is an important caveat: for constant fluence (i.e. supposing we are limited by the sample damage threshold), the \gls{shg} signal to noise ratio scales linearly in the area excited by the probe, and thus \gls{shg} microscopes have a difficult time measuring small \gls{shg} signals compared to traditional \gls{shg} setups with a larger excitation area.
+To see this, let us say that our detector measures the number of photons per \gls{shg} pulse, which is proportional to the pulse energy $U_p(2\omega)$.
+Assuming the input and output pulse intensity profiles have the shape of a square wave with width $\tau$ and height $I_p(\omega)$ and $I_p(2\omega)$, respectively, we have
+\begin{equation}
+U_p(2\omega) = A I_p(2\omega) \tau
+\end{equation}
+and
+\begin{equation}
+U_p(\omega) = A I_p(\omega) \tau
+\end{equation}
+where $A$ is the area of the beam at the sample surface.
+The \gls{shg} intensity is proportional to the square of the input intensity
+\begin{equation}
+I_p(2\omega) \propto I_p^2(\omega)
+\end{equation}
+so that
+\begin{equation}
+U_p(2\omega) \propto \frac{U_p^2(\omega)}{A\tau}.
+\end{equation}
+Substituting for the fluence $f$
+\begin{equation}
+f(\omega) = \frac{U_p(\omega)}{A}
+\end{equation}
+we have
+\begin{equation}
+U_p(2\omega) \propto \frac{f^2(\omega)A}{\tau}
+\end{equation}
+i.e., if we hold the fluence constant at the sample damage threshold, the number of photons in the generated \gls{shg} pulse is proportional to the excitation area and inverse to the pulse width.
+The signal to noise ratio is then given by
+\begin{equation}
+\mathrm{SNR} \propto \frac{U_p(2\omega)}{\sqrt{r}}
+\end{equation}
+where $r$ is the system repetition rate.
+
+\subsection{Oblique vs. normal incidence}
+
+While all of the results presented in this thesis utilized the setup in \cref{fig:setup}, where the incident beam makes a small angle with respect to the sample normal, plenty of groups use a different approach where that angle is set to $0^\circ$.
+This has the obvious disadvantage of not specifying all of the tensor elements, since any element $\chi_{ijk}$ with $i, j, k = z$ is not accessible in this geometry.
+However, in some cases this can actually be something of an advantage.
+For example, sometimes unwanted \gls{shg} contributions (see \cref{sec:manyshgterms}) may be avoided in the normal incidence geometry, assuming the \gls{na} of the focusing optic is small enough that longitudinal components of the electric field are nearly zero.
+Furthermore, in some materials the order parameter only couples to one or two elements of $\chi_{ijk}$; if none of these elements have a $z$ index, it is needless to complicate the analysis with oblique incidence.
+
+In my experience, oblique incidence seems to be useful in two broad cases.
+For one thing, some order parameters only show up in the $z$ components of $\chi_{ijk}$ (this is the case in \tastwo, see \cref{sec:tastwo}), in which case one obviously needs a nonzero angle of incidence to access these components.
+A more subtle point is that, even if in practice all of the phenomenology of a particular sample only shows up in the $x$ and $y$ indices of $\chi_{ijk}$, still one must measure the full tensor to \emph{rule out} unseen phenomenology in the other indices.
+Both the \ce{CaMn2Bi2} (\cref{ch:ch5}) and \ce{CuBr2} (\cref{ch:ch6}) works presented in this thesis are examples of exactly this point, where the main scientific arguments involve either comparing \gls{shg} patterns in two domains or comparing oscillation amplitudes in different polarization channels.
+Clearly one needs to know all of the tensor elements to make those arguments exact.

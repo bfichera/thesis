@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.25)  12 MAR 2024 17:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.25)  12 MAR 2024 19:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1050,7 +1050,7 @@ LaTeX Warning: Reference `ch:ch6' on page 1 undefined on input line 46.
 LaTeX Warning: Reference `ch:ch7' on page 1 undefined on input line 49.
 
 ) [7] [8] (./fichera-bfichera-phd-physics-2024-source.toc
-Overfull \hbox (5.89046pt too wide) in paragraph at lines 12--12
+Overfull \hbox (5.89046pt too wide) in paragraph at lines 15--15
  [][] [][][]\OT1/ppl/b/n/12 Light-induced re-ori-en-ta-tion tran-si-tion in the
  an-ti-fer-ro-mag-netic 
  []
@@ -1138,44 +1138,55 @@ G works on $\OT1/cmr/m/n/12 1$\OT1/ppl/m/it/12 T\OT1/ppl/m/n/12 -$[][][]$and
 
 [26] [27] [28
 
-] (./ch/ch3.tex
-
-LaTeX Warning: Reference `sec:beforeyoubuild' on page 1 undefined on input line
- 9.
-
-[29]
-<gfx/ch3/pdf/setup.pdf, id=387, 698.10274pt x 199.10564pt>
+] (./ch/ch3.tex [29]
+<gfx/ch3/pdf/setup.pdf, id=393, 698.10274pt x 199.10564pt>
 File: gfx/ch3/pdf/setup.pdf Graphic file (type pdf)
 <use gfx/ch3/pdf/setup.pdf>
 Package pdftex.def Info: gfx/ch3/pdf/setup.pdf  used on input line 22.
 (pdftex.def)             Requested size: 383.0pt x 109.235pt.
-) [30] [31 <./gfx/ch3/pdf/setup.pdf>] [32
+ [30] [31 <./gfx/ch3/pdf/setup.pdf>]
+Overfull \hbox (0.4074pt too wide) in paragraph at lines 77--82
+\OT1/ppl/m/n/12 While all of the re-sults pre-sented in this the-sis uti-lized 
+the setup in fig. [][]3.1[][],
+ []
+
+[32]
+
+LaTeX Warning: Reference `sec:tastwo' on page 1 undefined on input line 84.
+
+
+LaTeX Warning: Reference `ch:ch5' on page 1 undefined on input line 86.
+
+
+LaTeX Warning: Reference `ch:ch6' on page 1 undefined on input line 86.
+
+) [33] [34
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\mhchem@cee' on input line 35.
 
-[33] [34
+[35] [36
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\mhchem@cee' on input line 36.
 
-[35] [36
+[37] [38
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\mhchem@cee' on input line 37.
 
-[37] [38
+[39] [40
 
-] [39] [40
+] [41] [42
 
-] (./fichera-bfichera-phd-physics-2024-source.bbl [41]
-[42
+] (./fichera-bfichera-phd-physics-2024-source.bbl [43]
+[44
 
 ]
 Underfull \hbox (badness 1092) in paragraph at lines 15--25
@@ -1193,20 +1204,20 @@ Underfull \hbox (badness 1297) in paragraph at lines 15--25
 \OT1/ppl/m/n/12 K. Thirunavukkuarasu, Tha[]^^Ps Victa Tre-visan, Michael Vogl,
  []
 
-[43]
+[45]
 Underfull \hbox (badness 10000) in paragraph at lines 81--83
 []\OT1/ppl/m/n/12 Automated po-lar-iza-tion ro-ta-tion for multi-axis rotationa
 l-
  []
 
-[44])
+[46])
 
 Class memoir Warning: The material used in the headers is too large
 (28.99998pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 43.
 
-[45]
+[47]
 \tf@toc=\write5
 \openout5 = `fichera-bfichera-phd-physics-2024-source.toc'.
 
@@ -1222,14 +1233,14 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `fichera-bfichera-phd-physics-2024-source.out
 ' has not changed.
-(rerunfilecheck)             Checksum: 51562BB829FC7CA8D85B39EEB91E8435;3560.
+(rerunfilecheck)             Checksum: EED9C8C996B8C3E4635C92DAAFDA6A53;3701.
  ) 
 Here is how much of TeX's memory you used:
- 26896 strings out of 477909
- 511336 string characters out of 5838516
+ 26951 strings out of 477909
+ 512079 string characters out of 5838516
  1868388 words of memory out of 5000000
- 46591 multiletter control sequences out of 15000+600000
- 549894 words of font info for 135 fonts, out of 8000000 for 9000
+ 46633 multiletter control sequences out of 15000+600000
+ 550883 words of font info for 137 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  114i,12n,107p,2330b,1112s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
@@ -1249,11 +1260,11 @@ fb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf
 -dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/u
 rw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
 fb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on fichera-bfichera-phd-physics-2024-source.pdf (45 pages, 32848
-5 bytes).
+Output written on fichera-bfichera-phd-physics-2024-source.pdf (47 pages, 33594
+0 bytes).
 PDF statistics:
- 659 PDF objects out of 1000 (max. 8388607)
- 558 compressed objects within 6 object streams
- 141 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 687 PDF objects out of 1000 (max. 8388607)
+ 584 compressed objects within 6 object streams
+ 153 named destinations out of 1000 (max. 500000)
+ 134 words of extra memory for PDF output out of 10000 (max. 10000000)
 
