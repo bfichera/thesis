@@ -1,3 +1,5 @@
+\section{Description of the setup}\label{sec:setupdescription}
+
 In the last chapter we saw that the \gls{shg} intensity in a given crystal is related to the point group, order parameter, band structure, etc. of that crystal via the susceptibility tensor $\chi_{ijk}$.
 It is also obvious from \cref{sec:neumann} that the ideal scenario is to be able to measure as many of the numbers $\chi_{ijk}$ as possible; after all, if you only measured the $xx$ component of \cref{eq:c2eps,eq:d3deps}, you would have obtained essentially no information about your crystal whatsoever.
 The \gls{shg} setup that we built (whose design is mostly credited to Torchinsky and Hsieh\citep{torchinsky_low_2014}, with some improvements by us which I will discuss below) was designed with exactly this goal in mind.
@@ -25,7 +27,7 @@ The interaction between the light and the sample causes \gls{shg} to be radiated
 
 Finally, the polarized output reflects off of two dichroic mirrors (oriented in such a way as to cancel the differing effect of the Fresnel equations on the reflectivity of S and P polarized light) and is focused through a $400$ \si{nm} bandpass filter onto a \gls{pmt} by a $400$ \si{mm} lens.
 The current output of the \gls{pmt} is filtered by a lock-in amplifier (for static \gls{shg}, set to the $5$ \si{kHz} repetition rate of the laser) and read out on an oscilloscope.
-The phase mask, incoming polarizer, and outgoing polarizer are mounted on rotating lens tubes which are connected via pulley to a common motor shaft driven by a brushless DC motor.
+The phase mask, incoming polarizer, and outgoing polarizer are mounted on rotating lens tubes which are connected via pulley to a common motor shaft driven at $\sim 5$ \si{Hz} by a brushless DC motor.
 The motor thus continuously rotates the plane of incidence of the experiment, since the latter is entirely defined by the phase mask and the polarizers.
 The rotation angle is tracked as a function of time by an optical rotary encoder, consisting of a laser pointer passed through a chopper wheel (with 100 slots) mounted at the end of the motor shaft and detected via photodiode.
 The encoder signal and the lock-in signal are both sent to a homemade oscilloscope (an Arduino Uno microcontroller which separates the lock-in signal into different individual rotations by looking for peaks in the encoder signal), the output of which is sent to a computer for further data processing.
@@ -72,7 +74,7 @@ The signal to noise ratio is then given by
 \end{equation}
 where $r$ is the system repetition rate.
 
-\subsection{Oblique vs. normal incidence}
+\subsection{Oblique vs. normal incidence}\label{sec:obliquevsnormal}
 
 While all of the results presented in this thesis utilized the setup in \cref{fig:setup}, where the incident beam makes a small angle with respect to the sample normal, plenty of groups use a different approach where that angle is set to $0^\circ$.
 This has the obvious disadvantage of not specifying all of the tensor elements, since any element $\chi_{ijk}$ with $i, j, k = z$ is not accessible in this geometry.
@@ -83,5 +85,61 @@ Furthermore, in some materials the order parameter only couples to one or two el
 In my experience, oblique incidence seems to be useful in two broad cases.
 For one thing, some order parameters only show up in the $z$ components of $\chi_{ijk}$ (this is the case in \tastwo, see \cref{sec:tastwo}), in which case one obviously needs a nonzero angle of incidence to access these components.
 A more subtle point is that, even if in practice all of the phenomenology of a particular sample only shows up in the $x$ and $y$ indices of $\chi_{ijk}$, still one must measure the full tensor to \emph{rule out} unseen phenomenology in the other indices.
-Both the \ce{CaMn2Bi2} (\cref{ch:ch5}) and \ce{CuBr2} (\cref{ch:ch6}) works presented in this thesis are examples of exactly this point, where the main scientific arguments involve either comparing \gls{shg} patterns in two domains or comparing oscillation amplitudes in different polarization channels.
+Both the \ce{CaMn2Bi2} (\cref{ch:cmb}) and \ce{CuBr2} (\cref{ch:cubr2}) works presented in this thesis are examples of exactly this point, where the main scientific arguments involve either comparing \gls{shg} patterns in two domains or comparing oscillation amplitudes in different polarization channels.
 Clearly one needs to know all of the tensor elements to make those arguments exact.
+
+\subsection{Choice of detector}
+
+Our setup is somewhat unique in using a \gls{pmt} for data collection rather than an \gls{emccd}, which is the slightly more traditional method.
+Frankly, this decision was not based on the detection efficiency, but rather the fact that \glspl{pmt} typically cost about two orders of magnitude less than \glspl{emccd}.
+However, the setup construction with a \gls{pmt} is slightly different than with an \gls{emccd}, so you should probably decide which you want to use before you start building your setup.
+With an \gls{emccd}, the beam is sent into the device without focusing (L4 in \cref{fig:setup}) so that the beam traces a circle on the sensor as a function of time\cite{harter_high-speed_2015}.
+The rotational anisotropy signal is read off by performing a radial integration of the camera image (after masking the part of the image which is outside from the circle traced by the beam).
+In this way, the rotation angle of the motor is correlated with the \gls{shg} signal via the azimuthal degree of freedom on the camera image.
+In contrast, with a \gls{pmt} the \gls{shg} signal is read out as a function of time on an oscilloscope (see \cref{sec:setupdescription}), and must be correlated with the rotation angle of the motor by some other method.
+We use an optical chopper wheel attached to the motor shaft; a beam from a laser pointer is directed through the chopper wheel and onto a photodiode, which produces a square wave signal that is used to trigger the oscilloscope.
+One must also be careful that the \gls{pmt} is aligned as close to normal as possible to the axis defined by DM2 and L4 in \cref{fig:setup}, as the \gls{pmt} output is actually quite sensitive to the angle of incidence of the input radiation.
+
+As for the detection efficiency of the two devies, an \gls{emccd} is basically an \emph{array} of \glspl{pmt} -- thus, there is no fundamental difference in the detection efficiences of the two methods, although having never used an \gls{emccd} I cannot speak to any specific considerations that might favor one over the other.
+
+\section{Time-resolved SHG: methodology}
+
+\subsubsection{Polarization control}
+
+The main limitation for doing \gls{trshg} is simply that the experiment becomes longer.
+Each measurement of $\chi_{ijk}$ requires averaging four different polarization channels (\PP, \PS, \SP, and \SS), which, depending on the signal to noise ratio, can take as long as $2-3$ minutes each.
+In a time-resolved experiment, that procedure must be repeated at least once for each time delay; in fact, it us often useful to sweep the delay stage multiple times to reduce the extent to which systematic drifts in in the laser power, alignment, etc. affect the time trace.
+Not only is this time-consuming (typically taking $\sim 12$ \si{hours} to get a good dataset), but it also requires four rotations of the polarizers at each delay, which is simply not feasible if the polarizers are to be rotated manually.
+Unfortunately, automated polarizer rotation is difficult in the \gls{rashg} experimental geometry because the polarizers must be rotated relative to a lens tube which is \emph{itself} rotating at $5$ \si{Hz}.
+The traditional method of rotating polarizers via stepper motor is thus not possible, unless one finds a method to transmit power between the stationary laboratory frame and the rotating frame that the polarizer lives in.
+Myself and Karna Morey designed such a method using an electronic device known as a hollow-bore electric slip ring, which uses ring-shaped conductive pads in combination with low-friction metallic brushes to conduct electricity between two rotating objects.
+In my opinion, such a design is essential to doing \gls{trshg} unless one is satisfied with only measuring a single polarization channel; thus, I have dedicated the entirety of \cref{ch:polrotators} to our solution, which in my opinion represents the largest contribution we made to \gls{shg} methodology during this thesis.
+
+\subsubsection{The pump beam path}
+
+Having discussed the modifications needed for \gls{trshg} on the probe arm, let us now describe the pump beam path.
+$100$ \si{fs} pulses from the regenerative amplifier (Spectra-Physics Spitfire Sptf-100f-5k-xp) are split by $90:10$ beamsplitter (with the $10\%$ becoming the probe beam, see \cref{sec:setupdescription}) and are used as input to an \gls{opa} (Light conversion ??) which produces light of variable wavelength between $1100$ and $2080$ \si{nm}.
+The output of the \gls{opa} is directed through a wire-grid polarizer (to pick out the signal or idler, as needed) to an optical delay line (Newport DL125 with SMC100 motion controller) and a second polarizer to vary the beam power.
+The beam then passes through a \gls{nir} longpass filter to remove unwanted visible wavelengths that are output by the \gls{opa}.
+A $400$ \si{nm} lens focuses the beam past two mirrors (one mounted with epoxy onto the focusing lens L3 of \cref{fig:setup}\footnote{Remember that the probe beam is arriving at oblique incidence and thus passes through the edge, rather than the center, of L3.}) and finally onto the sample.
+The diameter of the pump beam at the focus is set by moving the lens position along the beampath and monitoring the beam shape with a CCD camera.
+The pointing of the beam is aligned so that the light reflected off the sample is perfectly backscattered.
+Pump scatter is avoided by mounting a small black circular disk in the center of L3, and by subtracting ``dark'' scans without the probe beam from the final dataset.
+
+An chopper wheel is placed somewhere in the pump beam path which blocks every other pulse from the \gls{opa}, so that the effective repetition rate of the pump pulsetrain is $2.5$ \si{kHz}.
+The output of the \gls{pmt} (see \cref{fig:setup}) is sent to a lock-in amplifier synced to this frequency, so that the output of the lock-in is proportional to
+\begin{equation}
+I^\mathrm{SHG}_{\mathrm{Pump}+\mathrm{Probe}} - I^\mathrm{SHG}_\mathrm{Probe}
+\end{equation}
+i.e. the output of the lock-in is the pump-induced change in the measured \gls{shg} intensity.
+
+Finally, the pump-probe time delay is varied, and for each delay the rotational anisotropy in the lock-in signal is measured in each of the four polarization channels.
+Alternatively, the motor rotation may be parked at a fixed angle and the \gls{shg} intensity at this angle measured as a function of delay time.
+
+\subsection{Detection frequency}
+
+\subsection{Location of pump mirror}
+
+\subsection{Normal incidence of the pump beam}
+
+\subsection{Pump scatter}

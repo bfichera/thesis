@@ -19,6 +19,14 @@
 }
 \usepackage{cleveref}
 
+\newcommand*\nestedglsentry[1]{%
+  \protect\ifglsused{#1}{%
+    \glsentryshort{#1}%
+  }{% 
+    \glsentrylong{#1}%
+  }%  
+}
+
 
 \bibstyle{plainnat_noclutter}
 \bibliographystyle{plainnat_noclutter}
@@ -42,17 +50,24 @@
 % \newcommand{\onlinecref}[1]{Ref.~\citenum{#1}\xspace}
 
 
-\newabbreviation{afm}{AFM}{antiferromagnetic}
-\newabbreviation{cdw}{CDW}{charge density wave}
 \newabbreviation{shg}{SHG}{second harmonic generation}
-\newabbreviation{trshg}{tr-SHG}{time resolved second harmonic generation}
+\newabbreviation{afm}{AFM}{antiferromagnetic}
+\newabbreviation{rashg}{RA-SHG}{rotational anisotropy \nestedglsentry{shg}}
+\newabbreviation{trshg}{tr-SHG}{time-resolved \nestedglsentry{shg}}
+\newabbreviation{cdw}{CDW}{charge density wave}
 \newabbreviation{opa}{OPA}{optical parametric amplifier}
 \newabbreviation{pmt}{PMT}{photomultiplier tube}
 \newabbreviation{na}{NA}{numerical aperture}
+\newabbreviation{emccd}{EM-CCD}{electron multiplying charge coupled device}
+\newabbreviation{nir}{near-infrared}{NIR}
 
 \newcommand{\suchthat}{\mathrm{s.t.}}
 \newcommand{\tastwo}{$1$\textit{T}-\ce{TaS2}}
 \newcommand{\op}{\mathscr{O}}
+\newcommand{\PP}{$P_\mathrm{in}P_\mathrm{out}$\xspace}
+\newcommand{\PS}{$P_\mathrm{in}S_\mathrm{out}$\xspace}
+\newcommand{\SP}{$S_\mathrm{in}P_\mathrm{out}$\xspace}
+\renewcommand{\SS}{$S_\mathrm{in}S_\mathrm{out}$\xspace}
 
 \newtheorem{theorem}{Theorem}[section]
 

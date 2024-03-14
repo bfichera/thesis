@@ -3,10 +3,11 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: fichera-bfichera-phd-physics-2024-source.aux
 The style file: plainnat_noclutter.bst
 Database file #1: fichera-bfichera-phd-physics-2024-source.bib
+Warning--I didn't find a database entry for "harter_high-speed_2015"
 Warning--empty journal in morey_automated_2024
 You've used 17 entries,
             2762 wiz_defined-function locations,
-            720 strings with 9534 characters,
+            721 strings with 9556 characters,
 and the built_in function-call counts, 10125 in all, are:
 = -- 788
 > -- 925
@@ -45,4 +46,4 @@ warning$ -- 1
 while$ -- 63
 width$ -- 0
 write$ -- 238
-(There was 1 warning)
+(There were 2 warnings)
