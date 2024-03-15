@@ -3,47 +3,46 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: fichera-bfichera-phd-physics-2024-source.aux
 The style file: plainnat_noclutter.bst
 Database file #1: fichera-bfichera-phd-physics-2024-source.bib
-Warning--I didn't find a database entry for "harter_high-speed_2015"
 Warning--empty journal in morey_automated_2024
-You've used 17 entries,
+You've used 21 entries,
             2762 wiz_defined-function locations,
-            721 strings with 9556 characters,
-and the built_in function-call counts, 10125 in all, are:
-= -- 788
-> -- 925
-< -- 10
-+ -- 314
-- -- 297
-* -- 944
-:= -- 1668
-add.period$ -- 59
-call.type$ -- 17
-change.case$ -- 146
-chr.to.int$ -- 17
-cite$ -- 35
-duplicate$ -- 338
-empty$ -- 618
-format.name$ -- 316
-if$ -- 2008
+            759 strings with 11300 characters,
+and the built_in function-call counts, 13834 in all, are:
+= -- 1079
+> -- 1342
+< -- 11
++ -- 453
+- -- 432
+* -- 1338
+:= -- 2283
+add.period$ -- 75
+call.type$ -- 21
+change.case$ -- 203
+chr.to.int$ -- 21
+cite$ -- 43
+duplicate$ -- 421
+empty$ -- 779
+format.name$ -- 457
+if$ -- 2729
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 20
-newline$ -- 101
-num.names$ -- 69
-pop$ -- 309
+missing$ -- 24
+newline$ -- 125
+num.names$ -- 85
+pop$ -- 411
 preamble$ -- 1
-purify$ -- 133
+purify$ -- 186
 quote$ -- 0
-skip$ -- 291
+skip$ -- 383
 stack$ -- 0
-substring$ -- 215
-swap$ -- 25
+substring$ -- 316
+swap$ -- 32
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 157
+type$ -- 201
 warning$ -- 1
-while$ -- 63
+while$ -- 82
 width$ -- 0
-write$ -- 238
-(There were 2 warnings)
+write$ -- 298
+(There was 1 warning)

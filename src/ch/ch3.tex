@@ -22,7 +22,7 @@ The interaction between the light and the sample causes \gls{shg} to be radiated
 
 \begin{figure}
 \includegraphics[width=\textwidth]{gfx/ch3/pdf/setup.pdf}
-\caption{\label{fig:setup}Schematic drawing of the \gls{shg} setup used in this research. After \citet{morey_automated_2024}.}
+\caption[Schematic drawing of the SHG setup used in this research.]{\label{fig:setup}Schematic drawing of the \gls{shg} setup used in this research. After \citet{morey_automated_2024}.}
 \end{figure}
 
 Finally, the polarized output reflects off of two dichroic mirrors (oriented in such a way as to cancel the differing effect of the Fresnel equations on the reflectivity of S and P polarized light) and is focused through a $400$ \si{nm} bandpass filter onto a \gls{pmt} by a $400$ \si{mm} lens.
@@ -102,7 +102,7 @@ One must also be careful that the \gls{pmt} is aligned as close to normal as pos
 
 As for the detection efficiency of the two devies, an \gls{emccd} is basically an \emph{array} of \glspl{pmt} -- thus, there is no fundamental difference in the detection efficiences of the two methods, although having never used an \gls{emccd} I cannot speak to any specific considerations that might favor one over the other.
 
-\section{Time-resolved SHG: methodology}
+\section{tr-SHG: methodology}
 
 \subsubsection{Polarization control}
 
@@ -118,7 +118,7 @@ In my opinion, such a design is essential to doing \gls{trshg} unless one is sat
 \subsubsection{The pump beam path}
 
 Having discussed the modifications needed for \gls{trshg} on the probe arm, let us now describe the pump beam path.
-$100$ \si{fs} pulses from the regenerative amplifier (Spectra-Physics Spitfire Sptf-100f-5k-xp) are split by $90:10$ beamsplitter (with the $10\%$ becoming the probe beam, see \cref{sec:setupdescription}) and are used as input to an \gls{opa} (Light conversion ??) which produces light of variable wavelength between $1100$ and $2080$ \si{nm}.
+$100$ \si{fs} pulses from the regenerative amplifier (Spectra-Physics Spitfire Sptf-100f-5k-xp) are split by $90:10$ beamsplitter (with the $10\%$ becoming the probe beam, see \cref{sec:setupdescription}) and are used as input to an \gls{opa} (Light Conversion TP8F1N3) which produces light of variable wavelength between $1100$ and $2080$ \si{nm}.
 The output of the \gls{opa} is directed through a wire-grid polarizer (to pick out the signal or idler, as needed) to an optical delay line (Newport DL125 with SMC100 motion controller) and a second polarizer to vary the beam power.
 The beam then passes through a \gls{nir} longpass filter to remove unwanted visible wavelengths that are output by the \gls{opa}.
 A $400$ \si{nm} lens focuses the beam past two mirrors (one mounted with epoxy onto the focusing lens L3 of \cref{fig:setup}\footnote{Remember that the probe beam is arriving at oblique incidence and thus passes through the edge, rather than the center, of L3.}) and finally onto the sample.
@@ -126,20 +126,83 @@ The diameter of the pump beam at the focus is set by moving the lens position al
 The pointing of the beam is aligned so that the light reflected off the sample is perfectly backscattered.
 Pump scatter is avoided by mounting a small black circular disk in the center of L3, and by subtracting ``dark'' scans without the probe beam from the final dataset.
 
-An chopper wheel is placed somewhere in the pump beam path which blocks every other pulse from the \gls{opa}, so that the effective repetition rate of the pump pulsetrain is $2.5$ \si{kHz}.
+An optical chopper wheel is placed somewhere in the pump beam path which blocks every other pulse from the \gls{opa}, so that the effective repetition rate of the pump pulsetrain is $2.5$ \si{kHz}.
 The output of the \gls{pmt} (see \cref{fig:setup}) is sent to a lock-in amplifier synced to this frequency, so that the output of the lock-in is proportional to
 \begin{equation}
 I^\mathrm{SHG}_{\mathrm{Pump}+\mathrm{Probe}} - I^\mathrm{SHG}_\mathrm{Probe}
 \end{equation}
 i.e. the output of the lock-in is the pump-induced change in the measured \gls{shg} intensity.
 
-Finally, the pump-probe time delay is varied, and for each delay the rotational anisotropy in the lock-in signal is measured in each of the four polarization channels.
+Finally, the pump-probe time delay is varied, and for each delay the rotational anisotropy in the \gls{shg} intensity is measured in each of the four polarization channels.
 Alternatively, the motor rotation may be parked at a fixed angle and the \gls{shg} intensity at this angle measured as a function of delay time.
 
-\subsection{Detection frequency}
+\section{Data analysis}\label{sec:dataanalysis}
 
-\subsection{Location of pump mirror}
+Finally, we discuss the analysis of \gls{shg} data, first in the static limit and then in the context of \gls{trshg}.
 
-\subsection{Normal incidence of the pump beam}
+\subsection{Static RA-SHG patterns}
 
-\subsection{Pump scatter}
+The typical static \gls{rashg} dataset consists of a set of points $\{(\phi_n, I^p_n)\}$, $n \in \{0, 1, \cdots N-1\}$ and standard errors $\{\sigma_n\}$ for each of the four independent polarization channels
+\[
+p\in\{\mathPP, \mathPS, \mathSP, \mathSS\}.
+\]
+By \cref{eq:shgsimple}, each of these patterns may be modeled by an equation\footnote{I will focus on electric dipole \gls{shg} for now, although note that the equations for electric quadrupole and magnetic dipole \gls{shg} (\cref{eq:mshort,eq:qshort}) are different -- by \cref{eq:sourceterm}, both involve a factor of the incident wavevector $\bm{k}$, and the magnetic dipole term has a cross product.}
+\begin{equation}\label{eq:fundamentalmodel}
+I^p(\phi) \propto |\hat{e}_i^{p,\mathrm{out}}(\phi)\chi_{ijk}\hat{e}_j^{p,\mathrm{in}}(\phi)\hat{e}_k^{p,\mathrm{in}}(\phi)|^2,
+\end{equation}
+where $\hat{\bm{e}}$ is a unit vector in the direction of the corresponding electric field.
+These unit vectors are given as a function of $\phi$ and the angle of incidence $\theta$ in \cref{tab:polarizations}.
+
+\begin{landscape}
+\begin{table}
+\renewcommand{\arraystretch}{1.1}
+\caption[Vector definition of polarization channels.]{\label{tab:polarizations}Vector definition of polarization channels. $\theta$ is the angle of incidence and $\phi$ is the angle of the plane of incidence with respect to the $\hat{x}$ axis.}
+\begin{tabular}{|c c|c c c|c c c|}
+\hline
+\multirow{2}{*}{Input} & \multirow{2}{*}{Output} & \multicolumn{3}{|c|}{$\hat{\bm{e}}^\mathrm{in}(\phi)$} & \multicolumn{3}{|c|}{$\hat{\bm{e}}^\mathrm{out}(\phi)$}\\
+& & $\hat{e}^\mathrm{in}_x(\phi)$ & $\hat{e}^\mathrm{in}_y(\phi)$ & $\hat{e}^\mathrm{in}_z(\phi)$ & $\hat{e}^\mathrm{out}_x(\phi)$ & $\hat{e}^\mathrm{out}_y(\phi)$ & $\hat{e}^\mathrm{out}_z(\phi)$\\
+\hline
+P & P & $\cos\phi\cos\theta$ & $\sin\phi\cos\theta$ & $-\sin\theta$ & $-\cos\phi\cos\theta$ & $-\sin\phi\cos\theta$ & $-\sin\theta$\\
+P & S & $\cos\phi\cos\theta$ & $\sin\phi\cos\theta$ & $-\sin\theta$ & $-\sin\phi$ & $\cos\phi$ & $0$\\
+S & P & $-\sin\phi$ & $\cos\phi$ & $0$ & $-\cos\phi\cos\theta$ & $-\sin\phi\cos\theta$ & $-\sin\theta$\\
+S & S & $-\sin\phi$ & $\cos\phi$ & $0$ & $-\sin\phi$ & $\cos\phi$ & $0$\\
+\hline
+\end{tabular}
+\end{table}
+\end{landscape}
+
+Let us assume that we know the point group $P_G$ of our material.
+Then, the first step is to constrain the values of $\chi_{ijk}$ using the arguments of \cref{sec:neumann}.
+One can do this manually by solving the system of equations defined by \cref{eq:nmindex}, or one can simply look up the answer in one of a number of tables (e.g. \citet{boyd})\footnote{Be aware that these tensors are given in just one of many choices of coordinates; a rotation of $\chi_{ijk}$ may be needed to agree with the orientation of the crystal in the experiment.}; in the end we are left with a tensor $\chi_{ijk}^{P_G}$ with $M$ independent elements $\{\chi_i, i\in 0, 1, \cdots, M-1\}$.
+
+The goal is to simultaneously fit the four patterns $\{(\phi_n, I^p_n\}$ to \cref{eq:fundamentalmodel} using the $\chi_i$'s.
+Our objective function is thus
+\begin{equation}
+f(\{\chi_i\}) = \sum_{\substack{p\in \{\mathPP, \mathPS,\\ \mathSP, \mathSS\}}}\sum_{n=0}^{N-1}\left(\frac{I^p(\phi_n) - I^p_i}{\sigma_n}\right)^2
+\end{equation}
+with $I^p(\phi)$ defined in \cref{eq:fundamentalmodel}.
+Unfortunately, such a function is quite difficult to minimize.
+The reason is that $I^p(\phi)$ is ultimately a sum of products of trigonometric functions of $\phi$ (due to \cref{tab:polarizations}) which can be difficult for typical minimization algorithms.
+An alternative is to cast the problem in terms of the \glspl{ft}
+\begin{equation}
+\ft{I}^p(k) \equiv \frac{1}{2\pi}\int_0^{2\pi}I^p(\phi)e^{-i k\phi} \, d\phi
+\end{equation}
+of $I^p(\phi)$ and the \glspl{dft}
+\begin{equation}
+\{(k, \ft{I}^p_k)\},
+\end{equation}
+of $\{(\phi_n, I^p_n)\}$, where\footnote{I am assuming the $\phi_n$'s are equally spaced.}
+\begin{equation}
+\ft{I}^p_k \equiv \frac{1}{N}\sum_{n=0}^{N-1}I^p_n e^{-ik\phi_n}.
+\end{equation}
+Since the \gls{dft} is unitary, the uncertainties $\ft{\sigma}_k$ are simply the \gls{dft} of the $\sigma_n$'s.
+Thus, our new objective function is
+\begin{equation}\label{eq:objectivefunction}
+f(\{\chi_i\}) = \sum_{\substack{p\in \{\mathPP, \mathPS,\\ \mathSP, \mathSS\}}}\sum_{k=0}^{N-1}\left(\frac{\ft{I}^p(k) - \ft{I}^p_k}{\ft{\sigma}_k}\right)^2.
+\end{equation}
+This is a much easier function to minimize for two reasons: one, the function is now just a quadratic function of the $\{\chi_i\}$'s, and two, since there are only six factors of trigonometric functions of $\phi$ in $I^p(\phi)$, $\ft{I}^p(k) = 0$ for $k \notin \{-6, -5, \cdots, 6\}$\footnote{This is the case for electric dipole \gls{shg}; for electric quadrupole and magnetic dipole, we can have as much as $k = \pm 8$.}.
+
+What is left then is just the choice of minimization algorithm.
+Unfortunately, simple gradient descent algorithms are not ideal here unless you have a really good initial guess, since I have found that while \cref{eq:objectivefunction} does typically have a single global minimum, there are often a large number of local minima nearby which can cause these algorithms to become trapped.
+Global minimization routines are thus optimal; I have used the simulated annealing algorithm of \citet{xiang_generalized_1997} with success, as well as the related ``basinhopping'' algorithm of \citet{wales_global_1997}, both of which are implemented in \texttt{scipy.optimize}\citep{scipy}.
+Ultimately, though, it is up to the experimenter to ensure they have found the true global minimum of \cref{eq:objectivefunction}.

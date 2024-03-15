@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{21}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -56,6 +56,14 @@ M.~Fiebig, D.~Fröhlich, Th. Lottermoser, V.~V. Pavlov, R.~V. Pisarev, and H.-J
 \newblock \emph{Phys. Rev. Lett.}, 87\penalty0 (13):\penalty0 137202, September
   2001.
 \newblock \doi{10.1103/PhysRevLett.87.137202}.
+
+\bibitem[Harter et~al.(2015)Harter, Niu, Woss, and
+  Hsieh]{harter_high-speed_2015}
+J.~W. Harter, L.~Niu, A.~J. Woss, and D.~Hsieh.
+\newblock High-speed measurement of rotational anisotropy nonlinear optical
+  harmonic generation using position-sensitive detection.
+\newblock \emph{Opt. Lett.}, 40\penalty0 (20):\penalty0 4671, October 2015.
+\newblock \doi{10.1364/OL.40.004671}.
 
 \bibitem[Jackson(1999)]{jackson}
 John~David Jackson.
@@ -130,6 +138,33 @@ Darius~H. Torchinsky, Hao Chu, Tongfei Qi, Gang Cao, and David Hsieh.
   083102, August 2014.
 \newblock \doi{10.1063/1.4891417}.
 
+\bibitem[Virtanen et~al.(2020)Virtanen, Gommers, Oliphant, Haberland, Reddy,
+  Cournapeau, Burovski, Peterson, Weckesser, Bright, {van der Walt}, Brett,
+  Wilson, Millman, Mayorov, Nelson, Jones, Kern, Larson, Carey, Polat, Feng,
+  Moore, {VanderPlas}, Laxalde, Perktold, Cimrman, Henriksen, Quintero, Harris,
+  Archibald, Ribeiro, Pedregosa, {van Mulbregt}, and {SciPy 1.0
+  Contributors}]{scipy}
+Pauli Virtanen, Ralf Gommers, Travis~E. Oliphant, Matt Haberland, Tyler Reddy,
+  David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan
+  Bright, St{\'e}fan~J. {van der Walt}, Matthew Brett, Joshua Wilson, K.~Jarrod
+  Millman, Nikolay Mayorov, Andrew R.~J. Nelson, Eric Jones, Robert Kern, Eric
+  Larson, C~J Carey, {\.I}lhan Polat, Yu~Feng, Eric~W. Moore, Jake
+  {VanderPlas}, Denis Laxalde, Josef Perktold, Robert Cimrman, Ian Henriksen,
+  E.~A. Quintero, Charles~R. Harris, Anne~M. Archibald, Ant{\^o}nio~H. Ribeiro,
+  Fabian Pedregosa, Paul {van Mulbregt}, and {SciPy 1.0 Contributors}.
+\newblock {{SciPy} 1.0: Fundamental Algorithms for Scientific Computing in
+  Python}.
+\newblock \emph{Nature Methods}, 17:\penalty0 261--272, 2020.
+\newblock \doi{10.1038/s41592-019-0686-2}.
+
+\bibitem[Wales and Doye(1997)]{wales_global_1997}
+David~J. Wales and Jonathan P.~K. Doye.
+\newblock Global {Optimization} by {Basin}-{Hopping} and the {Lowest} {Energy}
+  {Structures} of {Lennard}-{Jones} {Clusters} {Containing} up to 110 {Atoms}.
+\newblock \emph{J. Phys. Chem. A}, 101\penalty0 (28):\penalty0 5111--5116, July
+  1997.
+\newblock \doi{10.1021/jp970984n}.
+
 \bibitem[Wu et~al.(2017)Wu, Patankar, Morimoto, Nair, Thewalt, Little,
   Analytis, Moore, and Orenstein]{wu_giant_2017}
 Liang Wu, S.~Patankar, T.~Morimoto, N.~L. Nair, E.~Thewalt, A.~Little, J.~G.
@@ -138,5 +173,13 @@ Liang Wu, S.~Patankar, T.~Morimoto, N.~L. Nair, E.~Thewalt, A.~Little, J.~G.
   monopnictide {Weyl} semimetals.
 \newblock \emph{Nature Phys}, 13\penalty0 (4):\penalty0 350--355, April 2017.
 \newblock \doi{10.1038/nphys3969}.
+
+\bibitem[Xiang et~al.(1997)Xiang, Sun, Fan, and Gong]{xiang_generalized_1997}
+Y~Xiang, D.Y Sun, W~Fan, and X.G Gong.
+\newblock Generalized simulated annealing algorithm and its application to the
+  {Thomson} model.
+\newblock \emph{Physics Letters A}, 233\penalty0 (3):\penalty0 216--220, August
+  1997.
+\newblock \doi{10.1016/S0375-9601(97)00474-X}.
 
 \end{thebibliography}

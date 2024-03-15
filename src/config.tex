@@ -1,5 +1,8 @@
 \usepackage{tabularx}
+\usepackage{multirow}
 \usepackage{palatino}
+\usepackage{pdflscape}
+\usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[numbers,sort&compress]{natbib}
 \usepackage{blindtext}
@@ -35,6 +38,9 @@
 \newlength{\linespace} \setlength{\linespace}{\baselineskip}
 \newlength{\topfiddle} \setlength{\topfiddle}{2\linespace}
 
+\setsecnumdepth{subsection}
+\settocdepth{subsection}
+
 
 \newcommand{\defendmonth}{May\xspace}
 \newcommand{\defendday}{?\xspace}
@@ -60,6 +66,8 @@
 \newabbreviation{na}{NA}{numerical aperture}
 \newabbreviation{emccd}{EM-CCD}{electron multiplying charge coupled device}
 \newabbreviation{nir}{near-infrared}{NIR}
+\newabbreviation{dft}{DFT}{discrete Fourier transform}
+\newabbreviation{ft}{FT}{Fourier transform}
 
 \newcommand{\suchthat}{\mathrm{s.t.}}
 \newcommand{\tastwo}{$1$\textit{T}-\ce{TaS2}}
@@ -68,6 +76,11 @@
 \newcommand{\PS}{$P_\mathrm{in}S_\mathrm{out}$\xspace}
 \newcommand{\SP}{$S_\mathrm{in}P_\mathrm{out}$\xspace}
 \renewcommand{\SS}{$S_\mathrm{in}S_\mathrm{out}$\xspace}
+\newcommand{\mathPP}{P_\mathrm{in}P_\mathrm{out}}
+\newcommand{\mathPS}{P_\mathrm{in}S_\mathrm{out}}
+\newcommand{\mathSP}{S_\mathrm{in}P_\mathrm{out}}
+\newcommand{\mathSS}{S_\mathrm{in}S_\mathrm{out}}
+\newcommand{\ft}{\hat}
 
 \newtheorem{theorem}{Theorem}[section]
 

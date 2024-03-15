@@ -129,7 +129,7 @@ Thus, in addition to the constraints given by Neumann's principle and \cref{eq:n
 \end{equation}
 This is known as \emph{particularization}\citep{birss}.
 
-\section{A classical understanding of \gls{shg}}\label{sec:manyshgterms}
+\section{A classical understanding of SHG}\label{sec:manyshgterms}
 
 In the last section we considered the \gls{shg} response function given by \cref{eq:shgsimple}.
 Where does this relationship come from, and how is $P(2\omega)$ eventually measured?
@@ -139,7 +139,7 @@ Our starting point in the classical treatment will be the inhomogenous electroma
 \end{equation}
 which we understand as defining the field $E_i(\bm{x}, t)$ radiated by the source term $S_i(\bm{x}, t)$, which is induced by the incident field.
 To lowest order in a multipole expansion, $S_i(\bm{x}, t)$ is given by\citep{jackson,kumar_magnetic_2017}
-\begin{equation}
+\begin{equation}\label{eq:sourceterm}
 \mu_0 \frac{\partial^2 P_i(\bm{x}, t)}{\partial t^2} + \mu_0\left(\epsilon_{ijk}\nabla_j \frac{\partial M_k(\bm{x}, t)}{\partial t}\right) -\mu_0\left(\nabla_j \frac{\partial^2 Q_{ij}(\bm{x}, t)}{\partial t^2}\right)
 \end{equation}
 where $P_i(\bm{x}, t)$, $M_i(\bm{x}, t)$, and $Q_{ij}(\bm{x}, t)$ are the induced electric dipole, magnetic dipole, and electric quadrupole densities, and $\epsilon_{ijk}$ is the Levi-Civita tensor.
@@ -188,7 +188,7 @@ I have repeatedly seen large electric quadrupole \gls{shg} show up in materials 
 The reason for this is ultimately due to resonance, a topic which I will discuss in \cref{sec:resonance}, but I mention it here because it is truly quite common in the literature and it is surely a mistake worth avoiding.
 You are ``allowed'' to say your material breaks inversion symmetry only if there is no other contribution in \crefrange{eq:pshort}{eq:qshort} which fits your data, and you are basically never allowed to say that your material preserves inversion symmetry when there is no \gls{shg} (a fact that should be obvious on a careful reading of \cref{thm:neumann}).
 
-\section{\Gls{shg} in quantum mechanics}\label{sec:resonance}
+\section{SHG in quantum mechanics}\label{sec:resonance}
 
 The description of \gls{shg} in the previous section is probably the most useful for understanding \gls{shg} from an ``optics'' perspective, but it gives little insight into the true microscopic origin of the \gls{shg} intensity.
 The quantum description, on the other hand, will tell you exactly where the \gls{shg} is coming from microscopically, but only if you have access to the eigenfunctions $\ket{\psi}$ of your hamiltonian -- it is of little use otherwise.
