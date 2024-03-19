@@ -140,9 +140,9 @@ Alternatively, the motor rotation may be parked at a fixed angle and the \gls{sh
 
 Finally, we discuss the analysis of \gls{shg} data, first in the static limit and then in the context of \gls{trshg}.
 
-\subsection{Static RA-SHG patterns}
+\subsection{Static RA-SHG patterns}\label{sec:staticanalysis}
 
-The typical static \gls{rashg} dataset consists of a set of points $\{(\phi_n, I^p_n)\}$, $n \in \{0, 1, \cdots N-1\}$ and standard errors $\{\sigma_n\}$ for each of the four independent polarization channels
+The typical static \gls{rashg} dataset consists of a set of points $\{(\phi_n, I^p_n)\}$, $n \in \{0, 1, \ldots N-1\}$ and standard errors $\{\sigma^p_n\}$ for each of the four independent polarization channels
 \[
 p\in\{\mathPP, \mathPS, \mathSP, \mathSS\}.
 \]
@@ -173,18 +173,18 @@ S & S & $-\sin\phi$ & $\cos\phi$ & $0$ & $-\sin\phi$ & $\cos\phi$ & $0$\\
 
 Let us assume that we know the point group $P_G$ of our material.
 Then, the first step is to constrain the values of $\chi_{ijk}$ using the arguments of \cref{sec:neumann}.
-One can do this manually by solving the system of equations defined by \cref{eq:nmindex}, or one can simply look up the answer in one of a number of tables (e.g. \citet{boyd})\footnote{Be aware that these tensors are given in just one of many choices of coordinates; a rotation of $\chi_{ijk}$ may be needed to agree with the orientation of the crystal in the experiment.}; in the end we are left with a tensor $\chi_{ijk}^{P_G}$ with $M$ independent elements $\{\chi_i, i\in 0, 1, \cdots, M-1\}$.
+One can do this manually by solving the system of equations defined by \cref{eq:nmindex}, or one can simply look up the answer in one of a number of tables (e.g. \citet{boyd})\footnote{Be aware that these tensors are given in just one of many choices of coordinates; a rotation of $\chi_{ijk}$ may be needed to agree with the orientation of the crystal in the experiment.}; in the end we are left with a tensor $\chi_{ijk}^{P_G}$ with $M$ independent elements $\{\chi_i, i\in 0, 1, \ldots, M-1\}$.
 
 The goal is to simultaneously fit the four patterns $\{(\phi_n, I^p_n\}$ to \cref{eq:fundamentalmodel} using the $\chi_i$'s.
 Our objective function is thus
 \begin{equation}
-f(\{\chi_i\}) = \sum_{\substack{p\in \{\mathPP, \mathPS,\\ \mathSP, \mathSS\}}}\sum_{n=0}^{N-1}\left(\frac{I^p(\phi_n) - I^p_i}{\sigma_n}\right)^2
+f(\{\chi_i\}) = \sum_{\substack{p\in \{\mathPP, \mathPS,\\ \mathSP, \mathSS\}}}\sum_{n=0}^{N-1}\left(\frac{I^p(\phi_n) - I^p_n}{\sigma^p_n}\right)^2
 \end{equation}
 with $I^p(\phi)$ defined in \cref{eq:fundamentalmodel}.
 Unfortunately, such a function is quite difficult to minimize.
 The reason is that $I^p(\phi)$ is ultimately a sum of products of trigonometric functions of $\phi$ (due to \cref{tab:polarizations}) which can be difficult for typical minimization algorithms.
 An alternative is to cast the problem in terms of the \glspl{ft}
-\begin{equation}
+\begin{equation}\label{eq:ftmodel}
 \ft{I}^p(k) \equiv \frac{1}{2\pi}\int_0^{2\pi}I^p(\phi)e^{-i k\phi} \, d\phi
 \end{equation}
 of $I^p(\phi)$ and the \glspl{dft}
@@ -195,14 +195,76 @@ of $\{(\phi_n, I^p_n)\}$, where\footnote{I am assuming the $\phi_n$'s are equall
 \begin{equation}
 \ft{I}^p_k \equiv \frac{1}{N}\sum_{n=0}^{N-1}I^p_n e^{-ik\phi_n}.
 \end{equation}
-Since the \gls{dft} is unitary, the uncertainties $\ft{\sigma}_k$ are simply the \gls{dft} of the $\sigma_n$'s.
+Since the \gls{dft} is unitary, the uncertainties $\ft{\sigma}^p_k$ are simply the \gls{dft} of the $\sigma^p_n$'s.
 Thus, our new objective function is
 \begin{equation}\label{eq:objectivefunction}
-f(\{\chi_i\}) = \sum_{\substack{p\in \{\mathPP, \mathPS,\\ \mathSP, \mathSS\}}}\sum_{k=0}^{N-1}\left(\frac{\ft{I}^p(k) - \ft{I}^p_k}{\ft{\sigma}_k}\right)^2.
+f(\{\chi_i\}) = \sum_{\substack{p\in \{\mathPP, \mathPS,\\ \mathSP, \mathSS\}}}\sum_{k=0}^{N-1}\left(\frac{\ft{I}^p(k) - \ft{I}^p_k}{\ft{\sigma}^p_k}\right)^2.
 \end{equation}
-This is a much easier function to minimize for two reasons: one, the function is now just a quadratic function of the $\{\chi_i\}$'s, and two, since there are only six factors of trigonometric functions of $\phi$ in $I^p(\phi)$, $\ft{I}^p(k) = 0$ for $k \notin \{-6, -5, \cdots, 6\}$\footnote{This is the case for electric dipole \gls{shg}; for electric quadrupole and magnetic dipole, we can have as much as $k = \pm 8$.}.
+This is a much easier function to minimize for two reasons: one, the function is now just a quadratic function of the $\{\chi_i\}$'s, and two, since there are only six factors of trigonometric functions of $\phi$ in $I^p(\phi)$, $\ft{I}^p(k) = 0$ for $k \notin \{-6, -5, \ldots, 6\}$\footnote{This is the case for electric dipole \gls{shg}; for electric quadrupole and magnetic dipole, we can have as much as $k = \pm 8$.} (the other terms in \cref{eq:objectivefunction} just contribute an overall constant to $f$).
 
 What is left then is just the choice of minimization algorithm.
-Unfortunately, simple gradient descent algorithms are not ideal here unless you have a really good initial guess, since I have found that while \cref{eq:objectivefunction} does typically have a single global minimum, there are often a large number of local minima nearby which can cause these algorithms to become trapped.
+Unfortunately, simple gradient descent algorithms are not ideal here unless you have a really good initial guess, since \cref{eq:ftmodel} is still quadratic in the fitting parameters and the global minimum is often surrounded by many local minima which can easily cause these algorithms to become trapped.
 Global minimization routines are thus optimal; I have used the simulated annealing algorithm of \citet{xiang_generalized_1997} with success, as well as the related ``basinhopping'' algorithm of \citet{wales_global_1997}, both of which are implemented in \texttt{scipy.optimize}\citep{scipy}.
 Ultimately, though, it is up to the experimenter to ensure they have found the true global minimum of \cref{eq:objectivefunction}.
+
+As part of this thesis, I wrote a software package in Python called ShgPy which uses \texttt{sympy}\citep{sympy} to compute the \gls{ft} model \cref{eq:ftmodel} and \texttt{scipy.optimize}\citep{scipy} to fit this model to the data via \cref{eq:objectivefunction}.
+Installation instructions and a comprehensive documentation may be found at the project home page \url{https://bfichera.github.io/shgpy/}.
+
+\subsection{Modeling $\chi_{ijk}$: the simplified bond hyperpolarizability model}
+
+Sometimes the symmetry-constrained $\chi_{ijk}$ of \cref{sec:staticanalysis} is difficult to analyze (perhaps it has too many fitting parameters), in which case it might be prudent try and justify an even more tightly constrained $\chi_{ijk}$ via some a microscopic model.
+We have already seen two such models via \cref{eq:bigshg,eq:sashg}, but the former is typically not tractable and the latter may only be valid in the presence of a spontaneous symmetry-breaking phase transition with a well-defined order parameter.
+One alternative is to model the microscopic charge degrees of freedom classically -- suppose most of the motion of charges in our solid occurs in the bonds between atoms, and that that motion is constrained to occur along the bond direction only.
+Then, the solid can be modeled as an ensemble of oscillating dipoles (one for each bond in the unit cell) with corresponding hyperpolarizabilities $\{\alpha_n\}$.
+Symmetry may dictate how many independent $\alpha_n$'s there are in the unit cell, but otherwise these are considered unknown and to be fit to the data.
+The electric dipole \gls{shg} response of such an ensemble was analyzed by \citet{powell_simplified_2002}, and the electric quadrupole response was later considered by \citet{bauer_bulk_2017}; the answer in both cases is quite simple:
+\begin{align}
+\chi^{eee}_{ijk} &= \sum_n \alpha_n b^n_i b^n_j b^n_k\label{eq:esbhm}\\
+\chi^{qee}_{ijkl} &= \sum_n \gamma_n b^n_i b^n_j b^n_k b^n_l\label{eq:qsbhm}
+\end{align}
+where $\bm{b}^n$ is a unit vector in the direction of bond $n$ and the $\alpha_n$'s and $\gamma_n$'s are the unknown parameters of the dipole and quadrupole models, respectively.
+
+When valid, this \gls{sbhm} is powerful for two reasons: for one, \cref{eq:esbhm,eq:qsbhm} typically have fewer unknown parameters than the naive, symmetry-constrained tensor $\chi_{ijk}^{P_G}$ of \cref{sec:staticanalysis}, and two, there is a direct connection between the unknown parameters $\alpha_n$ and $\gamma_n$ and the microscopic degrees of freedom.
+One can thus draw conclusions \emph{about} the microscopic degrees of freedom by fitting the \gls{shg} patterns to \cref{eq:esbhm,eq:qsbhm} (see, e.g., \citet{ron_dimensional_2019}).
+Of course, one must be careful that the assumptions of this model -- that the charges are localized to the bonds, and that the only relevant motion is along the bond direction -- are actually correct before proceeding with this sort of analysis.
+
+Myself and Karna Morey built a comprehensive interface to the \gls{sbhm} in Python using \texttt{pymatgen}\citep{ong_python_2013}, which takes an arbitrary \gls{cif} file and calculates the relevant susceptibility tensors via \cref{eq:esbhm,eq:qsbhm}.
+The change to the susceptibility tensor induced by an elastic distortion mode ($\chi_{ijk}(q)$, where $q$ is the mode amplitude) can be computed via integration with \texttt{ISODISTORT}\citep{isodistort, campbell_isodisplace_2006}.
+See the package documentation (\url{https://github.com/morey18k/sbhm.git}) for examples and further information.
+
+\subsection{Fitting time traces in tr-SHG}
+
+As the final section of this chapter, let me remark on a few aspects of fitting time-domain signals that are not necessarily specific to \gls{shg}, but are nevertheless essential for \gls{trshg} analysis.
+
+Typically, in \gls{trshg} we plot the pump-induced change in the \gls{shg} intensity at a single angle $\phi_0$ as a function of the delay time $t$; more complicated analysis of the tensor elements themselves is possible but often unnecessary.
+This intensity change $\Delta I_{2\omega}(t, \phi_0)$ is related to $P(2\omega)$ via
+\begin{align}
+\Delta I_{2\omega}(t, \phi_0) &= I_{2\omega}^{\mathrm{Pump}+\mathrm{Probe}}(t, \phi_0)-I_{2\omega}^\mathrm{probe}(0, \phi_0)\\
+&\propto |P_{2\omega}(0, \phi_0)+\delta P_{2\omega}(t, \phi_0)|^2 - |P_{2\omega}(0, \phi_0)|^2\\
+&\propto 2P_{2\omega}(0, \phi_0)\delta P_{2\omega}(t, \phi_0) + |\delta P_{2\omega}(t, \phi_0)|^2
+\end{align}
+where we have used that the signal is presumably independent of time if there is no pump pulse.
+When $|\delta P_{2\omega}(t, \phi_0)| \ll |P_{2\omega}(0, \phi_0)|$, this reduces to
+\begin{equation}
+\Delta I_{2\omega}(t, \phi_0) \propto P_{2\omega}(0, \phi_0)\delta P_{2\omega}(t, \phi_0).
+\end{equation}
+
+The basic problem is then that we have a dataset $\{t_n, I_n\}, n\in \{0, 1, \ldots, N-1\}$ with uncertainties $\sigma_n$ which we wish to fit to some model, typically consisting of some (e.g. polynomial) background $b(t, \{b_k\}), k\in\{0, 1, \ldots, K-1\}$ plus $1$ to $M$ damped harmonic oscillators
+\begin{equation}
+I(t, \{\ldots\}) = \begin{cases}
+0 & t<0\\
+b(t, \{b_k\})+\sum_{m=1}^M A_m e^{-t/\tau_m} \cos (2\pi f_m t + \psi_m) & t>0
+\end{cases},
+\end{equation}
+where $\{\ldots\}$ refers to the unknown parameters $\{b_k\}$, $\{A_m\}$, $\{\tau_m\}$, $\{f_m\}$, and $\{\psi_m\}$.
+We wish to determine the model coefficients $\{\ldots\}$ by minimizing the objective function
+\begin{equation}\label{eq:trobjectivefunction}
+f(\{\ldots\}) = \sum_{n=0}^{N-1}\left(\frac{I(t_n, \{\ldots\})-I_n}{\sigma_n}\right)^2.
+\end{equation}
+
+Various algorithms exist to find the minimum $\{...\}_0$ of $f$; the \gls{lm} algorithm \citep{levenberg_method_1944,marquardt_algorithm_1963} is known to have trouble with exponential functions, so it is recommended to do a Nelder-Mead search \citep{nelder_simplex_1965} first and then use \gls{lm} to refine the solution.
+These methods also report the uncertainties $\{\sigma_i\}$ on each fitting parameter, basically by computing the curvature of the function $f$ near $\{\ldots\}$ (which depends, among other things, on the data uncertainty $\{\sigma_n\}$).
+Importantly, however, these uncertainties are only valid when $f$ is a linear function of the model parameters near the minimum!\footnote{Here, ``near'' means ``in a neighborhood of size $\sigma_i$.}
+This is a point which is completely overlooked in the ultrafast condensed matter literature, even though there is really no reason that \cref{eq:trobjectivefunction} should satisfy this criterion for typical uncertainty levels in pump-probe experiments.
+
+What to do in this case is a complicated question.

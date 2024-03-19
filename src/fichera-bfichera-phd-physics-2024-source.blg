@@ -3,46 +3,55 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: fichera-bfichera-phd-physics-2024-source.aux
 The style file: plainnat_noclutter.bst
 Database file #1: fichera-bfichera-phd-physics-2024-source.bib
+Warning--entry type for "isodistort" isn't style-file defined
+--line 81 of file fichera-bfichera-phd-physics-2024-source.bib
+Name 2 in "H. T. Stokes and D. M. Hatch, and B. J. Campbell" has a comma at the end for entry isodistort
+while executing---line 1347 of file plainnat_noclutter.bst
 Warning--empty journal in morey_automated_2024
-You've used 21 entries,
+Name 2 in "H. T. Stokes and D. M. Hatch, and B. J. Campbell" has a comma at the end for entry isodistort
+while executing---line 1429 of file plainnat_noclutter.bst
+Name 2 in "H. T. Stokes and D. M. Hatch, and B. J. Campbell" has a comma at the end for entry isodistort
+while executing---line 1429 of file plainnat_noclutter.bst
+Warning--empty year in isodistort
+You've used 31 entries,
             2762 wiz_defined-function locations,
-            759 strings with 11300 characters,
-and the built_in function-call counts, 13834 in all, are:
-= -- 1079
-> -- 1342
-< -- 11
-+ -- 453
-- -- 432
-* -- 1338
-:= -- 2283
-add.period$ -- 75
-call.type$ -- 21
-change.case$ -- 203
-chr.to.int$ -- 21
-cite$ -- 43
-duplicate$ -- 421
-empty$ -- 779
-format.name$ -- 457
-if$ -- 2729
+            849 strings with 14451 characters,
+and the built_in function-call counts, 20092 in all, are:
+= -- 1601
+> -- 1890
+< -- 15
++ -- 637
+- -- 606
+* -- 1953
+:= -- 3294
+add.period$ -- 113
+call.type$ -- 31
+change.case$ -- 291
+chr.to.int$ -- 31
+cite$ -- 64
+duplicate$ -- 621
+empty$ -- 1158
+format.name$ -- 645
+if$ -- 3978
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 24
-newline$ -- 125
-num.names$ -- 85
-pop$ -- 411
+missing$ -- 33
+newline$ -- 183
+num.names$ -- 125
+pop$ -- 568
 preamble$ -- 1
-purify$ -- 186
+purify$ -- 264
 quote$ -- 0
-skip$ -- 383
+skip$ -- 558
 stack$ -- 0
-substring$ -- 316
-swap$ -- 32
+substring$ -- 500
+swap$ -- 50
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 201
-warning$ -- 1
-while$ -- 82
+type$ -- 311
+warning$ -- 2
+while$ -- 125
 width$ -- 0
-write$ -- 298
-(There was 1 warning)
+write$ -- 442
+(There were 3 error messages)

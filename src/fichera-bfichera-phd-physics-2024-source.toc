@@ -19,9 +19,11 @@
 \contentsline {subsubsection}{The pump beam path}{35}{section*.5}%
 \contentsline {section}{\numberline {3.4}Data analysis}{36}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Static RA-SHG patterns}{36}{subsection.3.4.1}%
-\contentsline {chapter}{\chapternumberline {4}Automated Polarization Rotation for Multi-Axis Rotational-Anisotropy Second Harmonic Generation Experiments}{41}{chapter.4}%
-\contentsline {chapter}{\chapternumberline {5}Second harmonic generation as a probe of broken mirror symmetry in 1\textit {T}-\ce {TaS2}}{43}{chapter.5}%
-\contentsline {chapter}{\chapternumberline {6}Light-induced reorientation transition in the antiferromagnetic semiconductor \ce {CaMn2Bi2}}{45}{chapter.6}%
-\contentsline {chapter}{\chapternumberline {7}Amplitude-mode electromagnon in the XXZ chain \ce {CuBr2}}{47}{chapter.7}%
-\contentsline {chapter}{\chapternumberline {8}Concluding remarks}{49}{chapter.8}%
-\contentsline {chapter}{Bibliography}{53}{chapter*.6}%
+\contentsline {subsection}{\numberline {3.4.2}Modeling $\chi _{ijk}$: the simplified bond hyperpolarizability model}{39}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Fitting time traces in tr-SHG}{41}{subsection.3.4.3}%
+\contentsline {chapter}{\chapternumberline {4}Automated Polarization Rotation for Multi-Axis Rotational-Anisotropy Second Harmonic Generation Experiments}{43}{chapter.4}%
+\contentsline {chapter}{\chapternumberline {5}Second harmonic generation as a probe of broken mirror symmetry in 1\textit {T}-\ce {TaS2}}{45}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {6}Light-induced reorientation transition in the antiferromagnetic semiconductor \ce {CaMn2Bi2}}{47}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {7}Amplitude-mode electromagnon in the XXZ chain \ce {CuBr2}}{49}{chapter.7}%
+\contentsline {chapter}{\chapternumberline {8}Concluding remarks}{51}{chapter.8}%
+\contentsline {chapter}{Bibliography}{55}{chapter*.6}%

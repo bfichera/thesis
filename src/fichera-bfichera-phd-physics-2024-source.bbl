@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{31}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -25,6 +25,13 @@ A.~Alexandradinata, N.~P. Armitage, Andrey Baydin, Wenli Bi, Yue Cao, Hitesh~J.
 \newblock The {Future} of the {Correlated} {Electron} {Problem}, July 2022.
 \newblock arXiv:2010.00584 [cond-mat].
 
+\bibitem[Bauer and Hingerl(2017)]{bauer_bulk_2017}
+Klaus-Dieter Bauer and Kurt Hingerl.
+\newblock Bulk quadrupole contribution to second harmonic generation from
+  classical oscillator model in silicon.
+\newblock \emph{Opt. Express}, 25\penalty0 (22):\penalty0 26567, October 2017.
+\newblock \doi{10.1364/OE.25.026567}.
+
 \bibitem[Birss(1964)]{birss}
 Robert~R. Birss.
 \newblock \emph{Symmetry and Magnetism}.
@@ -34,6 +41,15 @@ Robert~R. Birss.
 Robert Boyd.
 \newblock \emph{Nonlinear Optics}.
 \newblock Academic Press, third edition, mar 2008.
+
+\bibitem[Campbell et~al.(2006)Campbell, Stokes, Tanner, and
+  Hatch]{campbell_isodisplace_2006}
+Branton~J. Campbell, Harold~T. Stokes, David~E. Tanner, and Dorian~M. Hatch.
+\newblock \textit{{ISODISPLACE}} : a web-based tool for exploring structural
+  distortions.
+\newblock \emph{J Appl Crystallogr}, 39\penalty0 (4):\penalty0 607--614, August
+  2006.
+\newblock \doi{10.1107/S0021889806014075}.
 
 \bibitem[contributors(2024)]{wiki:spacegroups}
 Wikipedia contributors.
@@ -83,6 +99,36 @@ Challa~S.S.R. Kumar, editor.
 \newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2017.
 \newblock \doi{10.1007/978-3-662-52780-1}.
 
+\bibitem[Levenberg(1944)]{levenberg_method_1944}
+Kenneth Levenberg.
+\newblock A method for the solution of certain non-linear problems in least
+  squares.
+\newblock \emph{Quart. Appl. Math.}, 2\penalty0 (2):\penalty0 164--168, 1944.
+\newblock \doi{10.1090/qam/10666}.
+
+\bibitem[Marquardt(1963)]{marquardt_algorithm_1963}
+Donald~W. Marquardt.
+\newblock An {Algorithm} for {Least}-{Squares} {Estimation} of {Nonlinear}
+  {Parameters}.
+\newblock \emph{Journal of the Society for Industrial and Applied Mathematics},
+  11\penalty0 (2):\penalty0 431--441, June 1963.
+\newblock \doi{10.1137/0111030}.
+
+\bibitem[Meurer et~al.(2017)Meurer, Smith, Paprocki, \v{C}ert\'{i}k, Kirpichev,
+  Rocklin, Kumar, Ivanov, Moore, Singh, Rathnayake, Vig, Granger, Muller,
+  Bonazzi, Gupta, Vats, Johansson, Pedregosa, Curry, Terrel, Rou\v{c}ka, Saboo,
+  Fernando, Kulal, Cimrman, and Scopatz]{sympy}
+Aaron Meurer, Christopher~P. Smith, Mateusz Paprocki, Ond\v{r}ej
+  \v{C}ert\'{i}k, Sergey~B. Kirpichev, Matthew Rocklin, AMiT Kumar, Sergiu
+  Ivanov, Jason~K. Moore, Sartaj Singh, Thilina Rathnayake, Sean Vig, Brian~E.
+  Granger, Richard~P. Muller, Francesco Bonazzi, Harsh Gupta, Shivam Vats,
+  Fredrik Johansson, Fabian Pedregosa, Matthew~J. Curry, Andy~R. Terrel,
+  \v{S}t\v{e}p\'{a}n Rou\v{c}ka, Ashutosh Saboo, Isuru Fernando, Sumith Kulal,
+  Robert Cimrman, and Anthony Scopatz.
+\newblock Sympy: symbolic computing in python.
+\newblock \emph{PeerJ Computer Science}, 3:\penalty0 e103, January 2017.
+\newblock \doi{10.7717/peerj-cs.103}.
+
 \bibitem[Morey et~al.(In preparation)Morey, Fichera, Lv, Shen, and
   Gedik]{morey_automated_2024}
 K~Morey, Bryan~T. Fichera, Baiqing Lv, Zongqi Shen, and Nuh Gedik.
@@ -90,11 +136,29 @@ K~Morey, Bryan~T. Fichera, Baiqing Lv, Zongqi Shen, and Nuh Gedik.
   second harmonic generation experiments.
 \newblock In preparation.
 
+\bibitem[Nelder and Mead(1965)]{nelder_simplex_1965}
+J.~A. Nelder and R.~Mead.
+\newblock A {Simplex} {Method} for {Function} {Minimization}.
+\newblock \emph{The Computer Journal}, 7\penalty0 (4):\penalty0 308--313,
+  January 1965.
+\newblock \doi{10.1093/comjnl/7.4.308}.
+
 \bibitem[Neumann(1885)]{neumann_vorlesungen_1885}
 Franz Neumann.
 \newblock \emph{Vorlesungen über die Theorie der Elasticität der festen
   Körper und des Lichtäthers, gehalten an der Universität Königsberg}.
 \newblock Leipzig, B. G. Teubner, 1885.
+
+\bibitem[Ong et~al.(2013)Ong, Richards, Jain, Hautier, Kocher, Cholia, Gunter,
+  Chevrier, Persson, and Ceder]{ong_python_2013}
+Shyue~Ping Ong, William~Davidson Richards, Anubhav Jain, Geoffroy Hautier,
+  Michael Kocher, Shreyas Cholia, Dan Gunter, Vincent~L. Chevrier, Kristin~A.
+  Persson, and Gerbrand Ceder.
+\newblock Python {Materials} {Genomics} (pymatgen): {A} robust, open-source
+  python library for materials analysis.
+\newblock \emph{Computational Materials Science}, 68:\penalty0 314--319,
+  February 2013.
+\newblock \doi{10.1016/j.commatsci.2012.10.028}.
 
 \bibitem[Patankar et~al.(2018)Patankar, Wu, Lu, Rai, Tran, Morimoto, Parker,
   Grushin, Nair, Analytis, Moore, Orenstein, and
@@ -114,11 +178,26 @@ P.~S. Pershan.
 \newblock \emph{Phys. Rev.}, 130\penalty0 (3):\penalty0 919--929, May 1963.
 \newblock \doi{10.1103/PhysRev.130.919}.
 
+\bibitem[Powell et~al.(2002)Powell, Wang, and Aspnes]{powell_simplified_2002}
+G.~D. Powell, J.-F. Wang, and D.~E. Aspnes.
+\newblock Simplified bond-hyperpolarizability model of second harmonic
+  generation.
+\newblock \emph{Physical Review B}, 65\penalty0 (20), May 2002.
+\newblock \doi{10.1103/PhysRevB.65.205320}.
+
 \bibitem[Powell(2010)]{powell}
 Richard~C. Powell.
 \newblock \emph{Symmetry, Group Theory, and the Physical Properties of
   Crystals}.
 \newblock Springer New York, NY, 2010.
+
+\bibitem[Ron et~al.(2019)Ron, Zoghlin, Balents, Wilson, and
+  Hsieh]{ron_dimensional_2019}
+A.~Ron, E.~Zoghlin, L.~Balents, S.~D. Wilson, and D.~Hsieh.
+\newblock Dimensional crossover in a layered ferromagnet detected by spin
+  correlation driven distortions.
+\newblock \emph{Nat Commun}, 10\penalty0 (1):\penalty0 1654, December 2019.
+\newblock \doi{10.1038/s41467-019-09663-3}.
 
 \bibitem[Sa et~al.(2000)Sa, Valentí, and Gros]{sa_generalized_2000}
 D.~Sa, R.~Valentí, and C.~Gros.
@@ -127,6 +206,10 @@ D.~Sa, R.~Valentí, and C.~Gros.
 \newblock \emph{Eur. Phys. J. B}, 14\penalty0 (2):\penalty0 301--305, March
   2000.
 \newblock \doi{10.1007/s100510050133}.
+
+\bibitem[Stokes et~al.()Stokes, Hatch, and Campbell]{isodistort}
+H.~T. Stokes, D.~M. Hatch, and B.~J. Campbell.
+\newblock Isodistort.
 
 \bibitem[Torchinsky et~al.(2014)Torchinsky, Chu, Qi, Cao, and
   Hsieh]{torchinsky_low_2014}
