@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.25)  19 MAR 2024 14:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.25)  20 MAR 2024 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1089,7 +1089,7 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
 [17] [18] [19] [20]
-Overfull \hbox (55.59525pt too wide) in paragraph at lines 182--183
+Overfull \hbox (61.59525pt too wide) in paragraph at lines 182--183
 \OT1/ppl/m/n/12 elec-tronic res-o-nance may cause an en-hance-ment in one of th
 e other contributions[[]]. 
  []
@@ -1203,42 +1203,41 @@ m/it/12 b\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t; \OMS/cmsy/m/n/12 f\OML/cmm/m/it/1
 K \OMS/cmsy/m/n/12 ^^@
  []
 
-
-Overfull \hbox (8.21974pt too wide) in paragraph at lines 265--269
-[]\OT1/ppl/m/n/12 Various al-go-rithms ex-ist to find the min-i-mum $\OMS/cmsy/
-m/n/12 f\OML/cmm/m/it/12 :::\OMS/cmsy/m/n/12 g[]$ \OT1/ppl/m/n/12 of $\OML/cmm/
-m/it/12 f$\OT1/ppl/m/n/12 ; the Levenberg-
+[41]
+Overfull \hbox (16.76035pt too wide) in paragraph at lines 270--273
+\OT1/ppl/m/n/12 we would end up with a whole dis-tri-bu-tion of model co-ef-fi-
+cients $\OML/cmm/m/it/12 ^^R[]; ^^R[]; ^^R[]; []$
  []
 
-[41]) [42] [43
+[42]) [43] [44
 
-] [44
+] [45] [46
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\mhchem@cee' on input line 36.
 
-[45] [46
+[47] [48
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\mhchem@cee' on input line 37.
 
-[47] [48
+[49] [50
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\mhchem@cee' on input line 38.
 
-[49] [50
+[51] [52
 
-] [51] [52
+] [53] [54
 
-] (./fichera-bfichera-phd-physics-2024-source.bbl [53]
-[54
+] (./fichera-bfichera-phd-physics-2024-source.bbl [55]
+[56
 
 ]
 Underfull \hbox (badness 1092) in paragraph at lines 15--25
@@ -1256,36 +1255,36 @@ Underfull \hbox (badness 1297) in paragraph at lines 15--25
 \OT1/ppl/m/n/12 K. Thirunavukkuarasu, Tha[]^^Ps Victa Tre-visan, Michael Vogl,
  []
 
-[55] [56]
-Underfull \hbox (badness 1072) in paragraph at lines 121--128
+[57] [58]
+Underfull \hbox (badness 1072) in paragraph at lines 133--140
 \OT1/ppl/m/n/12 Sergiu Ivanov, Ja-son K. Moore, Sar-taj Singh, Thilina Rath-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
+Underfull \hbox (badness 10000) in paragraph at lines 147--149
 []\OT1/ppl/m/n/12 Automated po-lar-iza-tion ro-ta-tion for multi-axis rotationa
 l-
  []
 
-[57]
-Underfull \hbox (badness 1303) in paragraph at lines 183--185
+[59]
+Underfull \hbox (badness 1303) in paragraph at lines 195--197
 []\OT1/ppl/m/n/12 Simplified bond-hyperpolarizability model of sec-ond har-moni
 c
  []
 
-[58]
-Underfull \hbox (badness 1412) in paragraph at lines 245--247
+[60] [61]
+Underfull \hbox (badness 1412) in paragraph at lines 270--272
 \OT1/ppl/m/n/12 Struc-tures of Lennard-Jones Clus-ters Con-tain-ing up to 110
  []
 
-[59])
+)
 
 Class memoir Warning: The material used in the headers is too large
 (28.99998pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 44.
 
-[60]
+[62]
 \tf@toc=\write5
 \openout5 = `fichera-bfichera-phd-physics-2024-source.toc'.
 
@@ -1304,13 +1303,13 @@ Package rerunfilecheck Info: File `fichera-bfichera-phd-physics-2024-source.out
 (rerunfilecheck)             Checksum: 57AD102DE64B27EB6084DBEB9EB14943;6018.
  ) 
 Here is how much of TeX's memory you used:
- 27585 strings out of 477909
- 523562 string characters out of 5838516
+ 27608 strings out of 477909
+ 523942 string characters out of 5838516
  1868388 words of memory out of 5000000
- 47189 multiletter control sequences out of 15000+600000
+ 47204 multiletter control sequences out of 15000+600000
  553620 words of font info for 147 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 114i,12n,107p,2330b,1149s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,12n,107p,2330b,1151s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -1329,11 +1328,11 @@ dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw
 /palatino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pf
 b></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-
 dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on fichera-bfichera-phd-physics-2024-source.pdf (60 pages, 39667
-4 bytes).
+Output written on fichera-bfichera-phd-physics-2024-source.pdf (62 pages, 40426
+8 bytes).
 PDF statistics:
- 915 PDF objects out of 1000 (max. 8388607)
- 795 compressed objects within 8 object streams
- 212 named destinations out of 1000 (max. 500000)
+ 942 PDF objects out of 1000 (max. 8388607)
+ 819 compressed objects within 9 object streams
+ 220 named destinations out of 1000 (max. 500000)
  214 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -251,20 +251,41 @@ When $|\delta P_{2\omega}(t, \phi_0)| \ll |P_{2\omega}(0, \phi_0)|$, this reduce
 
 The basic problem is then that we have a dataset $\{t_n, I_n\}, n\in \{0, 1, \ldots, N-1\}$ with uncertainties $\sigma_n$ which we wish to fit to some model, typically consisting of some (e.g. polynomial) background $b(t, \{b_k\}), k\in\{0, 1, \ldots, K-1\}$ plus $1$ to $M$ damped harmonic oscillators
 \begin{equation}
-I(t, \{\ldots\}) = \begin{cases}
+I(t, \params) = \begin{cases}
 0 & t<0\\
 b(t, \{b_k\})+\sum_{m=1}^M A_m e^{-t/\tau_m} \cos (2\pi f_m t + \psi_m) & t>0
 \end{cases},
 \end{equation}
-where $\{\ldots\}$ refers to the unknown parameters $\{b_k\}$, $\{A_m\}$, $\{\tau_m\}$, $\{f_m\}$, and $\{\psi_m\}$.
-We wish to determine the model coefficients $\{\ldots\}$ by minimizing the objective function
+where $\params$ refers to the set of unknown parameters $\{b_k\}$, $\{A_m\}$, $\{\tau_m\}$, $\{f_m\}$, and $\{\psi_m\}$.
+We wish to determine the model coefficients $\params$ by minimizing the objective function
 \begin{equation}\label{eq:trobjectivefunction}
-f(\{\ldots\}) = \sum_{n=0}^{N-1}\left(\frac{I(t_n, \{\ldots\})-I_n}{\sigma_n}\right)^2.
+f(\params) = \sum_{n=0}^{N-1}\left(\frac{I(t_n, \params)-I_n}{\sigma_n}\right)^2.
 \end{equation}
 
-Various algorithms exist to find the minimum $\{...\}_0$ of $f$; the \gls{lm} algorithm \citep{levenberg_method_1944,marquardt_algorithm_1963} is known to have trouble with exponential functions, so it is recommended to do a Nelder-Mead search \citep{nelder_simplex_1965} first and then use \gls{lm} to refine the solution.
-These methods also report the uncertainties $\{\sigma_i\}$ on each fitting parameter, basically by computing the curvature of the function $f$ near $\{\ldots\}$ (which depends, among other things, on the data uncertainty $\{\sigma_n\}$).
+Various algorithms exist to find the minimum $\params_0$ of $f$; the \gls{lm} algorithm \citep{levenberg_method_1944,marquardt_algorithm_1963} is known to have trouble with exponential functions, so it is recommended to do a Nelder-Mead search \citep{nelder_simplex_1965} first and then use \gls{lm} to refine the solution.
+These methods also report the uncertainties $\{\sigma_i\}$ on each fitting parameter, basically by computing the curvature of the function $f$ near $\params_0$ (which depends, among other things, on the data uncertainty $\{\sigma_n\}$).
 Importantly, however, these uncertainties are only valid when $f$ is a linear function of the model parameters near the minimum!\footnote{Here, ``near'' means ``in a neighborhood of size $\sigma_i$.}
 This is a point which is completely overlooked in the ultrafast condensed matter literature, even though there is really no reason that \cref{eq:trobjectivefunction} should satisfy this criterion for typical uncertainty levels in pump-probe experiments.
 
-What to do in this case is a complicated question.
+The correct approach in this case is to note that the data set $D_0 \equiv \{t_n, I_n\}$ is just one of many possible datasets $D_0, D_1, D_2, \ldots$ that we \emph{could} have measured during our experiment.\footnote{The following discussion closely follows that of \textit{Numerical Recipes}, chapter 15\citep{numericalrecipes}.}
+If we could run the minimization procedure described above for each of these hypothetical datasets, we would end up with a whole distribution of model coefficients $\params_0, \params_1, \params_2, \ldots$ from which our measurement $\params_0$ was just a single draw.
+The spread of this distribution (or, more precisely, the spread of the distribution $\params-\params_\mathrm{true}$) reflects exactly the quantitative uncertainty in our measurement of $\params$ that we would like to report.
+
+Our goal, then, is to approximate this distribution by some method.
+One approach (which works when we have many observations $\{t, I\}$ with the same $t$) is called the nonparametric bootstrap\citep{cressie}.
+For each time $t_n$, let us say that we have a set of measured intensities $\{I^n_m\}$, with $m\in \{1, 2, \ldots, M_n\}$.
+Then, we generate new hypothetical datasets $\mathscr{D}_1, \mathscr{D}_2, \ldots$ by (for each $t_n$) drawing $M_n$ items \emph{with replacement} from the $\{I^n_m\}$'s.
+The fact that this new distribution of datasets is a faithful representation of the true distribution $\{D_0, D_1, D_2, \ldots\}$ is not obvious, but theoretical work by many authors (see \citet{wackernagel} for a review) has established that it is nevertheless true.
+
+If we are confident that our model $I(t, \params)$ is, in fact, the true model (at least for some set of coefficients $\params_\mathrm{true}$), then rather than using the dataset $D_0$ to generate our hypothetical datasets, we can instead choose to use the model \emph{itself}.
+The idea is to take our estimate $I(t, \params_0)$ and generate new datasets $\{\mathscr{D}_m\}$ essentially by adding noise:
+\begin{equation}\label{eq:parametricbootstrap}
+\mathscr{D}_m = \{(t_n, I(t_n, \params_0)+N_n), n\in \{0, 1, \ldots, N-1\}\},
+\end{equation}
+for some random variable $N_n$ which we put in by hand.
+This is called the parametric bootstrap, referring to the fact that we are estimating our true distribution $\{D_0, D_1, D_2, \ldots\}$ via the parameters $\params_0$\citep{dekking}.
+In order for the distribution of $\mathscr{D}_m$'s to faithfully represent the true distribution $\{D_0, D_1, D_2, \ldots\}$, obviously $N_n$ needs to reflect the actual noise distribution of the experiment.
+Thankfully, in pump-probe experiments, we usually know this distribution -- as long as we have enough points $(t_n, I_n)$ with $t_n<0$, we can estimate $N_n$ with a normal distribution centered about $0$ with variance $\left<(I_n)^2\right>_{<0} - \left<I_n\right>_{<0}^2$, where $\left<\cdot\right>_{<0}$ means ``average over points with $t_n<0$.''
+
+Once we have the hypothetical datasets $\{\mathscr{D}_m\}$ (regardless of how we generated them), we proceed by estimating a $\params_m$ for each one using \cref{eq:trobjectivefunction}, and then plotting the distribution $\{\params_m - \params_0\}$; the spread of this distribution tells us the uncertainties $\sigma_i$ in each of our model coefficients.
+The important part is that these uncertainties are much more reflective of the true uncertainty in our measurement of $\params$ than the curvature of \cref{eq:trobjectivefunction} near $\params_0$, which we have argued is strictly incorrect in many cases.

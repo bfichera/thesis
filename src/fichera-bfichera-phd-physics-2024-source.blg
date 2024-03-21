@@ -13,45 +13,45 @@ while executing---line 1429 of file plainnat_noclutter.bst
 Name 2 in "H. T. Stokes and D. M. Hatch, and B. J. Campbell" has a comma at the end for entry isodistort
 while executing---line 1429 of file plainnat_noclutter.bst
 Warning--empty year in isodistort
-You've used 31 entries,
+You've used 35 entries,
             2762 wiz_defined-function locations,
-            849 strings with 14451 characters,
-and the built_in function-call counts, 20092 in all, are:
-= -- 1601
-> -- 1890
-< -- 15
-+ -- 637
-- -- 606
-* -- 1953
-:= -- 3294
-add.period$ -- 113
-call.type$ -- 31
-change.case$ -- 291
-chr.to.int$ -- 31
-cite$ -- 64
-duplicate$ -- 621
-empty$ -- 1158
-format.name$ -- 645
-if$ -- 3978
+            873 strings with 15081 characters,
+and the built_in function-call counts, 21622 in all, are:
+= -- 1721
+> -- 1988
+< -- 17
++ -- 671
+- -- 636
+* -- 2067
+:= -- 3547
+add.period$ -- 127
+call.type$ -- 35
+change.case$ -- 310
+chr.to.int$ -- 35
+cite$ -- 72
+duplicate$ -- 703
+empty$ -- 1288
+format.name$ -- 679
+if$ -- 4294
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 33
-newline$ -- 183
-num.names$ -- 125
-pop$ -- 568
+missing$ -- 41
+newline$ -- 203
+num.names$ -- 141
+pop$ -- 621
 preamble$ -- 1
-purify$ -- 264
+purify$ -- 282
 quote$ -- 0
-skip$ -- 558
+skip$ -- 612
 stack$ -- 0
-substring$ -- 500
-swap$ -- 50
+substring$ -- 508
+swap$ -- 54
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 311
+type$ -- 335
 warning$ -- 2
-while$ -- 125
+while$ -- 137
 width$ -- 0
-write$ -- 442
+write$ -- 493
 (There were 3 error messages)

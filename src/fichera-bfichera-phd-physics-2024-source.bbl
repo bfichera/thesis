@@ -1,4 +1,4 @@
-\begin{thebibliography}{31}
+\begin{thebibliography}{35}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -56,12 +56,24 @@ Wikipedia contributors.
 \newblock List of space groups --- {W}ikipedia{,} the free encyclopedia, 2024.
 \newblock [Online; accessed 06-March-2024].
 
+\bibitem[Cressie(1991)]{cressie}
+N.A.C. Cressie.
+\newblock \emph{Statistics for Spatial Data}.
+\newblock A Wiley-interscience publication. J. Wiley, 1991.
+
 \bibitem[Curie(1894)]{curie_sur_1894}
 Pierre Curie.
 \newblock Sur la symétrie dans les phénomènes physiques, symétrie d'un
   champ électrique et d'un champ magnétiqueu.
 \newblock \emph{J. Phys. Theor. Appl.}, 3\penalty0 (1):\penalty0 393--415,
   1894.
+
+\bibitem[Dekking et~al.(2006)Dekking, Kraaikamp, Lopuha{\"a}, and
+  Meester]{dekking}
+F.M. Dekking, C.~Kraaikamp, H.P. Lopuha{\"a}, and L.E. Meester.
+\newblock \emph{A Modern Introduction to Probability and Statistics:
+  Understanding Why and How}.
+\newblock Springer Texts in Statistics. Springer London, 2006.
 
 \bibitem[Fiebig et~al.(2001)Fiebig, Fröhlich, Lottermoser, Pavlov, Pisarev,
   and Weber]{fiebig_second_2001}
@@ -191,6 +203,14 @@ Richard~C. Powell.
   Crystals}.
 \newblock Springer New York, NY, 2010.
 
+\bibitem[Press et~al.(2007)Press, Teukolsky, Vetterling, and
+  Flannery]{numericalrecipes}
+William~H. Press, Saul~A. Teukolsky, William~T. Vetterling, and Brian~P.
+  Flannery.
+\newblock \emph{Numerical Recipes 3rd Edition: The Art of Scientific
+  Computing}.
+\newblock Cambridge University Press, 3 edition, 2007.
+
 \bibitem[Ron et~al.(2019)Ron, Zoghlin, Balents, Wilson, and
   Hsieh]{ron_dimensional_2019}
 A.~Ron, E.~Zoghlin, L.~Balents, S.~D. Wilson, and D.~Hsieh.
@@ -239,6 +259,11 @@ Pauli Virtanen, Ralf Gommers, Travis~E. Oliphant, Matt Haberland, Tyler Reddy,
   Python}.
 \newblock \emph{Nature Methods}, 17:\penalty0 261--272, 2020.
 \newblock \doi{10.1038/s41592-019-0686-2}.
+
+\bibitem[Wackernagel(2003)]{wackernagel}
+H.~Wackernagel.
+\newblock \emph{Multivariate Geostatistics: An Introduction with Applications}.
+\newblock Springer Berlin Heidelberg, 2003.
 
 \bibitem[Wales and Doye(1997)]{wales_global_1997}
 David~J. Wales and Jonathan P.~K. Doye.
