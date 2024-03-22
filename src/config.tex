@@ -16,6 +16,18 @@
 \usepackage{bm}
 \usepackage{glossaries-extra}
 \glsdisablehyper
+\usepackage[inline, shortlabels]{enumitem}
+\usepackage[caption=false]{subfig}
+\captionsetup[subfigure]{singlelinecheck=off}
+\renewcommand\thesubfigure{(\alph{subfigure})}
+\newcommand{\phantomsubfloat}[1]{
+    {% apply caption setup only temporarily
+        \captionsetup[subfigure]{labelformat=empty}
+        \subfloat[][]{#1}
+    }%
+}
+\newcommand{\caplabel}{(\alph*)}
+\newcommand{\capref}{(\alph*)}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,

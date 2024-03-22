@@ -1,4 +1,5 @@
 import re
+import os
 
 replace_dict = {
     'Torchinsky2014ASymmetries': 'torchinsky_low_2014',
@@ -17,11 +18,12 @@ with open('ch4.tex', 'r') as fh:
     lines = fh.readlines()
 
 for i, line in enumerate(lines):
-    match = re.findall('cite.{.*?}', line)
+    match = re.findall('cite.{.*?}', line)+re.findall('cite{.*?}', line)
     if match:
         print(match)
 
-commands = []
-for k, v in replace_dict.items():
-    commands.append(f'sed -i "s/{k}/{v}/g" ch4.tex')
-print('\n'.join(commands))
+# commands = []
+# for k, v in replace_dict.items():
+#     commands.append(f'sed -i "s/{k}/{v}/g" ch4.tex')
+# for command in commands:
+#     os.system(command)

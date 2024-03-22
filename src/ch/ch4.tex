@@ -23,31 +23,37 @@ This ultimately opens new frontiers in probing quantum materials using multiple 
 
 Probing the structure of crystalline solids is essential to understanding their intrinsic functionalities. 
 Traditionally, diffraction techniques based on the scattering of e.g. x-rays are used to determine this structure; however, these techniques predominantly measure the total electron density and are thus insensitive to long-range ordering of the valence electron subsystem.
-In contrast, nonlinear scattering techniques at optical frequencies like \gls{rashg} are sensitive rather to the total charge density, and thus offer a complementary view of the electronic, magnetic, and lattice properties of quantum materials \citep{Torchinsky2014ASymmetries, Fichera2020SecondSymmetry}.\footnote{In this paper, we discuss \glsfmtshort{rashg}, although the results are fully generalizable to arbitrary harmonics, e.g. third harmonic generation.}
+In contrast, nonlinear scattering techniques at optical frequencies like \gls{rashg} are sensitive rather to the total charge density, and thus offer a complementary view of the electronic, magnetic, and lattice properties of quantum materials \citep{torchinsky_low_2014, fichera_second_2020}.\footnote{In this paper, we discuss \glsfmtshort{rashg}, although the results are fully generalizable to arbitrary harmonics, e.g. third harmonic generation.}
 
 
 Furthermore, due to the non-invasive nature of \gls{rashg}, it can also be used to investigate changes along one or more measurement axes, such as strain, field, pressure, temperature, or time delay.
 The phase diagram of quantum materials is heavily influenced by these independent variables, and thus, changes to the SHG response along such measurement axes are of great interest.
-For example, previous studies have used various continuous experimental parameters such as pressure \citep{Li2022High-pressureTaAs}, time delay\citep{Shan2021GiantEngineering}, and magnetic field to investigate phase transitions in quantum materials.
+For example, previous studies have used various continuous experimental parameters such as pressure \citep{li_high-pressure_2022}, time delay\citep{shan_gian_2021}, and magnetic field to investigate phase transitions in quantum materials.
 Such measurements can illuminate the roles that charge, spin, and thermal degrees of freedom play within quantum materials.
 
-Second harmonic generation gleans microscopic information through the coupling of an order parameter to the second harmonic susceptibility tensor (at least a third-rank tensor with 18 independent components) \citep{Boyd1992NonlinearOptics}. 
+Second harmonic generation gleans microscopic information through the coupling of an order parameter to the second harmonic susceptibility tensor (at least a third-rank tensor with 18 independent components) \citep{boyd}. 
 This tensor governs the relationship between the vector properties (i.e. polarization and intensity) of the incident radiation and the generated second harmonic, as shown in \cref{km-eq:intensity}.
 The complexity of this tensor means that a significant amount of data is needed to fully resolve the tensor components, posing experimental challenges with data collection.
-The importance of resolving the tensor components can be seen by considering Neumann's principle, which states that these tensors must be invariant under symmetry operations of the material's point group, which constrains the tensors' independent and nonzero elements \citep{Birss1966SymmetryMagnetism}. 
+The importance of resolving the tensor components can be seen by considering Neumann's principle, which states that these tensors must be invariant under symmetry operations of the material's point group, which constrains the tensors' independent and nonzero elements \citep{birss}. 
 By measuring the intensity and polarization of the generated second harmonic radiation, \gls{rashg} provides information about these tensor elements and thus the underlying point group.
 When performing experiments with more than one measurement axis, the data constraints mentioned above can often be especially burdensome, limiting the type of experiments that can be performed using \gls{rashg}.
 Thus, new methods for collecting data efficiently for multi-axis \gls{rashg} experiments are incredibly important.
 
-\begin{figure*}
+\begin{figure}
 \centering
+\phantomsubfloat{\label{km-fig:1a}}
+\phantomsubfloat{\label{km-fig:1b}}
 \includegraphics[width=\textwidth]{gfx/ch4/km-fig1.pdf}
-\caption[A demonstration of \glsfmtshort{rashg} in the test sample \ce{GaAs}]{A demonstration of \glsfmtshort{rashg} in the test sample \ce{GaAs}.
+\caption[A demonstration of \glsfmtshort{rashg} in the test sample \ce{GaAs}]{
+\label{km-fig:1}
+\begin{enumerate*}[label=\caplabel, ref=\capref]
+\item[] A demonstration of \glsfmtshort{rashg} in the test sample \ce{GaAs}.
 \qty{800}{nm} light comes in at an oblique angle of incidence, after being passed through a polarizer.
 The polarization axis of the light is in the plane of incidence and is denoted in the insets of the figure with a black arrow.
-Depending on the angle of the plane of incidence relative to the crystallographic axes, as well as the polarization of the beam relative to that incoming plane of incidence, the second harmonic response to the stimuli should vary from zero points (nodes) to non-zero maxima.}
-\label{km-fig:1}
-\end{figure*}
+Depending on the angle of the plane of incidence relative to the crystallographic axes, as well as the polarization of the beam relative to that incoming plane of incidence, the second harmonic response to the stimuli should vary from zero points (nodes) to non-zero maxima.
+\end{enumerate*}
+}
+\end{figure}
 
 A more detailed understanding of the information that needs to be collected to fully resolve the second harmonic susceptibility can be seen by considering \cref{km-fig:1}.
 \Cref{km-fig:1} shows a schematic of an \gls{rashg} setup, where near-infrared light from the laser source enters at oblique incidence and is scattered off the front of the sample, generating blue light at the second harmonic frequency.
@@ -57,27 +63,31 @@ I(\phi) = \big| E^{\mathrm{out}}_i(\phi) \chi^{(2)eee}_{ijk} E^{\mathrm{in}}_j(\
     \label{km-eq:intensity}
 \end{equation}
 where $\phi$ is the azimuthal angle between the crystallographic axes and the plane of incidence, $E^{\mathrm{out}}$ and $E^{\mathrm{in}}$ are the polarization vectors of the outgoing and incoming light, respectively, and $\chi^{(2)eee}$ is the SHG electric-dipole susceptibility tensor.
-For certain values of $\phi$, as shown in \cref{km-fig:1}a?, the sample is symmetric with respect to the polarization axis of the incoming light; in this case, the second harmonic generation is constrained to be zero, whereas in general arbitrary angles give a non-zero second-harmonic response (see \cref{fig:1}b).
+For certain values of $\phi$, as shown in \cref{km-fig:1a}, the sample is symmetric with respect to the polarization axis of the incoming light; in this case, the second harmonic generation is constrained to be zero, whereas in general arbitrary angles give a non-zero second-harmonic response (see \cref{fig:1}b).
 Neumann's principle dictates that \cref{km-eq:intensity} captures the symmetry considerations shown in \cref{km-fig:1}, i.e. the symmetries of the crystal are embedded into its nonlinear susceptibility tensor $\chi^{(2)}$.
 
 These considerations demonstrate the necessity of measuring the full rotational anisotropy of the SHG response, as well as its dependence on the incoming and outgoing polarization directions (which may be P or S-polarized, leading to four independent polarization channels).
-The former requires rotating the plane of incidence, which is typically done by rotating the optical setup itself rather than the sample \citep{Petersen2006Nonlinear7,Torchinsky2014ASymmetries, Fichera2020SecondSymmetry, Fichera2023Light-inducedSemiconductor}. 
+The former requires rotating the plane of incidence, which is typically done by rotating the optical setup itself rather than the sample \citep{petersen_nonlinear_2006,torchinsky_low_2014, fichera_second_2020, camn2bi2}. 
 The geometric constraints involved in rotating the optical setup make it challenging to use electromechanical components to rotate the polarizers shown in \cref{fig:1} between S and P configurations, since naively it is difficult to transfer power to the rotating frame of reference.
-Because of this, switching between different polarization channels is typically done manually, resulting in time and labor constraints that often limit data collection beyond a single polarization combination \citep{Shan2021GiantEngineering}.
+Because of this, switching between different polarization channels is typically done manually, resulting in time and labor constraints that often limit data collection beyond a single polarization combination \citep{shan_gian_2021}.
 Such constraints severely restrict the ability to infer tensor elements from the \gls{rashg} data and limit RA-SHG to studies involving often just a single tuning parameter. 
 
-Previous multi-axis \gls{rashg} studies typically either collected exclusively one polarization channel \citep{Shan2021GiantEngineering} (for more than one axis) or simply sacrificed the quantity of collected data and therefore inferred statistics. 
+Previous multi-axis \gls{rashg} studies typically either collected exclusively one polarization channel \citep{shan_gian_2021} (for more than one axis) or simply sacrificed the quantity of collected data and therefore inferred statistics. 
 However, these approaches can often miss certain features in \gls{rashg} data that would be apparent if more efficient data-taking methods were available.
-For example, phase transitions in which the order parameter couples differently to different polarization channels through the second harmonic susceptibility \citep{Fichera2023Light-inducedSemiconductor} are best characterized by taking the full rotational anisotropy data.
+For example, phase transitions in which the order parameter couples differently to different polarization channels through the second harmonic susceptibility \citep{camn2bi2} are best characterized by taking the full rotational anisotropy data.
 The benefit of collecting all four polarization combinations underscores the appeal of automated polarization control of \gls{rashg} setups.
 
-\begin{figure*}
+\begin{figure}
 \centering
 \includegraphics[width=\textwidth]{gfx/ch4/km-fig2.pdf}
-\caption[A diagram of the full second harmonic generation setup]{a. A diagram of the full second harmonic generation setup developed and described in \citet{Fichera2020SecondSymmetry}.
-Boxed in part of the setup shows the area of interest of this work, where the incoming and outgoing polarization channels are set.}
+\caption[A diagram of the full second harmonic generation setup]{
 \label{km-fig:2}
-\end{figure*}
+\begin{enumerate*}[label=\caplabel, ref=\capref]
+\item[] A diagram of the full second harmonic generation setup developed and described in \citet{fichera_second_2020}.
+Boxed in part of the setup shows the area of interest of this work, where the incoming and outgoing polarization channels are set.
+\end{enumerate*}
+}
+\end{figure}
 
 In this work, we design and implement automated polarization rotators for use in multi-axis \gls{rashg} measurements. 
 The devices utilize a miniature stepper motor housed in an electrical slip ring to circumvent the geometrical constraints imposed by the rotating plane of incidence.
@@ -98,57 +108,68 @@ The signal from the photomultiplier tube is sent to a lock-in amplifier synced t
 
 Importantly, the geometrical constraints introduced by the rotating plane of incidence mean that rotating P1 and P2 between S and P configurations electromechanically is challenging, as power must be transmitted from the stationary laboratory frame to electrical components lying in the rotating frame.
 
-To solve this problem, we utilize a hollow-bore electrical slip ring and a miniature stepper motor, shown in an exploded-view diagram in \cref{km-fig:3}a.
-A slip ring uses stationary conductive brushes sliding against a rotating through-bore cylinder to transfer power from a stationary reference frame to a rotating one, as shown in \cref{km-fig:3}b \citep{Argibay2010AsymmetricEnvironment}. 
+To solve this problem, we utilize a hollow-bore electrical slip ring and a miniature stepper motor, shown in an exploded-view diagram in \cref{km-fig:3a}.
+A slip ring uses stationary conductive brushes sliding against a rotating through-bore cylinder to transfer power from a stationary reference frame to a rotating one, as shown in \cref{km-fig:3b} \citep{argibay_asymmetric_2010}. 
 To accommodate the further requirement that the beams pass through the entire device unimpeded, we employ an \qty{8}{mm} stepper motor that fits in between the two beams.
-\Cref{km-fig:3}c and \cref{km-fig:3}d show a front view of the device, with the wire grid polarizer in the P and S positions, respectively, and the polarization direction of the polarizer shown in arrows on the edge of the polarizer.
+\Cref{km-fig:3c} and \cref{km-fig:3d} show a front view of the device, with the wire grid polarizer in the P and S positions, respectively, and the polarization direction of the polarizer shown in arrows on the edge of the polarizer.
 A full rendering, to scale, of the automated system within the full setup is shown in \cref{km-fig:6}. 
 
 \subsection{Slip Ring}
 
 Slip rings are a standard electromechanical device for transferring power from a stationary assembly to a rotating assembly.
 An inner, rotating part of the slip ring can freely rotate relative to an outer, stationary part without compromising signal or power transmission.
-This functionality is enabled by low-friction metal brushes that slide against another set of electrical contacts, allowing free rotation while maintaining good electrical conductivity \citep{Argibay2010AsymmetricEnvironment}, as shown in \cref{km-fig:3}b.
+This functionality is enabled by low-friction metal brushes that slide against another set of electrical contacts, allowing free rotation while maintaining good electrical conductivity \citep{argibay_asymmetric_2010}, as shown in \cref{km-fig:3b}.
 To allow for the uninterrupted passage of the beams through the device, we use a hollow-bore slip ring (Moflon MT3899-S040-VD) whose \qty{38}{mm} inner bore rotates along with the lens tube-pulley assembly shown in \cref{km-fig:6}.
 Either set screws located on the front side of the slip ring (as shown in \cref{km-fig:3}) or a 3D-printed cylindrical hollow bore adapter (not shown) can secure the inner bore of the slip ring to the lens tube.
 
-\begin{figure*}
+\begin{figure}
 \centering
+\phantomsubfloat{\label{km-fig:3a}}
+\phantomsubfloat{\label{km-fig:3b}}
+\phantomsubfloat{\label{km-fig:3c}}
+\phantomsubfloat{\label{km-fig:3d}}
 \includegraphics[width=\textwidth]{gfx/ch4/km-fig3.pdf}
 \caption[Exploded-view diagram of one of the automated polarization rotators]{
-a. An exploded-view diagram of one of the automated polarization rotators, with the individual components labeled.
-Each of these is a manufactured part except for the 3D-printed mount.
-b. A schematic of the interior of an electrical slip ring, where low-friction metal brushes allow for electrical conduction across a rotating assembly.
-c. A front view of the device, in the P-polarized state, with arrows on the edge of the polarizer indicating the polarization direction.
-d. Same as c, but in the S-polarized state.}
 \label{km-fig:3}
-\end{figure*}
+\begin{enumerate*}[label=\caplabel, ref=\capref]
+\item An exploded-view diagram of one of the automated polarization rotators, with the individual components labeled.
+Each of these is a manufactured part except for the 3D-printed mount.
+\item A schematic of the interior of an electrical slip ring, where low-friction metal brushes allow for electrical conduction across a rotating assembly.
+\item A front view of the device, in the P-polarized state, with arrows on the edge of the polarizer indicating the polarization direction.
+\item Same as \cref{km-fig:3c}, but in the S-polarized state.
+\end{enumerate*}
+}
+\end{figure}
 
 \subsection{Miniature Stepper Motor}
 \label{km-sec:stepper}
 The hollow bore slip ring allows for the transfer of power to the rotating shaft.
 To rotate the wire grid polarizer between S and P configurations while also allowing both beams to pass through the entire device, we use an \qty{8}{mm} diameter Faulhaber Series AM0820 stepper motor.
-The stepper motor's shaft is epoxied to a \qty{1}{inch} square wire-grid polarizer roughly \qty{5}{mm} from the closest horizontal and vertical edges, as shown in \cref{km-fig:3}c and \cref{km-fig:3}d.
-The stepper motor is mounted in the center of the SM1L15 lens tube using a custom, 3D printed mount as shown in \cref{km-fig:3}a. 
+The stepper motor's shaft is epoxied to a \qty{1}{inch} square wire-grid polarizer roughly \qty{5}{mm} from the closest horizontal and vertical edges, as shown in \cref{km-fig:3c} and \cref{km-fig:3d}.
+The stepper motor is mounted in the center of the SM1L15 lens tube using a custom, 3D printed mount as shown in \cref{km-fig:3a}. 
 This mount, along with careful epoxying of the polarizer to the motor shaft, ensures that the incidence angle of the beam is close to normal.
 Furthermore, the mount ensures that the stepper motor's shaft is aligned closely to the central rotation axis of the entire assembly, minimizing torques on the motor and polarizer.
 This stepper motor can support up to \num{800} total micro-steps per revolution (\ang{0.45} per micro-step) and \qty{0.65}{mNm} of holding torque, and is small enough to fit in between the incoming and outgoing beams. 
 
-The motor can then move the polarizer between the P configuration (\cref{km-fig:3}c) and the S configuration (\cref{km-fig:3}d) without manual intervention or the need to stop the rotation of the entire assembly.
+The motor can then move the polarizer between the P configuration (\cref{km-fig:3c}) and the S configuration (\cref{km-fig:3d}) without manual intervention or the need to stop the rotation of the entire assembly.
 The offset placement of the polarizer on the motor shaft allows only one of the beams (either incoming or outgoing) to pass through the polarizer.
 The SM1AB2 and SM1P1 adapter pieces allow for arbitrary rotation relative to the longer lens tube-pulley assembly, allowing the beams to be aligned with the empty spaces in the stepper motor mount.
 These adapter pieces also allow for small ($\pm \ang{20}$) rotations of the polarizer about the central axis to account for factory defects which may cause the polarization axis to be misaligned with the straight edges of the polarizer.
 
-\begin{figure*}
+\begin{figure}
 \centering
 \includegraphics[width=\textwidth]{gfx/ch4/km-fig4.pdf}
-\caption[A 3-dimensional rendering of the automated polarization rotators]{A 3-dimensional rendering of the boxed-in part of the setup in \cref{km-fig:2}, with fully automated polarization rotators.}
+\caption[A 3-dimensional rendering of the automated polarization rotators]{
 \label{km-fig:6}
-\end{figure*}
+\begin{enumerate*}[label=\caplabel, ref=\capref]
+\item[] A 3-dimensional rendering of the boxed-in part of the setup in \cref{km-fig:2}, with fully automated polarization rotators.
+\end{enumerate*}
+}
+\end{figure}
 
 Another copy of the same system shown in \cref{km-fig:3} is mounted on the other side of the lens tube-pulley assembly and controls the polarization of the reflected beam, as shown in \cref{km-fig:6}. 
 The back sides of both devices, shown in \cref{km-fig:6}, are attached to the rotating lens tube-pulley-motor-shaft assembly shown in \cref{km-fig:6} via threads on the long central lens tube. 
-A hole drilled in the top and bottom of the SM1L15 piece in each device shown in figure \cref{km-fig:3}a allows feedthrough wires to connect the four leads of the stepper motor to the four rotating inner-bore slip ring leads.
+A hole drilled in the top and bottom of the SM1L15 piece in each device shown in figure \cref{km-fig:3a} allows feedthrough wires to connect the four leads of the stepper motor to the four rotating inner-bore slip ring leads.
 The four leads on the stationary side of each slip ring directly connect to a Geckodrive G250X digital step driver for each device, controlled by a single Arduino Nano Every.
 This control circuit allows for the integration of the stepper motors with existing instrumentation software.
 
@@ -159,16 +180,21 @@ The polarizers can then freely rotate between this S-polarized position and the 
 
 \section{Validation and Discussion}
 \label{km-sec:disc}
-\begin{figure*}
+
+\begin{figure}
 \centering
 \includegraphics[width=\textwidth]{gfx/ch4/km-fig5.pdf}
-\caption[Demonstration of the automatic polarization rotators]{A polar plot of the change in SHG intensity (from the pre-pump state) as a function of time since zero-delay for the test sample GaAs.
-This is a demonstration of using the automated polarization rotators to take \gls{trshg} data.
-\qty{55} different pump-probe delays (only four time delays are plotted) were taken in this dataset, meaning that \qty{220} polarization rotations were performed using the automated polarizers.}
+\caption[Demonstration of the automatic polarization rotators]{
 \label{km-fig:4}
-\end{figure*}
+\begin{enumerate*}[label=\caplabel, ref=\capref]
+\item[] A polar plot of the change in SHG intensity (from the pre-pump state) as a function of time since zero-delay for the test sample GaAs.
+This is a demonstration of using the automated polarization rotators to take \gls{trshg} data.
+\qty{55} different pump-probe delays (only four time delays are plotted) were taken in this dataset, meaning that \qty{220} polarization rotations were performed using the automated polarizers.
+\end{enumerate*}
+}
+\end{figure}
 
-To test these automated polarization rotators, we performed time-resolved RA-SHG on the non-centrosymmetric semiconductor \ce{GaAs} \citep{Ducuing1963ObservationCrystals, Torchinsky2014ASymmetries}. 
+To test these automated polarization rotators, we performed time-resolved RA-SHG on the non-centrosymmetric semiconductor \ce{GaAs} \citep{ducuing_observation_1963, torchinsky_low_2014}. 
 A pump line was added to the setup shown in \cref{km-fig:2} by mounting a \ang{45} mirror onto L3 so that the pump beam may be reflected directly onto the sample. 
 The pump pulse is produced by an optical parametric amplifier (Spectra-Physics Topas) tuned to a wavelength of \qty{1.3}{\mu m}.
 The pump line includes a delay stage, which controls the relative time delay between the pump and the probe pulses, and a chopper wheel, which reduces the effective repetition rate of the pump pulses to \qty{2.5}{kHz}. 
@@ -177,7 +203,7 @@ For time-resolved measurements on \ce{GaAs}, shown in \cref{km-fig:4}, \qty{55} 
 The data in \cref{km-fig:4} shows the change in the \gls{shg} intensity relative to equilibrium as a function of the pump-probe delay, for each of the polarization channels. 
 The use of the polarization rotators in this validation measurement demonstrates their functionality and broad utility for multi-axis \gls{rashg} measurements.
 
-This system was also used to expedite data collection in recent studies of time-resolved, temperature-dependent \gls{rashg} \citep{Fichera2023Light-inducedSemiconductor}.
+This system was also used to expedite data collection in recent studies of time-resolved, temperature-dependent \gls{rashg} \citep{camn2bi2}.
 This particular type of \gls{rashg} measurement demonstrates the general advantages of automated polarization control in multi-axis \gls{rashg} measurements.
 To see this, note that if the rotation of the polarizers is performed manually, the best data-taking strategy involves taking the time dependence of one polarization channel in full before moving to the next. 
 However, in the presence of low-frequency noise (due to e.g. fluctuations in the laser intensity), this is problematic as the different polarization channels will not be taken under equivalent conditions. 

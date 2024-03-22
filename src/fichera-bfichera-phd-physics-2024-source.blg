@@ -2,96 +2,57 @@ This is BibTeX, Version 0.99d (TeX Live 2023/Arch Linux)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: fichera-bfichera-phd-physics-2024-source.aux
 The style file: plainnat_noclutter.bst
-I couldn't open database file fichera-bfichera-phd-physics-2024-source.bib
----line 258 of file fichera-bfichera-phd-physics-2024-source.aux
- : \bibdata{fichera-bfichera-phd-physics-2024-source
- :                                                  }
-I'm skipping whatever remains of this command
-I found no database files---while reading file fichera-bfichera-phd-physics-2024-source.aux
-Warning--I didn't find a database entry for "kibble_introduction_2008"
-Warning--I didn't find a database entry for "alexandradinata_future_2022"
-Warning--I didn't find a database entry for "neumann_vorlesungen_1885"
-Warning--I didn't find a database entry for "curie_sur_1894"
-Warning--I didn't find a database entry for "wiki:spacegroups"
-Warning--I didn't find a database entry for "powell"
-Warning--I didn't find a database entry for "birss"
-Warning--I didn't find a database entry for "jackson"
-Warning--I didn't find a database entry for "kumar_magnetic_2017"
-Warning--I didn't find a database entry for "fiebig_second_2001"
-Warning--I didn't find a database entry for "boyd"
-Warning--I didn't find a database entry for "wu_giant_2017"
-Warning--I didn't find a database entry for "patankar_resonance-enhanced_2018"
-Warning--I didn't find a database entry for "sa_generalized_2000"
-Warning--I didn't find a database entry for "pershan_nonlinear_1963"
-Warning--I didn't find a database entry for "torchinsky_low_2014"
-Warning--I didn't find a database entry for "morey_automated_2024"
-Warning--I didn't find a database entry for "harter_high-speed_2015"
-Warning--I didn't find a database entry for "xiang_generalized_1997"
-Warning--I didn't find a database entry for "wales_global_1997"
-Warning--I didn't find a database entry for "scipy"
-Warning--I didn't find a database entry for "sympy"
-Warning--I didn't find a database entry for "powell_simplified_2002"
-Warning--I didn't find a database entry for "bauer_bulk_2017"
-Warning--I didn't find a database entry for "ron_dimensional_2019"
-Warning--I didn't find a database entry for "ong_python_2013"
-Warning--I didn't find a database entry for "isodistort"
-Warning--I didn't find a database entry for "campbell_isodisplace_2006"
-Warning--I didn't find a database entry for "levenberg_method_1944"
-Warning--I didn't find a database entry for "marquardt_algorithm_1963"
-Warning--I didn't find a database entry for "nelder_simplex_1965"
-Warning--I didn't find a database entry for "numericalrecipes"
-Warning--I didn't find a database entry for "cressie"
-Warning--I didn't find a database entry for "wackernagel"
-Warning--I didn't find a database entry for "dekking"
-Warning--I didn't find a database entry for "Torchinsky2014ASymmetries"
-Warning--I didn't find a database entry for "Fichera2020SecondSymmetry"
-Warning--I didn't find a database entry for "Li2022High-pressureTaAs"
-Warning--I didn't find a database entry for "Shan2021GiantEngineering"
-Warning--I didn't find a database entry for "Boyd1992NonlinearOptics"
-Warning--I didn't find a database entry for "Birss1966SymmetryMagnetism"
-Warning--I didn't find a database entry for "Petersen2006Nonlinear7"
-Warning--I didn't find a database entry for "Fichera2023Light-inducedSemiconductor"
-Warning--I didn't find a database entry for "Argibay2010AsymmetricEnvironment"
-Warning--I didn't find a database entry for "Ducuing1963ObservationCrystals"
-You've used 0 entries,
+Database file #1: fichera-bfichera-phd-physics-2024-source.bib
+Warning--entry type for "isodistort" isn't style-file defined
+--line 81 of file fichera-bfichera-phd-physics-2024-source.bib
+Warning--I didn't find a database entry for "shan_gian_2021"
+Name 2 in "H. T. Stokes and D. M. Hatch, and B. J. Campbell" has a comma at the end for entry isodistort
+while executing---line 1347 of file plainnat_noclutter.bst
+Warning--empty journal in morey_automated_2024
+Name 2 in "H. T. Stokes and D. M. Hatch, and B. J. Campbell" has a comma at the end for entry isodistort
+while executing---line 1429 of file plainnat_noclutter.bst
+Name 2 in "H. T. Stokes and D. M. Hatch, and B. J. Campbell" has a comma at the end for entry isodistort
+while executing---line 1429 of file plainnat_noclutter.bst
+Warning--empty year in isodistort
+You've used 41 entries,
             2762 wiz_defined-function locations,
-            643 strings with 5989 characters,
-and the built_in function-call counts, 33 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 10
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+            917 strings with 16975 characters,
+and the built_in function-call counts, 25901 in all, are:
+= -- 2069
+> -- 2402
+< -- 18
++ -- 809
+- -- 768
+* -- 2508
+:= -- 4244
+add.period$ -- 150
+call.type$ -- 41
+change.case$ -- 372
+chr.to.int$ -- 41
+cite$ -- 84
+duplicate$ -- 827
+empty$ -- 1521
+format.name$ -- 819
+if$ -- 5140
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 8
-num.names$ -- 0
-pop$ -- 0
+missing$ -- 47
+newline$ -- 238
+num.names$ -- 165
+pop$ -- 730
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 338
 quote$ -- 0
-skip$ -- 1
+skip$ -- 725
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 631
+swap$ -- 65
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+type$ -- 401
+warning$ -- 2
+while$ -- 163
 width$ -- 0
-write$ -- 7
-(There were 2 error messages)
+write$ -- 580
+(There were 3 error messages)

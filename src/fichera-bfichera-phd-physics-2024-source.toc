@@ -1,7 +1,7 @@
 \changetocdepth {2}
-\contentsline {chapter}{Contents}{9}{section*.1}%
-\contentsline {chapter}{List of Figures}{11}{section*.2}%
-\contentsline {chapter}{List of Tables}{12}{section*.3}%
+\contentsline {chapter}{Contents}{ix}{section*.1}%
+\contentsline {chapter}{List of Figures}{xi}{section*.2}%
+\contentsline {chapter}{List of Tables}{xii}{section*.3}%
 \contentsline {chapter}{\chapternumberline {1}Ultrafast optics in correlated electron systems}{13}{chapter.1}%
 \contentsline {chapter}{\chapternumberline {2}Second harmonic generation: theory}{15}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Space groups, point groups, and Neumann's principle}{15}{section.2.1}%
@@ -27,10 +27,10 @@
 \contentsline {section}{\numberline {4.3} Introduction}{46}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Design}{50}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Slip Ring}{51}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Miniature Stepper Motor}{53}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Validation and Discussion}{55}{section.4.5}%
-\contentsline {chapter}{\chapternumberline {5}Second harmonic generation as a probe of broken mirror symmetry in 1\textit {T}-\ce {TaS2}}{57}{chapter.5}%
-\contentsline {chapter}{\chapternumberline {6}Light-induced reorientation transition in the antiferromagnetic semiconductor \ce {CaMn2Bi2}}{59}{chapter.6}%
-\contentsline {chapter}{\chapternumberline {7}Amplitude-mode electromagnon in the XXZ chain \ce {CuBr2}}{61}{chapter.7}%
-\contentsline {chapter}{\chapternumberline {8}Concluding remarks}{63}{chapter.8}%
-\contentsline {chapter}{Bibliography}{67}{chapter*.6}%
+\contentsline {subsection}{\numberline {4.4.2}Miniature Stepper Motor}{52}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Validation and Discussion}{56}{section.4.5}%
+\contentsline {chapter}{\chapternumberline {5}Second harmonic generation as a probe of broken mirror symmetry in 1\textit {T}-\ce {TaS2}}{59}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {6}Light-induced reorientation transition in the antiferromagnetic semiconductor \ce {CaMn2Bi2}}{61}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {7}Amplitude-mode electromagnon in the XXZ chain \ce {CuBr2}}{63}{chapter.7}%
+\contentsline {chapter}{\chapternumberline {8}Concluding remarks}{65}{chapter.8}%
+\contentsline {chapter}{Bibliography}{69}{chapter*.6}%
