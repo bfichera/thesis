@@ -7,7 +7,12 @@ There are two key insights which make this design work: one, the light is obliqu
 The first point allows us to measure elements of $\chi_{ijk}$ with $z$ indices\footnote{Here and unless otherwise noted I define the sample normal to be the $z$ axis.}, and the second point makes sure we get all of the $x$ and $y$ elements of $\chi_{ijk}$ too.
 All of the tensor elements are thus given a chance to contribute to the \gls{shg} intensity in a given experiment.
 
-With those considerations in mind, let me proceed to give a schematic description of our \gls{shg} setup.
+\begin{figure}
+\includegraphics[width=\textwidth]{gfx/ch3/pdf/setup.pdf}
+\caption[Schematic drawing of the SHG setup used in this research.]{\label{fig:setup}Schematic drawing of the \gls{shg} setup used in this research. After \citet{morey_automated_2024}.}
+\end{figure}
+
+With those considerations in mind, let me proceed to give a schematic description of our \gls{shg} setup (see \cref{fig:setup,fig:setup_real}).
 Some of the choices we made may seem arbitrary right now, but I will go over them in detail in \cref{sec:beforeyoubuild}.
 The starting point is our regenerative amplifier (Spectra-Physics Spitfire Sptf-100f-5k-xp), which produces $100$ \si{fs} $800$ \si{nm} pulses at a $5$ \si{kHz} repetition rate from an $86$ \si{MHz} seed laser (Spectra-Physics Tsunami 3941-M1S). 
 $90\%$ of the beam is split off to power an \gls{opa}, and the remaining $10\%$ is used for the \gls{shg} probe beam.
@@ -21,8 +26,10 @@ Then, the light passes through a dichroic mirror (which transmits $800$ \si{nm} 
 The interaction between the light and the sample causes \gls{shg} to be radiated in reflection at the same $10^\circ$ angle of incidence, so that the \gls{shg} beam passes through the opposite side of the $50$ \si{mm} lens before passing through a second, independent polarizer which is used to control the polarization of the measured light.
 
 \begin{figure}
-\includegraphics[width=\textwidth]{gfx/ch3/pdf/setup.pdf}
-\caption[Schematic drawing of the SHG setup used in this research.]{\label{fig:setup}Schematic drawing of the \gls{shg} setup used in this research. After \citet{morey_automated_2024}.}
+\includegraphics[width=\textwidth]{gfx/ch3/pdf/setup_real.pdf}
+\caption[Photograph of the SHG setup.]{\label{fig:setup_real}Photograph of the \gls{shg} setup used in this research.
+The sample lies in the blue cryostat on the right side of the image.
+The phase mask is mounted in a black holder with blue masking tape on the left side, and the polarizers are mounted in the two gold-colored slip rings (described in \cref{sec:polarizationrotators}).}
 \end{figure}
 
 Finally, the polarized output reflects off of two dichroic mirrors (oriented in such a way as to cancel the differing effect of the Fresnel equations on the reflectivity of S and P polarized light) and is focused through a $400$ \si{nm} bandpass filter onto a \gls{pmt} by a $400$ \si{mm} lens.
