@@ -28,7 +28,7 @@ In contrast, nonlinear scattering techniques at optical frequencies like \gls{ra
 
 Furthermore, due to the non-invasive nature of \gls{rashg}, it can also be used to investigate changes along one or more measurement axes, such as strain, field, pressure, temperature, or time delay.
 The phase diagram of quantum materials is heavily influenced by these independent variables, and thus, changes to the SHG response along such measurement axes are of great interest.
-For example, previous studies have used various continuous experimental parameters such as pressure \citep{li_high-pressure_2022}, time delay\citep{shan_gian_2021}, and magnetic field to investigate phase transitions in quantum materials.
+For example, previous studies have used various continuous experimental parameters such as pressure \citep{li_high-pressure_2022}, time delay\citep{shan_giant_2021}, and magnetic field to investigate phase transitions in quantum materials.
 Such measurements can illuminate the roles that charge, spin, and thermal degrees of freedom play within quantum materials.
 
 Second harmonic generation gleans microscopic information through the coupling of an order parameter to the second harmonic susceptibility tensor (at least a third-rank tensor with 18 independent components) \citep{boyd}. 
@@ -43,7 +43,7 @@ Thus, new methods for collecting data efficiently for multi-axis \gls{rashg} exp
 \centering
 \phantomsubfloat{\label{km-fig:1a}}
 \phantomsubfloat{\label{km-fig:1b}}
-\includegraphics[width=\textwidth]{gfx/ch4/km-fig1.pdf}
+\includegraphics[width=0.8\textwidth]{gfx/ch4/km-fig1.pdf}
 \caption[A demonstration of \glsfmtshort{rashg} in the test sample \ce{GaAs}]{
 \label{km-fig:1}
 \begin{enumerate*}[label=\caplabel, ref=\capref]
@@ -63,16 +63,16 @@ I(\phi) = \big| E^{\mathrm{out}}_i(\phi) \chi^{(2)eee}_{ijk} E^{\mathrm{in}}_j(\
     \label{km-eq:intensity}
 \end{equation}
 where $\phi$ is the azimuthal angle between the crystallographic axes and the plane of incidence, $E^{\mathrm{out}}$ and $E^{\mathrm{in}}$ are the polarization vectors of the outgoing and incoming light, respectively, and $\chi^{(2)eee}$ is the SHG electric-dipole susceptibility tensor.
-For certain values of $\phi$, as shown in \cref{km-fig:1a}, the sample is symmetric with respect to the polarization axis of the incoming light; in this case, the second harmonic generation is constrained to be zero, whereas in general arbitrary angles give a non-zero second-harmonic response (see \cref{fig:1}b).
+For certain values of $\phi$, as shown in \cref{km-fig:1a}, the sample is symmetric with respect to the polarization axis of the incoming light; in this case, the second harmonic generation is constrained to be zero, whereas in general arbitrary angles give a non-zero second-harmonic response (see \cref{km-fig:1b}).
 Neumann's principle dictates that \cref{km-eq:intensity} captures the symmetry considerations shown in \cref{km-fig:1}, i.e. the symmetries of the crystal are embedded into its nonlinear susceptibility tensor $\chi^{(2)}$.
 
 These considerations demonstrate the necessity of measuring the full rotational anisotropy of the SHG response, as well as its dependence on the incoming and outgoing polarization directions (which may be P or S-polarized, leading to four independent polarization channels).
 The former requires rotating the plane of incidence, which is typically done by rotating the optical setup itself rather than the sample \citep{petersen_nonlinear_2006,torchinsky_low_2014, fichera_second_2020, camn2bi2}. 
-The geometric constraints involved in rotating the optical setup make it challenging to use electromechanical components to rotate the polarizers shown in \cref{fig:1} between S and P configurations, since naively it is difficult to transfer power to the rotating frame of reference.
-Because of this, switching between different polarization channels is typically done manually, resulting in time and labor constraints that often limit data collection beyond a single polarization combination \citep{shan_gian_2021}.
+The geometric constraints involved in rotating the optical setup make it challenging to use electromechanical components to rotate the polarizers shown in \cref{km-fig:1} between S and P configurations, since naively it is difficult to transfer power to the rotating frame of reference.
+Because of this, switching between different polarization channels is typically done manually, resulting in time and labor constraints that often limit data collection beyond a single polarization combination \citep{shan_giant_2021}.
 Such constraints severely restrict the ability to infer tensor elements from the \gls{rashg} data and limit RA-SHG to studies involving often just a single tuning parameter. 
 
-Previous multi-axis \gls{rashg} studies typically either collected exclusively one polarization channel \citep{shan_gian_2021} (for more than one axis) or simply sacrificed the quantity of collected data and therefore inferred statistics. 
+Previous multi-axis \gls{rashg} studies typically either collected exclusively one polarization channel \citep{shan_giant_2021} (for more than one axis) or simply sacrificed the quantity of collected data and therefore inferred statistics. 
 However, these approaches can often miss certain features in \gls{rashg} data that would be apparent if more efficient data-taking methods were available.
 For example, phase transitions in which the order parameter couples differently to different polarization channels through the second harmonic susceptibility \citep{camn2bi2} are best characterized by taking the full rotational anisotropy data.
 The benefit of collecting all four polarization combinations underscores the appeal of automated polarization control of \gls{rashg} setups.

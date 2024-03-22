@@ -21,16 +21,16 @@
 \contentsline {subsection}{\numberline {3.4.1}Static RA-SHG patterns}{37}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Modeling $\chi _{ijk}$: the simplified bond hyperpolarizability model}{40}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}Fitting time traces in tr-SHG}{42}{subsection.3.4.3}%
-\contentsline {chapter}{\chapternumberline {4}Automated Polarization Rotation for Multi-Axis Rotational-Anisotropy Second Harmonic Generation Experiments}{45}{chapter.4}%
+\contentsline {chapter}{\chapternumberline {4}Automated polarization rotation for multi-axis RA-SHG experiments}{45}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Preface}{45}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Abstract}{45}{section.4.2}%
 \contentsline {section}{\numberline {4.3} Introduction}{46}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Design}{50}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Slip Ring}{51}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Miniature Stepper Motor}{52}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Validation and Discussion}{56}{section.4.5}%
-\contentsline {chapter}{\chapternumberline {5}Second harmonic generation as a probe of broken mirror symmetry in 1\textit {T}-\ce {TaS2}}{59}{chapter.5}%
-\contentsline {chapter}{\chapternumberline {6}Light-induced reorientation transition in the antiferromagnetic semiconductor \ce {CaMn2Bi2}}{61}{chapter.6}%
-\contentsline {chapter}{\chapternumberline {7}Amplitude-mode electromagnon in the XXZ chain \ce {CuBr2}}{63}{chapter.7}%
-\contentsline {chapter}{\chapternumberline {8}Concluding remarks}{65}{chapter.8}%
-\contentsline {chapter}{Bibliography}{69}{chapter*.6}%
+\contentsline {subsection}{\numberline {4.4.2}Miniature Stepper Motor}{53}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Validation and Discussion}{55}{section.4.5}%
+\contentsline {chapter}{\chapternumberline {5}Second harmonic generation as a probe of broken mirror symmetry in 1\textit {T}-\ce {TaS2}}{57}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {6}Light-induced reorientation transition in the antiferromagnetic semiconductor \ce {CaMn2Bi2}}{59}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {7}Amplitude-mode electromagnon in the XXZ chain \ce {CuBr2}}{61}{chapter.7}%
+\contentsline {chapter}{\chapternumberline {8}Concluding remarks}{63}{chapter.8}%
+\contentsline {chapter}{Bibliography}{67}{chapter*.6}%

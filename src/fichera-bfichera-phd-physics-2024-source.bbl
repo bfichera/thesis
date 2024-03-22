@@ -1,4 +1,4 @@
-\begin{thebibliography}{41}
+\begin{thebibliography}{42}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -99,16 +99,16 @@ Bryan~T. Fichera, Anshul Kogar, Linda Ye, Bilal Gökce, Alfred Zong, Joseph~G.
 \newblock \emph{Phys. Rev. B}, 101\penalty0 (24):\penalty0 241106, June 2020.
 \newblock \doi{10.1103/PhysRevB.101.241106}.
 
-\bibitem[Fichera et~al.(2023)Fichera, Lv, Morey, Shen, Lee, Liebman-pel, Kogar,
-  Kurumaji, Humberto, Arruabarrena, Ilyas, Luo, Peter, Checkelsky, Orenstein,
-  and Gedik]{camn2bi2}
+\bibitem[Fichera et~al.(In preparation)Fichera, Lv, Morey, Shen, Lee,
+  Liebman-pel, Kogar, Kurumaji, Humberto, Arruabarrena, Ilyas, Luo, Peter,
+  Checkelsky, Orenstein, and Gedik]{camn2bi2}
 Bryan~T Fichera, Baiqing Lv, Karna Morey, Zongqi Shen, Changmin Lee, Alex
   Liebman-pel, Anshul Kogar, Takashi Kurumaji, Rodrigo Humberto, Mikel
   Arruabarrena, Batyr Ilyas, Tianchuang Luo, M~Peter, Joseph~G. Checkelsky,
   Joseph Orenstein, and Nuh Gedik.
 \newblock {Light-induced reorientation transition in an antiferromagnetic
   semiconductor}.
-\newblock \emph{*in prep.}, 2023.
+\newblock In preparation.
 
 \bibitem[Fiebig et~al.(2001)Fiebig, Fröhlich, Lottermoser, Pavlov, Pisarev,
   and Weber]{fiebig_second_2001}
@@ -279,6 +279,14 @@ D.~Sa, R.~Valentí, and C.~Gros.
 \newblock \emph{Eur. Phys. J. B}, 14\penalty0 (2):\penalty0 301--305, March
   2000.
 \newblock \doi{10.1007/s100510050133}.
+
+\bibitem[Shan et~al.(2021)Shan, Ye, Chu, Lee, Park, Balents, and
+  Hsieh]{shan_giant_2021}
+Jun-Yi Shan, M.~Ye, H.~Chu, Sungmin Lee, Je-Geun Park, L.~Balents, and
+  D.~Hsieh.
+\newblock Giant modulation of optical nonlinearity by {Floquet} engineering.
+\newblock \emph{Nature}, 600\penalty0 (7888):\penalty0 235--239, December 2021.
+\newblock \doi{10.1038/s41586-021-04051-8}.
 
 \bibitem[Stokes et~al.()Stokes, Hatch, and Campbell]{isodistort}
 H.~T. Stokes, D.~M. Hatch, and B.~J. Campbell.

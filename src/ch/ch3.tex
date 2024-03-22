@@ -29,7 +29,7 @@ The interaction between the light and the sample causes \gls{shg} to be radiated
 \includegraphics[width=\textwidth]{gfx/ch3/pdf/setup_real.pdf}
 \caption[Photograph of the SHG setup.]{\label{fig:setup_real}Photograph of the \gls{shg} setup used in this research.
 The sample lies in the blue cryostat on the right side of the image.
-The phase mask is mounted in a black holder with blue masking tape on the left side, and the polarizers are mounted in the two gold-colored slip rings (described in \cref{sec:polarizationrotators}).}
+The phase mask is mounted in a black holder with blue masking tape on the left side, and the polarizers are mounted in the two gold-colored slip rings (described in \cref{ch:polrotators}).}
 \end{figure}
 
 Finally, the polarized output reflects off of two dichroic mirrors (oriented in such a way as to cancel the differing effect of the Fresnel equations on the reflectivity of S and P polarized light) and is focused through a $400$ \si{nm} bandpass filter onto a \gls{pmt} by a $400$ \si{mm} lens.
@@ -90,7 +90,7 @@ For example, sometimes unwanted \gls{shg} contributions (see \cref{sec:manyshgte
 Furthermore, in some materials the order parameter only couples to one or two elements of $\chi_{ijk}$; if none of these elements have a $z$ index, it is needless to complicate the analysis with oblique incidence.
 
 In my experience, oblique incidence seems to be useful in two broad cases.
-For one thing, some order parameters only show up in the $z$ components of $\chi_{ijk}$ (this is the case in \tastwo, see \cref{sec:tastwo}), in which case one obviously needs a nonzero angle of incidence to access these components.
+For one thing, some order parameters only show up in the $z$ components of $\chi_{ijk}$ (this is the case in \tastwo, see \cref{ch:tastwo}), in which case one obviously needs a nonzero angle of incidence to access these components.
 A more subtle point is that, even if in practice all of the phenomenology of a particular sample only shows up in the $x$ and $y$ indices of $\chi_{ijk}$, still one must measure the full tensor to \emph{rule out} unseen phenomenology in the other indices.
 Both the \ce{CaMn2Bi2} (\cref{ch:cmb}) and \ce{CuBr2} (\cref{ch:cubr2}) works presented in this thesis are examples of exactly this point, where the main scientific arguments involve either comparing \gls{shg} patterns in two domains or comparing oscillation amplitudes in different polarization channels.
 Clearly one needs to know all of the tensor elements to make those arguments exact.
@@ -256,7 +256,15 @@ When $|\delta P_{2\omega}(t, \phi_0)| \ll |P_{2\omega}(0, \phi_0)|$, this reduce
 \Delta I_{2\omega}(t, \phi_0) \propto P_{2\omega}(0, \phi_0)\delta P_{2\omega}(t, \phi_0).
 \end{equation}
 
-The basic problem is then that we have a dataset $\{t_n, I_n\}, n\in \{0, 1, \ldots, N-1\}$ with uncertainties $\sigma_n$ which we wish to fit to some model, typically consisting of some (e.g. polynomial) background $b(t, \{b_k\}), k\in\{0, 1, \ldots, K-1\}$ plus $1$ to $M$ damped harmonic oscillators
+The basic problem is then that we have a dataset 
+\begin{equation}
+\{t_n, I_n\}, n\in \{0, 1, \ldots, N-1\}
+\end{equation}
+with uncertainties $\sigma_n$ which we wish to fit to some model, typically consisting of some (e.g. polynomial) background
+\begin{equation}
+b(t, \{b_k\}), k\in\{0, 1, \ldots, K-1\}
+\end{equation}
+plus $1$ to $M$ damped harmonic oscillators
 \begin{equation}
 I(t, \params) = \begin{cases}
 0 & t<0\\
