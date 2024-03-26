@@ -1,29 +1,41 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.25)  26 MAR 2024 10:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.26)  26 MAR 2024 12:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **fichera-bfichera-phd-physics-2024-source.tex
 (./fichera-bfichera-phd-physics-2024-source.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-22>
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
 (/usr/share/texmf-dist/tex/latex/memoir/memoir.cls
-Document Class: memoir 2022/11/17 v3.7.19 configurable book, report, article do
-cument class
+Document Class: memoir 2024/01/26 v3.8.2 configurable book, report, article doc
+ument class
+(/usr/share/texmf-dist/tex/latex/xpatch/xpatch.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-02-20 L3 programming layer (loader) 
+
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count188
+\l__pdf_internal_box=\box51
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-02-18 L3 Experimental document command parser
+)
 (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count185
-)
+\etb@tempcnta=\count189
+))
 \onelineskip=\skip48
 \lxvchars=\skip49
 \xlvchars=\skip50
-\@memcnta=\count186
-\c@@memmarkcntra=\count187
+\@memcnta=\count190
+\c@@memmarkcntra=\count191
 
 (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-\stockheight=\dimen140
-\stockwidth=\dimen141
 \trimtop=\skip51
 \trimedge=\skip52
 
@@ -40,20 +52,20 @@ File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
 \mem@maxheadheight=\skip60
 \mem@maxfootheight=\skip61
 \headwidth=\skip62
-\c@storedpagenumber=\count188
-\memPD=\dimen142
+\c@storedpagenumber=\count192
+\memPD=\dimen140
 \m@mabparskip=\skip63
 \thanksmarkwidth=\skip64
 \thanksmarksep=\skip65
 \droptitle=\skip66
-\c@book=\count189
-\c@part=\count190
-\c@chapter=\count191
-\c@section=\count192
-\c@subsection=\count193
-\c@subsubsection=\count194
-\c@paragraph=\count195
-\c@subparagraph=\count196
+\c@book=\count193
+\c@part=\count194
+\c@chapter=\count195
+\c@section=\count196
+\c@subsection=\count197
+\c@subsubsection=\count198
+\c@paragraph=\count199
+\c@subparagraph=\count266
 \beforechapskip=\skip67
 \midchapskip=\skip68
 \afterchapskip=\skip69
@@ -75,10 +87,10 @@ File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
 \beforesubparaskip=\skip85
 \aftersubparaskip=\skip86
 \pfbreakskip=\skip87
-\c@@ppsavesec=\count197
-\c@@ppsaveapp=\count198
-\ragrparindent=\dimen143
-\everylistparindent=\dimen144
+\c@@ppsavesec=\count267
+\c@@ppsaveapp=\count268
+\ragrparindent=\dimen141
+\everylistparindent=\dimen142
 \parsepi=\skip88
 \topsepi=\skip89
 \itemsepi=\skip90
@@ -91,86 +103,89 @@ File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
 \partopsepiii=\skip97
 \m@msavetopsep=\skip98
 \m@msavepartopsep=\skip99
-\@enLab=\toks16
+\@enLab=\toks17
 \abstitleskip=\skip100
 \absleftindent=\skip101
-\abs@leftindent=\dimen145
+\abs@leftindent=\dimen143
 \absrightindent=\skip102
 \absparindent=\skip103
 \absparsep=\skip104
-\c@vslineno=\count199
-\c@poemline=\count266
-\c@modulo@vs=\count267
-\c@memfvsline=\count268
+\c@vslineno=\count269
+\c@poemline=\count270
+\c@modulo@vs=\count271
+\c@memfvsline=\count272
 \vleftskip=\skip105
 \vrightskip=\skip106
 \stanzaskip=\skip107
 \versewidth=\skip108
 \vgap=\skip109
 \vindent=\skip110
-\vleftmargin=\dimen146
-\c@verse=\count269
-\c@chrsinstr=\count270
+\vleftmargin=\dimen144
+\c@verse=\count273
+\c@chrsinstr=\count274
 \beforepoemtitleskip=\skip111
 \afterpoemtitleskip=\skip112
-\c@poem=\count271
+\c@poem=\count275
 \beforePoemTitleskip=\skip113
 \midPoemTitleskip=\skip114
 \afterPoemTitleskip=\skip115
 
 (/usr/share/texmf-dist/tex/latex/tools/array.sty
-Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen147
-\ar@mcellbox=\box51
-\extrarowheight=\dimen148
-\NC@list=\toks17
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen145
+\ar@mcellbox=\box52
+\extrarowheight=\dimen146
+\NC@list=\toks18
 \extratabsurround=\skip116
 \backup@length=\skip117
-\ar@cellbox=\box52
+\ar@cellbox=\box53
 )
 (/usr/share/texmf-dist/tex/latex/tools/dcolumn.sty
-Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+Package: dcolumn 2023/07/08 v1.06 decimal alignment package (DPC)
 )
 (/usr/share/texmf-dist/tex/latex/tools/delarray.sty
 Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
 )
 (/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen149
-\TX@old@table=\dimen150
-\TX@old@col=\dimen151
-\TX@target=\dimen152
-\TX@delta=\dimen153
-\TX@cols=\count272
-\TX@ftn=\toks18
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen147
+\TX@old@table=\dimen148
+\TX@old@col=\dimen149
+\TX@target=\dimen150
+\TX@delta=\dimen151
+\TX@cols=\count276
+\TX@ftn=\toks19
 )
-\heavyrulewidth=\dimen154
-\lightrulewidth=\dimen155
-\cmidrulewidth=\dimen156
-\belowrulesep=\dimen157
-\belowbottomsep=\dimen158
-\aboverulesep=\dimen159
-\abovetopsep=\dimen160
-\cmidrulesep=\dimen161
-\cmidrulekern=\dimen162
-\defaultaddspace=\dimen163
-\@cmidla=\count273
-\@cmidlb=\count274
-\@aboverulesep=\dimen164
-\@belowrulesep=\dimen165
-\@thisruleclass=\count275
-\@lastruleclass=\count276
-\@thisrulewidth=\dimen166
+(/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen152
+\lightrulewidth=\dimen153
+\cmidrulewidth=\dimen154
+\belowrulesep=\dimen155
+\belowbottomsep=\dimen156
+\aboverulesep=\dimen157
+\abovetopsep=\dimen158
+\cmidrulesep=\dimen159
+\cmidrulekern=\dimen160
+\defaultaddspace=\dimen161
+\@cmidla=\count277
+\@cmidlb=\count278
+\@aboverulesep=\dimen162
+\@belowrulesep=\dimen163
+\@thisruleclass=\count279
+\@lastruleclass=\count280
+\@thisrulewidth=\dimen164
+)
 \ctableftskip=\skip118
 \ctabrightskip=\skip119
-\abovecolumnspenalty=\count277
-\@linestogo=\count278
-\@cellstogo=\count279
-\@cellsincolumn=\count280
-\crtok=\toks19
-\@mincolumnwidth=\dimen167
-\c@newflo@tctr=\count281
-\mem@margin@floatbox=\box53
+\abovecolumnspenalty=\count281
+\@linestogo=\count282
+\@cellstogo=\count283
+\@cellsincolumn=\count284
+\crtok=\toks20
+\@mincolumnwidth=\dimen165
+\c@newflo@tctr=\count285
+\mem@margin@floatbox=\box54
 \@contcwidth=\skip120
 \@contindw=\skip121
 \abovecaptionskip=\skip122
@@ -180,29 +195,57 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \subfloatcaptopadj=\skip126
 \subfloatbottomskip=\skip127
 \subfloatlabelskip=\skip128
-\subfloatcapmargin=\dimen168
-\c@@contsubnum=\count282
-\m@mscap@capbox=\box54
-\m@mscap@fbox=\box55
-\sidecapsep=\dimen169
-\sidecapwidth=\dimen170
-\m@m@tempdima=\dimen171
-\m@mscapraise=\dimen172
-\sidecapraise=\dimen173
-\m@mscapmainwidth=\dimen174
-\m@mscaplkern=\dimen175
+\subfloatcapmargin=\dimen166
+\c@@contsubnum=\count286
+\m@mscap@capbox=\box55
+\m@mscap@fbox=\box56
+\sidecapsep=\dimen167
+\sidecapwidth=\dimen168
+\m@m@tempdima=\dimen169
+\m@mscapraise=\dimen170
+\sidecapraise=\dimen171
+\m@mscapmainwidth=\dimen172
+\m@mscaplkern=\dimen173
 \beforeepigraphskip=\skip129
 \afterepigraphskip=\skip130
 \epigraphwidth=\skip131
 \epigraphrule=\skip132
-LaTeX Info: Redefining \em on input line 7655.
-LaTeX Info: Redefining \emph on input line 7663.
+LaTeX Info: Redefining \em on input line 6932.
+LaTeX Info: Redefining \emph on input line 6940.
+
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+))
+(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)))
+\c@section@level=\count287
+)
 \tocentryskip=\skip133
 \tocbaseline=\skip134
 \cftparskip=\skip135
 \cftbeforebookskip=\skip136
-\cftbookindent=\dimen176
-\cftbooknumwidth=\dimen177
+\cftbookindent=\dimen174
+\cftbooknumwidth=\dimen175
 \cftbeforepartskip=\skip137
 \cftpartindent=\skip138
 \cftpartnumwidth=\skip139
@@ -224,16 +267,18 @@ LaTeX Info: Redefining \emph on input line 7663.
 \cftbeforesubparagraphskip=\skip155
 \cftsubparagraphindent=\skip156
 \cftsubparagraphnumwidth=\skip157
-\prechapterprecisshift=\dimen178
-\c@maxsecnumdepth=\count283
-\bibindent=\dimen179
+\prechapterprecisshift=\dimen176
+\c@maxsecnumdepth=\count288
+\bibindent=\dimen177
 \bibitemsep=\skip158
 \indexcolsep=\skip159
 \indexrule=\skip160
-\indexmarkstyle=\toks20
+\indexmarkstyle=\toks22
 \@indexbox=\insert252
-\glossarycolsep=\dimen180
-\glossaryrule=\dimen181
+LaTeX Info: Redefining \raggedbottom on input line 7935.
+LaTeX Info: Redefining \flushbottom on input line 7939.
+\glossarycolsep=\dimen178
+\glossaryrule=\dimen179
 \sideparvshift=\skip161
 \sideins=\insert251
 \sidebartopsep=\skip162
@@ -246,8 +291,8 @@ LaTeX Info: Redefining \emph on input line 7663.
 \footinsdim=\skip169
 \footinsv@r=\insert250
 \@mpfootinsv@r=\insert249
-\m@m@k=\count284
-\m@m@h=\dimen182
+\m@m@k=\count289
+\m@m@h=\dimen180
 \m@mipn@skip=\skip170
 \sidefootins=\insert248
 \sidefootadjust=\skip171
@@ -256,61 +301,67 @@ LaTeX Info: Redefining \emph on input line 7663.
 \sidefootvsep=\skip174
 \sidefootwidth=\skip175
 \m@mdownsf=\skip176
-\c@sidefootnote=\count285
+\c@sidefootnote=\count290
 \sidefootmarkwidth=\skip177
 \sidefootmarksep=\skip178
 \sidefootparindent=\skip179
-\c@pagenote=\count286
-\c@pagenoteshadow=\count287
+\c@pagenote=\count291
+\c@pagenoteshadow=\count292
 \mem@pn@lastkern=\skip180
-\every@verbatim=\toks21
-\afterevery@verbatim=\toks22
-\verbatim@line=\toks23
-\tab@position=\count288
+
+(/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks23
+\verbatim@line=\toks24
 \verbatim@in@stream=\read2
+)
 \verbatimindent=\skip181
 \verbatim@out=\write3
+
+(/usr/share/texmf-dist/tex/latex/base/shortvrb.sty
+Package: shortvrb 2022/11/13 v3.0m Standard LaTeX documentation package V3 (FMi
+)
+)
 \bvboxsep=\skip182
-\c@memfbvline=\count289
-\c@bvlinectr=\count290
+\c@memfbvline=\count293
+\c@bvlinectr=\count294
 \bvnumlength=\skip183
-\fb@frw=\dimen183
-\fb@frh=\dimen184
-\FrameRule=\dimen185
-\FrameSep=\dimen186
-\c@cp@cntr=\count291
-\c@ism@mctr=\count292
-\c@xsm@mctr=\count293
-\c@csm@mctr=\count294
-\c@ksm@mctr=\count295
-\c@xksm@mctr=\count296
-\c@cksm@mctr=\count297
-\c@msm@mctr=\count298
-\c@xmsm@mctr=\count299
-\c@cmsm@mctr=\count300
-\c@bsm@mctr=\count301
-\c@workm@mctr=\count302
-\c@sheetsequence=\count303
-\c@lastsheet=\count304
-\c@lastpage=\count305
+\fb@frw=\dimen181
+\fb@frh=\dimen182
+\FrameRule=\dimen183
+\FrameSep=\dimen184
+\c@cp@cntr=\count295
+\c@ism@mctr=\count296
+\c@xsm@mctr=\count297
+\c@csm@mctr=\count298
+\c@ksm@mctr=\count299
+\c@xksm@mctr=\count300
+\c@cksm@mctr=\count301
+\c@msm@mctr=\count302
+\c@xmsm@mctr=\count303
+\c@cmsm@mctr=\count304
+\c@bsm@mctr=\count305
+\c@workm@mctr=\count306
+\c@sheetsequence=\count307
+\c@lastsheet=\count308
+\c@lastpage=\count309
 
 (/usr/share/texmf-dist/tex/latex/textcase/textcase.sty
-Package: textcase 2022/07/10 v1.03 Text only upper/lower case changing (DPC)
+Package: textcase 2023/07/27 v1.04 Text only upper/lower case changing (DPC)
 Package textcase Info: Defining Legacy names on input line 20.
 )
-\c@figure=\count306
-\c@lofdepth=\count307
+\c@figure=\count310
+\c@lofdepth=\count311
 \cftbeforefigureskip=\skip184
 \cftfigureindent=\skip185
 \cftfigurenumwidth=\skip186
-\c@table=\count308
-\c@lotdepth=\count309
+\c@table=\count312
+\c@lotdepth=\count313
 \cftbeforetableskip=\skip187
 \cfttableindent=\skip188
 \cfttablenumwidth=\skip189
 Package abstract [2008/07/23] emulated by memoir.
 Package appendix [2008/07/23] emulated by memoir.
-Package booktabs [2016/05/16] emulated by memoir.
 Package ccaption [2008/07/23] emulated by memoir.
 Package changepage [2008/07/23] emulated by memoir.
 Package chngcntr [2008/07/23] emulated by memoir.
@@ -342,9 +393,9 @@ Package verse [2008/07/23] emulated by memoir.
 (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip190
-\multirow@cntb=\count310
+\multirow@cntb=\count314
 \multirow@dima=\skip191
-\bigstrutjot=\dimen187
+\bigstrutjot=\dimen185
 )
 (/usr/share/texmf-dist/tex/latex/psnfss/palatino.sty
 Package: palatino 2020/03/25 PSNFSS-v9.3 (SPQR) 
@@ -376,7 +427,7 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2022/04/08 v2.17n AMS math features
+Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip192
 
 For additional information on amsmath, use the `?' option.
@@ -385,90 +436,464 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks24
-\ex@=\dimen188
+\@emptytoks=\toks25
+\ex@=\dimen186
 ))
 (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen189
+\pmbraise@=\dimen187
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count311
+\inf@bad=\count315
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count312
-\leftroot@=\count313
+\uproot@=\count316
+\leftroot@=\count317
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count314
-\DOTSCASE@=\count315
+\classnum@=\count318
+\DOTSCASE@=\count319
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box56
-\strutbox@=\box57
+\Mathstrutbox@=\box57
+\strutbox@=\box58
 LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen190
+\big@size=\dimen188
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count316
+\macc@depth=\count320
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count317
+\c@MaxMatrixCols=\count321
 \dotsspace@=\muskip16
-\c@parentequation=\count318
-\dspbrk@lvl=\count319
-\tag@help=\toks25
-\row@=\count320
-\column@=\count321
-\maxfields@=\count322
-\andhelp@=\toks26
-\eqnshift@=\dimen191
-\alignsep@=\dimen192
-\tagshift@=\dimen193
-\tagwidth@=\dimen194
-\totwidth@=\dimen195
-\lineht@=\dimen196
-\@envbody=\toks27
+\c@parentequation=\count322
+\dspbrk@lvl=\count323
+\tag@help=\toks26
+\row@=\count324
+\column@=\count325
+\maxfields@=\count326
+\andhelp@=\toks27
+\eqnshift@=\dimen189
+\alignsep@=\dimen190
+\tagshift@=\dimen191
+\tagwidth@=\dimen192
+\totwidth@=\dimen193
+\lineht@=\dimen194
+\@envbody=\toks28
 \multlinegap=\skip193
 \multlinetaggap=\skip194
-\mathdisplay@stack=\toks28
+\mathdisplay@stack=\toks29
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texmf-dist/tex/latex/textgreek/textgreek.sty
+Package: textgreek 2011/10/09 v0.7 Greek symbols in text
+Package textgreek Info: Loading the definitions for the Greek fontencoding. on 
+input line 39.
+
+(/usr/share/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
+File: lgrenc.def 2023-09-12 2.5 LGR Greek font encoding definitions
+Now handling font encoding LGR ...
+... processing UTF-8 mapping file for font encoding LGR
+
+(/usr/share/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
+File: lgrenc.dfu 2023-03-21 1.9 UTF-8 support for Greek
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0259 (decimal 601)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+0374 (decimal 884)
+   defining Unicode char U+0375 (decimal 885)
+   defining Unicode char U+037A (decimal 890)
+   defining Unicode char U+037E (decimal 894)
+   defining Unicode char U+0384 (decimal 900)
+   defining Unicode char U+0385 (decimal 901)
+   defining Unicode char U+0386 (decimal 902)
+   defining Unicode char U+0387 (decimal 903)
+   defining Unicode char U+0388 (decimal 904)
+   defining Unicode char U+0389 (decimal 905)
+   defining Unicode char U+038A (decimal 906)
+   defining Unicode char U+038C (decimal 908)
+   defining Unicode char U+038E (decimal 910)
+   defining Unicode char U+038F (decimal 911)
+   defining Unicode char U+0390 (decimal 912)
+   defining Unicode char U+0391 (decimal 913)
+   defining Unicode char U+0392 (decimal 914)
+   defining Unicode char U+0393 (decimal 915)
+   defining Unicode char U+0394 (decimal 916)
+   defining Unicode char U+0395 (decimal 917)
+   defining Unicode char U+0396 (decimal 918)
+   defining Unicode char U+0397 (decimal 919)
+   defining Unicode char U+0398 (decimal 920)
+   defining Unicode char U+0399 (decimal 921)
+   defining Unicode char U+039A (decimal 922)
+   defining Unicode char U+039B (decimal 923)
+   defining Unicode char U+039C (decimal 924)
+   defining Unicode char U+039D (decimal 925)
+   defining Unicode char U+039E (decimal 926)
+   defining Unicode char U+039F (decimal 927)
+   defining Unicode char U+03A0 (decimal 928)
+   defining Unicode char U+03A1 (decimal 929)
+   defining Unicode char U+03A3 (decimal 931)
+   defining Unicode char U+03A4 (decimal 932)
+   defining Unicode char U+03A5 (decimal 933)
+   defining Unicode char U+03A6 (decimal 934)
+   defining Unicode char U+03A7 (decimal 935)
+   defining Unicode char U+03A8 (decimal 936)
+   defining Unicode char U+03A9 (decimal 937)
+   defining Unicode char U+03AA (decimal 938)
+   defining Unicode char U+03AB (decimal 939)
+   defining Unicode char U+03AC (decimal 940)
+   defining Unicode char U+03AD (decimal 941)
+   defining Unicode char U+03AE (decimal 942)
+   defining Unicode char U+03AF (decimal 943)
+   defining Unicode char U+03B0 (decimal 944)
+   defining Unicode char U+03B1 (decimal 945)
+   defining Unicode char U+03B2 (decimal 946)
+   defining Unicode char U+03B3 (decimal 947)
+   defining Unicode char U+03B4 (decimal 948)
+   defining Unicode char U+03B5 (decimal 949)
+   defining Unicode char U+03B6 (decimal 950)
+   defining Unicode char U+03B7 (decimal 951)
+   defining Unicode char U+03B8 (decimal 952)
+   defining Unicode char U+03B9 (decimal 953)
+   defining Unicode char U+03BA (decimal 954)
+   defining Unicode char U+03BB (decimal 955)
+   defining Unicode char U+03BC (decimal 956)
+   defining Unicode char U+03BD (decimal 957)
+   defining Unicode char U+03BE (decimal 958)
+   defining Unicode char U+03BF (decimal 959)
+   defining Unicode char U+03C0 (decimal 960)
+   defining Unicode char U+03C1 (decimal 961)
+   defining Unicode char U+03C2 (decimal 962)
+   defining Unicode char U+03C3 (decimal 963)
+   defining Unicode char U+03C4 (decimal 964)
+   defining Unicode char U+03C5 (decimal 965)
+   defining Unicode char U+03C6 (decimal 966)
+   defining Unicode char U+03C7 (decimal 967)
+   defining Unicode char U+03C8 (decimal 968)
+   defining Unicode char U+03C9 (decimal 969)
+   defining Unicode char U+03CA (decimal 970)
+   defining Unicode char U+03CB (decimal 971)
+   defining Unicode char U+03CC (decimal 972)
+   defining Unicode char U+03CD (decimal 973)
+   defining Unicode char U+03CE (decimal 974)
+   defining Unicode char U+03D0 (decimal 976)
+   defining Unicode char U+03D1 (decimal 977)
+   defining Unicode char U+03D5 (decimal 981)
+   defining Unicode char U+03D6 (decimal 982)
+   defining Unicode char U+03D8 (decimal 984)
+   defining Unicode char U+03D9 (decimal 985)
+   defining Unicode char U+03DA (decimal 986)
+   defining Unicode char U+03DB (decimal 987)
+   defining Unicode char U+03DC (decimal 988)
+   defining Unicode char U+03DD (decimal 989)
+   defining Unicode char U+03DE (decimal 990)
+   defining Unicode char U+03DF (decimal 991)
+   defining Unicode char U+03E0 (decimal 992)
+   defining Unicode char U+03E1 (decimal 993)
+   defining Unicode char U+03F0 (decimal 1008)
+   defining Unicode char U+03F1 (decimal 1009)
+   defining Unicode char U+03F4 (decimal 1012)
+   defining Unicode char U+03F5 (decimal 1013)
+   defining Unicode char U+1F00 (decimal 7936)
+   defining Unicode char U+1F01 (decimal 7937)
+   defining Unicode char U+1F02 (decimal 7938)
+   defining Unicode char U+1F03 (decimal 7939)
+   defining Unicode char U+1F04 (decimal 7940)
+   defining Unicode char U+1F05 (decimal 7941)
+   defining Unicode char U+1F06 (decimal 7942)
+   defining Unicode char U+1F07 (decimal 7943)
+   defining Unicode char U+1F08 (decimal 7944)
+   defining Unicode char U+1F09 (decimal 7945)
+   defining Unicode char U+1F0A (decimal 7946)
+   defining Unicode char U+1F0B (decimal 7947)
+   defining Unicode char U+1F0C (decimal 7948)
+   defining Unicode char U+1F0D (decimal 7949)
+   defining Unicode char U+1F0E (decimal 7950)
+   defining Unicode char U+1F0F (decimal 7951)
+   defining Unicode char U+1F10 (decimal 7952)
+   defining Unicode char U+1F11 (decimal 7953)
+   defining Unicode char U+1F12 (decimal 7954)
+   defining Unicode char U+1F13 (decimal 7955)
+   defining Unicode char U+1F14 (decimal 7956)
+   defining Unicode char U+1F15 (decimal 7957)
+   defining Unicode char U+1F18 (decimal 7960)
+   defining Unicode char U+1F19 (decimal 7961)
+   defining Unicode char U+1F1A (decimal 7962)
+   defining Unicode char U+1F1B (decimal 7963)
+   defining Unicode char U+1F1C (decimal 7964)
+   defining Unicode char U+1F1D (decimal 7965)
+   defining Unicode char U+1F20 (decimal 7968)
+   defining Unicode char U+1F21 (decimal 7969)
+   defining Unicode char U+1F22 (decimal 7970)
+   defining Unicode char U+1F23 (decimal 7971)
+   defining Unicode char U+1F24 (decimal 7972)
+   defining Unicode char U+1F25 (decimal 7973)
+   defining Unicode char U+1F26 (decimal 7974)
+   defining Unicode char U+1F27 (decimal 7975)
+   defining Unicode char U+1F28 (decimal 7976)
+   defining Unicode char U+1F29 (decimal 7977)
+   defining Unicode char U+1F2A (decimal 7978)
+   defining Unicode char U+1F2B (decimal 7979)
+   defining Unicode char U+1F2C (decimal 7980)
+   defining Unicode char U+1F2D (decimal 7981)
+   defining Unicode char U+1F2E (decimal 7982)
+   defining Unicode char U+1F2F (decimal 7983)
+   defining Unicode char U+1F30 (decimal 7984)
+   defining Unicode char U+1F31 (decimal 7985)
+   defining Unicode char U+1F32 (decimal 7986)
+   defining Unicode char U+1F33 (decimal 7987)
+   defining Unicode char U+1F34 (decimal 7988)
+   defining Unicode char U+1F35 (decimal 7989)
+   defining Unicode char U+1F36 (decimal 7990)
+   defining Unicode char U+1F37 (decimal 7991)
+   defining Unicode char U+1F38 (decimal 7992)
+   defining Unicode char U+1F39 (decimal 7993)
+   defining Unicode char U+1F3A (decimal 7994)
+   defining Unicode char U+1F3B (decimal 7995)
+   defining Unicode char U+1F3C (decimal 7996)
+   defining Unicode char U+1F3D (decimal 7997)
+   defining Unicode char U+1F3E (decimal 7998)
+   defining Unicode char U+1F3F (decimal 7999)
+   defining Unicode char U+1F40 (decimal 8000)
+   defining Unicode char U+1F41 (decimal 8001)
+   defining Unicode char U+1F42 (decimal 8002)
+   defining Unicode char U+1F43 (decimal 8003)
+   defining Unicode char U+1F44 (decimal 8004)
+   defining Unicode char U+1F45 (decimal 8005)
+   defining Unicode char U+1F48 (decimal 8008)
+   defining Unicode char U+1F49 (decimal 8009)
+   defining Unicode char U+1F4A (decimal 8010)
+   defining Unicode char U+1F4B (decimal 8011)
+   defining Unicode char U+1F4C (decimal 8012)
+   defining Unicode char U+1F4D (decimal 8013)
+   defining Unicode char U+1F50 (decimal 8016)
+   defining Unicode char U+1F51 (decimal 8017)
+   defining Unicode char U+1F52 (decimal 8018)
+   defining Unicode char U+1F53 (decimal 8019)
+   defining Unicode char U+1F54 (decimal 8020)
+   defining Unicode char U+1F55 (decimal 8021)
+   defining Unicode char U+1F56 (decimal 8022)
+   defining Unicode char U+1F57 (decimal 8023)
+   defining Unicode char U+1F59 (decimal 8025)
+   defining Unicode char U+1F5B (decimal 8027)
+   defining Unicode char U+1F5D (decimal 8029)
+   defining Unicode char U+1F5F (decimal 8031)
+   defining Unicode char U+1F60 (decimal 8032)
+   defining Unicode char U+1F61 (decimal 8033)
+   defining Unicode char U+1F62 (decimal 8034)
+   defining Unicode char U+1F63 (decimal 8035)
+   defining Unicode char U+1F64 (decimal 8036)
+   defining Unicode char U+1F65 (decimal 8037)
+   defining Unicode char U+1F66 (decimal 8038)
+   defining Unicode char U+1F67 (decimal 8039)
+   defining Unicode char U+1F68 (decimal 8040)
+   defining Unicode char U+1F69 (decimal 8041)
+   defining Unicode char U+1F6A (decimal 8042)
+   defining Unicode char U+1F6B (decimal 8043)
+   defining Unicode char U+1F6C (decimal 8044)
+   defining Unicode char U+1F6D (decimal 8045)
+   defining Unicode char U+1F6E (decimal 8046)
+   defining Unicode char U+1F6F (decimal 8047)
+   defining Unicode char U+1F70 (decimal 8048)
+   defining Unicode char U+1F71 (decimal 8049)
+   defining Unicode char U+1F72 (decimal 8050)
+   defining Unicode char U+1F73 (decimal 8051)
+   defining Unicode char U+1F74 (decimal 8052)
+   defining Unicode char U+1F75 (decimal 8053)
+   defining Unicode char U+1F76 (decimal 8054)
+   defining Unicode char U+1F77 (decimal 8055)
+   defining Unicode char U+1F78 (decimal 8056)
+   defining Unicode char U+1F79 (decimal 8057)
+   defining Unicode char U+1F7A (decimal 8058)
+   defining Unicode char U+1F7B (decimal 8059)
+   defining Unicode char U+1F7C (decimal 8060)
+   defining Unicode char U+1F7D (decimal 8061)
+   defining Unicode char U+1F80 (decimal 8064)
+   defining Unicode char U+1F81 (decimal 8065)
+   defining Unicode char U+1F82 (decimal 8066)
+   defining Unicode char U+1F83 (decimal 8067)
+   defining Unicode char U+1F84 (decimal 8068)
+   defining Unicode char U+1F85 (decimal 8069)
+   defining Unicode char U+1F86 (decimal 8070)
+   defining Unicode char U+1F87 (decimal 8071)
+   defining Unicode char U+1F88 (decimal 8072)
+   defining Unicode char U+1F89 (decimal 8073)
+   defining Unicode char U+1F8A (decimal 8074)
+   defining Unicode char U+1F8B (decimal 8075)
+   defining Unicode char U+1F8C (decimal 8076)
+   defining Unicode char U+1F8D (decimal 8077)
+   defining Unicode char U+1F8E (decimal 8078)
+   defining Unicode char U+1F8F (decimal 8079)
+   defining Unicode char U+1F90 (decimal 8080)
+   defining Unicode char U+1F91 (decimal 8081)
+   defining Unicode char U+1F92 (decimal 8082)
+   defining Unicode char U+1F93 (decimal 8083)
+   defining Unicode char U+1F94 (decimal 8084)
+   defining Unicode char U+1F95 (decimal 8085)
+   defining Unicode char U+1F96 (decimal 8086)
+   defining Unicode char U+1F97 (decimal 8087)
+   defining Unicode char U+1F98 (decimal 8088)
+   defining Unicode char U+1F99 (decimal 8089)
+   defining Unicode char U+1F9A (decimal 8090)
+   defining Unicode char U+1F9B (decimal 8091)
+   defining Unicode char U+1F9C (decimal 8092)
+   defining Unicode char U+1F9D (decimal 8093)
+   defining Unicode char U+1F9E (decimal 8094)
+   defining Unicode char U+1F9F (decimal 8095)
+   defining Unicode char U+1FA0 (decimal 8096)
+   defining Unicode char U+1FA1 (decimal 8097)
+   defining Unicode char U+1FA2 (decimal 8098)
+   defining Unicode char U+1FA3 (decimal 8099)
+   defining Unicode char U+1FA4 (decimal 8100)
+   defining Unicode char U+1FA5 (decimal 8101)
+   defining Unicode char U+1FA6 (decimal 8102)
+   defining Unicode char U+1FA7 (decimal 8103)
+   defining Unicode char U+1FA8 (decimal 8104)
+   defining Unicode char U+1FA9 (decimal 8105)
+   defining Unicode char U+1FAA (decimal 8106)
+   defining Unicode char U+1FAB (decimal 8107)
+   defining Unicode char U+1FAC (decimal 8108)
+   defining Unicode char U+1FAD (decimal 8109)
+   defining Unicode char U+1FAE (decimal 8110)
+   defining Unicode char U+1FAF (decimal 8111)
+   defining Unicode char U+1FB0 (decimal 8112)
+   defining Unicode char U+1FB1 (decimal 8113)
+   defining Unicode char U+1FB2 (decimal 8114)
+   defining Unicode char U+1FB3 (decimal 8115)
+   defining Unicode char U+1FB4 (decimal 8116)
+   defining Unicode char U+1FB6 (decimal 8118)
+   defining Unicode char U+1FB7 (decimal 8119)
+   defining Unicode char U+1FB8 (decimal 8120)
+   defining Unicode char U+1FB9 (decimal 8121)
+   defining Unicode char U+1FBA (decimal 8122)
+   defining Unicode char U+1FBB (decimal 8123)
+   defining Unicode char U+1FBC (decimal 8124)
+   defining Unicode char U+1FBD (decimal 8125)
+   defining Unicode char U+1FBE (decimal 8126)
+   defining Unicode char U+1FBF (decimal 8127)
+   defining Unicode char U+1FC0 (decimal 8128)
+   defining Unicode char U+1FC1 (decimal 8129)
+   defining Unicode char U+1FC2 (decimal 8130)
+   defining Unicode char U+1FC3 (decimal 8131)
+   defining Unicode char U+1FC4 (decimal 8132)
+   defining Unicode char U+1FC6 (decimal 8134)
+   defining Unicode char U+1FC7 (decimal 8135)
+   defining Unicode char U+1FC8 (decimal 8136)
+   defining Unicode char U+1FC9 (decimal 8137)
+   defining Unicode char U+1FCA (decimal 8138)
+   defining Unicode char U+1FCB (decimal 8139)
+   defining Unicode char U+1FCC (decimal 8140)
+   defining Unicode char U+1FCD (decimal 8141)
+   defining Unicode char U+1FCE (decimal 8142)
+   defining Unicode char U+1FCF (decimal 8143)
+   defining Unicode char U+1FD0 (decimal 8144)
+   defining Unicode char U+1FD1 (decimal 8145)
+   defining Unicode char U+1FD2 (decimal 8146)
+   defining Unicode char U+1FD3 (decimal 8147)
+   defining Unicode char U+1FD6 (decimal 8150)
+   defining Unicode char U+1FD7 (decimal 8151)
+   defining Unicode char U+1FD8 (decimal 8152)
+   defining Unicode char U+1FD9 (decimal 8153)
+   defining Unicode char U+1FDA (decimal 8154)
+   defining Unicode char U+1FDB (decimal 8155)
+   defining Unicode char U+1FDD (decimal 8157)
+   defining Unicode char U+1FDE (decimal 8158)
+   defining Unicode char U+1FDF (decimal 8159)
+   defining Unicode char U+1FE0 (decimal 8160)
+   defining Unicode char U+1FE1 (decimal 8161)
+   defining Unicode char U+1FE2 (decimal 8162)
+   defining Unicode char U+1FE3 (decimal 8163)
+   defining Unicode char U+1FE4 (decimal 8164)
+   defining Unicode char U+1FE5 (decimal 8165)
+   defining Unicode char U+1FE6 (decimal 8166)
+   defining Unicode char U+1FE7 (decimal 8167)
+   defining Unicode char U+1FE8 (decimal 8168)
+   defining Unicode char U+1FE9 (decimal 8169)
+   defining Unicode char U+1FEA (decimal 8170)
+   defining Unicode char U+1FEB (decimal 8171)
+   defining Unicode char U+1FEC (decimal 8172)
+   defining Unicode char U+1FED (decimal 8173)
+   defining Unicode char U+1FEE (decimal 8174)
+   defining Unicode char U+1FEF (decimal 8175)
+   defining Unicode char U+1FF2 (decimal 8178)
+   defining Unicode char U+1FF3 (decimal 8179)
+   defining Unicode char U+1FF4 (decimal 8180)
+   defining Unicode char U+1FF6 (decimal 8182)
+   defining Unicode char U+1FF7 (decimal 8183)
+   defining Unicode char U+1FF8 (decimal 8184)
+   defining Unicode char U+1FF9 (decimal 8185)
+   defining Unicode char U+1FFA (decimal 8186)
+   defining Unicode char U+1FFB (decimal 8187)
+   defining Unicode char U+1FFC (decimal 8188)
+   defining Unicode char U+1FFD (decimal 8189)
+   defining Unicode char U+1FFE (decimal 8190)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+10144 (decimal 65860)
+   defining Unicode char U+10145 (decimal 65861)
+   defining Unicode char U+10146 (decimal 65862)
+   defining Unicode char U+10147 (decimal 65863)
+)
+(/usr/share/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+File: greek-fontenc.def 2023-09-12 2.5 Common Greek font encoding definitions
+))
+Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/
+*}. on input line 69.
+)
 (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks29
-)
-\Gin@req@height=\dimen197
-\Gin@req@width=\dimen198
+\Gin@req@height=\dimen195
+\Gin@req@width=\dimen196
 )
 (/usr/share/texmf-dist/tex/latex/svg/svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
 
 (/usr/share/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-independent 
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
 (/usr/share/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2022/10/12 v3.38 KOMA-Script package (file load hooks)
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
 
 (/usr/share/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
-Package: scrlfile-hook 2022/10/12 v3.38 KOMA-Script package (using LaTeX hooks)
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
 
 
 (/usr/share/texmf-dist/tex/latex/koma-script/scrlogo.sty
-Package: scrlogo 2022/10/12 v3.38 KOMA-Script package (logo)
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
 )))
 Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line
@@ -476,13 +901,6 @@ Already applied: [0000/00/00] Usage of raw or classic option list on input line
 )
 (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -492,31 +910,31 @@ Package pdftexcmds Info: \pdfdraftmode found.
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 (/usr/share/texmf-dist/tex/latex/tools/shellesc.sty
-Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-\c@svg@param@lastpage=\count323
-\svg@box=\box58
-\c@svg@param@currpage=\count324
+\c@svg@param@lastpage=\count327
+\svg@box=\box59
+\c@svg@param@currpage=\count328
 )
 (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 
 (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Driver file: pdftex.def on input line 274.
 
 (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
-Package xcolor Info: Model `RGB' extended on input line 1369.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 )
 (/usr/share/texmf-dist/tex/latex/transparent/transparent.sty
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
@@ -532,11 +950,11 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks30
-\pgfutil@tempdima=\dimen199
-\pgfutil@tempdimb=\dimen256
+\pgfutil@tempdima=\dimen197
+\pgfutil@tempdimb=\dimen198
 )
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box59
+\pgfutil@abb=\box60
 )
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -553,26 +971,26 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 x
 \pgfkeys@tmptoks=\toks33
 ))
-\pgf@x=\dimen257
-\pgf@y=\dimen258
-\pgf@xa=\dimen259
-\pgf@ya=\dimen260
-\pgf@xb=\dimen261
-\pgf@yb=\dimen262
-\pgf@xc=\dimen263
-\pgf@yc=\dimen264
-\pgf@xd=\dimen265
-\pgf@yd=\dimen266
+\pgf@x=\dimen199
+\pgf@y=\dimen256
+\pgf@xa=\dimen257
+\pgf@ya=\dimen258
+\pgf@xb=\dimen259
+\pgf@yb=\dimen260
+\pgf@xc=\dimen261
+\pgf@yc=\dimen262
+\pgf@xd=\dimen263
+\pgf@yd=\dimen264
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count325
-\c@pgf@countb=\count326
-\c@pgf@countc=\count327
-\c@pgf@countd=\count328
+\c@pgf@counta=\count329
+\c@pgf@countb=\count330
+\c@pgf@countc=\count331
+\c@pgf@countd=\count332
 \t@pgf@toka=\toks34
 \t@pgf@tokb=\toks35
 \t@pgf@tokc=\toks36
-\pgf@sys@id@count=\count329
+\pgf@sys@id@count=\count333
  (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -586,8 +1004,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )))
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count330
-\pgfsyssoftpath@bigbuffer@items=\count331
+\pgfsyssoftpath@smallbuffer@items=\count334
+\pgfsyssoftpath@bigbuffer@items=\count335
 )
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -597,7 +1015,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip195
 \bibsep=\skip196
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count332
+\c@NAT@ctr=\count336
 )
 (/usr/share/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
@@ -605,38 +1023,38 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 (/usr/share/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count333
-\c@Blindtext=\count334
-\c@blind@countparstart=\count335
-\blind@countxx=\count336
-\blindtext@numBlindtext=\count337
-\blind@countyy=\count338
-\c@blindlist=\count339
-\c@blindlistlevel=\count340
-\c@blindlist@level=\count341
-\blind@listitem=\count342
-\c@blind@listcount=\count343
-\c@blind@levelcount=\count344
-\blind@mathformula=\count345
-\blind@Mathformula=\count346
-\c@blind@randomcount=\count347
-\c@blind@randommax=\count348
-\c@blind@pangramcount=\count349
-\c@blind@pangrammax=\count350
+\c@blindtext=\count337
+\c@Blindtext=\count338
+\c@blind@countparstart=\count339
+\blind@countxx=\count340
+\blindtext@numBlindtext=\count341
+\blind@countyy=\count342
+\c@blindlist=\count343
+\c@blindlistlevel=\count344
+\c@blindlist@level=\count345
+\blind@listitem=\count346
+\c@blind@listcount=\count347
+\c@blind@levelcount=\count348
+\blind@mathformula=\count349
+\blind@Mathformula=\count350
+\c@blind@randomcount=\count351
+\c@blind@randommax=\count352
+\c@blind@pangramcount=\count353
+\c@blind@pangrammax=\count354
 )
 (/usr/share/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
 \MT@toks=\toks37
-\MT@tempbox=\box60
-\MT@count=\count351
+\MT@tempbox=\box61
+\MT@count=\count355
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
 LaTeX Info: Redefining \leftprotrusion on input line 1060.
 \MT@prot@toks=\toks38
 LaTeX Info: Redefining \rightprotrusion on input line 1078.
 LaTeX Info: Redefining \textls on input line 1368.
-\MT@outer@kern=\dimen267
+\MT@outer@kern=\dimen265
 LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
-\MT@listname@count=\count352
+\MT@listname@count=\count356
 
 (/usr/share/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
@@ -652,79 +1070,69 @@ File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
 ))
 (/usr/share/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
-\symrsfs=\mathgroup4
+\symrsfs=\mathgroup6
 )
 (/usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2023-03-04 v3.2.2 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen268
-\l__siunitx_angle_marker_box=\box61
-\l__siunitx_angle_unit_box=\box62
-\l__siunitx_compound_count_int=\count353
+Package: siunitx 2024-02-15 v3.3.12 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count357
+\l__siunitx_number_exponent_fixed_int=\count358
+\l__siunitx_number_min_decimal_int=\count359
+\l__siunitx_number_min_integer_int=\count360
+\l__siunitx_number_round_precision_int=\count361
+\l__siunitx_number_lower_threshold_int=\count362
+\l__siunitx_number_upper_threshold_int=\count363
+\l__siunitx_number_group_first_int=\count364
+\l__siunitx_number_group_size_int=\count365
+\l__siunitx_number_group_minimum_int=\count366
+\l__siunitx_angle_tmp_dim=\dimen266
+\l__siunitx_angle_marker_box=\box62
+\l__siunitx_angle_unit_box=\box63
+\l__siunitx_compound_count_int=\count367
 
 (/usr/share/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 )
-\l__siunitx_number_exponent_fixed_int=\count354
-\l__siunitx_number_min_decimal_int=\count355
-\l__siunitx_number_min_integer_int=\count356
-\l__siunitx_number_round_precision_int=\count357
-\l__siunitx_number_lower_threshold_int=\count358
-\l__siunitx_number_upper_threshold_int=\count359
-\l__siunitx_number_group_first_int=\count360
-\l__siunitx_number_group_size_int=\count361
-\l__siunitx_number_group_minimum_int=\count362
-\l__siunitx_table_tmp_box=\box63
-\l__siunitx_table_tmp_dim=\dimen269
-\l__siunitx_table_column_width_dim=\dimen270
-\l__siunitx_table_integer_box=\box64
-\l__siunitx_table_decimal_box=\box65
-\l__siunitx_table_uncert_box=\box66
-\l__siunitx_table_before_box=\box67
-\l__siunitx_table_after_box=\box68
-\l__siunitx_table_before_dim=\dimen271
-\l__siunitx_table_carry_dim=\dimen272
-\l__siunitx_unit_tmp_int=\count363
-\l__siunitx_unit_position_int=\count364
-\l__siunitx_unit_total_int=\count365
+\l__siunitx_table_tmp_box=\box64
+\l__siunitx_table_tmp_dim=\dimen267
+\l__siunitx_table_column_width_dim=\dimen268
+\l__siunitx_table_integer_box=\box65
+\l__siunitx_table_decimal_box=\box66
+\l__siunitx_table_uncert_box=\box67
+\l__siunitx_table_before_box=\box68
+\l__siunitx_table_after_box=\box69
+\l__siunitx_table_before_dim=\dimen269
+\l__siunitx_table_carry_dim=\dimen270
+\l__siunitx_unit_tmp_int=\count368
+\l__siunitx_unit_position_int=\count369
+\l__siunitx_unit_total_int=\count370
 )
 (/usr/share/texmf-dist/tex/latex/mhchem/mhchem.sty
-Package: mhchem 2021/12/31 v4.09 for typesetting chemical formulae
+Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
 
-(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-02-22 L3 programming layer (loader) 
-
-(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count366
-\l__pdf_internal_box=\box69
-))
 (/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2024-02-18 LaTeX2e option processing using LaTeX3 keys
 )
 (/usr/share/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count367
-\calc@Bcount=\count368
-\calc@Adimen=\dimen273
-\calc@Bdimen=\dimen274
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count371
+\calc@Bcount=\count372
+\calc@Adimen=\dimen271
+\calc@Bdimen=\dimen272
 \calc@Askip=\skip198
 \calc@Bskip=\skip199
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count369
+\calc@Ccount=\count373
 \calc@Cskip=\skip256
 )
 (/usr/share/texmf-dist/tex/latex/chemgreek/chemgreek.sty
-(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2023-02-02 L3 Experimental document command parser
-)
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
  in chemistry (CN)
-\l__chemgreek_tmpa_int=\count370
-\g__chemgreek_tmpa_int=\count371
+\l__chemgreek_tmpa_int=\count374
+\g__chemgreek_tmpa_int=\count375
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count372
+\l__mhchem_ce_distanceFromLastComma_int=\count376
 \__mhchem_arrow_extPgfLength_skip=\skip257
 \mhchem@minispace@tmp=\skip258
 \mhchem@minibackspace@tmp=\skip259
@@ -735,11 +1143,11 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
 \mhchem@smallbondwidth=\skip264
 \mhchem@bondtmp@minussidebearingleft=\skip265
 \mhchem@bondtmp@minussidebearingright=\skip266
-\l__mhchem_option_version_int=\count373
-\mhchem@option@minusmathsidebearingleft=\dimen275
-\mhchem@option@minusmathsidebearingright=\dimen276
-\mhchem@option@minustextsidebearingleft=\dimen277
-\mhchem@option@minustextsidebearingright=\dimen278
+\l__mhchem_option_version_int=\count377
+\mhchem@option@minusmathsidebearingleft=\dimen273
+\mhchem@option@minusmathsidebearingright=\dimen274
+\mhchem@option@minustextsidebearingleft=\dimen275
+\mhchem@option@minustextsidebearingright=\dimen276
 
 
 Package mhchem Warning: You did not specify a 'version' option for the mhchem
@@ -760,16 +1168,18 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ))
 (/usr/share/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup5
-\symboldletters=\mathgroup6
-\symboldsymbols=\mathgroup7
+Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
 Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
 Package bm Info: No bold for \U/rsfs/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
 (/usr/share/texmf-dist/tex/latex/glossaries-extra/glossaries-extra.sty
-Package: glossaries-extra 2022/11/08 v1.50 (NLCT)
+Package: glossaries-extra 2023/09/29 v1.53 (NLCT)
 
 (/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
@@ -779,11 +1189,11 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks39
 \XKV@tempa@toks=\toks40
 )
-\XKV@depth=\count374
+\XKV@depth=\count378
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texmf-dist/tex/latex/glossaries/base/glossaries.sty
-Package: glossaries 2022/11/03 v4.52 (NLCT)
+Package: glossaries 2023/09/29 v4.53 (NLCT)
 
 (/usr/share/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
@@ -798,7 +1208,7 @@ Package: datatool-base 2019/09/27 v2.32 (NLCT)
 
 (/usr/share/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count375
+\c@su@anzahl=\count379
 )
 (/usr/share/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
@@ -809,19 +1219,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/share/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count376
+\actioncount=\count380
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count377
-\FP@xia=\count378
-\FP@xib=\count379
-\FP@xfa=\count380
-\FP@xfb=\count381
-\FP@rega=\count382
-\FP@regb=\count383
-\FP@regs=\count384
-\FP@times=\count385
+\FP@xs=\count381
+\FP@xia=\count382
+\FP@xib=\count383
+\FP@xfa=\count384
+\FP@xfb=\count385
+\FP@rega=\count386
+\FP@regb=\count387
+\FP@regs=\count388
+\FP@times=\count389
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -840,7 +1250,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count386
+\FPseed=\count390
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -852,16 +1262,16 @@ Package: fp-upn 1996/10/21
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks43
-\@dtl@tmpcount=\count387
+\@dtl@tmpcount=\count391
 \dtl@tmplength=\skip270
-\dtl@sortresult=\count388
-\@dtl@numgrpsepcount=\count389
-\@dtl@datatype=\count390
-\dtl@codeA=\count391
-\dtl@codeB=\count392
-\@dtl@foreach@level=\count393
+\dtl@sortresult=\count392
+\@dtl@numgrpsepcount=\count393
+\@dtl@datatype=\count394
+\dtl@codeA=\count395
+\dtl@codeB=\count396
+\@dtl@foreach@level=\count397
 )
-\gls@level=\count394
+\gls@level=\count398
 \@gls@tmpb=\toks44
 \gls@tmplen=\skip271
 \glskeylisttok=\toks45
@@ -870,119 +1280,116 @@ Package: fp-eval 1995/04/03
 \glslongtok=\toks48
 
 (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
-Package: glossary-hypernav 2022/11/03 v4.52 (NLCT)
+Package: glossary-hypernav 2023/09/29 v4.53 (NLCT)
 )
 (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
-Package: glossary-list 2022/11/03 v4.52 (NLCT)
+Package: glossary-list 2023/09/29 v4.53 (NLCT)
 \glslistdottedwidth=\skip272
 )
 (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
-Package: glossary-long 2022/11/03 v4.52 (NLCT)
+Package: glossary-long 2023/09/29 v4.53 (NLCT)
 
 (/usr/share/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LTleft=\skip273
 \LTright=\skip274
 \LTpre=\skip275
 \LTpost=\skip276
-\LTchunksize=\count395
-\LTcapwidth=\dimen279
+\LTchunksize=\count399
+\LTcapwidth=\dimen277
 \LT@head=\box70
 \LT@firsthead=\box71
 \LT@foot=\box72
 \LT@lastfoot=\box73
 \LT@gbox=\box74
-\LT@cols=\count396
-\LT@rows=\count397
-\c@LT@tables=\count398
-\c@LT@chunks=\count399
+\LT@cols=\count400
+\LT@rows=\count401
+\c@LT@tables=\count402
+\c@LT@chunks=\count403
 \LT@p@ftn=\toks49
 )
 \glsdescwidth=\skip277
 \glspagelistwidth=\skip278
 )
 (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
-Package: glossary-super 2022/11/03 v4.52 (NLCT)
+Package: glossary-super 2023/09/29 v4.53 (NLCT)
 
 (/usr/share/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count400
-\ST@wd=\dimen280
+\c@tracingst=\count404
+\ST@wd=\dimen278
 \ST@rightskip=\skip279
 \ST@leftskip=\skip280
 \ST@parfillskip=\skip281
-\ST@pageleft=\dimen281
-\ST@headht=\dimen282
-\ST@tailht=\dimen283
-\ST@pagesofar=\dimen284
-\ST@pboxht=\dimen285
-\ST@lineht=\dimen286
-\ST@prevht=\dimen287
-\ST@toadd=\dimen288
-\ST@dimen=\dimen289
+\ST@pageleft=\dimen279
+\ST@headht=\dimen280
+\ST@tailht=\dimen281
+\ST@pagesofar=\dimen282
+\ST@pboxht=\dimen283
+\ST@lineht=\dimen284
+\ST@prevht=\dimen285
+\ST@toadd=\dimen286
+\ST@dimen=\dimen287
 \ST@pbox=\box75
 ))
 (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
-Package: glossary-tree 2022/11/03 v4.52 (NLCT)
+Package: glossary-tree 2023/09/29 v4.53 (NLCT)
 \glstreeindent=\skip282
 ))
-\@glsxtr@leveloffset=\count401
-\glsxtrresourcecount=\count402
-\@glsxtrnewgls@inner=\count403
+\@glsxtr@leveloffset=\count405
+\glsxtrresourcecount=\count406
+\@glsxtrnewgls@inner=\count407
 \glsshortpltok=\toks50
 \glslongpltok=\toks51
 
 (/usr/share/texmf-dist/tex/latex/glossaries-extra/glossaries-extra-abbrstyles.d
 ef
-File: glossaries-extra-abbrstyles.def 2022/06/16 v1.48b (NLCT)
+File: glossaries-extra-abbrstyles.def 2023/06/28 v1.52 (NLCT)
 )
-\mglselementindex=\count404
+\mglselementindex=\count408
 ) (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip283
-\enit@outerparindent=\dimen290
+\enit@outerparindent=\dimen288
 \enit@toks=\toks52
 \enit@inbox=\box76
-\enit@count@id=\count405
-\enitdp@description=\count406
+\enit@count@id=\count409
+\enitdp@description=\count410
 )
 (/usr/share/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
 (/usr/share/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
-\caption@tempdima=\dimen291
-\captionmargin=\dimen292
-\caption@leftmargin=\dimen293
-\caption@rightmargin=\dimen294
-\caption@width=\dimen295
-\caption@indent=\dimen296
-\caption@parindent=\dimen297
-\caption@hangindent=\dimen298
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen289
+\captionmargin=\dimen290
+\caption@leftmargin=\dimen291
+\caption@rightmargin=\dimen292
+\caption@width=\dimen293
+\caption@indent=\dimen294
+\caption@parindent=\dimen295
+\caption@hangindent=\dimen296
 Package caption Info: memoir document class detected.
 
 (/usr/share/texmf-dist/tex/latex/caption/caption-memoir.sto
-File: caption-memoir.sto 2022/03/02 v2.2b Adaption of the caption package to th
+File: caption-memoir.sto 2023/09/08 v2.2c Adaption of the caption package to th
 e memoir document class (AR)
 ))
-\c@KVtest=\count407
+\c@KVtest=\count411
 \sf@farskip=\skip284
-\sf@captopadj=\dimen299
+\sf@captopadj=\dimen297
 \sf@capskip=\skip285
 \sf@nearskip=\skip286
-\c@subfigure=\count408
-\c@subfigure@save=\count409
-\c@subtable=\count410
-\c@subtable@save=\count411
+\c@subfigure=\count412
+\c@subfigure@save=\count413
+\c@subtable=\count414
+\c@subtable@save=\count415
 \sf@top=\skip287
 \sf@bottom=\skip288
 )
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
 
-(/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
 (/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
@@ -992,60 +1399,46 @@ Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 (/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
-Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-)
-(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
-
-(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-))
-\c@section@level=\count412
-)
-\@linkdim=\dimen300
-\Hy@linkcounter=\count413
-\Hy@pagecounter=\count414
+\@linkdim=\dimen298
+\Hy@linkcounter=\count416
+\Hy@pagecounter=\count417
 
 (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count415
+\Hy@SavedSpaceFactor=\count418
 
 (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
-)
-Package hyperref Info: Hyper figures OFF on input line 4177.
-Package hyperref Info: Link nesting OFF on input line 4182.
-Package hyperref Info: Hyper index ON on input line 4185.
-Package hyperref Info: Plain pages OFF on input line 4192.
-Package hyperref Info: Backreferencing OFF on input line 4197.
+
+(/usr/share/texmf-dist/tex/latex/greek-fontenc/puenc-greek.def
+File: puenc-greek.def 2023-09-12 2.5 Greek LICRs for PDF strings
+
+(/usr/share/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+File: greek-fontenc.def 2023-09-12 2.5 Common Greek font encoding definitions
+)))
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4425.
-\c@Hy@tempcnt=\count416
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count419
 
 (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen301
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen299
 
 (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -1054,37 +1447,37 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count417
-\Field@Width=\dimen302
-\Fld@charsize=\dimen303
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
+\Fld@menulength=\count420
+\Field@Width=\dimen300
+\Fld@charsize=\dimen301
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
 
 (/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count418
-\c@Item=\count419
-\c@Hfootnote=\count420
+\Hy@abspage=\count421
+\c@Item=\count422
+\c@Hfootnote=\count423
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
+File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
 
 (/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count421
-\c@bookmark@seq@number=\count422
+\Fld@listcount=\count424
+\c@bookmark@seq@number=\count425
 
 (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -1098,17 +1491,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip289
 )
 (/usr/share/texmf-dist/tex/latex/memoir/memhfixc.sty
-Package: memhfixc 2022/11/17 v1.20 nameref/hyperref package fixes for memoir cl
-ass
-
-Redoing nameref's sectioning
-Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 106.
-\c@memhycontfloat=\count423
-\c@Hpagenote=\count424
+Package: memhfixc 2023/09/10 v1.22 hyperref package fixes for memoir class
+\c@memhycontfloat=\count426
+\c@Hpagenote=\count427
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 36.
- (/usr/share/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package hyperref Info: Option `colorlinks' set `true' on input line 38.
+
+(/usr/share/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 LaTeX Info: Redefining \Cref on input line 925.
 Package cleveref Info: `hyperref' support loaded on input line 2370.
@@ -1126,7 +1515,7 @@ Package cleveref Info: `subfig' support loaded on input line 3164.
 )
 \linespace=\skip290
 \topfiddle=\skip291
-\c@theorem=\count425
+\c@theorem=\count428
 )
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 9.
@@ -1136,7 +1525,7 @@ LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 9
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-No file fichera-bfichera-phd-physics-2024-source.aux.
+(./fichera-bfichera-phd-physics-2024-source.aux)
 \openout1 = `fichera-bfichera-phd-physics-2024-source.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -1153,22 +1542,31 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 9.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 9
+.
+
+(/usr/share/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
+)
+LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
+
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count426
-\scratchdimen=\dimen304
+\scratchcounter=\count429
+\scratchdimen=\dimen302
 \scratchbox=\box77
-\nofMPsegments=\count427
-\nofMParguments=\count428
+\nofMPsegments=\count430
+\nofMParguments=\count431
 \everyMPshowfont=\toks53
-\MPscratchCnt=\count429
-\MPscratchDim=\dimen305
-\MPnumerator=\count430
-\makeMPintoPDFobject=\count431
+\MPscratchCnt=\count432
+\MPscratchDim=\dimen303
+\MPnumerator=\count433
+\makeMPintoPDFobject=\count434
 \everyMPtoPDFconversion=\toks54
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1207,12 +1605,14 @@ nslations-basic-dictionary')
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 9.
 
-Package chemgreek Info: Activating mapping `default' on line 9.
+Package chemgreek Info: Activating mapping `textgreek' on line 9.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 9.
+ (./fichera-bfichera-phd-physics-2024-source.out)
+(./fichera-bfichera-phd-physics-2024-source.out)
 \@outlinefile=\write5
 \openout5 = `fichera-bfichera-phd-physics-2024-source.out'.
 
@@ -1224,6 +1624,10 @@ LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 1
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
 (/usr/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texmf-dist/tex/latex/microtype/mt-msb.cfg)
 (/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd)
 Underfull \hbox (badness 10000) in alignment at lines 28--28
 [][] 
@@ -1239,479 +1643,81 @@ Underfull \hbox (badness 10000) in alignment at lines 28--28
 (./frontbackmatter/acknowledgements.tex) [4
 
 ] (./frontbackmatter/preface.tex
-
-Package natbib Warning: Citation `kibble_introduction_2008' on page v undefined
- on input line 16.
-
 [5
 
 
-]
+] [6]) [7] [8] (./fichera-bfichera-phd-physics-2024-source.toc [9
 
-Package natbib Warning: Citation `alexandradinata_future_2022' on page vi undef
-ined on input line 24.
+] [10])
+[11] (./fichera-bfichera-phd-physics-2024-source.lof
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-LaTeX Warning: Reference `ch:intro' on page i undefined on input line 27.
-
-
-LaTeX Warning: Reference `ch:intro' on page i undefined on input line 32.
-
-
-LaTeX Warning: Reference `ch:shgpractice' on page i undefined on input line 34.
-
-
-
-LaTeX Warning: Reference `ch:shgtheory' on page i undefined on input line 34.
-
-
-LaTeX Warning: Reference `ch:polrotators' on page i undefined on input line 35.
-
-
-[6]
-
-LaTeX Warning: Reference `ch:tastwo' on page i undefined on input line 39.
-
-
-LaTeX Warning: Reference `ch:cubr2' on page i undefined on input line 42.
-
-
-LaTeX Warning: Reference `ch:cmb' on page i undefined on input line 42.
-
-
-LaTeX Warning: Reference `ch:cmb' on page i undefined on input line 43.
-
-
-LaTeX Warning: Reference `ch:cubr2' on page i undefined on input line 46.
-
-
-LaTeX Warning: Reference `ch:conclusion' on page i undefined on input line 49.
-
-) [7] [8]
-No file fichera-bfichera-phd-physics-2024-source.toc.
-[9
+ [12
 
 ]
-No file fichera-bfichera-phd-physics-2024-source.lof.
-[10
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
-No file fichera-bfichera-phd-physics-2024-source.lot.
-[11
+ [13])
+[14] (./fichera-bfichera-phd-physics-2024-source.lot
+Overfull \hbox (2.35793pt too wide) in paragraph at lines 9--9
+ \OT1/ppl/m/n/12 (-20) ir-re-ducible rep-re-sen-ta-tion. The columns in-di-cate
+ the ir-re-ducible 
+ []
 
-] [12
+) [15
 
-
-] (./ch/ch1.tex) [13
-
-] [14
-
-] (./ch/ch2.tex
-
-Package natbib Warning: Citation `neumann_vorlesungen_1885' on page 15 undefine
-d on input line 3.
+] [16
 
 
-Package natbib Warning: Citation `curie_sur_1894' on page 15 undefined on input
- line 3.
+] (./ch/ch1.tex) [17
 
+] [18
 
-Package natbib Warning: Citation `wiki:spacegroups' on page 15 undefined on inp
-ut line 22.
-
-[15]
-
-LaTeX Warning: Reference `eq:spacegroup' on page 1 undefined on input line 24.
-
-
-LaTeX Warning: Reference `thm:neumann' on page 1 undefined on input line 27.
-
-
-LaTeX Warning: Reference `thm:neumann' on page 1 undefined on input line 39.
-
+] (./ch/ch2.tex [19]
 
 LaTeX Warning: Command \i invalid in math mode on input line 40.
 
 
 LaTeX Warning: Command \i invalid in math mode on input line 42.
 
-[16]
+[20]
 
 LaTeX Warning: Command \i invalid in math mode on input line 52.
 
+[21] [22] [23] [24] [25] [26]
+Underfull \vbox (badness 2351) has occurred while \output is active []
 
-Package natbib Warning: Citation `powell' on page 17 undefined on input line 52
-.
-
-
-LaTeX Warning: Reference `thm:neumann' on page 1 undefined on input line 65.
-
-
-LaTeX Warning: Reference `eq:nmmath' on page 1 undefined on input line 74.
-
-
-LaTeX Warning: Reference `eq:nmmath' on page 1 undefined on input line 83.
-
-
-LaTeX Warning: Reference `thm:neumannrestated' on page 1 undefined on input lin
-e 88.
-
-
-LaTeX Warning: Reference `eq:nmindex' on page 1 undefined on input line 88.
-
-
-LaTeX Warning: Reference `eq:nmindex' on page 1 undefined on input line 90.
-
-[17]
-
-LaTeX Warning: Reference `sec:manyshgterms' on page 1 undefined on input line 1
-11.
-
-
-LaTeX Warning: Reference `sec:manyshgterms' on page 1 undefined on input line 1
-19.
-
-
-LaTeX Warning: Reference `thm:neumann' on page 1 undefined on input line 122.
-
-
-LaTeX Warning: Reference `thm:neumannrestated' on page 1 undefined on input lin
-e 122.
-
-[18]
-
-LaTeX Warning: Reference `eq:shgsimple' on page 1 undefined on input line 124.
-
-
-LaTeX Warning: Reference `eq:nmindex' on page 1 undefined on input line 126.
-
-
-Package natbib Warning: Citation `birss' on page 19 undefined on input line 130
-.
-
-
-LaTeX Warning: Reference `eq:shgsimple' on page 1 undefined on input line 134.
-
-
-Package natbib Warning: Citation `jackson' on page 19 undefined on input line 1
-41.
-
-
-Package natbib Warning: Citation `kumar_magnetic_2017' on page 19 undefined on 
-input line 141.
-
-[19]
-
-LaTeX Warning: Reference `eq:maxwell' on page 1 undefined on input line 168.
-
-
-LaTeX Warning: Reference `eq:pshort' on page 1 undefined on input line 169.
-
-
-LaTeX Warning: Reference `eq:pshort' on page 20 undefined on input line 174.
-
-
-LaTeX Warning: Reference `eq:qshort' on page 20 undefined on input line 174.
-
-[20]
-
-LaTeX Warning: Reference `item:contribution2' on page 1 undefined on input line
- 182.
-
-
-LaTeX Warning: Reference `item:contribution1' on page 1 undefined on input line
- 182.
-
-
-Package natbib Warning: Citation `fiebig_second_2001' on page 21 undefined on i
-nput line 182.
-
-
-LaTeX Warning: Reference `sec:resonance' on page 1 undefined on input line 188.
-
-
-
-LaTeX Warning: Reference `eq:pshort' on page 21 undefined on input line 189.
-
-
-LaTeX Warning: Reference `eq:qshort' on page 21 undefined on input line 189.
-
-
-LaTeX Warning: Reference `thm:neumann' on page 1 undefined on input line 189.
-
-
-Package natbib Warning: Citation `boyd' on page 21 undefined on input line 196.
-
-
-[21]
-
-LaTeX Warning: Reference `eq:rhodot' on page 1 undefined on input line 226.
-
-[22]
-
-Package natbib Warning: Citation `boyd' on page 23 undefined on input line 234.
-
-
-
-Package natbib Warning: Citation `boyd' on page 23 undefined on input line 249.
-
-
-
-Underfull \vbox (badness 2460) has occurred while \output is active []
-
- [23]
-
-LaTeX Warning: Reference `eq:bigshg' on page 1 undefined on input line 265.
-
-
-Package natbib Warning: Citation `fiebig_second_2001' on page 24 undefined on i
-nput line 266.
-
-
-Package natbib Warning: Citation `wu_giant_2017' on page 24 undefined on input 
-line 268.
-
-
-Package natbib Warning: Citation `patankar_resonance-enhanced_2018' on page 24 
-undefined on input line 268.
-
-
-LaTeX Warning: Reference `eq:bigshg' on page 1 undefined on input line 273.
-
-
-LaTeX Warning: Reference `eq:bigshg' on page 1 undefined on input line 273.
-
-
-Package natbib Warning: Citation `sa_generalized_2000' on page 24 undefined on 
-input line 275.
-
-
-Package natbib Warning: Citation `pershan_nonlinear_1963' on page 24 undefined 
-on input line 275.
-
-
+ [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
-
-LaTeX Warning: Reference `eq:pershan' on page 1 undefined on input line 282.
-
-
-LaTeX Warning: Reference `sec:neumann' on page 1 undefined on input line 282.
-
-
-LaTeX Warning: Reference `eq:pershan' on page 1 undefined on input line 284.
-
-
-LaTeX Warning: Reference `eq:pershan' on page 1 undefined on input line 290.
-
-
-LaTeX Warning: Reference `eq:sa' on page 1 undefined on input line 290.
-
-
-LaTeX Warning: Reference `eq:sashg' on page 1 undefined on input line 295.
-
-[25]
-
-LaTeX Warning: Reference `eq:nmindex' on page 1 undefined on input line 302.
-
-
-LaTeX Warning: Reference `eq:sashg_simple' on page 1 undefined on input line 30
-9.
-
-
-LaTeX Warning: Reference `eq:sashg' on page 1 undefined on input line 316.
-
-
-LaTeX Warning: Reference `eq:nmindex' on page 1 undefined on input line 323.
-
-
-LaTeX Warning: Reference `eq:sashg' on page 1 undefined on input line 324.
-
-
-LaTeX Warning: Reference `eq:opdomain' on page 1 undefined on input line 324.
-
-
-LaTeX Warning: Reference `eq:shgdomain' on page 1 undefined on input line 328.
-
-
-LaTeX Warning: Reference `ch:tastwo' on page 1 undefined on input line 328.
-
-
-LaTeX Warning: Reference `ch:cmb' on page 1 undefined on input line 328.
-
-) [26] [27] [28
+ [28]
+[29]) [30] [31] [32
 
 ] (./ch/ch3.tex
-
-LaTeX Warning: Reference `sec:neumann' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Reference `eq:d3deps' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Reference `eq:c2eps' on page 1 undefined on input line 4.
-
-
-Package natbib Warning: Citation `torchinsky_low_2014' on page 29 undefined on 
-input line 5.
-
-<gfx/ch3/pdf/setup.pdf, id=224, 698.10274pt x 199.10564pt>
+<gfx/ch3/pdf/setup.pdf, id=807, 698.10274pt x 199.10564pt>
 File: gfx/ch3/pdf/setup.pdf Graphic file (type pdf)
 <use gfx/ch3/pdf/setup.pdf>
 Package pdftex.def Info: gfx/ch3/pdf/setup.pdf  used on input line 11.
 (pdftex.def)             Requested size: 383.0pt x 109.235pt.
+ [33]
+Underfull \vbox (badness 7012) has occurred while \output is active []
 
-Package natbib Warning: Citation `morey_automated_2024' on page 29 undefined on
- input line 12.
-
-
-Package natbib Warning: Citation `morey_automated_2024' on page 29 undefined on
- input line 12.
-
-
-LaTeX Warning: Reference `fig:setup_real' on page 1 undefined on input line 15.
-
-
-
-LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 15.
-
-
-LaTeX Warning: Reference `sec:beforeyoubuild' on page 1 undefined on input line
- 16.
-
-[29]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-<gfx/ch3/pdf/setup_real.pdf, id=238, 2055.68pt x 1541.76pt>
+ [34 <./gfx/ch3/pdf/setup.pdf>]
+<gfx/ch3/pdf/setup_real.pdf, id=903, 2055.68pt x 1541.76pt>
 File: gfx/ch3/pdf/setup_real.pdf Graphic file (type pdf)
 <use gfx/ch3/pdf/setup_real.pdf>
 Package pdftex.def Info: gfx/ch3/pdf/setup_real.pdf  used on input line 29.
 (pdftex.def)             Requested size: 383.0pt x 287.24431pt.
 
+Underfull \vbox (badness 2165) has occurred while \output is active []
 
-LaTeX Warning: Reference `ch:polrotators' on page 1 undefined on input line 32.
-
-
-
-LaTeX Warning: Reference `ch:polrotators' on page 1 undefined on input line 32.
-
-
-
-Underfull \vbox (badness 2856) has occurred while \output is active []
-
- [31]
-[32]
-
-LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 86.
-
-
-LaTeX Warning: Reference `sec:manyshgterms' on page 1 undefined on input line 8
-9.
-
-
-LaTeX Warning: Reference `ch:tastwo' on page 1 undefined on input line 93.
-
-
-LaTeX Warning: Reference `ch:cmb' on page 1 undefined on input line 95.
-
-
-LaTeX Warning: Reference `ch:cubr2' on page 1 undefined on input line 95.
-
-[33]
-
-LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 103.
-
-
-Package natbib Warning: Citation `harter_high-speed_2015' on page 34 undefined 
-on input line 103.
-
-
-LaTeX Warning: Reference `sec:setupdescription' on page 1 undefined on input li
-ne 106.
-
-
-LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 108.
-
-[34]
-
-LaTeX Warning: Reference `ch:polrotators' on page 1 undefined on input line 123
-.
-
-
-LaTeX Warning: Reference `sec:setupdescription' on page 1 undefined on input li
-ne 128.
-
-
-LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 131.
-
-[35]
-
-LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 137.
-
-[36]
-
-LaTeX Warning: Reference `eq:shgsimple' on page 1 undefined on input line 156.
-
-
-LaTeX Warning: Reference `eq:qshort' on page 1 undefined on input line 156.
-
-
-LaTeX Warning: Reference `eq:mshort' on page 1 undefined on input line 156.
-
-
-LaTeX Warning: Reference `eq:sourceterm' on page 1 undefined on input line 156.
-
-
-
-LaTeX Warning: Reference `tab:polarizations' on page 1 undefined on input line 
-161.
-
-[37] [38]
-
-LaTeX Warning: Reference `sec:neumann' on page 1 undefined on input line 182.
-
-
-LaTeX Warning: Reference `eq:nmindex' on page 1 undefined on input line 183.
-
-
-Package natbib Warning: Citation `boyd' on page 39 undefined on input line 183.
-
-
-
-LaTeX Warning: Reference `eq:fundamentalmodel' on page 1 undefined on input lin
-e 185.
-
-
-LaTeX Warning: Reference `eq:fundamentalmodel' on page 1 undefined on input lin
-e 190.
-
-
-LaTeX Warning: Reference `tab:polarizations' on page 1 undefined on input line 
-192.
-
-
-LaTeX Warning: Reference `eq:objectivefunction' on page 1 undefined on input li
-ne 210.
-
-[39
+ [35 <./gfx/ch3/pdf/setup_real.pdf>] [36] [37] [38] [39] [40] [41] [42] [43
 
 
 ]
-
-LaTeX Warning: Reference `eq:ftmodel' on page 1 undefined on input line 213.
-
-
-Package natbib Warning: Citation `xiang_generalized_1997' on page 40 undefined 
-on input line 214.
-
-
-Package natbib Warning: Citation `wales_global_1997' on page 40 undefined on in
-put line 214.
-
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 2
 14.
+
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
@@ -1719,37 +1725,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-
-Package natbib Warning: Citation `scipy' on page 40 undefined on input line 214
-.
-
-
-LaTeX Warning: Reference `eq:objectivefunction' on page 1 undefined on input li
-ne 215.
-
-
-Package natbib Warning: Citation `sympy' on page 40 undefined on input line 217
-.
-
-
-LaTeX Warning: Reference `eq:ftmodel' on page 1 undefined on input line 217.
-
-
-Package natbib Warning: Citation `scipy' on page 40 undefined on input line 217
-.
-
-
-LaTeX Warning: Reference `eq:objectivefunction' on page 1 undefined on input li
-ne 217.
-
-
-Overfull \hbox (42.29173pt too wide) in paragraph at lines 217--219
-\OT1/ppl/m/n/12 (-20) ShgPy which uses \OT1/pcr/m/n/12 sympy\OT1/ppl/m/n/12 (-2
-0) [\OT1/ppl/b/n/12 (-20) ? \OT1/ppl/m/n/12 (-20) ] to com-pute the FT model []
- and \OT1/pcr/m/n/12 scipy.optimize\OT1/ppl/m/n/12 (-20) [\OT1/ppl/b/n/12 (-20)
- ?
- []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1767,628 +1742,81 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 220.
 
+[44]
+Underfull \vbox (badness 7116) has occurred while \output is active []
 
-LaTeX Warning: Reference `sec:staticanalysis' on page 1 undefined on input line
- 222.
+ [45]
+[46] [47]) [48] (./ch/ch4.tex [49
 
-
-LaTeX Warning: Reference `eq:sashg' on page 1 undefined on input line 223.
-
-
-LaTeX Warning: Reference `eq:bigshg' on page 1 undefined on input line 223.
-
-
-Package natbib Warning: Citation `powell_simplified_2002' on page 40 undefined 
-on input line 227.
-
-
-Package natbib Warning: Citation `bauer_bulk_2017' on page 40 undefined on inpu
-t line 227.
-
-[40]
-
-LaTeX Warning: Reference `eq:qsbhm' on page 1 undefined on input line 234.
-
-
-LaTeX Warning: Reference `eq:esbhm' on page 1 undefined on input line 234.
-
-
-LaTeX Warning: Reference `sec:staticanalysis' on page 1 undefined on input line
- 234.
-
-
-LaTeX Warning: Reference `eq:qsbhm' on page 1 undefined on input line 235.
-
-
-LaTeX Warning: Reference `eq:esbhm' on page 1 undefined on input line 235.
-
-
-Package natbib Warning: Citation `ron_dimensional_2019' on page 41 undefined on
- input line 235.
-
-
-Package natbib Warning: Citation `ong_python_2013' on page 41 undefined on inpu
-t line 238.
-
-
-LaTeX Warning: Reference `eq:qsbhm' on page 1 undefined on input line 238.
-
-
-LaTeX Warning: Reference `eq:esbhm' on page 1 undefined on input line 238.
-
-
-Package natbib Warning: Citation `isodistort' on page 41 undefined on input lin
-e 239.
-
-
-Package natbib Warning: Citation `campbell_isodisplace_2006' on page 41 undefin
-ed on input line 239.
-
-[41]
-
-Package natbib Warning: Citation `levenberg_method_1944' on page 42 undefined o
-n input line 280.
-
-
-Package natbib Warning: Citation `marquardt_algorithm_1963' on page 42 undefine
-d on input line 280.
-
-
-Package natbib Warning: Citation `nelder_simplex_1965' on page 42 undefined on 
-input line 280.
-
-
-LaTeX Warning: Reference `eq:trobjectivefunction' on page 1 undefined on input 
-line 283.
-
-[42]
-
-Package natbib Warning: Citation `numericalrecipes' on page 43 undefined on inp
-ut line 285.
-
-
-Package natbib Warning: Citation `cressie' on page 43 undefined on input line 2
-90.
-
-
-Package natbib Warning: Citation `wackernagel' on page 43 undefined on input li
-ne 293.
-
-
-Package natbib Warning: Citation `dekking' on page 43 undefined on input line 3
-01.
-
-[43]
-
-LaTeX Warning: Reference `eq:trobjectivefunction' on page 1 undefined on input 
-line 305.
-
-
-LaTeX Warning: Reference `eq:trobjectivefunction' on page 1 undefined on input 
-line 306.
-
-) [44] (./ch/ch4.tex [45
-
-]
-
-Package natbib Warning: Citation `torchinsky_low_2014' on page 46 undefined on 
-input line 26.
-
-
-Package natbib Warning: Citation `fichera_second_2020' on page 46 undefined on 
-input line 26.
-
-
-Package natbib Warning: Citation `li_high-pressure_2022' on page 46 undefined o
-n input line 31.
-
-
-Package natbib Warning: Citation `shan_giant_2021' on page 46 undefined on inpu
-t line 31.
-
-[46]
-
-Package natbib Warning: Citation `boyd' on page 47 undefined on input line 34.
-
-
-LaTeX Warning: Reference `km-eq:intensity' on page 1 undefined on input line 35
-.
-
-
-Package natbib Warning: Citation `birss' on page 47 undefined on input line 37.
-
-
-<gfx/ch4/km-fig1.pdf, id=367, 554.58119pt x 625.24643pt>
+] [50]
+<gfx/ch4/km-fig1.pdf, id=1111, 554.58119pt x 625.24643pt>
 File: gfx/ch4/km-fig1.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig1.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig1.pdf  used on input line 46.
 (pdftex.def)             Requested size: 306.40117pt x 345.45123pt.
-
-LaTeX Warning: Reference `km-fig:1' on page 1 undefined on input line 58.
-
-
-LaTeX Warning: Reference `km-fig:1' on page 1 undefined on input line 59.
-
-
-LaTeX Warning: Reference `km-fig:1a' on page 1 undefined on input line 66.
-
-
-LaTeX Warning: Reference `km-fig:1b' on page 1 undefined on input line 66.
-
-
-LaTeX Warning: Reference `km-eq:intensity' on page 1 undefined on input line 67
-.
-
-
-LaTeX Warning: Reference `km-fig:1' on page 1 undefined on input line 67.
-
-[47] [48]
-
-Package natbib Warning: Citation `petersen_nonlinear_2006' on page 49 undefined
- on input line 70.
-
-
-Package natbib Warning: Citation `torchinsky_low_2014' on page 49 undefined on 
-input line 70.
-
-
-Package natbib Warning: Citation `fichera_second_2020' on page 49 undefined on 
-input line 70.
-
-
-Package natbib Warning: Citation `camn2bi2' on page 49 undefined on input line 
-70.
-
-
-LaTeX Warning: Reference `km-fig:1' on page 1 undefined on input line 71.
-
-
-Package natbib Warning: Citation `shan_giant_2021' on page 49 undefined on inpu
-t line 72.
-
-
-Package natbib Warning: Citation `shan_giant_2021' on page 49 undefined on inpu
-t line 75.
-
-
-Package natbib Warning: Citation `camn2bi2' on page 49 undefined on input line 
-77.
-
-<gfx/ch4/km-fig2.pdf, id=381, 698.10274pt x 199.10564pt>
+ [51] [52 <./gfx/ch4/km-fig1.pdf>]
+<gfx/ch4/km-fig2.pdf, id=1202, 698.10274pt x 199.10564pt>
 File: gfx/ch4/km-fig2.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig2.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig2.pdf  used on input line 82.
 (pdftex.def)             Requested size: 383.0pt x 109.235pt.
 
-Package natbib Warning: Citation `fichera_second_2020' on page 49 undefined on 
-input line 89.
-
-
-Package natbib Warning: Citation `fichera_second_2020' on page 49 undefined on 
-input line 89.
-
-
-LaTeX Warning: Reference `km-sec:disc' on page 49 undefined on input line 94.
-
-[49] [50]
-
-LaTeX Warning: Reference `km-fig:3a' on page 1 undefined on input line 111.
-
-
-LaTeX Warning: Reference `km-fig:3b' on page 1 undefined on input line 112.
-
-
-Package natbib Warning: Citation `argibay_asymmetric_2010' on page 51 undefined
- on input line 112.
-
-
-LaTeX Warning: Reference `km-fig:3c' on page 1 undefined on input line 114.
-
-
-LaTeX Warning: Reference `km-fig:3d' on page 1 undefined on input line 114.
-
-
-LaTeX Warning: Reference `km-fig:6' on page 1 undefined on input line 115.
-
-
-Package natbib Warning: Citation `argibay_asymmetric_2010' on page 51 undefined
- on input line 121.
-
-
-LaTeX Warning: Reference `km-fig:3b' on page 1 undefined on input line 121.
-
-
-LaTeX Warning: Reference `km-fig:6' on page 1 undefined on input line 122.
-
-
-LaTeX Warning: Reference `km-fig:3' on page 1 undefined on input line 123.
-
-<gfx/ch4/km-fig3.pdf, id=394, 758.38692pt x 630.78336pt>
+[53] [54 <./gfx/ch4/km-fig2.pdf>]
+<gfx/ch4/km-fig3.pdf, id=1305, 758.38692pt x 630.78336pt>
 File: gfx/ch4/km-fig3.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig3.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig3.pdf  used on input line 131.
 (pdftex.def)             Requested size: 383.0pt x 318.55751pt.
-
-LaTeX Warning: Reference `km-fig:3c' on page 1 undefined on input line 141.
-
-
-LaTeX Warning: Reference `km-fig:3c' on page 1 undefined on input line 141.
-
-
-LaTeX Warning: Reference `km-fig:3c' on page 1 undefined on input line 148.
-
-
-LaTeX Warning: Reference `km-fig:3d' on page 1 undefined on input line 148.
-
-
-LaTeX Warning: Reference `km-fig:3a' on page 1 undefined on input line 149.
-
-
-Underfull \vbox (badness 3449) has occurred while \output is active []
-
- [51]
-[52]
-
-LaTeX Warning: Reference `km-fig:3c' on page 1 undefined on input line 154.
-
-
-LaTeX Warning: Reference `km-fig:3d' on page 1 undefined on input line 154.
-
-<gfx/ch4/km-fig4.pdf, id=414, 590.48682pt x 414.34465pt>
+ [55] [56 <./gfx/ch4/km-fig3.pdf>]
+<gfx/ch4/km-fig4.pdf, id=1375, 590.48682pt x 414.34465pt>
 File: gfx/ch4/km-fig4.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig4.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig4.pdf  used on input line 161.
 (pdftex.def)             Requested size: 383.0pt x 268.75813pt.
 
-LaTeX Warning: Reference `km-fig:2' on page 1 undefined on input line 167.
-
-
-LaTeX Warning: Reference `km-fig:2' on page 1 undefined on input line 167.
-
-
-LaTeX Warning: Reference `km-fig:3' on page 1 undefined on input line 170.
-
-
-LaTeX Warning: Reference `km-fig:6' on page 1 undefined on input line 170.
-
-
-LaTeX Warning: Reference `km-fig:6' on page 1 undefined on input line 171.
-
-
-LaTeX Warning: Reference `km-fig:6' on page 1 undefined on input line 171.
-
-
-LaTeX Warning: Reference `km-fig:3a' on page 1 undefined on input line 172.
-
-
 Underfull \vbox (badness 1097) has occurred while \output is active []
 
- [53]
-<gfx/ch4/km-fig5.pdf, id=420, 462.52798pt x 346.89601pt>
+ [57]
+<gfx/ch4/km-fig5.pdf, id=1387, 462.52798pt x 346.89601pt>
 File: gfx/ch4/km-fig5.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig5.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig5.pdf  used on input line 186.
 (pdftex.def)             Requested size: 383.0pt x 287.26196pt.
 
-
-Package natbib Warning: Citation `ducuing_observation_1963' on page 54 undefine
-d on input line 197.
-
-
-Package natbib Warning: Citation `torchinsky_low_2014' on page 54 undefined on 
-input line 197.
-
-
-LaTeX Warning: Reference `km-fig:2' on page 1 undefined on input line 198.
-
-
-LaTeX Warning: Reference `km-fig:4' on page 1 undefined on input line 202.
-
-
-LaTeX Warning: Reference `km-fig:4' on page 1 undefined on input line 203.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54]
-[55]
+ [58 <./gfx/ch4/km-fig4.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package natbib Warning: Citation `camn2bi2' on page 56 undefined on input line 
-206.
-
-) [56] [57] [58
-
-]
+ [59 <./gfx/ch4/km-fig5.pdf>]) [60]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\mhchem@cee' on input line 40.
 
-(./ch/ch5.tex [59]
+(./ch/ch5.tex [61
 
-Package natbib Warning: Citation `sethna' on page 60 undefined on input line 22
-.
-
-
-Package natbib Warning: Citation `thouless' on page 60 undefined on input line 
-22.
-
-
-Package natbib Warning: Citation `belinicher1980' on page 60 undefined on input
- line 26.
-
-
-Package natbib Warning: Citation `teo2008' on page 60 undefined on input line 2
-8.
-
-
-Package natbib Warning: Citation `hsieh_topological_2012' on page 60 undefined 
-on input line 28.
-
-
-Package natbib Warning: Citation `fu_topological_2011' on page 60 undefined on 
-input line 28.
-
-
-Package natbib Warning: Citation `hlobil_elastoconductivity_2015' on page 60 un
-defined on input line 30.
-
-
-Package natbib Warning: Citation `leisure1997' on page 60 undefined on input li
-ne 31.
-
-
-Package natbib Warning: Citation `migliori1993' on page 60 undefined on input l
-ine 31.
-
-
-Package natbib Warning: Citation `bacon1966' on page 60 undefined on input line
- 31.
-
-
-Package natbib Warning: Citation `dorset2013' on page 60 undefined on input lin
-e 31.
-
-
-Package natbib Warning: Citation `hlobil_elastoconductivity_2015' on page 60 un
-defined on input line 31.
-
-
-Package natbib Warning: Citation `hlobil_elastoconductivity_2015' on page 60 un
-defined on input line 33.
-
-
-Package natbib Warning: Citation `heinz_study_1985' on page 60 undefined on inp
-ut line 34.
-
-
-Package natbib Warning: Citation `kumar_magnetic_2017' on page 60 undefined on 
-input line 35.
-
-
-Package natbib Warning: Citation `harter_parity-breaking_2017' on page 60 undef
-ined on input line 35.
-
-[60]
-
-Package natbib Warning: Citation `wilson_charge-density_1975' on page 61 undefi
-ned on input line 37.
-
-
-Package natbib Warning: Citation `zong_ultrafast_2018' on page 61 undefined on 
-input line 37.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig0a' on page 1 undefined on input line 4
-3.
-
-
-Package natbib Warning: Citation `spijkerman_x-ray_1997' on page 61 undefined o
-n input line 44.
-
-
-Package natbib Warning: Citation `scruby_role_1975' on page 61 undefined on inp
-ut line 44.
-
-
-Package natbib Warning: Citation `fung_application_1980' on page 61 undefined o
-n input line 44.
-
-
-Package natbib Warning: Citation `scruby_role_1975' on page 61 undefined on inp
-ut line 46.
-
-
-Package natbib Warning: Citation `fung_application_1980' on page 61 undefined o
-n input line 46.
-
-
-Package natbib Warning: Citation `spijkerman_x-ray_1997' on page 61 undefined o
-n input line 48.
-
-
-Package natbib Warning: Citation `wu_hexagonal_1989' on page 61 undefined on in
-put line 49.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig0c' on page 61 undefined on input line 
-50.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig0d' on page 61 undefined on input line 
-50.
-
-
-Package natbib Warning: Citation `ishiguro_high-resolution_1995' on page 61 und
-efined on input line 51.
-
-<./gfx/ch5/fig0red1.pdf, id=460, 243.91125pt x 231.264pt>
+] [62]
+<./gfx/ch5/fig0red1.pdf, id=1718, 243.91125pt x 231.264pt>
 File: ./gfx/ch5/fig0red1.pdf Graphic file (type pdf)
 <use ./gfx/ch5/fig0red1.pdf>
 Package pdftex.def Info: ./gfx/ch5/fig0red1.pdf  used on input line 59.
 (pdftex.def)             Requested size: 383.0pt x 363.14526pt.
 
+
 LaTeX Warning: Float too large for page by 4.52919pt on input line 74.
 
-
-Package natbib Warning: Citation `zong_ultrafast_2018' on page 61 undefined on 
-input line 76.
-
-[61] [62]
-
-Package natbib Warning: Citation `zong_ultrafast_2018' on page 63 undefined on 
-input line 82.
-
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 83.
-
-
-Package natbib Warning: Citation `zong_ultrafast_2018' on page 63 undefined on 
-input line 84.
-
-
-Package natbib Warning: Citation `wilson_charge-density_1975' on page 63 undefi
-ned on input line 84.
-
-
-Package natbib Warning: Citation `bovet_pseudogapped_2004' on page 63 undefined
- on input line 84.
-
-
-Package natbib Warning: Citation `shiba_phenomenological_1986' on page 63 undef
-ined on input line 84.
-
-
-Package natbib Warning: Citation `harter_high-speed_2015' on page 63 undefined 
-on input line 86.
-
-
-Package natbib Warning: Citation `lu_fast_2018' on page 63 undefined on input l
-ine 86.
-
-
-Package natbib Warning: Citation `torchinsky_structural_2015' on page 63 undefi
-ned on input line 86.
-
-
-Package natbib Warning: Citation `lu_fourier_2018' on page 63 undefined on inpu
-t line 86.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig0b' on page 1 undefined on input line 8
-6.
-
-
-Package natbib Warning: Citation `boyd' on page 63 undefined on input line 88.
-
-
-Package natbib Warning: Citation `boyd' on page 63 undefined on input line 89.
-
-
-Package natbib Warning: Citation `powell' on page 63 undefined on input line 89
-.
-
-
-Package natbib Warning: Citation `bloembergen_optical_1968' on page 63 undefine
-d on input line 90.
-
-
-Package natbib Warning: Citation `kumar_magnetic_2017' on page 63 undefined on 
-input line 92.
-
-
-Package natbib Warning: Citation `shen' on page 63 undefined on input line 92.
-
-
-Package natbib Warning: Citation `harter_high-speed_2015' on page 63 undefined 
-on input line 93.
-
-
-Package natbib Warning: Citation `torchinsky_low_2014' on page 63 undefined on 
-input line 93.
-
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 95.
-
-<./gfx/ch5/fig1more.pdf, id=480, 243.91125pt x 252.945pt>
+[63] [64 <./gfx/ch5/fig0red1.pdf>]
+<./gfx/ch5/fig1more.pdf, id=3133, 243.91125pt x 252.945pt>
 File: ./gfx/ch5/fig1more.pdf Graphic file (type pdf)
 <use ./gfx/ch5/fig1more.pdf>
 Package pdftex.def Info: ./gfx/ch5/fig1more.pdf  used on input line 102.
 (pdftex.def)             Requested size: 383.0pt x 397.19014pt.
 
-LaTeX Warning: Reference `tastwo-fig:fig1a' on page 1 undefined on input line 1
-12.
 
+LaTeX Warning: Float too large for page by 11.59131pt on input line 113.
 
-LaTeX Warning: Reference `tastwo-fig:fig1b' on page 1 undefined on input line 1
-12.
-
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 112.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig1a' on page 1 undefined on input line 1
-12.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig1b' on page 1 undefined on input line 1
-12.
-
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 112.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig1a' on page 1 undefined on input line 1
-12.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig1b' on page 1 undefined on input line 1
-12.
-
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 112.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig1a' on page 1 undefined on input line 1
-12.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig1b' on page 1 undefined on input line 1
-12.
-
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 112.
-
-
-LaTeX Warning: Float too large for page by 10.78725pt on input line 113.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig1b' on page 1 undefined on input line 1
-16.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig1a' on page 1 undefined on input line 1
-16.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig1a' on page 1 undefined on input line 1
-17.
-
-
-Package natbib Warning: Citation `scruby_role_1975' on page 63 undefined on inp
-ut line 117.
-
-
-Package natbib Warning: Citation `fung_application_1980' on page 63 undefined o
-n input line 117.
-
-[63] [64]
-<./gfx/ch5/fig2.pdf, id=498, 243.91125pt x 162.6075pt>
+[65]
+<./gfx/ch5/fig2.pdf, id=3163, 243.91125pt x 162.6075pt>
 File: ./gfx/ch5/fig2.pdf Graphic file (type pdf)
 <use ./gfx/ch5/fig2.pdf>
 Package pdftex.def Info: ./gfx/ch5/fig2.pdf  used on input line 124.
@@ -2398,278 +1826,29 @@ Overfull \hbox (6.84009pt too wide) in paragraph at lines 122--133
 [][]  [][] [] 
  []
 
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 133.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig2a' on page 65 undefined on input line 
-133.
-
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 133.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig2a' on page 65 undefined on input line 
-133.
-
-
-Package natbib Warning: Citation `spijkerman_x-ray_1997' on page 65 undefined o
-n input line 136.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig1b' on page 1 undefined on input line 1
-37.
-
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 138.
-
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 145.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig1a' on page 1 undefined on input line 1
-45.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig0c' on page 65 undefined on input line 
-149.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig0d' on page 65 undefined on input line 
-149.
-
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 151.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig1c' on page 1 undefined on input line 1
-52.
-
-[65] [66]
-
-LaTeX Warning: Reference `tastwo-fig:fig0d' on page 1 undefined on input line 1
-58.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig0c' on page 1 undefined on input line 1
-58.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig2' on page 1 undefined on input line 16
-0.
-
-
-LaTeX Warning: Reference `tastwo-eq:intensityequation' on page 1 undefined on i
-nput line 161.
-
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 161.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig2a' on page 1 undefined on input line 1
-65.
-
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 166.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig2b' on page 1 undefined on input line 1
-66.
-
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 171.
-
-
-Package natbib Warning: Citation `kumar_magnetic_2017' on page 67 undefined on 
-input line 175.
-
-
-Package natbib Warning: Citation `shen' on page 67 undefined on input line 175.
-
-
-
-LaTeX Warning: Reference `tastwo-fig:fig3b' on page 1 undefined on input line 1
-79.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig3a' on page 1 undefined on input line 1
-79.
-
-
-Underfull \vbox (badness 1852) has occurred while \output is active []
-
- [67]
-
-Package natbib Warning: Citation `fung_application_1980' on page 68 undefined o
-n input line 181.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig3a' on page 1 undefined on input line 1
-82.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig3a' on page 1 undefined on input line 1
-83.
-
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 183.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig3a' on page 1 undefined on input line 1
-90.
-
-<./gfx/ch5/fig3rev.pdf, id=519, 243.91125pt x 209.58301pt>
+[66] [67 <./gfx/ch5/fig1more.pdf>] [68 <./gfx/ch5/fig2.pdf>]
+Underfull \vbox (badness 1668) has occurred while \output is active []
+
+ [69]
+<./gfx/ch5/fig3rev.pdf, id=4927, 243.91125pt x 209.58301pt>
 File: ./gfx/ch5/fig3rev.pdf Graphic file (type pdf)
 <use ./gfx/ch5/fig3rev.pdf>
 Package pdftex.def Info: ./gfx/ch5/fig3rev.pdf  used on input line 198.
 (pdftex.def)             Requested size: 383.0pt x 329.1004pt.
 
-LaTeX Warning: Reference `tastwo-fig:fig3c' on page 68 undefined on input line 
-211.
-
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 211.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig3c' on page 68 undefined on input line 
-211.
-
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 211.
-
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 214.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig3c' on page 1 undefined on input line 2
-16.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig3c' on page 1 undefined on input line 2
-17.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig1a' on page 1 undefined on input line 2
-17.
-
-
-LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
-ine 218.
-
-
-Package natbib Warning: Citation `bloembergen_optical_1968' on page 68 undefine
-d on input line 219.
-
-[68] [69]
-<./gfx/ch5/figS1.pdf, id=539, 487.8225pt x 216.81pt>
+[70] [71 <./gfx/ch5/fig3rev.pdf>]
+<./gfx/ch5/figS1.pdf, id=5600, 487.8225pt x 216.81pt>
 File: ./gfx/ch5/figS1.pdf Graphic file (type pdf)
 <use ./gfx/ch5/figS1.pdf>
 Package pdftex.def Info: ./gfx/ch5/figS1.pdf  used on input line 243.
 (pdftex.def)             Requested size: 383.0pt x 170.22269pt.
 
+Underfull \vbox (badness 2318) has occurred while \output is active []
 
-LaTeX Warning: Reference `tastwo-fig:fig1b' on page 1 undefined on input line 2
-56.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig1' on page 1 undefined on input line 25
-6.
-
-
-LaTeX Warning: Reference `tastwo-fig:figS1' on page 1 undefined on input line 2
-57.
-
-
-LaTeX Warning: Reference `tastwo-sec:Squadrupole' on page 1 undefined on input 
-line 260.
-
-
+ [72]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70]
-
-LaTeX Warning: Reference `tastwo-eq:intensityequation' on page 1 undefined on i
-nput line 264.
-
-
-LaTeX Warning: Reference `tastwo-eq:intensityequation' on page 1 undefined on i
-nput line 265.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [71]
-
-Package natbib Warning: Citation `boyd' on page 72 undefined on input line 268.
-
-
-
-LaTeX Warning: Reference `tastwo-eq:Sc3susceptibility' on page 1 undefined on i
-nput line 287.
-
-[72]
-
-LaTeX Warning: Reference `tastwo-fig:fig0b' on page 1 undefined on input line 3
-16.
-
-
-LaTeX Warning: Reference `tastwo-eq:Srotatechi' on page 1 undefined on input li
-ne 331.
-
-
-LaTeX Warning: Reference `tastwo-eq:Sipsequation' on page 1 undefined on input 
-line 331.
-
-
-LaTeX Warning: Reference `tastwo-eq:Sc3susceptibility' on page 1 undefined on i
-nput line 337.
-
-
-LaTeX Warning: Reference `tastwo-eq:intensityequation' on page 1 undefined on i
-nput line 337.
-
-
-LaTeX Warning: Reference `tastwo-eq:Sipsequationfinal' on page 1 undefined on i
-nput line 357.
-
-[73]
-
-LaTeX Warning: Reference `tastwo-eq:fourierdecomposition' on page 1 undefined o
-n input line 373.
-
-
-LaTeX Warning: Reference `tastwo-eq:SintensityequationwithR' on page 1 undefine
-d on input line 373.
-
-
-LaTeX Warning: Reference `tastwo-eq:Sc3susceptibility' on page 1 undefined on i
-nput line 373.
-
-
-LaTeX Warning: Reference `tastwo-eq:Sc3vsusceptibility' on page 1 undefined on 
-input line 399.
-
-
-LaTeX Warning: Reference `tastwo-eq:Sc3susceptibility' on page 1 undefined on i
-nput line 399.
-
-[74]
-
-LaTeX Warning: Reference `tastwo-eq:i3PS' on page 1 undefined on input line 405
-.
-
+ [73 <./gfx/ch5/figS1.pdf>] [74] [75] [76]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 415.
@@ -2694,11 +1873,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 415.
 
-
-LaTeX Warning: Reference `tastwo-fig:mirrora' on page 1 undefined on input line
- 418.
-
-<./gfx/ch5/mirror.pdf, id=590, 243.91125pt x 173.448pt>
+<./gfx/ch5/mirror.pdf, id=7276, 243.91125pt x 173.448pt>
 File: ./gfx/ch5/mirror.pdf Graphic file (type pdf)
 <use ./gfx/ch5/mirror.pdf>
 Package pdftex.def Info: ./gfx/ch5/mirror.pdf  used on input line 427.
@@ -2708,456 +1883,502 @@ Overfull \hbox (15.9602pt too wide) in paragraph at lines 423--440
 [][]  [][]  [][]  [][] [] 
  []
 
-
-LaTeX Warning: Reference `tastwo-fig:mirrora' on page 75 undefined on input lin
-e 440.
-
-
-LaTeX Warning: Reference `tastwo-fig:mirrora' on page 75 undefined on input lin
-e 440.
-
-
-LaTeX Warning: Reference `tastwo-fig:mirrorc' on page 75 undefined on input lin
-e 440.
-
-
-LaTeX Warning: Reference `tastwo-fig:mirrora' on page 75 undefined on input lin
-e 440.
-
-
-LaTeX Warning: Reference `tastwo-fig:mirrora' on page 75 undefined on input lin
-e 440.
-
-
-LaTeX Warning: Reference `tastwo-fig:mirrorc' on page 75 undefined on input lin
-e 440.
-
-
-LaTeX Warning: Reference `tastwo-fig:mirrorb' on page 1 undefined on input line
- 443.
-
-
-LaTeX Warning: Reference `tastwo-fig:mirrorb' on page 1 undefined on input line
- 445.
-
-
-LaTeX Warning: Reference `tastwo-fig:mirrora' on page 1 undefined on input line
- 445.
-
-
-LaTeX Warning: Reference `tastwo-fig:mirrord' on page 1 undefined on input line
- 448.
-
-
-LaTeX Warning: Reference `tastwo-fig:mirrorc' on page 1 undefined on input line
- 448.
-
-[75] [76]
-
-LaTeX Warning: Reference `tastwo-eq:fourierdecomposition' on page 1 undefined o
-n input line 480.
-
-
-LaTeX Warning: Reference `tastwo-eq:fourierdecomposition' on page 1 undefined o
-n input line 480.
-
-
-LaTeX Warning: Reference `tastwo-sec:sstwofold' on page 1 undefined on input li
-ne 488.
-
-
-LaTeX Warning: Reference `tastwo-fig:mirror' on page 1 undefined on input line 
-489.
-
-
-LaTeX Warning: Reference `tastwo-tab:indicators' on page 1 undefined on input l
-ine 494.
-
-
-LaTeX Warning: Reference `tastwo-sec:Sbmsindicator' on page 1 undefined on inpu
-t line 495.
-
-
-LaTeX Warning: Reference `tastwo-tab:indicators' on page 1 undefined on input l
-ine 498.
-
-
-LaTeX Warning: Reference `tastwo-tab:indicators' on page 1 undefined on input l
-ine 500.
-
-[77] [78]
-
-LaTeX Warning: Reference `tastwo-sec:complete_a' on page 1 undefined on input l
-ine 504.
-
-
-LaTeX Warning: Reference `tastwo-fig:figS2' on page 1 undefined on input line 5
-04.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig2' on page 1 undefined on input line 50
-4.
-
-
-LaTeX Warning: Reference `tastwo-fig:diffraction' on page 1 undefined on input 
-line 509.
-
-
-Package natbib Warning: Citation `zong_ultrafast_2018' on page 79 undefined on 
-input line 509.
-
-
-Package natbib Warning: Citation `wilson_charge-density_1975' on page 79 undefi
-ned on input line 509.
-
-
-Package natbib Warning: Citation `bovet_pseudogapped_2004' on page 79 undefined
- on input line 509.
-
-
-Package natbib Warning: Citation `shiba_phenomenological_1986' on page 79 undef
-ined on input line 509.
-
-
-Package natbib Warning: Citation `mann_probing_2016' on page 79 undefined on in
-put line 510.
-
-
-Package natbib Warning: Citation `zong_ultrafast_2018' on page 79 undefined on 
-input line 511.
-
-
-Package natbib Warning: Citation `zong_ultrafast_2018' on page 79 undefined on 
-input line 512.
-
-<./gfx/ch5/figS2.pdf, id=622, 487.8225pt x 216.81pt>
+[77] [78 <./gfx/ch5/mirror.pdf>] [79] [80]
+<./gfx/ch5/figS2.pdf, id=7390, 487.8225pt x 216.81pt>
 File: ./gfx/ch5/figS2.pdf Graphic file (type pdf)
 <use ./gfx/ch5/figS2.pdf>
 Package pdftex.def Info: ./gfx/ch5/figS2.pdf  used on input line 518.
 (pdftex.def)             Requested size: 383.0pt x 170.22269pt.
-
-LaTeX Warning: Reference `tastwo-sec:mirrorflip' on page 1 undefined on input l
-ine 528.
-
-
-LaTeX Warning: Reference `tastwo-fig:figS2a' on page 79 undefined on input line
- 528.
-
-
-LaTeX Warning: Reference `tastwo-sec:mirrorflip' on page 1 undefined on input l
-ine 528.
-
-
-LaTeX Warning: Reference `tastwo-fig:figS2a' on page 79 undefined on input line
- 528.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig2' on page 1 undefined on input line 53
-4.
-
-
-LaTeX Warning: Reference `tastwo-eq:Sc3susceptibility' on page 1 undefined on i
-nput line 535.
-
-
-LaTeX Warning: Reference `tastwo-fig:figS2a' on page 1 undefined on input line 
-535.
-
-[79] [80]
-
-LaTeX Warning: Reference `tastwo-fig:figS2b' on page 1 undefined on input line 
-570.
-
-
-LaTeX Warning: Reference `tastwo-eq:Sc3susceptibility' on page 1 undefined on i
-nput line 572.
-
-
-LaTeX Warning: Reference `tastwo-eq:Sipsequationfinal' on page 81 undefined on 
-input line 573.
-
-
-LaTeX Warning: Reference `tastwo-eq:sA_2equation' on page 81 undefined on input
- line 573.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig2' on page 1 undefined on input line 57
-3.
-
+ [81] [82 <./gfx/ch5/figS2.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\mhchem@cee' on input line 575.
 
-
-LaTeX Warning: Reference `tastwo-sec:complete_b' on page 1 undefined on input l
-ine 579.
-
-
-LaTeX Warning: Reference `tastwo-fig:295K' on page 1 undefined on input line 57
-9.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig3' on page 1 undefined on input line 57
-9.
-
-
-LaTeX Warning: Reference `tastwo-fig:356K' on page 1 undefined on input line 58
-0.
-
-
-LaTeX Warning: Reference `tastwo-fig:356K' on page 1 undefined on input line 58
-1.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig3' on page 1 undefined on input line 58
-1.
-
-
-LaTeX Warning: Reference `tastwo-eq:qintensityequation' on page 1 undefined on 
-input line 585.
-
-
-LaTeX Warning: Reference `tastwo-eq:qintensityequation' on page 1 undefined on 
-input line 586.
-
-
-LaTeX Warning: Reference `tastwo-eq:intensityequation' on page 1 undefined on i
-nput line 586.
-
-
-LaTeX Warning: Reference `tastwo-sec:Sbmsindicator' on page 1 undefined on inpu
-t line 586.
-
-
-Package natbib Warning: Citation `kumar_magnetic_2017' on page 81 undefined on 
-input line 588.
-
-
-Package natbib Warning: Citation `shen' on page 81 undefined on input line 588.
-
-
-[81]
-
-Package natbib Warning: Citation `spijkerman_x-ray_1997' on page 82 undefined o
-n input line 606.
-
-
-LaTeX Warning: Reference `tastwo-eq:Sc3susceptibility' on page 1 undefined on i
-nput line 607.
-
-
-Package natbib Warning: Citation `boyd' on page 82 undefined on input line 607.
-
-
-
-Package natbib Warning: Citation `boyd' on page 82 undefined on input line 626.
-
-
-<./gfx/ch5/diffraction.pdf, id=653, 243.91125pt x 158.994pt>
+[83]
+<./gfx/ch5/diffraction.pdf, id=9046, 243.91125pt x 158.994pt>
 File: ./gfx/ch5/diffraction.pdf Graphic file (type pdf)
 <use ./gfx/ch5/diffraction.pdf>
 Package pdftex.def Info: ./gfx/ch5/diffraction.pdf  used on input line 629.
 (pdftex.def)             Requested size: 383.0pt x 249.66237pt.
-<./gfx/ch5/figS3.pdf, id=654, 487.8225pt x 136.58307pt>
+<./gfx/ch5/figS3.pdf, id=9047, 487.8225pt x 136.58307pt>
 File: ./gfx/ch5/figS3.pdf Graphic file (type pdf)
 <use ./gfx/ch5/figS3.pdf>
 Package pdftex.def Info: ./gfx/ch5/figS3.pdf  used on input line 640.
 (pdftex.def)             Requested size: 383.0pt x 107.2346pt.
-<./gfx/ch5/figS4.pdf, id=655, 487.8225pt x 121.48587pt>
+<./gfx/ch5/figS4.pdf, id=9048, 487.8225pt x 121.48587pt>
 File: ./gfx/ch5/figS4.pdf Graphic file (type pdf)
 <use ./gfx/ch5/figS4.pdf>
 Package pdftex.def Info: ./gfx/ch5/figS4.pdf  used on input line 647.
 (pdftex.def)             Requested size: 383.0pt x 95.38142pt.
+ [84] [85 <./gfx/ch5/diffraction.pdf>] [86 <./gfx/ch5/figS3.pdf> <./gfx/ch5/fig
+S4.pdf
 
-LaTeX Warning: Reference `tastwo-fig:fig3c' on page 1 undefined on input line 6
-52.
-
-
-LaTeX Warning: Reference `tastwo-eq:Sequationwithbs' on page 1 undefined on inp
-ut line 655.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig3b' on page 1 undefined on input line 6
-56.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig3a' on page 1 undefined on input line 6
-56.
-
-
-LaTeX Warning: Reference `tastwo-eq:Sequationwithbs' on page 1 undefined on inp
-ut line 656.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig3c' on page 1 undefined on input line 6
-58.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig3a' on page 1 undefined on input line 6
-58.
-
-[82]
-
-LaTeX Warning: Reference `tastwo-fig:fig3' on page 1 undefined on input line 66
-0.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig3a' on page 1 undefined on input line 6
-60.
-
-[83] [84]
-
-LaTeX Warning: Reference `tastwo-fig:fig3c' on page 1 undefined on input line 6
-66.
-
-
-Package natbib Warning: Citation `berkovic_interference_1988' on page 85 undefi
-ned on input line 670.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig3b' on page 1 undefined on input line 6
-71.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig3a' on page 1 undefined on input line 6
-71.
-
-
-Package natbib Warning: Citation `harter_high-speed_2015' on page 85 undefined 
-on input line 678.
-
-
-Package natbib Warning: Citation `torchinsky_low_2014' on page 85 undefined on 
-input line 678.
-
-
-LaTeX Warning: Reference `tastwo-fig:fig0b' on page 1 undefined on input line 6
-82.
-
-) [85] [86
-
-]
+pdfTeX warning: pdflatex (file ./gfx/ch5/figS4.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+>] [87]) [88]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\mhchem@cee' on input line 43.
 
 (./ch/ch6.tex
-Underfull \vbox (badness 1057) has occurred while \output is active []
 
- [87]
+LaTeX Warning: Reference `sec:cmb-authorcontributions' on page 1 undefined on i
+nput line 5.
 
-Package natbib Warning: Citation `zhang_dynamics_2014' on page 88 undefined on 
-input line 16.
+[89
 
-
-Package natbib Warning: Citation `basov_electrodynamics_2011' on page 88 undefi
-ned on input line 16.
-
-
-Package natbib Warning: Citation `dagotto_complexity_2005' on page 88 undefined
- on input line 16.
-
-
-Package natbib Warning: Citation `basov_towards_2017' on page 88 undefined on i
-nput line 16.
-
-
-Package natbib Warning: Citation `kogar_light-induced_2020' on page 88 undefine
-d on input line 16.
-
-
-Package natbib Warning: Citation `mitrano_possible_2016' on page 88 undefined o
-n input line 16.
-
-
-Package natbib Warning: Citation `fausti_light-induced_2011' on page 88 undefin
-ed on input line 16.
-
-
-Package natbib Warning: Citation `jungwirth_antiferromagnetic_2016' on page 88 
-undefined on input line 19.
-
-
-Package natbib Warning: Citation `nemec_antiferromagnetic_2018' on page 88 unde
-fined on input line 20.
-
-
-Package natbib Warning: Citation `afanasiev_ultrafast_2021' on page 88 undefine
-d on input line 27.
-
-
-Package natbib Warning: Citation `fausti_light-induced_2011' on page 88 undefin
-ed on input line 28.
-
-
-Package natbib Warning: Citation `kogar_light-induced_2020' on page 88 undefine
-d on input line 28.
-
-
-Package natbib Warning: Citation `sun_transient_2020' on page 88 undefined on i
-nput line 28.
-
-
-Package natbib Warning: Citation `fausti_light-induced_2011' on page 88 undefin
-ed on input line 30.
-
-
-Package natbib Warning: Citation `kogar_light-induced_2020' on page 88 undefine
-d on input line 30.
-
+]
 
 Class memoir Warning: The material used in the headers is too large
 (28.99998pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 31.
+(in both cases you will find help in the memoir manual). on input line 29.
 
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[88]
-
-Package natbib Warning: Citation `gibson_magnetic_2015' on page 89 undefined on
- input line 32.
-
-
-Package natbib Warning: Citation `afanasiev_ultrafast_2021' on page 89 undefine
-d on input line 34.
-
-<./gfx/ch6/fig0.pdf, id=703, 256.0748pt x 219.08621pt>
+[90]
+<./gfx/ch6/fig0.pdf, id=10792, 256.0748pt x 219.08621pt>
 File: ./gfx/ch6/fig0.pdf Graphic file (type pdf)
 <use ./gfx/ch6/fig0.pdf>
-Package pdftex.def Info: ./gfx/ch6/fig0.pdf  used on input line 48.
+Package pdftex.def Info: ./gfx/ch6/fig0.pdf  used on input line 52.
 (pdftex.def)             Requested size: 383.0pt x 327.69246pt.
 
-LaTeX Warning: Reference `fig0:d' on page 89 undefined on input line 62.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-! Undefined control sequence.
-<argument> ...channels are shown in the \sfigonly 
-                                                  {\fulltempdep }. The shade...
-l.62 }
-      
-? \
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
-? 
-! Emergency stop.
-<argument> ...channels are shown in the \sfigonly 
-                                                  {\fulltempdep }. The shade...
-l.62 }
-      
-End of file on the terminal!
+ [91]
+<./gfx/ch6/fig1.pdf, id=10827, 512.1496pt x 324.3614pt>
+File: ./gfx/ch6/fig1.pdf Graphic file (type pdf)
+<use ./gfx/ch6/fig1.pdf>
+Package pdftex.def Info: ./gfx/ch6/fig1.pdf  used on input line 90.
+(pdftex.def)             Requested size: 383.0pt x 242.57755pt.
 
- 
+Overfull \hbox (0.68903pt too wide) in paragraph at lines 112--115
+\OT1/ppl/m/n/12 (-20) the de-tails of which greatly im-pact the rel-e-vant mag-
+netic functionalities[[],
+ []
+
+
+Overfull \hbox (10.13431pt too wide) in paragraph at lines 112--115
+[]\OT1/ppl/m/n/12 (-20) ]. Be-cause the low-temperature mag-netic point group o
+f $[][][][][][]$breaks
+ []
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[92] [93 <./gfx/ch6/fig0.pdf>]
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[94 <./gfx/ch6/fig1.pdf>]
+Overfull \hbox (20.3101pt too wide) in paragraph at lines 116--119
+[]\OT1/ppl/m/n/12 (-20) Fig. [][]6.2(a)[][] shows the PTMB sig-nal from the $\O
+T1/cmr/m/n/12 (011)$ \OT1/ppl/m/n/12 (-20) sur-face of $[][][][][][]$above
+ []
+
+[95]
+<./gfx/ch6/fig2.pdf, id=12633, 512.1496pt x 378.42165pt>
+File: ./gfx/ch6/fig2.pdf Graphic file (type pdf)
+<use ./gfx/ch6/fig2.pdf>
+Package pdftex.def Info: ./gfx/ch6/fig2.pdf  used on input line 145.
+(pdftex.def)             Requested size: 383.0pt x 283.00714pt.
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[96] [97 <./gfx/ch6/fig2.pdf>]
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[98]
+<./gfx/ch6/fig3.pdf, id=13137, 512.1496pt x 117.1087pt>
+File: ./gfx/ch6/fig3.pdf Graphic file (type pdf)
+<use ./gfx/ch6/fig3.pdf>
+Package pdftex.def Info: ./gfx/ch6/fig3.pdf  used on input line 197.
+(pdftex.def)             Requested size: 383.0pt x 87.58113pt.
+
+Underfull \vbox (badness 1783) has occurred while \output is active []
+
+ [99 <./gfx/ch6/fig3.pdf>]
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[100] [101]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Glsxtrtitleshort' on input line 250.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Glsxtrtitleshort' on input line 260.
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[102]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Glsxtrtitleshort' on input line 270.
+
+LaTeX Font Info:    Trying to load font information for LGR+ppl on input line 2
+72.
+LaTeX Font Info:    No file LGRppl.fd. on input line 272.
+
+LaTeX Font Warning: Font shape `LGR/ppl/m/n' undefined
+(Font)              using `LGR/cmr/m/n' instead on input line 272.
+
+
+Package siunitx Warning: Unit macro \angstrom has been deprecated in this
+(siunitx)                release.
+(siunitx)                
+(siunitx)                The BIPM have removed this unit from the SI Brochure.
+(siunitx)                You should define it yourself using \DeclareSIUnit in
+(siunitx)                your source. The current definition is
+(siunitx)                
+(siunitx)                \DeclareSIUnit\angstrom{\text {Å}}
+
+[103]
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[104]
+
+pdfTeX warning: pdflatex (file ./gfx/ch6/equilibriumtheory.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<./gfx/ch6/equilibriumtheory.pdf, id=13298, 845.0471pt x 597.50804pt>
+File: ./gfx/ch6/equilibriumtheory.pdf Graphic file (type pdf)
+<use ./gfx/ch6/equilibriumtheory.pdf>
+Package pdftex.def Info: ./gfx/ch6/equilibriumtheory.pdf  used on input line 32
+0.
+(pdftex.def)             Requested size: 383.0pt x 270.80898pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [105 <./gfx/ch6/equilibriumtheory.pdf>]
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[106] [107]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[108]
+<./gfx/ch6/nonequilibriumtheory1.pdf, id=13333, 533.995pt x 163.61125pt>
+File: ./gfx/ch6/nonequilibriumtheory1.pdf Graphic file (type pdf)
+<use ./gfx/ch6/nonequilibriumtheory1.pdf>
+Package pdftex.def Info: ./gfx/ch6/nonequilibriumtheory1.pdf  used on input lin
+e 435.
+(pdftex.def)             Requested size: 383.0pt x 117.35312pt.
+<./gfx/ch6/nonequilibriumtheory2.pdf, id=13335, 529.98pt x 172.645pt>
+File: ./gfx/ch6/nonequilibriumtheory2.pdf Graphic file (type pdf)
+<use ./gfx/ch6/nonequilibriumtheory2.pdf>
+Package pdftex.def Info: ./gfx/ch6/nonequilibriumtheory2.pdf  used on input lin
+e 457.
+(pdftex.def)             Requested size: 383.0pt x 124.7653pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 472.
+
+[109]
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[110 <./gfx/ch6/nonequilibriumtheory1.pdf> <./gfx/ch6/nonequilibriumtheory2.pdf
+
+
+pdfTeX warning: pdflatex (file ./gfx/ch6/nonequilibriumtheory2.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>] [111]
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[112] [113]
+<./gfx/ch6/fitting.pdf, id=14989, 512.1496pt x 225.57913pt>
+File: ./gfx/ch6/fitting.pdf Graphic file (type pdf)
+<use ./gfx/ch6/fitting.pdf>
+Package pdftex.def Info: ./gfx/ch6/fitting.pdf  used on input line 569.
+(pdftex.def)             Requested size: 383.0pt x 168.70204pt.
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[114 <./gfx/ch6/fitting.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 584.
+
+<./gfx/ch6/errorbars.pdf, id=39652, 512.1496pt x 288.92635pt>
+File: ./gfx/ch6/errorbars.pdf Graphic file (type pdf)
+<use ./gfx/ch6/errorbars.pdf>
+Package pdftex.def Info: ./gfx/ch6/errorbars.pdf  used on input line 588.
+(pdftex.def)             Requested size: 383.0pt x 216.07701pt.
+[115
+
+
+ <./gfx/ch6/errorbars.pdf>]
+<./gfx/ch6/quenchtimes.pdf, id=46442, 217.81375pt x 362.35374pt>
+File: ./gfx/ch6/quenchtimes.pdf Graphic file (type pdf)
+<use ./gfx/ch6/quenchtimes.pdf>
+Package pdftex.def Info: ./gfx/ch6/quenchtimes.pdf  used on input line 603.
+(pdftex.def)             Requested size: 217.8132pt x 362.35286pt.
+<./gfx/ch6/fluencedep.pdf, id=46447, 512.1496pt x 268.12169pt>
+File: ./gfx/ch6/fluencedep.pdf Graphic file (type pdf)
+<use ./gfx/ch6/fluencedep.pdf>
+Package pdftex.def Info: ./gfx/ch6/fluencedep.pdf  used on input line 618.
+(pdftex.def)             Requested size: 383.0pt x 200.518pt.
+<./gfx/ch6/pp.pdf, id=46450, 512.1496pt x 365.78012pt>
+File: ./gfx/ch6/pp.pdf Graphic file (type pdf)
+<use ./gfx/ch6/pp.pdf>
+Package pdftex.def Info: ./gfx/ch6/pp.pdf  used on input line 633.
+(pdftex.def)             Requested size: 383.0pt x 273.55302pt.
+<./gfx/ch6/xrd.pdf, id=46451, 512.1496pt x 279.8613pt>
+File: ./gfx/ch6/xrd.pdf Graphic file (type pdf)
+<use ./gfx/ch6/xrd.pdf>
+Package pdftex.def Info: ./gfx/ch6/xrd.pdf  used on input line 645.
+(pdftex.def)             Requested size: 383.0pt x 209.29759pt.
+<./gfx/ch6/full_fig0.pdf, id=46454, 512.1496pt x 129.78441pt>
+File: ./gfx/ch6/full_fig0.pdf Graphic file (type pdf)
+<use ./gfx/ch6/full_fig0.pdf>
+Package pdftex.def Info: ./gfx/ch6/full_fig0.pdf  used on input line 657.
+(pdftex.def)             Requested size: 383.0pt x 97.06079pt.
+<./gfx/ch6/full_fig1.pdf, id=46457, 512.1496pt x 581.76784pt>
+File: ./gfx/ch6/full_fig1.pdf Graphic file (type pdf)
+<use ./gfx/ch6/full_fig1.pdf>
+Package pdftex.def Info: ./gfx/ch6/full_fig1.pdf  used on input line 669.
+(pdftex.def)             Requested size: 383.0pt x 435.082pt.
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[116] [117 <./gfx/ch6/quenchtimes.pdf>]
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[118 <./gfx/ch6/fluencedep.pdf>] [119 <./gfx/ch6/pp.pdf>]
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[120 <./gfx/ch6/xrd.pdf> <./gfx/ch6/full_fig0.pdf
+
+pdfTeX warning: pdflatex (file ./gfx/ch6/full_fig0.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>] [121 <./gfx/ch6/full_fig1.pdf>]
+<./gfx/ch6/full_fig2.pdf, id=48396, 512.1496pt x 192.88693pt>
+File: ./gfx/ch6/full_fig2.pdf Graphic file (type pdf)
+<use ./gfx/ch6/full_fig2.pdf>
+Package pdftex.def Info: ./gfx/ch6/full_fig2.pdf  used on input line 682.
+(pdftex.def)             Requested size: 383.0pt x 144.25278pt.
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[122 <./gfx/ch6/full_fig2.pdf>]
+<./gfx/ch6/polarization.pdf, id=49297, 512.1496pt x 75.74693pt>
+File: ./gfx/ch6/polarization.pdf Graphic file (type pdf)
+<use ./gfx/ch6/polarization.pdf>
+Package pdftex.def Info: ./gfx/ch6/polarization.pdf  used on input line 691.
+(pdftex.def)             Requested size: 383.0pt x 56.64822pt.
+ [123 <./gfx/ch6/polarization.pdf>]
+<./gfx/ch6/C2B_short.pdf, id=49859, 512.1496pt x 238.99178pt>
+File: ./gfx/ch6/C2B_short.pdf Graphic file (type pdf)
+<use ./gfx/ch6/C2B_short.pdf>
+Package pdftex.def Info: ./gfx/ch6/C2B_short.pdf  used on input line 701.
+(pdftex.def)             Requested size: 383.0pt x 178.73285pt.
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[124 <./gfx/ch6/C2B_short.pdf>]
+<./gfx/ch6/C2B_long.pdf, id=50642, 512.1496pt x 238.74423pt>
+File: ./gfx/ch6/C2B_long.pdf Graphic file (type pdf)
+<use ./gfx/ch6/C2B_long.pdf>
+Package pdftex.def Info: ./gfx/ch6/C2B_long.pdf  used on input line 713.
+(pdftex.def)             Requested size: 383.0pt x 178.54771pt.
+ [125 <./gfx/ch6/C2B_long.pdf>]
+<./gfx/ch6/ctempdep.pdf, id=51345, 256.0748pt x 323.89194pt>
+File: ./gfx/ch6/ctempdep.pdf Graphic file (type pdf)
+<use ./gfx/ch6/ctempdep.pdf>
+Package pdftex.def Info: ./gfx/ch6/ctempdep.pdf  used on input line 724.
+(pdftex.def)             Requested size: 383.0pt x 484.4529pt.
+)
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[126 <./gfx/ch6/ctempdep.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mhchem@cee' on input line 45.
+
+[127
+
+
+
+
+
+
+
+
+
+] [128
+
+] [129] [130
+
+] (./fichera-bfichera-phd-physics-2024-source.bbl
+[131] [132
+
+] [133] [134]
+Underfull \hbox (badness 1584) in paragraph at lines 137--140
+[]\OT1/ppl/m/n/10.95 (+20) Photoenhanced metastable c-axis elec-tro-dy-nam-ics 
+in stripe-ordered
+ []
+
+[135] [136] [137] [138] [139]
+Underfull \hbox (badness 3219) in paragraph at lines 419--421
+[]\OT1/ppl/m/n/10.95 (+20) Competition be-tween elec-tronic cor-re-la-tions and
+ hy-bridiza-tion in
+ []
+
+[140] [141] [142] [143] [144] [145] [146] [147] [148])
+
+Class memoir Warning: The material used in the headers is too large
+(28.99998pt) for the given head height (14.5pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 51.
+
+[149]
+\tf@toc=\write6
+\openout6 = `fichera-bfichera-phd-physics-2024-source.toc'.
+
+\tf@lof=\write7
+\openout7 = `fichera-bfichera-phd-physics-2024-source.lof'.
+
+\tf@lot=\write8
+\openout8 = `fichera-bfichera-phd-physics-2024-source.lot'.
+
+ (./fichera-bfichera-phd-physics-2024-source.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2020/03/25>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package rerunfilecheck Info: File `fichera-bfichera-phd-physics-2024-source.out
+' has not changed.
+(rerunfilecheck)             Checksum: B51279F448A08EE9998B7BFD23AE143D;12495.
+ ) 
 Here is how much of TeX's memory you used:
- 34508 strings out of 477909
- 651138 string characters out of 5838516
- 1876388 words of memory out of 5000000
- 53383 multiletter control sequences out of 15000+600000
- 573721 words of font info for 435 fonts, out of 8000000 for 9000
+ 38394 strings out of 476000
+ 721842 string characters out of 5792233
+ 1956187 words of memory out of 5000000
+ 58741 multiletter control sequences out of 15000+600000
+ 635242 words of font info for 530 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 115i,21n,120p,2330b,1058s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 115i,21n,120p,2420b,1740s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{figure.6.15} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.6.11} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.6.7} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.6.6} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.6.3} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.6.2} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.6.1} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.5.7} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.5.6} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.5.5} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.5.4} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.5.3} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.5.2} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.5.1} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.4.3} has been referenced but does not exist,
+ replaced by a fixed one
+
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cmextra/cmmib8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
+.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/cbfonts/grmn1200.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/sym
+bols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
+10.pfb></usr/share/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/te
+xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/
+urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplbi8a
+.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/tex
+mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/
+urw/palatino/uplri8a.pfb>
+Output written on fichera-bfichera-phd-physics-2024-source.pdf (149 pages, 2846
+1383 bytes).
+PDF statistics:
+ 51811 PDF objects out of 55141 (max. 8388607)
+ 34855 compressed objects within 349 object streams
+ 643 named destinations out of 1000 (max. 500000)
+ 119006 words of extra memory for PDF output out of 128383 (max. 10000000)
+
