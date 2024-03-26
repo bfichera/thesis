@@ -36,6 +36,20 @@
 }
 \usepackage{cleveref}
 
+\crefname{figure}{Fig.}{Figs.}
+\Crefname{figure}{Fig.}{Figs.}
+\crefrangelabelformat{figure}{#3#1#4--#5#2#6}
+\crefname{subfigure}{Fig.}{Figs.}
+\Crefname{subfigure}{Fig.}{Figs.}
+\crefrangelabelformat{subfigure}{#3#1#4--#5\crefstripprefix{#1}{#2}#6}
+\crefname{equation}{Eq.}{Eqs.}
+\Crefname{equation}{Eq.}{Eqs.}
+\crefrangelabelformat{equation}{#3#1#4--#5#2#6}
+\creflabelformat{equation}{#2#1#3}
+
+\crefmultiformat{subfigure}{\edef\crefstripprefixinfo{#1}figs.~#2#1#3}{ and~#2\crefstripprefix{\crefstripprefixinfo}{#1}#3}{, #2\crefstripprefix{\crefstripprefixinfo}{#1}#3}{, and~#2\crefstripprefix{\crefstripprefixinfo}{#1}#3}
+
+\newignoredglossary{ignored}
 \newcommand*\nestedglsentry[1]{%
   \protect\ifglsused{#1}{%
     \glsentryshort{#1}%
@@ -70,6 +84,11 @@
 % \newcommand{\onlinecref}[1]{Ref.~\citenum{#1}\xspace}
 
 
+\setabbreviationstyle[ignored]{long-noshort}
+\setabbreviationstyle[abbreviation]{long-short}
+\newabbreviation[type=ignored]{lro}{LRO}{long-range order}
+\newabbreviation[type=ignored]{op}{OP}{order parameter}
+\newabbreviation{sc}{SC}{superconductivity}
 \newabbreviation{shg}{SHG}{second harmonic generation}
 \newabbreviation{afm}{AFM}{antiferromagnetic}
 \newabbreviation{rashg}{RA-SHG}{rotational anisotropy \nestedglsentry{shg}}
@@ -86,9 +105,21 @@
 \newabbreviation{cif}{CIF}{crystallographic information file}
 \newabbreviation{lm}{LM}{Levenberg-Marquardt}
 \newabbreviation{ued}{UED}{ultrafast electron diffraction}
+\newabbreviation{ic}{IC}{incommensurate}
+\newabbreviation{nc}{NC}{nearly commensurate}
+\newabbreviation{paw}{PAW}{projected augmented wave method}
+\newabbreviation{vasp}{VASP}{Vienna Ab-initio Software Package}
+\newabbreviation{gga}{GGA}{generalized gradient approximation}
+\newabbreviation{pdos}{PDOS}{partial density of states}
+\newabbreviation{mae}{MAE}{magnetocrystalline anisotropy energy}
+\newabbreviation{cmr}{CMR}{colossal magnetoresistance}
+\newabbreviation{xrd}{XRD}{X-ray diffraction}
+\newabbreviation{ptmb}{PTMB}{photo-thermal modulated birefringence}
+\newabbreviation{ife}{IFE}{inverse Faraday effect}
 
 \newcommand{\suchthat}{\mathrm{s.t.}}
-\newcommand{\tastwo}{$1$\textit{T}-\ce{TaS2}}
+\newcommand{\tastwo}{1\textit{T}-\ce{TaS2}}
+\newcommand{\cmb}{\ce{CaMn2Bi2}}
 \newcommand{\op}{\mathscr{O}}
 \newcommand{\PP}{$P_\mathrm{in}P_\mathrm{out}$\xspace}
 \newcommand{\PS}{$P_\mathrm{in}S_\mathrm{out}$\xspace}
@@ -100,6 +131,10 @@
 \newcommand{\mathSS}{S_\mathrm{in}S_\mathrm{out}}
 \newcommand{\ft}{\hat}
 \newcommand{\params}{\theta}
+\newcommand{\apx}{{\sim}\xspace}
+\newcommand{\threshold}{$\apx 200$ \si{\mu J \cdot cm^{-2}}\xspace}
+\newcommand{\previousthreshold}{$\apx 10$ \si{mJ \cdot cm^{-2}}\xspace}
+\DeclareMathOperator{\atantwo}{atan2}
 
 \newtheorem{theorem}{Theorem}[section]
 

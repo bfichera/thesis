@@ -235,7 +235,7 @@ When valid, this \gls{sbhm} is powerful for two reasons: for one, \cref{eq:esbhm
 One can thus draw conclusions \emph{about} the microscopic degrees of freedom by fitting the \gls{shg} patterns to \cref{eq:esbhm,eq:qsbhm} (see, e.g., \citet{ron_dimensional_2019}).
 Of course, one must be careful that the assumptions of this model -- that the charges are localized to the bonds, and that the only relevant motion is along the bond direction -- are actually correct before proceeding with this sort of analysis.
 
-Myself and Karna Morey built a comprehensive interface to the \gls{sbhm} in Python using \texttt{pymatgen}\citep{ong_python_2013}, which takes an arbitrary \gls{cif} file and calculates the relevant susceptibility tensors via \cref{eq:esbhm,eq:qsbhm}.
+Myself and Karna Morey built a comprehensive interface to the \gls{sbhm} in Python using \texttt{pymatgen}\citep{ong_python_2013}, which takes an arbitrary \gls{cif} and calculates the relevant susceptibility tensors via \cref{eq:esbhm,eq:qsbhm}.
 The change to the susceptibility tensor induced by an elastic distortion mode ($\chi_{ijk}(q)$, where $q$ is the mode amplitude) can be computed via integration with \texttt{ISODISTORT}\citep{isodistort, campbell_isodisplace_2006}.
 See the package documentation (\url{https://github.com/morey18k/sbhm.git}) for examples and further information.
 

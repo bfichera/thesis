@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.25)  22 MAR 2024 13:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.25)  25 MAR 2024 19:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1136,7 +1136,7 @@ LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 9
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-(./fichera-bfichera-phd-physics-2024-source.aux)
+No file fichera-bfichera-phd-physics-2024-source.aux.
 \openout1 = `fichera-bfichera-phd-physics-2024-source.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -1157,7 +1157,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
-
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count426
@@ -1214,8 +1213,6 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 9.
- (./fichera-bfichera-phd-physics-2024-source.out)
-(./fichera-bfichera-phd-physics-2024-source.out)
 \@outlinefile=\write5
 \openout5 = `fichera-bfichera-phd-physics-2024-source.out'.
 
@@ -1242,25 +1239,96 @@ Underfull \hbox (badness 10000) in alignment at lines 28--28
 (./frontbackmatter/acknowledgements.tex) [4
 
 ] (./frontbackmatter/preface.tex
+
+Package natbib Warning: Citation `kibble_introduction_2008' on page v undefined
+ on input line 16.
+
 [5
 
 
-] [6]) [7] [8] (./fichera-bfichera-phd-physics-2024-source.toc [9
+]
 
-]) [10]
-(./fichera-bfichera-phd-physics-2024-source.lof) [11
+Package natbib Warning: Citation `alexandradinata_future_2022' on page vi undef
+ined on input line 24.
+
+
+LaTeX Warning: Reference `ch:intro' on page i undefined on input line 27.
+
+
+LaTeX Warning: Reference `ch:intro' on page i undefined on input line 32.
+
+
+LaTeX Warning: Reference `ch:shgpractice' on page i undefined on input line 34.
+
+
+
+LaTeX Warning: Reference `ch:shgtheory' on page i undefined on input line 34.
+
+
+LaTeX Warning: Reference `ch:polrotators' on page i undefined on input line 35.
+
+
+[6]
+
+LaTeX Warning: Reference `ch:tastwo' on page i undefined on input line 39.
+
+
+LaTeX Warning: Reference `ch:cubr2' on page i undefined on input line 42.
+
+
+LaTeX Warning: Reference `ch:cmb' on page i undefined on input line 42.
+
+
+LaTeX Warning: Reference `ch:cmb' on page i undefined on input line 43.
+
+
+LaTeX Warning: Reference `ch:cubr2' on page i undefined on input line 46.
+
+
+LaTeX Warning: Reference `ch:conclusion' on page i undefined on input line 49.
+
+) [7] [8]
+No file fichera-bfichera-phd-physics-2024-source.toc.
+[9
 
 ]
-(./fichera-bfichera-phd-physics-2024-source.lot) [12
+No file fichera-bfichera-phd-physics-2024-source.lof.
+[10
+
+]
+No file fichera-bfichera-phd-physics-2024-source.lot.
+[11
+
+] [12
+
 
 ] (./ch/ch1.tex) [13
 
+] [14
+
+] (./ch/ch2.tex
+
+Package natbib Warning: Citation `neumann_vorlesungen_1885' on page 15 undefine
+d on input line 3.
 
 
-]
-[14
+Package natbib Warning: Citation `curie_sur_1894' on page 15 undefined on input
+ line 3.
 
-] (./ch/ch2.tex [15]
+
+Package natbib Warning: Citation `wiki:spacegroups' on page 15 undefined on inp
+ut line 22.
+
+[15]
+
+LaTeX Warning: Reference `eq:spacegroup' on page 1 undefined on input line 24.
+
+
+LaTeX Warning: Reference `thm:neumann' on page 1 undefined on input line 27.
+
+
+LaTeX Warning: Reference `thm:neumann' on page 1 undefined on input line 39.
+
 
 LaTeX Warning: Command \i invalid in math mode on input line 40.
 
@@ -1271,40 +1339,379 @@ LaTeX Warning: Command \i invalid in math mode on input line 42.
 
 LaTeX Warning: Command \i invalid in math mode on input line 52.
 
-[17] [18] [19] [20] [21] [22]
-Underfull \vbox (badness 2351) has occurred while \output is active []
+
+Package natbib Warning: Citation `powell' on page 17 undefined on input line 52
+.
+
+
+LaTeX Warning: Reference `thm:neumann' on page 1 undefined on input line 65.
+
+
+LaTeX Warning: Reference `eq:nmmath' on page 1 undefined on input line 74.
+
+
+LaTeX Warning: Reference `eq:nmmath' on page 1 undefined on input line 83.
+
+
+LaTeX Warning: Reference `thm:neumannrestated' on page 1 undefined on input lin
+e 88.
+
+
+LaTeX Warning: Reference `eq:nmindex' on page 1 undefined on input line 88.
+
+
+LaTeX Warning: Reference `eq:nmindex' on page 1 undefined on input line 90.
+
+[17]
+
+LaTeX Warning: Reference `sec:manyshgterms' on page 1 undefined on input line 1
+11.
+
+
+LaTeX Warning: Reference `sec:manyshgterms' on page 1 undefined on input line 1
+19.
+
+
+LaTeX Warning: Reference `thm:neumann' on page 1 undefined on input line 122.
+
+
+LaTeX Warning: Reference `thm:neumannrestated' on page 1 undefined on input lin
+e 122.
+
+[18]
+
+LaTeX Warning: Reference `eq:shgsimple' on page 1 undefined on input line 124.
+
+
+LaTeX Warning: Reference `eq:nmindex' on page 1 undefined on input line 126.
+
+
+Package natbib Warning: Citation `birss' on page 19 undefined on input line 130
+.
+
+
+LaTeX Warning: Reference `eq:shgsimple' on page 1 undefined on input line 134.
+
+
+Package natbib Warning: Citation `jackson' on page 19 undefined on input line 1
+41.
+
+
+Package natbib Warning: Citation `kumar_magnetic_2017' on page 19 undefined on 
+input line 141.
+
+[19]
+
+LaTeX Warning: Reference `eq:maxwell' on page 1 undefined on input line 168.
+
+
+LaTeX Warning: Reference `eq:pshort' on page 1 undefined on input line 169.
+
+
+LaTeX Warning: Reference `eq:pshort' on page 20 undefined on input line 174.
+
+
+LaTeX Warning: Reference `eq:qshort' on page 20 undefined on input line 174.
+
+[20]
+
+LaTeX Warning: Reference `item:contribution2' on page 1 undefined on input line
+ 182.
+
+
+LaTeX Warning: Reference `item:contribution1' on page 1 undefined on input line
+ 182.
+
+
+Package natbib Warning: Citation `fiebig_second_2001' on page 21 undefined on i
+nput line 182.
+
+
+LaTeX Warning: Reference `sec:resonance' on page 1 undefined on input line 188.
+
+
+
+LaTeX Warning: Reference `eq:pshort' on page 21 undefined on input line 189.
+
+
+LaTeX Warning: Reference `eq:qshort' on page 21 undefined on input line 189.
+
+
+LaTeX Warning: Reference `thm:neumann' on page 1 undefined on input line 189.
+
+
+Package natbib Warning: Citation `boyd' on page 21 undefined on input line 196.
+
+
+[21]
+
+LaTeX Warning: Reference `eq:rhodot' on page 1 undefined on input line 226.
+
+[22]
+
+Package natbib Warning: Citation `boyd' on page 23 undefined on input line 234.
+
+
+
+Package natbib Warning: Citation `boyd' on page 23 undefined on input line 249.
+
+
+
+Underfull \vbox (badness 2460) has occurred while \output is active []
 
  [23]
+
+LaTeX Warning: Reference `eq:bigshg' on page 1 undefined on input line 265.
+
+
+Package natbib Warning: Citation `fiebig_second_2001' on page 24 undefined on i
+nput line 266.
+
+
+Package natbib Warning: Citation `wu_giant_2017' on page 24 undefined on input 
+line 268.
+
+
+Package natbib Warning: Citation `patankar_resonance-enhanced_2018' on page 24 
+undefined on input line 268.
+
+
+LaTeX Warning: Reference `eq:bigshg' on page 1 undefined on input line 273.
+
+
+LaTeX Warning: Reference `eq:bigshg' on page 1 undefined on input line 273.
+
+
+Package natbib Warning: Citation `sa_generalized_2000' on page 24 undefined on 
+input line 275.
+
+
+Package natbib Warning: Citation `pershan_nonlinear_1963' on page 24 undefined 
+on input line 275.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-[25]) [26] [27] [28
+
+LaTeX Warning: Reference `eq:pershan' on page 1 undefined on input line 282.
+
+
+LaTeX Warning: Reference `sec:neumann' on page 1 undefined on input line 282.
+
+
+LaTeX Warning: Reference `eq:pershan' on page 1 undefined on input line 284.
+
+
+LaTeX Warning: Reference `eq:pershan' on page 1 undefined on input line 290.
+
+
+LaTeX Warning: Reference `eq:sa' on page 1 undefined on input line 290.
+
+
+LaTeX Warning: Reference `eq:sashg' on page 1 undefined on input line 295.
+
+[25]
+
+LaTeX Warning: Reference `eq:nmindex' on page 1 undefined on input line 302.
+
+
+LaTeX Warning: Reference `eq:sashg_simple' on page 1 undefined on input line 30
+9.
+
+
+LaTeX Warning: Reference `eq:sashg' on page 1 undefined on input line 316.
+
+
+LaTeX Warning: Reference `eq:nmindex' on page 1 undefined on input line 323.
+
+
+LaTeX Warning: Reference `eq:sashg' on page 1 undefined on input line 324.
+
+
+LaTeX Warning: Reference `eq:opdomain' on page 1 undefined on input line 324.
+
+
+LaTeX Warning: Reference `eq:shgdomain' on page 1 undefined on input line 328.
+
+
+LaTeX Warning: Reference `ch:tastwo' on page 1 undefined on input line 328.
+
+
+LaTeX Warning: Reference `ch:cmb' on page 1 undefined on input line 328.
+
+) [26] [27] [28
 
 ] (./ch/ch3.tex
-<gfx/ch3/pdf/setup.pdf, id=499, 698.10274pt x 199.10564pt>
+
+LaTeX Warning: Reference `sec:neumann' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Reference `eq:d3deps' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Reference `eq:c2eps' on page 1 undefined on input line 4.
+
+
+Package natbib Warning: Citation `torchinsky_low_2014' on page 29 undefined on 
+input line 5.
+
+<gfx/ch3/pdf/setup.pdf, id=224, 698.10274pt x 199.10564pt>
 File: gfx/ch3/pdf/setup.pdf Graphic file (type pdf)
 <use gfx/ch3/pdf/setup.pdf>
 Package pdftex.def Info: gfx/ch3/pdf/setup.pdf  used on input line 11.
 (pdftex.def)             Requested size: 383.0pt x 109.235pt.
- [29]
-Underfull \vbox (badness 7012) has occurred while \output is active []
 
- [30 <./gfx/ch3/pdf/setup.pdf>]
-<gfx/ch3/pdf/setup_real.pdf, id=595, 2055.68pt x 1541.76pt>
+Package natbib Warning: Citation `morey_automated_2024' on page 29 undefined on
+ input line 12.
+
+
+Package natbib Warning: Citation `morey_automated_2024' on page 29 undefined on
+ input line 12.
+
+
+LaTeX Warning: Reference `fig:setup_real' on page 1 undefined on input line 15.
+
+
+
+LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 15.
+
+
+LaTeX Warning: Reference `sec:beforeyoubuild' on page 1 undefined on input line
+ 16.
+
+[29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+<gfx/ch3/pdf/setup_real.pdf, id=238, 2055.68pt x 1541.76pt>
 File: gfx/ch3/pdf/setup_real.pdf Graphic file (type pdf)
 <use gfx/ch3/pdf/setup_real.pdf>
 Package pdftex.def Info: gfx/ch3/pdf/setup_real.pdf  used on input line 29.
 (pdftex.def)             Requested size: 383.0pt x 287.24431pt.
 
-Underfull \vbox (badness 2165) has occurred while \output is active []
 
- [31 <./gfx/ch3/pdf/setup_real.pdf>] [32] [33] [34] [35] [36] [37] [38] [39
+LaTeX Warning: Reference `ch:polrotators' on page 1 undefined on input line 32.
+
+
+
+LaTeX Warning: Reference `ch:polrotators' on page 1 undefined on input line 32.
+
+
+
+Underfull \vbox (badness 2856) has occurred while \output is active []
+
+ [31]
+[32]
+
+LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 86.
+
+
+LaTeX Warning: Reference `sec:manyshgterms' on page 1 undefined on input line 8
+9.
+
+
+LaTeX Warning: Reference `ch:tastwo' on page 1 undefined on input line 93.
+
+
+LaTeX Warning: Reference `ch:cmb' on page 1 undefined on input line 95.
+
+
+LaTeX Warning: Reference `ch:cubr2' on page 1 undefined on input line 95.
+
+[33]
+
+LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 103.
+
+
+Package natbib Warning: Citation `harter_high-speed_2015' on page 34 undefined 
+on input line 103.
+
+
+LaTeX Warning: Reference `sec:setupdescription' on page 1 undefined on input li
+ne 106.
+
+
+LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 108.
+
+[34]
+
+LaTeX Warning: Reference `ch:polrotators' on page 1 undefined on input line 123
+.
+
+
+LaTeX Warning: Reference `sec:setupdescription' on page 1 undefined on input li
+ne 128.
+
+
+LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 131.
+
+[35]
+
+LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 137.
+
+[36]
+
+LaTeX Warning: Reference `eq:shgsimple' on page 1 undefined on input line 156.
+
+
+LaTeX Warning: Reference `eq:qshort' on page 1 undefined on input line 156.
+
+
+LaTeX Warning: Reference `eq:mshort' on page 1 undefined on input line 156.
+
+
+LaTeX Warning: Reference `eq:sourceterm' on page 1 undefined on input line 156.
+
+
+
+LaTeX Warning: Reference `tab:polarizations' on page 1 undefined on input line 
+161.
+
+[37] [38]
+
+LaTeX Warning: Reference `sec:neumann' on page 1 undefined on input line 182.
+
+
+LaTeX Warning: Reference `eq:nmindex' on page 1 undefined on input line 183.
+
+
+Package natbib Warning: Citation `boyd' on page 39 undefined on input line 183.
+
+
+
+LaTeX Warning: Reference `eq:fundamentalmodel' on page 1 undefined on input lin
+e 185.
+
+
+LaTeX Warning: Reference `eq:fundamentalmodel' on page 1 undefined on input lin
+e 190.
+
+
+LaTeX Warning: Reference `tab:polarizations' on page 1 undefined on input line 
+192.
+
+
+LaTeX Warning: Reference `eq:objectivefunction' on page 1 undefined on input li
+ne 210.
+
+[39
 
 
 ]
+
+LaTeX Warning: Reference `eq:ftmodel' on page 1 undefined on input line 213.
+
+
+Package natbib Warning: Citation `xiang_generalized_1997' on page 40 undefined 
+on input line 214.
+
+
+Package natbib Warning: Citation `wales_global_1997' on page 40 undefined on in
+put line 214.
+
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 2
 14.
-
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
@@ -1312,6 +1719,37 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+
+Package natbib Warning: Citation `scipy' on page 40 undefined on input line 214
+.
+
+
+LaTeX Warning: Reference `eq:objectivefunction' on page 1 undefined on input li
+ne 215.
+
+
+Package natbib Warning: Citation `sympy' on page 40 undefined on input line 217
+.
+
+
+LaTeX Warning: Reference `eq:ftmodel' on page 1 undefined on input line 217.
+
+
+Package natbib Warning: Citation `scipy' on page 40 undefined on input line 217
+.
+
+
+LaTeX Warning: Reference `eq:objectivefunction' on page 1 undefined on input li
+ne 217.
+
+
+Overfull \hbox (42.29173pt too wide) in paragraph at lines 217--219
+\OT1/ppl/m/n/12 (-20) ShgPy which uses \OT1/pcr/m/n/12 sympy\OT1/ppl/m/n/12 (-2
+0) [\OT1/ppl/b/n/12 (-20) ? \OT1/ppl/m/n/12 (-20) ] to com-pute the FT model []
+ and \OT1/pcr/m/n/12 scipy.optimize\OT1/ppl/m/n/12 (-20) [\OT1/ppl/b/n/12 (-20)
+ ?
+ []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1329,139 +1767,1392 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 220.
 
+
+LaTeX Warning: Reference `sec:staticanalysis' on page 1 undefined on input line
+ 222.
+
+
+LaTeX Warning: Reference `eq:sashg' on page 1 undefined on input line 223.
+
+
+LaTeX Warning: Reference `eq:bigshg' on page 1 undefined on input line 223.
+
+
+Package natbib Warning: Citation `powell_simplified_2002' on page 40 undefined 
+on input line 227.
+
+
+Package natbib Warning: Citation `bauer_bulk_2017' on page 40 undefined on inpu
+t line 227.
+
 [40]
-Underfull \vbox (badness 7116) has occurred while \output is active []
 
- [41]
-[42] [43]) [44] (./ch/ch4.tex [45
+LaTeX Warning: Reference `eq:qsbhm' on page 1 undefined on input line 234.
 
-] [46]
-<gfx/ch4/km-fig1.pdf, id=803, 554.58119pt x 625.24643pt>
+
+LaTeX Warning: Reference `eq:esbhm' on page 1 undefined on input line 234.
+
+
+LaTeX Warning: Reference `sec:staticanalysis' on page 1 undefined on input line
+ 234.
+
+
+LaTeX Warning: Reference `eq:qsbhm' on page 1 undefined on input line 235.
+
+
+LaTeX Warning: Reference `eq:esbhm' on page 1 undefined on input line 235.
+
+
+Package natbib Warning: Citation `ron_dimensional_2019' on page 41 undefined on
+ input line 235.
+
+
+Package natbib Warning: Citation `ong_python_2013' on page 41 undefined on inpu
+t line 238.
+
+
+LaTeX Warning: Reference `eq:qsbhm' on page 1 undefined on input line 238.
+
+
+LaTeX Warning: Reference `eq:esbhm' on page 1 undefined on input line 238.
+
+
+Package natbib Warning: Citation `isodistort' on page 41 undefined on input lin
+e 239.
+
+
+Package natbib Warning: Citation `campbell_isodisplace_2006' on page 41 undefin
+ed on input line 239.
+
+[41]
+
+Package natbib Warning: Citation `levenberg_method_1944' on page 42 undefined o
+n input line 280.
+
+
+Package natbib Warning: Citation `marquardt_algorithm_1963' on page 42 undefine
+d on input line 280.
+
+
+Package natbib Warning: Citation `nelder_simplex_1965' on page 42 undefined on 
+input line 280.
+
+
+LaTeX Warning: Reference `eq:trobjectivefunction' on page 1 undefined on input 
+line 283.
+
+[42]
+
+Package natbib Warning: Citation `numericalrecipes' on page 43 undefined on inp
+ut line 285.
+
+
+Package natbib Warning: Citation `cressie' on page 43 undefined on input line 2
+90.
+
+
+Package natbib Warning: Citation `wackernagel' on page 43 undefined on input li
+ne 293.
+
+
+Package natbib Warning: Citation `dekking' on page 43 undefined on input line 3
+01.
+
+[43]
+
+LaTeX Warning: Reference `eq:trobjectivefunction' on page 1 undefined on input 
+line 305.
+
+
+LaTeX Warning: Reference `eq:trobjectivefunction' on page 1 undefined on input 
+line 306.
+
+) [44] (./ch/ch4.tex [45
+
+]
+
+Package natbib Warning: Citation `torchinsky_low_2014' on page 46 undefined on 
+input line 26.
+
+
+Package natbib Warning: Citation `fichera_second_2020' on page 46 undefined on 
+input line 26.
+
+
+Package natbib Warning: Citation `li_high-pressure_2022' on page 46 undefined o
+n input line 31.
+
+
+Package natbib Warning: Citation `shan_giant_2021' on page 46 undefined on inpu
+t line 31.
+
+[46]
+
+Package natbib Warning: Citation `boyd' on page 47 undefined on input line 34.
+
+
+LaTeX Warning: Reference `km-eq:intensity' on page 1 undefined on input line 35
+.
+
+
+Package natbib Warning: Citation `birss' on page 47 undefined on input line 37.
+
+
+<gfx/ch4/km-fig1.pdf, id=367, 554.58119pt x 625.24643pt>
 File: gfx/ch4/km-fig1.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig1.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig1.pdf  used on input line 46.
 (pdftex.def)             Requested size: 306.40117pt x 345.45123pt.
- [47] [48 <./gfx/ch4/km-fig1.pdf>]
-<gfx/ch4/km-fig2.pdf, id=894, 698.10274pt x 199.10564pt>
+
+LaTeX Warning: Reference `km-fig:1' on page 1 undefined on input line 58.
+
+
+LaTeX Warning: Reference `km-fig:1' on page 1 undefined on input line 59.
+
+
+LaTeX Warning: Reference `km-fig:1a' on page 1 undefined on input line 66.
+
+
+LaTeX Warning: Reference `km-fig:1b' on page 1 undefined on input line 66.
+
+
+LaTeX Warning: Reference `km-eq:intensity' on page 1 undefined on input line 67
+.
+
+
+LaTeX Warning: Reference `km-fig:1' on page 1 undefined on input line 67.
+
+[47] [48]
+
+Package natbib Warning: Citation `petersen_nonlinear_2006' on page 49 undefined
+ on input line 70.
+
+
+Package natbib Warning: Citation `torchinsky_low_2014' on page 49 undefined on 
+input line 70.
+
+
+Package natbib Warning: Citation `fichera_second_2020' on page 49 undefined on 
+input line 70.
+
+
+Package natbib Warning: Citation `camn2bi2' on page 49 undefined on input line 
+70.
+
+
+LaTeX Warning: Reference `km-fig:1' on page 1 undefined on input line 71.
+
+
+Package natbib Warning: Citation `shan_giant_2021' on page 49 undefined on inpu
+t line 72.
+
+
+Package natbib Warning: Citation `shan_giant_2021' on page 49 undefined on inpu
+t line 75.
+
+
+Package natbib Warning: Citation `camn2bi2' on page 49 undefined on input line 
+77.
+
+<gfx/ch4/km-fig2.pdf, id=381, 698.10274pt x 199.10564pt>
 File: gfx/ch4/km-fig2.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig2.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig2.pdf  used on input line 82.
 (pdftex.def)             Requested size: 383.0pt x 109.235pt.
 
-[49] [50 <./gfx/ch4/km-fig2.pdf>]
-<gfx/ch4/km-fig3.pdf, id=998, 758.38692pt x 630.78336pt>
+Package natbib Warning: Citation `fichera_second_2020' on page 49 undefined on 
+input line 89.
+
+
+Package natbib Warning: Citation `fichera_second_2020' on page 49 undefined on 
+input line 89.
+
+
+LaTeX Warning: Reference `km-sec:disc' on page 49 undefined on input line 94.
+
+[49] [50]
+
+LaTeX Warning: Reference `km-fig:3a' on page 1 undefined on input line 111.
+
+
+LaTeX Warning: Reference `km-fig:3b' on page 1 undefined on input line 112.
+
+
+Package natbib Warning: Citation `argibay_asymmetric_2010' on page 51 undefined
+ on input line 112.
+
+
+LaTeX Warning: Reference `km-fig:3c' on page 1 undefined on input line 114.
+
+
+LaTeX Warning: Reference `km-fig:3d' on page 1 undefined on input line 114.
+
+
+LaTeX Warning: Reference `km-fig:6' on page 1 undefined on input line 115.
+
+
+Package natbib Warning: Citation `argibay_asymmetric_2010' on page 51 undefined
+ on input line 121.
+
+
+LaTeX Warning: Reference `km-fig:3b' on page 1 undefined on input line 121.
+
+
+LaTeX Warning: Reference `km-fig:6' on page 1 undefined on input line 122.
+
+
+LaTeX Warning: Reference `km-fig:3' on page 1 undefined on input line 123.
+
+<gfx/ch4/km-fig3.pdf, id=394, 758.38692pt x 630.78336pt>
 File: gfx/ch4/km-fig3.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig3.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig3.pdf  used on input line 131.
 (pdftex.def)             Requested size: 383.0pt x 318.55751pt.
- [51] [52 <./gfx/ch4/km-fig3.pdf>]
-<gfx/ch4/km-fig4.pdf, id=1067, 590.48682pt x 414.34465pt>
+
+LaTeX Warning: Reference `km-fig:3c' on page 1 undefined on input line 141.
+
+
+LaTeX Warning: Reference `km-fig:3c' on page 1 undefined on input line 141.
+
+
+LaTeX Warning: Reference `km-fig:3c' on page 1 undefined on input line 148.
+
+
+LaTeX Warning: Reference `km-fig:3d' on page 1 undefined on input line 148.
+
+
+LaTeX Warning: Reference `km-fig:3a' on page 1 undefined on input line 149.
+
+
+Underfull \vbox (badness 3449) has occurred while \output is active []
+
+ [51]
+[52]
+
+LaTeX Warning: Reference `km-fig:3c' on page 1 undefined on input line 154.
+
+
+LaTeX Warning: Reference `km-fig:3d' on page 1 undefined on input line 154.
+
+<gfx/ch4/km-fig4.pdf, id=414, 590.48682pt x 414.34465pt>
 File: gfx/ch4/km-fig4.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig4.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig4.pdf  used on input line 161.
 (pdftex.def)             Requested size: 383.0pt x 268.75813pt.
 
+LaTeX Warning: Reference `km-fig:2' on page 1 undefined on input line 167.
+
+
+LaTeX Warning: Reference `km-fig:2' on page 1 undefined on input line 167.
+
+
+LaTeX Warning: Reference `km-fig:3' on page 1 undefined on input line 170.
+
+
+LaTeX Warning: Reference `km-fig:6' on page 1 undefined on input line 170.
+
+
+LaTeX Warning: Reference `km-fig:6' on page 1 undefined on input line 171.
+
+
+LaTeX Warning: Reference `km-fig:6' on page 1 undefined on input line 171.
+
+
+LaTeX Warning: Reference `km-fig:3a' on page 1 undefined on input line 172.
+
+
 Underfull \vbox (badness 1097) has occurred while \output is active []
 
  [53]
-<gfx/ch4/km-fig5.pdf, id=1079, 462.52798pt x 346.89601pt>
+<gfx/ch4/km-fig5.pdf, id=420, 462.52798pt x 346.89601pt>
 File: gfx/ch4/km-fig5.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig5.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig5.pdf  used on input line 186.
 (pdftex.def)             Requested size: 383.0pt x 287.26196pt.
 
+
+Package natbib Warning: Citation `ducuing_observation_1963' on page 54 undefine
+d on input line 197.
+
+
+Package natbib Warning: Citation `torchinsky_low_2014' on page 54 undefined on 
+input line 197.
+
+
+LaTeX Warning: Reference `km-fig:2' on page 1 undefined on input line 198.
+
+
+LaTeX Warning: Reference `km-fig:4' on page 1 undefined on input line 202.
+
+
+LaTeX Warning: Reference `km-fig:4' on page 1 undefined on input line 203.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54 <./gfx/ch4/km-fig4.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [54]
+[55]
 
- [55 <./gfx/ch4/km-fig5.pdf>]) [56]
+Package natbib Warning: Citation `camn2bi2' on page 56 undefined on input line 
+206.
+
+) [56] [57] [58
+
+]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\mhchem@cee' on input line 40.
 
-[57
+(./ch/ch5.tex [59]
 
-] [58
+Package natbib Warning: Citation `sethna' on page 60 undefined on input line 22
+.
 
-]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mhchem@cee' on input line 41.
+Package natbib Warning: Citation `thouless' on page 60 undefined on input line 
+22.
 
-[59] [60
 
-]
+Package natbib Warning: Citation `belinicher1980' on page 60 undefined on input
+ line 26.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mhchem@cee' on input line 42.
 
-[61] [62
+Package natbib Warning: Citation `teo2008' on page 60 undefined on input line 2
+8.
 
-] [63] [64
 
-] (./fichera-bfichera-phd-physics-2024-source.bbl [65]
-[66
+Package natbib Warning: Citation `hsieh_topological_2012' on page 60 undefined 
+on input line 28.
 
-]
-Underfull \hbox (badness 1383) in paragraph at lines 15--25
-\OT1/ppl/m/n/12 (+20) Yu He, Ed-win W. Huang, An-shul Kogar, Di-vine Kumah,
+
+Package natbib Warning: Citation `fu_topological_2011' on page 60 undefined on 
+input line 28.
+
+
+Package natbib Warning: Citation `hlobil_elastoconductivity_2015' on page 60 un
+defined on input line 30.
+
+
+Package natbib Warning: Citation `leisure1997' on page 60 undefined on input li
+ne 31.
+
+
+Package natbib Warning: Citation `migliori1993' on page 60 undefined on input l
+ine 31.
+
+
+Package natbib Warning: Citation `bacon1966' on page 60 undefined on input line
+ 31.
+
+
+Package natbib Warning: Citation `dorset2013' on page 60 undefined on input lin
+e 31.
+
+
+Package natbib Warning: Citation `hlobil_elastoconductivity_2015' on page 60 un
+defined on input line 31.
+
+
+Package natbib Warning: Citation `hlobil_elastoconductivity_2015' on page 60 un
+defined on input line 33.
+
+
+Package natbib Warning: Citation `heinz_study_1985' on page 60 undefined on inp
+ut line 34.
+
+
+Package natbib Warning: Citation `kumar_magnetic_2017' on page 60 undefined on 
+input line 35.
+
+
+Package natbib Warning: Citation `harter_parity-breaking_2017' on page 60 undef
+ined on input line 35.
+
+[60]
+
+Package natbib Warning: Citation `wilson_charge-density_1975' on page 61 undefi
+ned on input line 37.
+
+
+Package natbib Warning: Citation `zong_ultrafast_2018' on page 61 undefined on 
+input line 37.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig0a' on page 1 undefined on input line 4
+3.
+
+
+Package natbib Warning: Citation `spijkerman_x-ray_1997' on page 61 undefined o
+n input line 44.
+
+
+Package natbib Warning: Citation `scruby_role_1975' on page 61 undefined on inp
+ut line 44.
+
+
+Package natbib Warning: Citation `fung_application_1980' on page 61 undefined o
+n input line 44.
+
+
+Package natbib Warning: Citation `scruby_role_1975' on page 61 undefined on inp
+ut line 46.
+
+
+Package natbib Warning: Citation `fung_application_1980' on page 61 undefined o
+n input line 46.
+
+
+Package natbib Warning: Citation `spijkerman_x-ray_1997' on page 61 undefined o
+n input line 48.
+
+
+Package natbib Warning: Citation `wu_hexagonal_1989' on page 61 undefined on in
+put line 49.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig0c' on page 61 undefined on input line 
+50.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig0d' on page 61 undefined on input line 
+50.
+
+
+Package natbib Warning: Citation `ishiguro_high-resolution_1995' on page 61 und
+efined on input line 51.
+
+<./gfx/ch5/fig0red1.pdf, id=460, 243.91125pt x 231.264pt>
+File: ./gfx/ch5/fig0red1.pdf Graphic file (type pdf)
+<use ./gfx/ch5/fig0red1.pdf>
+Package pdftex.def Info: ./gfx/ch5/fig0red1.pdf  used on input line 59.
+(pdftex.def)             Requested size: 383.0pt x 363.14526pt.
+
+LaTeX Warning: Float too large for page by 4.52919pt on input line 74.
+
+
+Package natbib Warning: Citation `zong_ultrafast_2018' on page 61 undefined on 
+input line 76.
+
+[61] [62]
+
+Package natbib Warning: Citation `zong_ultrafast_2018' on page 63 undefined on 
+input line 82.
+
+
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 83.
+
+
+Package natbib Warning: Citation `zong_ultrafast_2018' on page 63 undefined on 
+input line 84.
+
+
+Package natbib Warning: Citation `wilson_charge-density_1975' on page 63 undefi
+ned on input line 84.
+
+
+Package natbib Warning: Citation `bovet_pseudogapped_2004' on page 63 undefined
+ on input line 84.
+
+
+Package natbib Warning: Citation `shiba_phenomenological_1986' on page 63 undef
+ined on input line 84.
+
+
+Package natbib Warning: Citation `harter_high-speed_2015' on page 63 undefined 
+on input line 86.
+
+
+Package natbib Warning: Citation `lu_fast_2018' on page 63 undefined on input l
+ine 86.
+
+
+Package natbib Warning: Citation `torchinsky_structural_2015' on page 63 undefi
+ned on input line 86.
+
+
+Package natbib Warning: Citation `lu_fourier_2018' on page 63 undefined on inpu
+t line 86.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig0b' on page 1 undefined on input line 8
+6.
+
+
+Package natbib Warning: Citation `boyd' on page 63 undefined on input line 88.
+
+
+Package natbib Warning: Citation `boyd' on page 63 undefined on input line 89.
+
+
+Package natbib Warning: Citation `powell' on page 63 undefined on input line 89
+.
+
+
+Package natbib Warning: Citation `bloembergen_optical_1968' on page 63 undefine
+d on input line 90.
+
+
+Package natbib Warning: Citation `kumar_magnetic_2017' on page 63 undefined on 
+input line 92.
+
+
+Package natbib Warning: Citation `shen' on page 63 undefined on input line 92.
+
+
+Package natbib Warning: Citation `harter_high-speed_2015' on page 63 undefined 
+on input line 93.
+
+
+Package natbib Warning: Citation `torchinsky_low_2014' on page 63 undefined on 
+input line 93.
+
+
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 95.
+
+<./gfx/ch5/fig1more.pdf, id=480, 243.91125pt x 252.945pt>
+File: ./gfx/ch5/fig1more.pdf Graphic file (type pdf)
+<use ./gfx/ch5/fig1more.pdf>
+Package pdftex.def Info: ./gfx/ch5/fig1more.pdf  used on input line 102.
+(pdftex.def)             Requested size: 383.0pt x 397.19014pt.
+
+LaTeX Warning: Reference `tastwo-fig:fig1a' on page 1 undefined on input line 1
+12.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig1b' on page 1 undefined on input line 1
+12.
+
+
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 112.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig1a' on page 1 undefined on input line 1
+12.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig1b' on page 1 undefined on input line 1
+12.
+
+
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 112.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig1a' on page 1 undefined on input line 1
+12.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig1b' on page 1 undefined on input line 1
+12.
+
+
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 112.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig1a' on page 1 undefined on input line 1
+12.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig1b' on page 1 undefined on input line 1
+12.
+
+
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 112.
+
+
+LaTeX Warning: Float too large for page by 10.78725pt on input line 113.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig1b' on page 1 undefined on input line 1
+16.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig1a' on page 1 undefined on input line 1
+16.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig1a' on page 1 undefined on input line 1
+17.
+
+
+Package natbib Warning: Citation `scruby_role_1975' on page 63 undefined on inp
+ut line 117.
+
+
+Package natbib Warning: Citation `fung_application_1980' on page 63 undefined o
+n input line 117.
+
+[63] [64]
+<./gfx/ch5/fig2.pdf, id=498, 243.91125pt x 162.6075pt>
+File: ./gfx/ch5/fig2.pdf Graphic file (type pdf)
+<use ./gfx/ch5/fig2.pdf>
+Package pdftex.def Info: ./gfx/ch5/fig2.pdf  used on input line 124.
+(pdftex.def)             Requested size: 383.0pt x 255.33652pt.
+
+Overfull \hbox (6.84009pt too wide) in paragraph at lines 122--133
+[][]  [][] [] 
  []
 
-[67] [68] [69] [70] [71] [72]) [73]
-\tf@toc=\write6
-\openout6 = `fichera-bfichera-phd-physics-2024-source.toc'.
 
-\tf@lof=\write7
-\openout7 = `fichera-bfichera-phd-physics-2024-source.lof'.
-
-\tf@lot=\write8
-\openout8 = `fichera-bfichera-phd-physics-2024-source.lot'.
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 133.
 
 
-(./fichera-bfichera-phd-physics-2024-source.aux)
+LaTeX Warning: Reference `tastwo-fig:fig2a' on page 65 undefined on input line 
+133.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `fichera-bfichera-phd-physics-2024-source.out
-' has not changed.
-(rerunfilecheck)             Checksum: BF6837A4F8D36F757E5D13E2C462DAEE;6671.
- ) 
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 133.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig2a' on page 65 undefined on input line 
+133.
+
+
+Package natbib Warning: Citation `spijkerman_x-ray_1997' on page 65 undefined o
+n input line 136.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig1b' on page 1 undefined on input line 1
+37.
+
+
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 138.
+
+
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 145.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig1a' on page 1 undefined on input line 1
+45.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig0c' on page 65 undefined on input line 
+149.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig0d' on page 65 undefined on input line 
+149.
+
+
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 151.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig1c' on page 1 undefined on input line 1
+52.
+
+[65] [66]
+
+LaTeX Warning: Reference `tastwo-fig:fig0d' on page 1 undefined on input line 1
+58.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig0c' on page 1 undefined on input line 1
+58.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig2' on page 1 undefined on input line 16
+0.
+
+
+LaTeX Warning: Reference `tastwo-eq:intensityequation' on page 1 undefined on i
+nput line 161.
+
+
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 161.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig2a' on page 1 undefined on input line 1
+65.
+
+
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 166.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig2b' on page 1 undefined on input line 1
+66.
+
+
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 171.
+
+
+Package natbib Warning: Citation `kumar_magnetic_2017' on page 67 undefined on 
+input line 175.
+
+
+Package natbib Warning: Citation `shen' on page 67 undefined on input line 175.
+
+
+
+LaTeX Warning: Reference `tastwo-fig:fig3b' on page 1 undefined on input line 1
+79.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig3a' on page 1 undefined on input line 1
+79.
+
+
+Underfull \vbox (badness 1852) has occurred while \output is active []
+
+ [67]
+
+Package natbib Warning: Citation `fung_application_1980' on page 68 undefined o
+n input line 181.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig3a' on page 1 undefined on input line 1
+82.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig3a' on page 1 undefined on input line 1
+83.
+
+
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 183.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig3a' on page 1 undefined on input line 1
+90.
+
+<./gfx/ch5/fig3rev.pdf, id=519, 243.91125pt x 209.58301pt>
+File: ./gfx/ch5/fig3rev.pdf Graphic file (type pdf)
+<use ./gfx/ch5/fig3rev.pdf>
+Package pdftex.def Info: ./gfx/ch5/fig3rev.pdf  used on input line 198.
+(pdftex.def)             Requested size: 383.0pt x 329.1004pt.
+
+LaTeX Warning: Reference `tastwo-fig:fig3c' on page 68 undefined on input line 
+211.
+
+
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 211.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig3c' on page 68 undefined on input line 
+211.
+
+
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 211.
+
+
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 214.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig3c' on page 1 undefined on input line 2
+16.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig3c' on page 1 undefined on input line 2
+17.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig1a' on page 1 undefined on input line 2
+17.
+
+
+LaTeX Warning: Reference `tastwo-sec:supplement' on page 1 undefined on input l
+ine 218.
+
+
+Package natbib Warning: Citation `bloembergen_optical_1968' on page 68 undefine
+d on input line 219.
+
+[68] [69]
+<./gfx/ch5/figS1.pdf, id=539, 487.8225pt x 216.81pt>
+File: ./gfx/ch5/figS1.pdf Graphic file (type pdf)
+<use ./gfx/ch5/figS1.pdf>
+Package pdftex.def Info: ./gfx/ch5/figS1.pdf  used on input line 243.
+(pdftex.def)             Requested size: 383.0pt x 170.22269pt.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig1b' on page 1 undefined on input line 2
+56.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig1' on page 1 undefined on input line 25
+6.
+
+
+LaTeX Warning: Reference `tastwo-fig:figS1' on page 1 undefined on input line 2
+57.
+
+
+LaTeX Warning: Reference `tastwo-sec:Squadrupole' on page 1 undefined on input 
+line 260.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70]
+
+LaTeX Warning: Reference `tastwo-eq:intensityequation' on page 1 undefined on i
+nput line 264.
+
+
+LaTeX Warning: Reference `tastwo-eq:intensityequation' on page 1 undefined on i
+nput line 265.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71]
+
+Package natbib Warning: Citation `boyd' on page 72 undefined on input line 268.
+
+
+
+LaTeX Warning: Reference `tastwo-eq:Sc3susceptibility' on page 1 undefined on i
+nput line 287.
+
+[72]
+
+LaTeX Warning: Reference `tastwo-fig:fig0b' on page 1 undefined on input line 3
+16.
+
+
+LaTeX Warning: Reference `tastwo-eq:Srotatechi' on page 1 undefined on input li
+ne 331.
+
+
+LaTeX Warning: Reference `tastwo-eq:Sipsequation' on page 1 undefined on input 
+line 331.
+
+
+LaTeX Warning: Reference `tastwo-eq:Sc3susceptibility' on page 1 undefined on i
+nput line 337.
+
+
+LaTeX Warning: Reference `tastwo-eq:intensityequation' on page 1 undefined on i
+nput line 337.
+
+
+LaTeX Warning: Reference `tastwo-eq:Sipsequationfinal' on page 1 undefined on i
+nput line 357.
+
+[73]
+
+LaTeX Warning: Reference `tastwo-eq:fourierdecomposition' on page 1 undefined o
+n input line 373.
+
+
+LaTeX Warning: Reference `tastwo-eq:SintensityequationwithR' on page 1 undefine
+d on input line 373.
+
+
+LaTeX Warning: Reference `tastwo-eq:Sc3susceptibility' on page 1 undefined on i
+nput line 373.
+
+
+LaTeX Warning: Reference `tastwo-eq:Sc3vsusceptibility' on page 1 undefined on 
+input line 399.
+
+
+LaTeX Warning: Reference `tastwo-eq:Sc3susceptibility' on page 1 undefined on i
+nput line 399.
+
+[74]
+
+LaTeX Warning: Reference `tastwo-eq:i3PS' on page 1 undefined on input line 405
+.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 415.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 415.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 415.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 415.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 415.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 415.
+
+
+LaTeX Warning: Reference `tastwo-fig:mirrora' on page 1 undefined on input line
+ 418.
+
+<./gfx/ch5/mirror.pdf, id=590, 243.91125pt x 173.448pt>
+File: ./gfx/ch5/mirror.pdf Graphic file (type pdf)
+<use ./gfx/ch5/mirror.pdf>
+Package pdftex.def Info: ./gfx/ch5/mirror.pdf  used on input line 427.
+(pdftex.def)             Requested size: 383.0pt x 272.35895pt.
+
+Overfull \hbox (15.9602pt too wide) in paragraph at lines 423--440
+[][]  [][]  [][]  [][] [] 
+ []
+
+
+LaTeX Warning: Reference `tastwo-fig:mirrora' on page 75 undefined on input lin
+e 440.
+
+
+LaTeX Warning: Reference `tastwo-fig:mirrora' on page 75 undefined on input lin
+e 440.
+
+
+LaTeX Warning: Reference `tastwo-fig:mirrorc' on page 75 undefined on input lin
+e 440.
+
+
+LaTeX Warning: Reference `tastwo-fig:mirrora' on page 75 undefined on input lin
+e 440.
+
+
+LaTeX Warning: Reference `tastwo-fig:mirrora' on page 75 undefined on input lin
+e 440.
+
+
+LaTeX Warning: Reference `tastwo-fig:mirrorc' on page 75 undefined on input lin
+e 440.
+
+
+LaTeX Warning: Reference `tastwo-fig:mirrorb' on page 1 undefined on input line
+ 443.
+
+
+LaTeX Warning: Reference `tastwo-fig:mirrorb' on page 1 undefined on input line
+ 445.
+
+
+LaTeX Warning: Reference `tastwo-fig:mirrora' on page 1 undefined on input line
+ 445.
+
+
+LaTeX Warning: Reference `tastwo-fig:mirrord' on page 1 undefined on input line
+ 448.
+
+
+LaTeX Warning: Reference `tastwo-fig:mirrorc' on page 1 undefined on input line
+ 448.
+
+[75] [76]
+
+LaTeX Warning: Reference `tastwo-eq:fourierdecomposition' on page 1 undefined o
+n input line 480.
+
+
+LaTeX Warning: Reference `tastwo-eq:fourierdecomposition' on page 1 undefined o
+n input line 480.
+
+
+LaTeX Warning: Reference `tastwo-sec:sstwofold' on page 1 undefined on input li
+ne 488.
+
+
+LaTeX Warning: Reference `tastwo-fig:mirror' on page 1 undefined on input line 
+489.
+
+
+LaTeX Warning: Reference `tastwo-tab:indicators' on page 1 undefined on input l
+ine 494.
+
+
+LaTeX Warning: Reference `tastwo-sec:Sbmsindicator' on page 1 undefined on inpu
+t line 495.
+
+
+LaTeX Warning: Reference `tastwo-tab:indicators' on page 1 undefined on input l
+ine 498.
+
+
+LaTeX Warning: Reference `tastwo-tab:indicators' on page 1 undefined on input l
+ine 500.
+
+[77] [78]
+
+LaTeX Warning: Reference `tastwo-sec:complete_a' on page 1 undefined on input l
+ine 504.
+
+
+LaTeX Warning: Reference `tastwo-fig:figS2' on page 1 undefined on input line 5
+04.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig2' on page 1 undefined on input line 50
+4.
+
+
+LaTeX Warning: Reference `tastwo-fig:diffraction' on page 1 undefined on input 
+line 509.
+
+
+Package natbib Warning: Citation `zong_ultrafast_2018' on page 79 undefined on 
+input line 509.
+
+
+Package natbib Warning: Citation `wilson_charge-density_1975' on page 79 undefi
+ned on input line 509.
+
+
+Package natbib Warning: Citation `bovet_pseudogapped_2004' on page 79 undefined
+ on input line 509.
+
+
+Package natbib Warning: Citation `shiba_phenomenological_1986' on page 79 undef
+ined on input line 509.
+
+
+Package natbib Warning: Citation `mann_probing_2016' on page 79 undefined on in
+put line 510.
+
+
+Package natbib Warning: Citation `zong_ultrafast_2018' on page 79 undefined on 
+input line 511.
+
+
+Package natbib Warning: Citation `zong_ultrafast_2018' on page 79 undefined on 
+input line 512.
+
+<./gfx/ch5/figS2.pdf, id=622, 487.8225pt x 216.81pt>
+File: ./gfx/ch5/figS2.pdf Graphic file (type pdf)
+<use ./gfx/ch5/figS2.pdf>
+Package pdftex.def Info: ./gfx/ch5/figS2.pdf  used on input line 518.
+(pdftex.def)             Requested size: 383.0pt x 170.22269pt.
+
+LaTeX Warning: Reference `tastwo-sec:mirrorflip' on page 1 undefined on input l
+ine 528.
+
+
+LaTeX Warning: Reference `tastwo-fig:figS2a' on page 79 undefined on input line
+ 528.
+
+
+LaTeX Warning: Reference `tastwo-sec:mirrorflip' on page 1 undefined on input l
+ine 528.
+
+
+LaTeX Warning: Reference `tastwo-fig:figS2a' on page 79 undefined on input line
+ 528.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig2' on page 1 undefined on input line 53
+4.
+
+
+LaTeX Warning: Reference `tastwo-eq:Sc3susceptibility' on page 1 undefined on i
+nput line 535.
+
+
+LaTeX Warning: Reference `tastwo-fig:figS2a' on page 1 undefined on input line 
+535.
+
+[79] [80]
+
+LaTeX Warning: Reference `tastwo-fig:figS2b' on page 1 undefined on input line 
+570.
+
+
+LaTeX Warning: Reference `tastwo-eq:Sc3susceptibility' on page 1 undefined on i
+nput line 572.
+
+
+LaTeX Warning: Reference `tastwo-eq:Sipsequationfinal' on page 81 undefined on 
+input line 573.
+
+
+LaTeX Warning: Reference `tastwo-eq:sA_2equation' on page 81 undefined on input
+ line 573.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig2' on page 1 undefined on input line 57
+3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mhchem@cee' on input line 575.
+
+
+LaTeX Warning: Reference `tastwo-sec:complete_b' on page 1 undefined on input l
+ine 579.
+
+
+LaTeX Warning: Reference `tastwo-fig:295K' on page 1 undefined on input line 57
+9.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig3' on page 1 undefined on input line 57
+9.
+
+
+LaTeX Warning: Reference `tastwo-fig:356K' on page 1 undefined on input line 58
+0.
+
+
+LaTeX Warning: Reference `tastwo-fig:356K' on page 1 undefined on input line 58
+1.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig3' on page 1 undefined on input line 58
+1.
+
+
+LaTeX Warning: Reference `tastwo-eq:qintensityequation' on page 1 undefined on 
+input line 585.
+
+
+LaTeX Warning: Reference `tastwo-eq:qintensityequation' on page 1 undefined on 
+input line 586.
+
+
+LaTeX Warning: Reference `tastwo-eq:intensityequation' on page 1 undefined on i
+nput line 586.
+
+
+LaTeX Warning: Reference `tastwo-sec:Sbmsindicator' on page 1 undefined on inpu
+t line 586.
+
+
+Package natbib Warning: Citation `kumar_magnetic_2017' on page 81 undefined on 
+input line 588.
+
+
+Package natbib Warning: Citation `shen' on page 81 undefined on input line 588.
+
+
+[81]
+
+Package natbib Warning: Citation `spijkerman_x-ray_1997' on page 82 undefined o
+n input line 606.
+
+
+LaTeX Warning: Reference `tastwo-eq:Sc3susceptibility' on page 1 undefined on i
+nput line 607.
+
+
+Package natbib Warning: Citation `boyd' on page 82 undefined on input line 607.
+
+
+
+Package natbib Warning: Citation `boyd' on page 82 undefined on input line 626.
+
+
+<./gfx/ch5/diffraction.pdf, id=653, 243.91125pt x 158.994pt>
+File: ./gfx/ch5/diffraction.pdf Graphic file (type pdf)
+<use ./gfx/ch5/diffraction.pdf>
+Package pdftex.def Info: ./gfx/ch5/diffraction.pdf  used on input line 629.
+(pdftex.def)             Requested size: 383.0pt x 249.66237pt.
+<./gfx/ch5/figS3.pdf, id=654, 487.8225pt x 136.58307pt>
+File: ./gfx/ch5/figS3.pdf Graphic file (type pdf)
+<use ./gfx/ch5/figS3.pdf>
+Package pdftex.def Info: ./gfx/ch5/figS3.pdf  used on input line 640.
+(pdftex.def)             Requested size: 383.0pt x 107.2346pt.
+<./gfx/ch5/figS4.pdf, id=655, 487.8225pt x 121.48587pt>
+File: ./gfx/ch5/figS4.pdf Graphic file (type pdf)
+<use ./gfx/ch5/figS4.pdf>
+Package pdftex.def Info: ./gfx/ch5/figS4.pdf  used on input line 647.
+(pdftex.def)             Requested size: 383.0pt x 95.38142pt.
+
+LaTeX Warning: Reference `tastwo-fig:fig3c' on page 1 undefined on input line 6
+52.
+
+
+LaTeX Warning: Reference `tastwo-eq:Sequationwithbs' on page 1 undefined on inp
+ut line 655.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig3b' on page 1 undefined on input line 6
+56.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig3a' on page 1 undefined on input line 6
+56.
+
+
+LaTeX Warning: Reference `tastwo-eq:Sequationwithbs' on page 1 undefined on inp
+ut line 656.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig3c' on page 1 undefined on input line 6
+58.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig3a' on page 1 undefined on input line 6
+58.
+
+[82]
+
+LaTeX Warning: Reference `tastwo-fig:fig3' on page 1 undefined on input line 66
+0.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig3a' on page 1 undefined on input line 6
+60.
+
+[83] [84]
+
+LaTeX Warning: Reference `tastwo-fig:fig3c' on page 1 undefined on input line 6
+66.
+
+
+Package natbib Warning: Citation `berkovic_interference_1988' on page 85 undefi
+ned on input line 670.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig3b' on page 1 undefined on input line 6
+71.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig3a' on page 1 undefined on input line 6
+71.
+
+
+Package natbib Warning: Citation `harter_high-speed_2015' on page 85 undefined 
+on input line 678.
+
+
+Package natbib Warning: Citation `torchinsky_low_2014' on page 85 undefined on 
+input line 678.
+
+
+LaTeX Warning: Reference `tastwo-fig:fig0b' on page 1 undefined on input line 6
+82.
+
+) [85] [86
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mhchem@cee' on input line 43.
+
+(./ch/ch6.tex
+Underfull \vbox (badness 1057) has occurred while \output is active []
+
+ [87]
+
+Package natbib Warning: Citation `zhang_dynamics_2014' on page 88 undefined on 
+input line 16.
+
+
+Package natbib Warning: Citation `basov_electrodynamics_2011' on page 88 undefi
+ned on input line 16.
+
+
+Package natbib Warning: Citation `dagotto_complexity_2005' on page 88 undefined
+ on input line 16.
+
+
+Package natbib Warning: Citation `basov_towards_2017' on page 88 undefined on i
+nput line 16.
+
+
+Package natbib Warning: Citation `kogar_light-induced_2020' on page 88 undefine
+d on input line 16.
+
+
+Package natbib Warning: Citation `mitrano_possible_2016' on page 88 undefined o
+n input line 16.
+
+
+Package natbib Warning: Citation `fausti_light-induced_2011' on page 88 undefin
+ed on input line 16.
+
+
+Package natbib Warning: Citation `jungwirth_antiferromagnetic_2016' on page 88 
+undefined on input line 19.
+
+
+Package natbib Warning: Citation `nemec_antiferromagnetic_2018' on page 88 unde
+fined on input line 20.
+
+
+Package natbib Warning: Citation `afanasiev_ultrafast_2021' on page 88 undefine
+d on input line 27.
+
+
+Package natbib Warning: Citation `fausti_light-induced_2011' on page 88 undefin
+ed on input line 28.
+
+
+Package natbib Warning: Citation `kogar_light-induced_2020' on page 88 undefine
+d on input line 28.
+
+
+Package natbib Warning: Citation `sun_transient_2020' on page 88 undefined on i
+nput line 28.
+
+
+Package natbib Warning: Citation `fausti_light-induced_2011' on page 88 undefin
+ed on input line 30.
+
+
+Package natbib Warning: Citation `kogar_light-induced_2020' on page 88 undefine
+d on input line 30.
+
+
+Class memoir Warning: The material used in the headers is too large
+(28.99998pt) for the given head height (14.5pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 31.
+
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[88]
+
+Package natbib Warning: Citation `gibson_magnetic_2015' on page 89 undefined on
+ input line 32.
+
+
+Package natbib Warning: Citation `afanasiev_ultrafast_2021' on page 89 undefine
+d on input line 34.
+
+
+LaTeX Warning: File `main/fig0.pdf' not found on input line 48.
+
+
+! Package pdftex.def Error: File `main/fig0.pdf' not found: using draft setting
+.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 \includegraphics{main/fig0.pdf}
+                                    
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.48 \includegraphics{main/fig0.pdf}
+                                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
 Here is how much of TeX's memory you used:
- 33928 strings out of 477909
- 644087 string characters out of 5838516
- 1869388 words of memory out of 5000000
- 52959 multiletter control sequences out of 15000+600000
- 569721 words of font info for 383 fonts, out of 8000000 for 9000
+ 34544 strings out of 477909
+ 651873 string characters out of 5838516
+ 1876388 words of memory out of 5000000
+ 53404 multiletter control sequences out of 15000+600000
+ 573721 words of font info for 435 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 115i,12n,120p,2330b,1306s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{figure.4.3} has been referenced but does not exist,
- replaced by a fixed one
-
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.p
-fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb
-></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-di
-st/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/p
-alatino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-</usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-di
-st/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on fichera-bfichera-phd-physics-2024-source.pdf (73 pages, 17102
-15 bytes).
-PDF statistics:
- 1589 PDF objects out of 1728 (max. 8388607)
- 1315 compressed objects within 14 object streams
- 266 named destinations out of 1000 (max. 500000)
- 97080 words of extra memory for PDF output out of 106986 (max. 10000000)
-
+ 115i,21n,120p,2330b,1058s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
