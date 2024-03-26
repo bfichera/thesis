@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.25)  25 MAR 2024 19:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.25)  26 MAR 2024 10:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3124,34 +3124,39 @@ Package natbib Warning: Citation `gibson_magnetic_2015' on page 89 undefined on
 Package natbib Warning: Citation `afanasiev_ultrafast_2021' on page 89 undefine
 d on input line 34.
 
+<./gfx/ch6/fig0.pdf, id=703, 256.0748pt x 219.08621pt>
+File: ./gfx/ch6/fig0.pdf Graphic file (type pdf)
+<use ./gfx/ch6/fig0.pdf>
+Package pdftex.def Info: ./gfx/ch6/fig0.pdf  used on input line 48.
+(pdftex.def)             Requested size: 383.0pt x 327.69246pt.
 
-LaTeX Warning: File `main/fig0.pdf' not found on input line 48.
+LaTeX Warning: Reference `fig0:d' on page 89 undefined on input line 62.
 
-
-! Package pdftex.def Error: File `main/fig0.pdf' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 \includegraphics{main/fig0.pdf}
-                                    
+! Undefined control sequence.
+<argument> ...channels are shown in the \sfigonly 
+                                                  {\fulltempdep }. The shade...
+l.62 }
+      
+? \
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
 ? 
 ! Emergency stop.
- ...                                              
-                                                  
-l.48 \includegraphics{main/fig0.pdf}
-                                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<argument> ...channels are shown in the \sfigonly 
+                                                  {\fulltempdep }. The shade...
+l.62 }
+      
+End of file on the terminal!
 
  
 Here is how much of TeX's memory you used:
- 34544 strings out of 477909
- 651873 string characters out of 5838516
+ 34508 strings out of 477909
+ 651138 string characters out of 5838516
  1876388 words of memory out of 5000000
- 53404 multiletter control sequences out of 15000+600000
+ 53383 multiletter control sequences out of 15000+600000
  573721 words of font info for 435 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  115i,21n,120p,2330b,1058s stack positions out of 10000i,1000n,20000p,200000b,200000s

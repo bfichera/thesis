@@ -1,0 +1,130 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Arch Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: fichera-bfichera-phd-physics-2024-source.aux
+The style file: plainnat_noclutter.bst
+I found no \bibdata command---while reading file fichera-bfichera-phd-physics-2024-source.aux
+Warning--I didn't find a database entry for "kibble_introduction_2008"
+Warning--I didn't find a database entry for "alexandradinata_future_2022"
+Warning--I didn't find a database entry for "neumann_vorlesungen_1885"
+Warning--I didn't find a database entry for "curie_sur_1894"
+Warning--I didn't find a database entry for "wiki:spacegroups"
+Warning--I didn't find a database entry for "powell"
+Warning--I didn't find a database entry for "birss"
+Warning--I didn't find a database entry for "jackson"
+Warning--I didn't find a database entry for "kumar_magnetic_2017"
+Warning--I didn't find a database entry for "fiebig_second_2001"
+Warning--I didn't find a database entry for "boyd"
+Warning--I didn't find a database entry for "wu_giant_2017"
+Warning--I didn't find a database entry for "patankar_resonance-enhanced_2018"
+Warning--I didn't find a database entry for "sa_generalized_2000"
+Warning--I didn't find a database entry for "pershan_nonlinear_1963"
+Warning--I didn't find a database entry for "torchinsky_low_2014"
+Warning--I didn't find a database entry for "morey_automated_2024"
+Warning--I didn't find a database entry for "harter_high-speed_2015"
+Warning--I didn't find a database entry for "xiang_generalized_1997"
+Warning--I didn't find a database entry for "wales_global_1997"
+Warning--I didn't find a database entry for "scipy"
+Warning--I didn't find a database entry for "sympy"
+Warning--I didn't find a database entry for "powell_simplified_2002"
+Warning--I didn't find a database entry for "bauer_bulk_2017"
+Warning--I didn't find a database entry for "ron_dimensional_2019"
+Warning--I didn't find a database entry for "ong_python_2013"
+Warning--I didn't find a database entry for "isodistort"
+Warning--I didn't find a database entry for "campbell_isodisplace_2006"
+Warning--I didn't find a database entry for "levenberg_method_1944"
+Warning--I didn't find a database entry for "marquardt_algorithm_1963"
+Warning--I didn't find a database entry for "nelder_simplex_1965"
+Warning--I didn't find a database entry for "numericalrecipes"
+Warning--I didn't find a database entry for "cressie"
+Warning--I didn't find a database entry for "wackernagel"
+Warning--I didn't find a database entry for "dekking"
+Warning--I didn't find a database entry for "fichera_second_2020"
+Warning--I didn't find a database entry for "li_high-pressure_2022"
+Warning--I didn't find a database entry for "shan_giant_2021"
+Warning--I didn't find a database entry for "petersen_nonlinear_2006"
+Warning--I didn't find a database entry for "camn2bi2"
+Warning--I didn't find a database entry for "argibay_asymmetric_2010"
+Warning--I didn't find a database entry for "ducuing_observation_1963"
+Warning--I didn't find a database entry for "sethna"
+Warning--I didn't find a database entry for "thouless"
+Warning--I didn't find a database entry for "belinicher1980"
+Warning--I didn't find a database entry for "teo2008"
+Warning--I didn't find a database entry for "hsieh_topological_2012"
+Warning--I didn't find a database entry for "fu_topological_2011"
+Warning--I didn't find a database entry for "hlobil_elastoconductivity_2015"
+Warning--I didn't find a database entry for "leisure1997"
+Warning--I didn't find a database entry for "migliori1993"
+Warning--I didn't find a database entry for "bacon1966"
+Warning--I didn't find a database entry for "dorset2013"
+Warning--I didn't find a database entry for "heinz_study_1985"
+Warning--I didn't find a database entry for "harter_parity-breaking_2017"
+Warning--I didn't find a database entry for "wilson_charge-density_1975"
+Warning--I didn't find a database entry for "zong_ultrafast_2018"
+Warning--I didn't find a database entry for "spijkerman_x-ray_1997"
+Warning--I didn't find a database entry for "scruby_role_1975"
+Warning--I didn't find a database entry for "fung_application_1980"
+Warning--I didn't find a database entry for "wu_hexagonal_1989"
+Warning--I didn't find a database entry for "ishiguro_high-resolution_1995"
+Warning--I didn't find a database entry for "bovet_pseudogapped_2004"
+Warning--I didn't find a database entry for "shiba_phenomenological_1986"
+Warning--I didn't find a database entry for "lu_fast_2018"
+Warning--I didn't find a database entry for "torchinsky_structural_2015"
+Warning--I didn't find a database entry for "lu_fourier_2018"
+Warning--I didn't find a database entry for "bloembergen_optical_1968"
+Warning--I didn't find a database entry for "shen"
+Warning--I didn't find a database entry for "mann_probing_2016"
+Warning--I didn't find a database entry for "berkovic_interference_1988"
+Warning--I didn't find a database entry for "zhang_dynamics_2014"
+Warning--I didn't find a database entry for "basov_electrodynamics_2011"
+Warning--I didn't find a database entry for "dagotto_complexity_2005"
+Warning--I didn't find a database entry for "basov_towards_2017"
+Warning--I didn't find a database entry for "kogar_light-induced_2020"
+Warning--I didn't find a database entry for "mitrano_possible_2016"
+Warning--I didn't find a database entry for "fausti_light-induced_2011"
+Warning--I didn't find a database entry for "jungwirth_antiferromagnetic_2016"
+Warning--I didn't find a database entry for "nemec_antiferromagnetic_2018"
+Warning--I didn't find a database entry for "afanasiev_ultrafast_2021"
+Warning--I didn't find a database entry for "sun_transient_2020"
+Warning--I didn't find a database entry for "gibson_magnetic_2015"
+You've used 0 entries,
+            2762 wiz_defined-function locations,
+            671 strings with 6380 characters,
+and the built_in function-call counts, 33 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 10
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 8
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 7
+(There was 1 error message)
