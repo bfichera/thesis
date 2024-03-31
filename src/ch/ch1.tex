@@ -1,34 +1,50 @@
 Interactions between electrons in solids can be treated broadly in two different ways, depending on the strength of the interaction.
-Let us start with the case where the interactions are weak compared to their kinetic energy (or the bandwidth $W$).
+Let us start with the case where the interactions are weak compared to their kinetic energy.
 In this case, interactions may be treated as a perturbation
-\begin{equation}
+\begin{equation}\label{eq:interactionhamiltonian}
 V = \sum_{\vec{p}\vec{p}'\vec{q},\sigma\sigma'}V(\vec{q})c^\dagger_{\vec{p}+\vec{q},\sigma}c^\dagger_{\vec{p}'-q,\sigma'}c_{\vec{p}',\sigma'}c_{\vec{p},\sigma}
 \end{equation}
 on top of the usual hamiltonian
-\begin{equation}
+\begin{equation}\label{eq:kinetichamiltonian}
 H_0 = \epsilon_{\vec{p}} c^\dagger_{\vec{p},\sigma}c_{\vec{p},\sigma}
 \end{equation}
 for the noninteracting electrons.
-The key insight is that the electrons are fermions, and thus obey the Pauli exclusion principle.
-Consider, then, a single particle excited to an energy $\delta\epsilon$ above the Fermi surface, with $\delta\epsilon \ll \epsilon_F$; due to the Pauli exclusion principle, the volume of phase space available for scattering (at zero temperature) between this and other particles is confined to a shell around the Fermi surface with some thickness which goes to zero as $\delta\epsilon\rightarrow 0$.
-Thus, by Fermi's golden rule, the lifetime of such particles approaches infinity as we get closer and closer to the Fermi surface; i.e., there are still well-defined quasiparticles there, even though we have an interacting Hamiltonian.
+The key insight, due conceptually to \citet{landau} and later formalized by \citet{gell-mann}, is that, as long as the interactions are sufficiently weak, this problem can be adiabatically connected to a similar problem with non-interacting quasiparticles.
+Since these quasiparticles are fermions, they obey the Pauli exclusion principle, and the phase space available for scattering low-energy excitations is thus goes to zero at small energies.
+By Fermi's golden rule, the lifetime of such particles thus approaches infinity as we get closer and closer to the Fermi surface; i.e., there are still well-defined quasiparticles there, even though we started with an interacting Hamiltonian.
+Such a system is hence referred as a ``Fermi liquid,'' to signify the fact that we have made only a slight departure from the nominal model of a Fermi gas where the particles are treated as noninteracting.
 
-The ground state at low temperatures therefore just looks like a regular old metal, with a few important differences.
-Mainly, it is not quite correct to call the quasiparticles electrons any more; really, they are collective excitations of the entire ensemble which nevertheless have a long quasiparticle lifetime.
-These quasiparticles are like electrons, but with a renormalized mass
-\begin{equation}
-m^*=(1+\lambda)m
-\end{equation}
-for some $\lambda_m$ which depends on the nature (symmetry, energy scale, etc.) of the interaction.
-Like the quasiparticle mass, many other important properties of the system are renormalized, such as the specific heat
-\begin{equation}
-c=\frac{m^*}{m}c_0,
-\end{equation}
-the magnetic susceptibility
-\begin{equation}
-\chi=\frac{m^*}{m}\frac{1}{1+\lambda_\chi}{\chi_0},
-\end{equation}
-or the compressibility
-\begin{equation}
-\kappa=\frac{m^*}{m}\frac{1}{1+\lambda_\kappa}{\kappa_0}.
-\end{equation}
+Fermi liquid theory is almost unreasonably successful in describing the ground state of a large number of correlated electron systems.
+Truly \emph{most} metals can be very adequately described as a simple Fermi gas with renormalized effective mass, specific heat, etc.; while these modifications may be large (e.g. $m^*/m\approx\num{e3}$ in \ce{CeAl3}), they otherwise look like normal metals.
+However, we can also discuss the circumstances in which the theory fails.
+Clearly various electronic instabilities may gap out the Fermi surface, resulting in an insulator; this happens for arbitrarily weak interactions in quasi-\oned systems due to the Peierls mechanism, and may occur in higher dimensions due to, e.g., Fermi surface nesting.
+Whether the interaction is attractive or repulsive determines whether the instability occurs in the charge or the spin channel.
+In the other limit, where the kinetic energy hamiltonian \ref{eq:kinetichamiltonian} is treated as a perturbation to the interaction term \ref{eq:interactionhamiltonian}, the Fermi liquid state gives way to an (Mott) insulating state where the electrons become localized so as to minimize the coulomb repulsion $U$.
+
+% Thus, instabilities in the Fermi liquid occur both in the weak and strongly interacting limits.
+
+
+
+% If the interactions are too strong, however, the adiabaticity approximation fails, and the energies that we are interested in studying now involve excitations which 
+
+% The ground state at low temperatures therefore just looks like a regular old metal, with a few important differences.
+% Mainly, it is not quite correct to call the quasiparticles electrons any more; really, they are collective excitations of the entire ensemble which nevertheless have a long quasiparticle lifetime.
+% These quasiparticles are like electrons, but with a renormalized mass
+% \begin{equation}
+% m^*=(1+\lambda)m
+% \end{equation}
+% for some $\lambda_m$ which depends on the nature (symmetry, energy scale, etc.) of the interaction.
+% Like the quasiparticle mass, many other important properties of the system are renormalized, such as the specific heat
+% \begin{equation}
+% c=\frac{m^*}{m}c_0,
+% \end{equation}
+% the magnetic susceptibility
+% \begin{equation}
+% \chi=\frac{m^*}{m}\frac{1}{1+\lambda_\chi}{\chi_0},
+% \end{equation}
+% or the compressibility
+% \begin{equation}
+% \kappa=\frac{m^*}{m}\frac{1}{1+\lambda_\kappa}{\kappa_0}.
+% \end{equation}
+
+
