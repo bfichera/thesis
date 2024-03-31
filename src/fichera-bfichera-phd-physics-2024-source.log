@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.26)  26 MAR 2024 12:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.26)  30 MAR 2024 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1669,11 +1669,11 @@ Overfull \hbox (2.35793pt too wide) in paragraph at lines 9--9
 ] [16
 
 
-] (./ch/ch1.tex) [17
+] (./ch/ch1.tex [17
 
-] [18
+]) [18] (./ch/ch2.tex [19
 
-] (./ch/ch2.tex [19]
+]
 
 LaTeX Warning: Command \i invalid in math mode on input line 40.
 
@@ -1694,7 +1694,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [29]) [30] [31] [32
 
 ] (./ch/ch3.tex
-<gfx/ch3/pdf/setup.pdf, id=807, 698.10274pt x 199.10564pt>
+<gfx/ch3/pdf/setup.pdf, id=813, 698.10274pt x 199.10564pt>
 File: gfx/ch3/pdf/setup.pdf Graphic file (type pdf)
 <use gfx/ch3/pdf/setup.pdf>
 Package pdftex.def Info: gfx/ch3/pdf/setup.pdf  used on input line 11.
@@ -1703,7 +1703,7 @@ Package pdftex.def Info: gfx/ch3/pdf/setup.pdf  used on input line 11.
 Underfull \vbox (badness 7012) has occurred while \output is active []
 
  [34 <./gfx/ch3/pdf/setup.pdf>]
-<gfx/ch3/pdf/setup_real.pdf, id=903, 2055.68pt x 1541.76pt>
+<gfx/ch3/pdf/setup_real.pdf, id=909, 2055.68pt x 1541.76pt>
 File: gfx/ch3/pdf/setup_real.pdf Graphic file (type pdf)
 <use gfx/ch3/pdf/setup_real.pdf>
 Package pdftex.def Info: gfx/ch3/pdf/setup_real.pdf  used on input line 29.
@@ -1749,26 +1749,26 @@ Underfull \vbox (badness 7116) has occurred while \output is active []
 [46] [47]) [48] (./ch/ch4.tex [49
 
 ] [50]
-<gfx/ch4/km-fig1.pdf, id=1111, 554.58119pt x 625.24643pt>
+<gfx/ch4/km-fig1.pdf, id=1117, 554.58119pt x 625.24643pt>
 File: gfx/ch4/km-fig1.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig1.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig1.pdf  used on input line 46.
 (pdftex.def)             Requested size: 306.40117pt x 345.45123pt.
  [51] [52 <./gfx/ch4/km-fig1.pdf>]
-<gfx/ch4/km-fig2.pdf, id=1202, 698.10274pt x 199.10564pt>
+<gfx/ch4/km-fig2.pdf, id=1208, 698.10274pt x 199.10564pt>
 File: gfx/ch4/km-fig2.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig2.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig2.pdf  used on input line 82.
 (pdftex.def)             Requested size: 383.0pt x 109.235pt.
 
 [53] [54 <./gfx/ch4/km-fig2.pdf>]
-<gfx/ch4/km-fig3.pdf, id=1305, 758.38692pt x 630.78336pt>
+<gfx/ch4/km-fig3.pdf, id=1311, 758.38692pt x 630.78336pt>
 File: gfx/ch4/km-fig3.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig3.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig3.pdf  used on input line 131.
 (pdftex.def)             Requested size: 383.0pt x 318.55751pt.
  [55] [56 <./gfx/ch4/km-fig3.pdf>]
-<gfx/ch4/km-fig4.pdf, id=1375, 590.48682pt x 414.34465pt>
+<gfx/ch4/km-fig4.pdf, id=1381, 590.48682pt x 414.34465pt>
 File: gfx/ch4/km-fig4.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig4.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig4.pdf  used on input line 161.
@@ -1777,7 +1777,7 @@ Package pdftex.def Info: gfx/ch4/km-fig4.pdf  used on input line 161.
 Underfull \vbox (badness 1097) has occurred while \output is active []
 
  [57]
-<gfx/ch4/km-fig5.pdf, id=1387, 462.52798pt x 346.89601pt>
+<gfx/ch4/km-fig5.pdf, id=1393, 462.52798pt x 346.89601pt>
 File: gfx/ch4/km-fig5.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig5.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig5.pdf  used on input line 186.
@@ -1796,7 +1796,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (./ch/ch5.tex [61
 
 ] [62]
-<./gfx/ch5/fig0red1.pdf, id=1718, 243.91125pt x 231.264pt>
+<./gfx/ch5/fig0red1.pdf, id=1724, 243.91125pt x 231.264pt>
 File: ./gfx/ch5/fig0red1.pdf Graphic file (type pdf)
 <use ./gfx/ch5/fig0red1.pdf>
 Package pdftex.def Info: ./gfx/ch5/fig0red1.pdf  used on input line 59.
@@ -1806,7 +1806,7 @@ Package pdftex.def Info: ./gfx/ch5/fig0red1.pdf  used on input line 59.
 LaTeX Warning: Float too large for page by 4.52919pt on input line 74.
 
 [63] [64 <./gfx/ch5/fig0red1.pdf>]
-<./gfx/ch5/fig1more.pdf, id=3133, 243.91125pt x 252.945pt>
+<./gfx/ch5/fig1more.pdf, id=3139, 243.91125pt x 252.945pt>
 File: ./gfx/ch5/fig1more.pdf Graphic file (type pdf)
 <use ./gfx/ch5/fig1more.pdf>
 Package pdftex.def Info: ./gfx/ch5/fig1more.pdf  used on input line 102.
@@ -1816,7 +1816,7 @@ Package pdftex.def Info: ./gfx/ch5/fig1more.pdf  used on input line 102.
 LaTeX Warning: Float too large for page by 11.59131pt on input line 113.
 
 [65]
-<./gfx/ch5/fig2.pdf, id=3163, 243.91125pt x 162.6075pt>
+<./gfx/ch5/fig2.pdf, id=3169, 243.91125pt x 162.6075pt>
 File: ./gfx/ch5/fig2.pdf Graphic file (type pdf)
 <use ./gfx/ch5/fig2.pdf>
 Package pdftex.def Info: ./gfx/ch5/fig2.pdf  used on input line 124.
@@ -1830,14 +1830,14 @@ Overfull \hbox (6.84009pt too wide) in paragraph at lines 122--133
 Underfull \vbox (badness 1668) has occurred while \output is active []
 
  [69]
-<./gfx/ch5/fig3rev.pdf, id=4927, 243.91125pt x 209.58301pt>
+<./gfx/ch5/fig3rev.pdf, id=4934, 243.91125pt x 209.58301pt>
 File: ./gfx/ch5/fig3rev.pdf Graphic file (type pdf)
 <use ./gfx/ch5/fig3rev.pdf>
 Package pdftex.def Info: ./gfx/ch5/fig3rev.pdf  used on input line 198.
 (pdftex.def)             Requested size: 383.0pt x 329.1004pt.
 
 [70] [71 <./gfx/ch5/fig3rev.pdf>]
-<./gfx/ch5/figS1.pdf, id=5600, 487.8225pt x 216.81pt>
+<./gfx/ch5/figS1.pdf, id=5606, 487.8225pt x 216.81pt>
 File: ./gfx/ch5/figS1.pdf Graphic file (type pdf)
 <use ./gfx/ch5/figS1.pdf>
 Package pdftex.def Info: ./gfx/ch5/figS1.pdf  used on input line 243.
@@ -1873,7 +1873,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 415.
 
-<./gfx/ch5/mirror.pdf, id=7276, 243.91125pt x 173.448pt>
+<./gfx/ch5/mirror.pdf, id=7282, 243.91125pt x 173.448pt>
 File: ./gfx/ch5/mirror.pdf Graphic file (type pdf)
 <use ./gfx/ch5/mirror.pdf>
 Package pdftex.def Info: ./gfx/ch5/mirror.pdf  used on input line 427.
@@ -1884,7 +1884,7 @@ Overfull \hbox (15.9602pt too wide) in paragraph at lines 423--440
  []
 
 [77] [78 <./gfx/ch5/mirror.pdf>] [79] [80]
-<./gfx/ch5/figS2.pdf, id=7390, 487.8225pt x 216.81pt>
+<./gfx/ch5/figS2.pdf, id=7396, 487.8225pt x 216.81pt>
 File: ./gfx/ch5/figS2.pdf Graphic file (type pdf)
 <use ./gfx/ch5/figS2.pdf>
 Package pdftex.def Info: ./gfx/ch5/figS2.pdf  used on input line 518.
@@ -1895,17 +1895,17 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\mhchem@cee' on input line 575.
 
 [83]
-<./gfx/ch5/diffraction.pdf, id=9046, 243.91125pt x 158.994pt>
+<./gfx/ch5/diffraction.pdf, id=9052, 243.91125pt x 158.994pt>
 File: ./gfx/ch5/diffraction.pdf Graphic file (type pdf)
 <use ./gfx/ch5/diffraction.pdf>
 Package pdftex.def Info: ./gfx/ch5/diffraction.pdf  used on input line 629.
 (pdftex.def)             Requested size: 383.0pt x 249.66237pt.
-<./gfx/ch5/figS3.pdf, id=9047, 487.8225pt x 136.58307pt>
+<./gfx/ch5/figS3.pdf, id=9053, 487.8225pt x 136.58307pt>
 File: ./gfx/ch5/figS3.pdf Graphic file (type pdf)
 <use ./gfx/ch5/figS3.pdf>
 Package pdftex.def Info: ./gfx/ch5/figS3.pdf  used on input line 640.
 (pdftex.def)             Requested size: 383.0pt x 107.2346pt.
-<./gfx/ch5/figS4.pdf, id=9048, 487.8225pt x 121.48587pt>
+<./gfx/ch5/figS4.pdf, id=9054, 487.8225pt x 121.48587pt>
 File: ./gfx/ch5/figS4.pdf Graphic file (type pdf)
 <use ./gfx/ch5/figS4.pdf>
 Package pdftex.def Info: ./gfx/ch5/figS4.pdf  used on input line 647.
@@ -1939,7 +1939,7 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
 [90]
-<./gfx/ch6/fig0.pdf, id=10792, 256.0748pt x 219.08621pt>
+<./gfx/ch6/fig0.pdf, id=10798, 256.0748pt x 219.08621pt>
 File: ./gfx/ch6/fig0.pdf Graphic file (type pdf)
 <use ./gfx/ch6/fig0.pdf>
 Package pdftex.def Info: ./gfx/ch6/fig0.pdf  used on input line 52.
@@ -1948,7 +1948,7 @@ Package pdftex.def Info: ./gfx/ch6/fig0.pdf  used on input line 52.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [91]
-<./gfx/ch6/fig1.pdf, id=10827, 512.1496pt x 324.3614pt>
+<./gfx/ch6/fig1.pdf, id=10833, 512.1496pt x 324.3614pt>
 File: ./gfx/ch6/fig1.pdf Graphic file (type pdf)
 <use ./gfx/ch6/fig1.pdf>
 Package pdftex.def Info: ./gfx/ch6/fig1.pdf  used on input line 90.
@@ -1980,7 +1980,7 @@ T1/cmr/m/n/12 (011)$ \OT1/ppl/m/n/12 (-20) sur-face of $[][][][][][]$above
  []
 
 [95]
-<./gfx/ch6/fig2.pdf, id=12633, 512.1496pt x 378.42165pt>
+<./gfx/ch6/fig2.pdf, id=12639, 512.1496pt x 378.42165pt>
 File: ./gfx/ch6/fig2.pdf Graphic file (type pdf)
 <use ./gfx/ch6/fig2.pdf>
 Package pdftex.def Info: ./gfx/ch6/fig2.pdf  used on input line 145.
@@ -1994,7 +1994,7 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
 [98]
-<./gfx/ch6/fig3.pdf, id=13137, 512.1496pt x 117.1087pt>
+<./gfx/ch6/fig3.pdf, id=13143, 512.1496pt x 117.1087pt>
 File: ./gfx/ch6/fig3.pdf Graphic file (type pdf)
 <use ./gfx/ch6/fig3.pdf>
 Package pdftex.def Info: ./gfx/ch6/fig3.pdf  used on input line 197.
@@ -2049,7 +2049,7 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 pdfTeX warning: pdflatex (file ./gfx/ch6/equilibriumtheory.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<./gfx/ch6/equilibriumtheory.pdf, id=13298, 845.0471pt x 597.50804pt>
+<./gfx/ch6/equilibriumtheory.pdf, id=13304, 845.0471pt x 597.50804pt>
 File: ./gfx/ch6/equilibriumtheory.pdf Graphic file (type pdf)
 <use ./gfx/ch6/equilibriumtheory.pdf>
 Package pdftex.def Info: ./gfx/ch6/equilibriumtheory.pdf  used on input line 32
@@ -2070,13 +2070,13 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
 [108]
-<./gfx/ch6/nonequilibriumtheory1.pdf, id=13333, 533.995pt x 163.61125pt>
+<./gfx/ch6/nonequilibriumtheory1.pdf, id=13339, 533.995pt x 163.61125pt>
 File: ./gfx/ch6/nonequilibriumtheory1.pdf Graphic file (type pdf)
 <use ./gfx/ch6/nonequilibriumtheory1.pdf>
 Package pdftex.def Info: ./gfx/ch6/nonequilibriumtheory1.pdf  used on input lin
 e 435.
 (pdftex.def)             Requested size: 383.0pt x 117.35312pt.
-<./gfx/ch6/nonequilibriumtheory2.pdf, id=13335, 529.98pt x 172.645pt>
+<./gfx/ch6/nonequilibriumtheory2.pdf, id=13341, 529.98pt x 172.645pt>
 File: ./gfx/ch6/nonequilibriumtheory2.pdf Graphic file (type pdf)
 <use ./gfx/ch6/nonequilibriumtheory2.pdf>
 Package pdftex.def Info: ./gfx/ch6/nonequilibriumtheory2.pdf  used on input lin
@@ -2101,7 +2101,7 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
 [112] [113]
-<./gfx/ch6/fitting.pdf, id=14989, 512.1496pt x 225.57913pt>
+<./gfx/ch6/fitting.pdf, id=14995, 512.1496pt x 225.57913pt>
 File: ./gfx/ch6/fitting.pdf Graphic file (type pdf)
 <use ./gfx/ch6/fitting.pdf>
 Package pdftex.def Info: ./gfx/ch6/fitting.pdf  used on input line 569.
@@ -2115,7 +2115,7 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\new@ifnextchar' on input line 584.
 
-<./gfx/ch6/errorbars.pdf, id=39652, 512.1496pt x 288.92635pt>
+<./gfx/ch6/errorbars.pdf, id=39658, 512.1496pt x 288.92635pt>
 File: ./gfx/ch6/errorbars.pdf Graphic file (type pdf)
 <use ./gfx/ch6/errorbars.pdf>
 Package pdftex.def Info: ./gfx/ch6/errorbars.pdf  used on input line 588.
@@ -2124,32 +2124,32 @@ Package pdftex.def Info: ./gfx/ch6/errorbars.pdf  used on input line 588.
 
 
  <./gfx/ch6/errorbars.pdf>]
-<./gfx/ch6/quenchtimes.pdf, id=46442, 217.81375pt x 362.35374pt>
+<./gfx/ch6/quenchtimes.pdf, id=46448, 217.81375pt x 362.35374pt>
 File: ./gfx/ch6/quenchtimes.pdf Graphic file (type pdf)
 <use ./gfx/ch6/quenchtimes.pdf>
 Package pdftex.def Info: ./gfx/ch6/quenchtimes.pdf  used on input line 603.
 (pdftex.def)             Requested size: 217.8132pt x 362.35286pt.
-<./gfx/ch6/fluencedep.pdf, id=46447, 512.1496pt x 268.12169pt>
+<./gfx/ch6/fluencedep.pdf, id=46453, 512.1496pt x 268.12169pt>
 File: ./gfx/ch6/fluencedep.pdf Graphic file (type pdf)
 <use ./gfx/ch6/fluencedep.pdf>
 Package pdftex.def Info: ./gfx/ch6/fluencedep.pdf  used on input line 618.
 (pdftex.def)             Requested size: 383.0pt x 200.518pt.
-<./gfx/ch6/pp.pdf, id=46450, 512.1496pt x 365.78012pt>
+<./gfx/ch6/pp.pdf, id=46456, 512.1496pt x 365.78012pt>
 File: ./gfx/ch6/pp.pdf Graphic file (type pdf)
 <use ./gfx/ch6/pp.pdf>
 Package pdftex.def Info: ./gfx/ch6/pp.pdf  used on input line 633.
 (pdftex.def)             Requested size: 383.0pt x 273.55302pt.
-<./gfx/ch6/xrd.pdf, id=46451, 512.1496pt x 279.8613pt>
+<./gfx/ch6/xrd.pdf, id=46457, 512.1496pt x 279.8613pt>
 File: ./gfx/ch6/xrd.pdf Graphic file (type pdf)
 <use ./gfx/ch6/xrd.pdf>
 Package pdftex.def Info: ./gfx/ch6/xrd.pdf  used on input line 645.
 (pdftex.def)             Requested size: 383.0pt x 209.29759pt.
-<./gfx/ch6/full_fig0.pdf, id=46454, 512.1496pt x 129.78441pt>
+<./gfx/ch6/full_fig0.pdf, id=46460, 512.1496pt x 129.78441pt>
 File: ./gfx/ch6/full_fig0.pdf Graphic file (type pdf)
 <use ./gfx/ch6/full_fig0.pdf>
 Package pdftex.def Info: ./gfx/ch6/full_fig0.pdf  used on input line 657.
 (pdftex.def)             Requested size: 383.0pt x 97.06079pt.
-<./gfx/ch6/full_fig1.pdf, id=46457, 512.1496pt x 581.76784pt>
+<./gfx/ch6/full_fig1.pdf, id=46463, 512.1496pt x 581.76784pt>
 File: ./gfx/ch6/full_fig1.pdf Graphic file (type pdf)
 <use ./gfx/ch6/full_fig1.pdf>
 Package pdftex.def Info: ./gfx/ch6/full_fig1.pdf  used on input line 669.
@@ -2171,7 +2171,7 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 pdfTeX warning: pdflatex (file ./gfx/ch6/full_fig0.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
 >] [121 <./gfx/ch6/full_fig1.pdf>]
-<./gfx/ch6/full_fig2.pdf, id=48396, 512.1496pt x 192.88693pt>
+<./gfx/ch6/full_fig2.pdf, id=48402, 512.1496pt x 192.88693pt>
 File: ./gfx/ch6/full_fig2.pdf Graphic file (type pdf)
 <use ./gfx/ch6/full_fig2.pdf>
 Package pdftex.def Info: ./gfx/ch6/full_fig2.pdf  used on input line 682.
@@ -2181,13 +2181,13 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
 [122 <./gfx/ch6/full_fig2.pdf>]
-<./gfx/ch6/polarization.pdf, id=49297, 512.1496pt x 75.74693pt>
+<./gfx/ch6/polarization.pdf, id=49303, 512.1496pt x 75.74693pt>
 File: ./gfx/ch6/polarization.pdf Graphic file (type pdf)
 <use ./gfx/ch6/polarization.pdf>
 Package pdftex.def Info: ./gfx/ch6/polarization.pdf  used on input line 691.
 (pdftex.def)             Requested size: 383.0pt x 56.64822pt.
  [123 <./gfx/ch6/polarization.pdf>]
-<./gfx/ch6/C2B_short.pdf, id=49859, 512.1496pt x 238.99178pt>
+<./gfx/ch6/C2B_short.pdf, id=49865, 512.1496pt x 238.99178pt>
 File: ./gfx/ch6/C2B_short.pdf Graphic file (type pdf)
 <use ./gfx/ch6/C2B_short.pdf>
 Package pdftex.def Info: ./gfx/ch6/C2B_short.pdf  used on input line 701.
@@ -2197,13 +2197,13 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
 [124 <./gfx/ch6/C2B_short.pdf>]
-<./gfx/ch6/C2B_long.pdf, id=50642, 512.1496pt x 238.74423pt>
+<./gfx/ch6/C2B_long.pdf, id=50648, 512.1496pt x 238.74423pt>
 File: ./gfx/ch6/C2B_long.pdf Graphic file (type pdf)
 <use ./gfx/ch6/C2B_long.pdf>
 Package pdftex.def Info: ./gfx/ch6/C2B_long.pdf  used on input line 713.
 (pdftex.def)             Requested size: 383.0pt x 178.54771pt.
  [125 <./gfx/ch6/C2B_long.pdf>]
-<./gfx/ch6/ctempdep.pdf, id=51345, 256.0748pt x 323.89194pt>
+<./gfx/ch6/ctempdep.pdf, id=51351, 256.0748pt x 323.89194pt>
 File: ./gfx/ch6/ctempdep.pdf Graphic file (type pdf)
 <use ./gfx/ch6/ctempdep.pdf>
 Package pdftex.def Info: ./gfx/ch6/ctempdep.pdf  used on input line 724.
@@ -2283,8 +2283,8 @@ Package rerunfilecheck Info: File `fichera-bfichera-phd-physics-2024-source.out
 (rerunfilecheck)             Checksum: B51279F448A08EE9998B7BFD23AE143D;12495.
  ) 
 Here is how much of TeX's memory you used:
- 38394 strings out of 476000
- 721842 string characters out of 5792233
+ 38400 strings out of 476000
+ 721926 string characters out of 5792233
  1956187 words of memory out of 5000000
  58741 multiletter control sequences out of 15000+600000
  635242 words of font info for 530 fonts, out of 8000000 for 9000
@@ -2375,10 +2375,10 @@ urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplbi8a
 mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/
 urw/palatino/uplri8a.pfb>
 Output written on fichera-bfichera-phd-physics-2024-source.pdf (149 pages, 2846
-1383 bytes).
+6974 bytes).
 PDF statistics:
- 51811 PDF objects out of 55141 (max. 8388607)
- 34855 compressed objects within 349 object streams
- 643 named destinations out of 1000 (max. 500000)
+ 51820 PDF objects out of 55141 (max. 8388607)
+ 34864 compressed objects within 349 object streams
+ 649 named destinations out of 1000 (max. 500000)
  119006 words of extra memory for PDF output out of 128383 (max. 10000000)
 

@@ -1,0 +1,34 @@
+Interactions between electrons in solids can be treated broadly in two different ways, depending on the strength of the interaction.
+Let us start with the case where the interactions are weak compared to their kinetic energy (or the bandwidth $W$).
+In this case, interactions may be treated as a perturbation
+\begin{equation}
+V = \sum_{\vec{p}\vec{p}'\vec{q},\sigma\sigma'}V(\vec{q})c^\dagger_{\vec{p}+\vec{q},\sigma}c^\dagger_{\vec{p}'-q,\sigma'}c_{\vec{p}',\sigma'}c_{\vec{p},\sigma}
+\end{equation}
+on top of the usual hamiltonian
+\begin{equation}
+H_0 = \epsilon_{\vec{p}} c^\dagger_{\vec{p},\sigma}c_{\vec{p},\sigma}
+\end{equation}
+for the noninteracting electrons.
+The key insight is that the electrons are fermions, and thus obey the Pauli exclusion principle.
+Consider, then, a single particle excited to an energy $\delta\epsilon$ above the Fermi surface, with $\delta\epsilon \ll \epsilon_F$; due to the Pauli exclusion principle, the volume of phase space available for scattering (at zero temperature) between this and other particles is confined to a shell around the Fermi surface with some thickness which goes to zero as $\delta\epsilon\rightarrow 0$.
+Thus, by Fermi's golden rule, the lifetime of such particles approaches infinity as we get closer and closer to the Fermi surface; i.e., there are still well-defined quasiparticles there, even though we have an interacting Hamiltonian.
+
+The ground state at low temperatures therefore just looks like a regular old metal, with a few important differences.
+Mainly, it is not quite correct to call the quasiparticles electrons any more; really, they are collective excitations of the entire ensemble which nevertheless have a long quasiparticle lifetime.
+These quasiparticles are like electrons, but with a renormalized mass
+\begin{equation}
+m^*=(1+\lambda)m
+\end{equation}
+for some $\lambda_m$ which depends on the nature (symmetry, energy scale, etc.) of the interaction.
+Like the quasiparticle mass, many other important properties of the system are renormalized, such as the specific heat
+\begin{equation}
+c=\frac{m^*}{m}c_0,
+\end{equation}
+the magnetic susceptibility
+\begin{equation}
+\chi=\frac{m^*}{m}\frac{1}{1+\lambda_\chi}{\chi_0},
+\end{equation}
+or the compressibility
+\begin{equation}
+\kappa=\frac{m^*}{m}\frac{1}{1+\lambda_\kappa}{\kappa_0}.
+\end{equation}
