@@ -1,19 +1,21 @@
-This is BibTeX, Version 0.99d (TeX Live 2023)
+This is BibTeX, Version 0.99d (TeX Live 2024/Arch Linux)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: fichera-bfichera-phd-physics-2024-source.aux
 The style file: plainnat_noclutter.bst
 Database file #1: fichera-bfichera-phd-physics-2024-source.bib
 Warning--entry type for "isodistort" isn't style-file defined
---line 3309 of file fichera-bfichera-phd-physics-2024-source.bib
+--line 1204 of file fichera-bfichera-phd-physics-2024-source.bib
 Warning--I didn't find a database entry for "landau"
 Warning--I didn't find a database entry for "gell-mann"
+Warning--I didn't find a database entry for "bednorz_possible_1986"
+Warning--I didn't find a database entry for "kuznetsov_theory_1994"
 Warning--empty journal in camn2bi2
 Warning--empty journal in morey_automated_2024
 Warning--empty year in ISOTROPY
 Warning--empty year in isodistort
 You've used 113 entries,
             2762 wiz_defined-function locations,
-            1440 strings with 36455 characters,
+            1442 strings with 36497 characters,
 and the built_in function-call counts, 68994 in all, are:
 = -- 5729
 > -- 5914
@@ -52,4 +54,4 @@ warning$ -- 4
 while$ -- 472
 width$ -- 0
 write$ -- 1630
-(There were 7 warnings)
+(There were 9 warnings)

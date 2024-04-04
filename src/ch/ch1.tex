@@ -16,35 +16,96 @@ Such a system is hence referred as a ``Fermi liquid,'' to signify the fact that 
 
 Fermi liquid theory is almost unreasonably successful in describing the ground state of a large number of correlated electron systems.
 Truly \emph{most} metals can be very adequately described as a simple Fermi gas with renormalized effective mass, specific heat, etc.; while these modifications may be large (e.g. $m^*/m\approx\num{e3}$ in \ce{CeAl3}), they otherwise look like normal metals.
-However, we can also discuss the circumstances in which the theory fails.
-Clearly various electronic instabilities may gap out the Fermi surface, resulting in an insulator; this happens for arbitrarily weak interactions in quasi-\oned systems due to the Peierls mechanism, and may occur in higher dimensions due to, e.g., Fermi surface nesting.
+Nevertheless, we can discuss circumstances in which the theory fails.
+Clearly various electronic instabilities may gap out the Fermi surface, resulting in an insulator; this happens for arbitrarily weak interactions in quasi-\oned systems due to the Peierls mechanism, and in higher dimensions due to, e.g., Fermi surface nesting.
 Whether the interaction is attractive or repulsive determines whether the instability occurs in the charge or the spin channel.
 In the other limit, where the kinetic energy hamiltonian \ref{eq:kinetichamiltonian} is treated as a perturbation to the interaction term \ref{eq:interactionhamiltonian}, the Fermi liquid state gives way to an (Mott) insulating state where the electrons become localized so as to minimize the coulomb repulsion $U$.
 
-% Thus, instabilities in the Fermi liquid occur both in the weak and strongly interacting limits.
+Studying such departures from Fermi liquid theory has become one of the most important fields in condensed matter physics.
+It is usually referred to as ``strongly correlated electron physics'', but many of the instabilities mentioned above are present even in the limit of weak interactions.
+Much of this interest was spurred by the discovery in \num{1986} by \citet{bednorz_possible_1986} of high-$T_c$ superconductivity in \ce{Ba_xLa_{5-x}Cu5O_{5(3-y)}}, although the field has grown to include many other phenomena which occur in the strongly interacting limit that may or may not be related to superconductivity.
+Despite nearly four decades of research, however, there still exists no universal theory for strongly correlated electron systems, in the sense that, if someone hands you a random strongly correlated material, it is impossible from the outset to \emph{predict} what will be the ground state, what are its low-energy excitations, etc.
+In fact, it is not even clear such a theory ought to exist\citep{alexandradinata_future_2022}.
 
+The \emph{field} of strongly correlated physics is thus, in some sense, still very much in its infancy, although that's not to say there haven't been huge advances, both theoretically and experimentally, especially since the discovery by \citet{bednorz_possible_1986}.
+A lot of the effort experimentally has been focused on cataloguing the huge number of different exotic ordered phases---charge density wave, spin density wave, superconducting, strange metals, spin liquids, pseudogap, etc.---that are realized in these systems.
+Usually this is done by mapping out a phase diagram for a given material, which indicates which phases are present at various values of external parameters like magnetic field, pressure, strain, etc.
+Ultrafast optics has played an important role in this respect, as it allows one (heuristically) to add a \emph{nonequilibrium} axis to such phase diagrams.
+Such experiments, for example, have not only helped illustrate the extent to which different phases compete with one another in the cuprate phase diagram, but also the extent to which the action of the light pulse in strongly correlated materials can be used to tune the properties of those materials for practical purposes.
+This is paradigm is referred to as ``ultrafast control,'' and I will discuss it in more detail in \cref{sec:ultrafastcontrol}.
 
+A parallel effort in the field of ultrafast optics is to use the pump not to control the state of the material, but rather to excite coherent oscillations of the low-energy collective modes and study these oscillations in the time domain in a pump-probe scheme.
+This approach is advantageous for two reasons.
+For one, the frequencies accessible with this technique are bounded from below only by the length of one's delay stage, in contrast to conventional spectrometer-based methods which involve finite-frequency filters, gratings, etc.
+Second of all, the ability to select both the excitation mechanism (the pump) and the measurement apparatus (the probe) allows one to design experiments that target specific degrees of freedom of interest.
+Thus, for example, in multiferroics, one can use \gls{shg} to selecitively probe the collective modes which modulate the macroscopic polarization.
+This direction is referred to as ``ultrafast spectroscopy,'' which I will explain in detail in \cref{sec:ultrafastspectroscopy}.
 
-% If the interactions are too strong, however, the adiabaticity approximation fails, and the energies that we are interested in studying now involve excitations which 
+This chapter may thus be regarded as an introduction to strongly correlated electron systems, with a special emphasis on ultrafast experiments (of the two types explained above).
+A complete review of this material is beyond the scope of this thesis; instead, I will focus on a few seminal works that I think tell this story most pedagogically.
+We will also need a bit of machinery to understand \cref{ch:tastwo,ch:cmb,ch:cubr2}, which focus on \gls{cdw}, \gls{afm}, and multiferroic materials, respectively; hence I will primarily focus on these types of ground states, although of course this obviously misses e.g. strange metal phases, unconventional superconductivity, quantum spin liquids, etc.
+When appropriate, I point to pedagogical references that may be more useful than this thesis for these and other concepts.
 
-% The ground state at low temperatures therefore just looks like a regular old metal, with a few important differences.
-% Mainly, it is not quite correct to call the quasiparticles electrons any more; really, they are collective excitations of the entire ensemble which nevertheless have a long quasiparticle lifetime.
-% These quasiparticles are like electrons, but with a renormalized mass
-% \begin{equation}
-% m^*=(1+\lambda)m
-% \end{equation}
-% for some $\lambda_m$ which depends on the nature (symmetry, energy scale, etc.) of the interaction.
-% Like the quasiparticle mass, many other important properties of the system are renormalized, such as the specific heat
-% \begin{equation}
-% c=\frac{m^*}{m}c_0,
-% \end{equation}
-% the magnetic susceptibility
-% \begin{equation}
-% \chi=\frac{m^*}{m}\frac{1}{1+\lambda_\chi}{\chi_0},
-% \end{equation}
-% or the compressibility
-% \begin{equation}
-% \kappa=\frac{m^*}{m}\frac{1}{1+\lambda_\kappa}{\kappa_0}.
-% \end{equation}
+\section{Spectroscopy}\label{sec:ultrafastspectroscopy}
 
+\subsection{Collective modes}
 
+The low-energy excitations of any many-body system are typically \emph{collective}, in the sense that they involve motion of all of the particles in the system rather than just one.
+Let us consider, for example, the classical model consisting of two identical coupled harmonic oscillators
+\begin{equation}
+H = \sum_{i=1}^2\left(\frac{p_i^2}{2m}+\frac{m\omega_0^2}{2}x_i^2\right)+gx_1x_2,
+\end{equation}
+with mass $m$, natural frequency $\omega_0$, and coupling constant $g$.
+When $g=0$, the normal modes of this system are simply the independent oscillation modes of the two oscillators.
+However, for any nonzero $g$, the normal modes involve either symmetric or antisymmetric linear combinations of the two oscillator coordinates; that is, they involve collective motion of the two oscillators.
+The extension to an ensemble of harmonic oscillators is straightforward; there, too, the normal modes of the Hamiltonian involve collective motion of all of the coordinates at once.
+
+Of course the solids that we are interested in are more complicated than a simple ensemble of harmonic oscillators.
+Usually, though, more complicated systems can be broken down into a small number of \emph{subsystems} which may, as a first approximation, be treated separately.
+Thus, for example, it makes sense to refer to the phonon subsytem independently from the electronic subsystem, with different and independent collective mode spectra in the limit where the inter-subsystem coupling goes to zero.
+
+When this coupling is finite, however, many interesting phenomena may occur.
+For example, spin-orbit coupling coupling---which implies a coupling between spin and orbital degrees of freedom of the electron---can, in the right circumstances, cause the statically ordered state of the spin subsystem to also induce a ferroelectric distortion of the electron orbitals.
+The normal modes of the system in the presence of this coupling are no longer pure magnon or orbital modes, but rather collective modes of the spin and orbital degrees of freedom together.
+Let us look at this phenomenon from a different perspective.
+Suppose we didn't know the ground state of the system, but we did know that the relevant low-energy excitations involved both spin and orbital degrees of freedom (for example, we might see a response in both the time-resolved kerr rotation as well as the \gls{trshg}).
+This is good evidence that the ground state of the system involves this coupling to some extent.
+Thus, we have learned something quite important about our system without doing anything but look at the low-energy collective excitations.
+
+\subsection{Coherent oscillations}
+
+Clearly understanding the low-energy excitations corresponding to a given ground state is a useful way to understand its properties.
+So far, however, we have made no mention of how to \emph{probe} these excitations in pump-probe spectroscopy.
+Let us consider the following Hamiltonian consisting of electrons $c_{\vec{k}\sigma}$ (with dispersion $\epsilon_{\vec{k}\sigma}$) and bosons $b_{\vec{q}}$ (with dispersion $\omega_{\vec{q}}$) interacting via some potential $V^\sigma_{\vec{k}\vec{q}}$
+\begin{equation}\label{eq:electronlatticehamiltonian}
+H = \sum_{\vec{k}\sigma}\epsilon_{\vec{k}\sigma}c^\dagger_{\vec{k}\sigma}c_{\vec{k}\sigma}
++\sum_{\vec{q}}\hbar \omega_{\vec{q}}b^\dagger_{\vec{q}}b_{\vec{q}}
++\sum_{\sigma\vec{k}\vec{q}}V^\sigma_{\vec{k}\vec{q}}\left(b_{\vec{q}}+b^\dagger_{-\vec{q}}\right)c^\dagger_{\vec{k}\sigma}c_{\vec{k}+\vec{q}\sigma}.
+\end{equation}
+The average lattice displacement is given by
+\begin{equation}
+\left<u(\vec{r})\right> \propto \sum_{\vec{q}}\left(\left<b_{\vec{q}}\right>e^{i\vec{q}\cdot\vec{r}}+\left<b^\dagger_{\vec{q}}\right>e^{-i\vec{q}\cdot\vec{r}}\right).
+\end{equation}
+Clearly, in order for us to have a macroscopic lattice displacement, we need to have a finite value for $\left<b_{\vec{q}}\right>$ and $\left<b^\dagger_{\vec{q}}\right>$, which is impossible if there are a definite number of phonons in the mode $\vec{q}$ (since $\bra{n}b_{\vec{q}}\ket{m}=0$ for $n=m$).
+In contrast, if the wavefunction of the system consists of a coherent superposition of different phonon numbers, $\left<u(\vec{r})\right>$ may acquire a finite value.
+One thematic example of such a wavefunction is the so-called ``coherent state'' of the quantum harmonic oscillator
+\begin{equation}\label{eq:coherentstate}
+\ket{\alpha_{\vec{q}}} = \sum_n \frac{\alpha^ne^{-z^2/2}}{n!}(b^\dagger_{\vec{q}})^n\ket{0},
+\end{equation}
+although the real wavefunction need not be fully coherent to have a nonzero average lattice displacement.
+
+One can show (see \citet{kuznetsov_theory_1994}) that the equation of motion for the operator $D_{\vec{q}}\equiv \big<b_{\vec{q}}\big>+\big<b^\dagger_{-\vec{q}}\big>$ due to \cref{eq:electronlatticehamiltonian} is
+\begin{equation}
+\frac{\partial^2}{\partial t^2}D_{\vec{q}}+\omega^2_{\vec{q}}D_{\vec{q}} = -2\omega_{\vec{q}}\sum_{\vec{k}\sigma}V^\sigma_{\vec{k}\vec{q}}\left<c^\dagger_{\vec{k}\sigma} c_{\vec{k}+\vec{q}\sigma}\right>,
+\end{equation}
+i.e., $D_{\vec{q}}$ obeys a \emph{wave equation} with an inhomogenous part related (in this case) to the electronic subsystem.\footnote{There will also be a damping term, which may be added phenomenologically but is otherwise not considered in this treatment.}
+Thus, if we manage to initialize a wavefunction with a finite $D_{\vec{q}}$, the frequency with which $D_{\vec{q}}$ oscillates in time is the frequency $\omega_{\vec{q}}$ of the boson $b_{\vec{q}}$.
+
+The central idea in ultrafast spectroscopy is therefore to excite coherent modes like \cref{eq:coherentstate}, and then measure the frequency, damping, etc. of these modes by measuring $D_{\vec{q}}$.
+This is in contrast to equilibrium spectroscopies, which measure, for example, the transfer of energy from the light field to states with a definite number of bosons (i.e., $\ket{n}\rightarrow\ket{n+1}$).
+In theory, of course, the information obtained is the same---the frequency and damping coefficient of the collective modes in question may readily be optained in the equilibrium spectroscopies as well as in the pump-probe scheme.
+\begin{enumerate*}[label=(\roman*)]\item[] However, as I argued at the start of this chapter, the pump-probe techniques offer a number of advantages, most notably \item the ability to design the pump and the probe to specify exactly which excitations we would like to measure, and \item the ability to measure much lower frequencies than in conventional spectroscopy due to the energy being measured in the time domain, rather than the frequency domain.\end{enumerate*}
+
+\subsection{Excitation mechanisms}
+
+\subsection{Collective modes in correlated materials}

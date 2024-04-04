@@ -1,45 +1,45 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic drawing of the SHG setup used in this research.}}{34}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Photograph of the SHG setup.}}{35}{figure.3.2}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic drawing of the SHG setup used in this research.}}{38}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Photograph of the SHG setup.}}{39}{figure.3.2}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces A demonstration of \glsxtrtitleshort {rashg} in the test sample \ce {GaAs}}}{52}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces A diagram of the full second harmonic generation setup}}{54}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Exploded-view diagram of one of the automated polarization rotators}}{56}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces A 3-dimensional rendering of the automated polarization rotators}}{58}{figure.4.4}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Demonstration of the automatic polarization rotators}}{59}{figure.4.5}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A demonstration of \glsxtrtitleshort {rashg} in the test sample \ce {GaAs}}}{56}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces A diagram of the full second harmonic generation setup}}{58}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Exploded-view diagram of one of the automated polarization rotators}}{60}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces A 3-dimensional rendering of the automated polarization rotators}}{62}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Demonstration of the automatic polarization rotators}}{63}{figure.4.5}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Structure of $1$\textit {T}-\ce {TaS2} and schematic of the SHG setup}}{64}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces SHG in 1\textit {T}-\ce {TaS2}above and below $T_\mathrm {IC-NC}$}}{67}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces SHG in NC-\ce {TaS2}}}{68}{figure.5.3}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces RA-SHG in the $S_\mathrm {in}S_\mathrm {out}$\xspace polarization channel in 1\textit {T}-\ce {TaS2}}}{71}{figure.5.4}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces RA-SHG of 1\textit {T}-\ce {TaS2}: all polarization channels}}{73}{figure.5.5}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Intuition for mirror symmetry breaking in SHG}}{78}{figure.5.6}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces RA-SHG in the $\alpha $ and $\beta $ phases of 1\textit {T}-\ce {TaS2}}}{82}{figure.5.7}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Electron diffraction of 1\textit {T}-\ce {TaS2}}}{85}{figure.5.8}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Electric quadrupole RA-SHG in 1\textit {T}-\ce {TaS2}($T=\qty {295}{K}$)}}{86}{figure.5.9}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Electric quadrupole RA-SHG in 1\textit {T}-\ce {TaS2}($T=\qty {356}{K}$)}}{86}{figure.5.10}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Structure of $1$\textit {T}-\ce {TaS2} and schematic of the SHG setup}}{68}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces SHG in 1\textit {T}-\ce {TaS2}above and below $T_\mathrm {IC-NC}$}}{71}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces SHG in NC-\ce {TaS2}}}{72}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces RA-SHG in the $S_\mathrm {in}S_\mathrm {out}$\xspace polarization channel in 1\textit {T}-\ce {TaS2}}}{75}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces RA-SHG of 1\textit {T}-\ce {TaS2}: all polarization channels}}{77}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Intuition for mirror symmetry breaking in SHG}}{82}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces RA-SHG in the $\alpha $ and $\beta $ phases of 1\textit {T}-\ce {TaS2}}}{86}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Electron diffraction of 1\textit {T}-\ce {TaS2}}}{89}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Electric quadrupole RA-SHG in 1\textit {T}-\ce {TaS2}($T=\qty {295}{K}$)}}{90}{figure.5.9}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Electric quadrupole RA-SHG in 1\textit {T}-\ce {TaS2}($T=\qty {356}{K}$)}}{90}{figure.5.10}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces }}{93}{figure.6.1}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces }}{94}{figure.6.2}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces }}{97}{figure.6.3}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces }}{99}{figure.6.4}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Energy difference between $x$ and $y$-directions with respect to the easy axis. Blue bars indicate the $x$-direction for the \gls {afm} \gls {op} is preferred, and red bars indicate the $y$-direction for the \gls {afm} \gls {op} is preferred. Note that for strains in experiments, the difference value goes to zero, indicating a change in the in-plane magnetic moment direction. }}{105}{figure.6.5}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces }}{110}{figure.6.6}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces }}{110}{figure.6.7}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Fits to the \gls {rashg} pattern in the four domains of \cref {cmb-fig1} \qty {2.0}{ps} before ($A$, $B$, $C$, $D$) and ${\sim }\xspace \qty {40}{ps}$ after ($A'$, $B'$, $C'$, $D'$) zero delay. Data is represented by black circles; solid lines are fits to \cref {cmb-eq:eq1,cmb-eq:eq2} with $\chi ^\beta $ denoted in the legend. }}{114}{figure.6.8}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces \gls {rashg} results of \cref {cmb-fluencedep} depicted with estimated errorbars (see text).}}{115}{figure.6.9}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces }}{117}{figure.6.10}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces }}{118}{figure.6.11}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces }}{119}{figure.6.12}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces }}{120}{figure.6.13}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces \gls {rashg} results of \cref {cmb-fig0} depicted in all four polarization channels ($P_\mathrm {in}P_\mathrm {out}$\xspace , $P_\mathrm {in}S_\mathrm {out}$\xspace , $S_\mathrm {in}P_\mathrm {out}$\xspace , and $S_\mathrm {in}S_\mathrm {out}$\xspace )}}{120}{figure.6.14}%
-\contentsline {figure}{\numberline {6.15}{\ignorespaces }}{121}{figure.6.15}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces \gls {rashg} results of \cref {cmb-fig2} depicted in all four polarization channels ($P_\mathrm {in}P_\mathrm {out}$\xspace , $P_\mathrm {in}S_\mathrm {out}$\xspace , $S_\mathrm {in}P_\mathrm {out}$\xspace , and $S_\mathrm {in}S_\mathrm {out}$\xspace ). The pump fluence is set to ${\sim }\xspace \qty {600}{\mu J \cdot cm^{-2}}$.}}{122}{figure.6.16}%
-\contentsline {figure}{\numberline {6.17}{\ignorespaces \gls {rashg} results in a representative domain as a function of time for different pump polarization states (left circularly- (LCP), right circularly- (RCP), and linearly-polarized). The pump fluence is set to ${\sim }\xspace \qty {600}{\mu J \cdot cm^{-2}}$. }}{123}{figure.6.17}%
-\contentsline {figure}{\numberline {6.18}{\ignorespaces \gls {rashg} snapshots showing a transition to the state opposite to \crefrange {cmb-fig2:c}{cmb-fig2:d}. The pump fluence is set to ${\sim }\xspace \qty {600}{\mu J \cdot cm^{-2}}$. The last row depicts the corresponding value of the \gls {afm} \gls {op} proposed in the text, relative to the hexagonal crystallographic motif.\xspace The schematic representations beneath the \gls {rashg} plots are for illustration purposes only and the depicted angles are not quantitatively verified. }}{124}{figure.6.18}%
-\contentsline {figure}{\numberline {6.19}{\ignorespaces \gls {rashg} results in the same domain as \cref {cmb-CtoBshort} plotted out to longer times. The pump fluence is set to ${\sim }\xspace \qty {600}{\mu J \cdot cm^{-2}}$. The last row depicts the corresponding value of the \gls {afm} \gls {op} proposed in the text, relative to the hexagonal crystallographic motif.\xspace The schematic representations beneath the \gls {rashg} plots are for illustration purposes only and the depicted angles are not quantitatively verified. }}{125}{figure.6.19}%
-\contentsline {figure}{\numberline {6.20}{\ignorespaces SHG intensity in the same domain as \cref {cmb-fig1:f} as a function of temperature. }}{126}{figure.6.20}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces }}{97}{figure.6.1}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces }}{98}{figure.6.2}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces }}{101}{figure.6.3}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces }}{103}{figure.6.4}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Energy difference between $x$ and $y$-directions with respect to the easy axis. Blue bars indicate the $x$-direction for the \gls {afm} \gls {op} is preferred, and red bars indicate the $y$-direction for the \gls {afm} \gls {op} is preferred. Note that for strains in experiments, the difference value goes to zero, indicating a change in the in-plane magnetic moment direction. }}{109}{figure.6.5}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces }}{114}{figure.6.6}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces }}{114}{figure.6.7}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Fits to the \gls {rashg} pattern in the four domains of \cref {cmb-fig1} \qty {2.0}{ps} before ($A$, $B$, $C$, $D$) and ${\sim }\xspace \qty {40}{ps}$ after ($A'$, $B'$, $C'$, $D'$) zero delay. Data is represented by black circles; solid lines are fits to \cref {cmb-eq:eq1,cmb-eq:eq2} with $\chi ^\beta $ denoted in the legend. }}{118}{figure.6.8}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces \gls {rashg} results of \cref {cmb-fluencedep} depicted with estimated errorbars (see text).}}{119}{figure.6.9}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces }}{121}{figure.6.10}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces }}{122}{figure.6.11}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces }}{123}{figure.6.12}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces }}{124}{figure.6.13}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces \gls {rashg} results of \cref {cmb-fig0} depicted in all four polarization channels ($P_\mathrm {in}P_\mathrm {out}$\xspace , $P_\mathrm {in}S_\mathrm {out}$\xspace , $S_\mathrm {in}P_\mathrm {out}$\xspace , and $S_\mathrm {in}S_\mathrm {out}$\xspace )}}{124}{figure.6.14}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces }}{125}{figure.6.15}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces \gls {rashg} results of \cref {cmb-fig2} depicted in all four polarization channels ($P_\mathrm {in}P_\mathrm {out}$\xspace , $P_\mathrm {in}S_\mathrm {out}$\xspace , $S_\mathrm {in}P_\mathrm {out}$\xspace , and $S_\mathrm {in}S_\mathrm {out}$\xspace ). The pump fluence is set to ${\sim }\xspace \qty {600}{\mu J \cdot cm^{-2}}$.}}{126}{figure.6.16}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces \gls {rashg} results in a representative domain as a function of time for different pump polarization states (left circularly- (LCP), right circularly- (RCP), and linearly-polarized). The pump fluence is set to ${\sim }\xspace \qty {600}{\mu J \cdot cm^{-2}}$. }}{127}{figure.6.17}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces \gls {rashg} snapshots showing a transition to the state opposite to \crefrange {cmb-fig2:c}{cmb-fig2:d}. The pump fluence is set to ${\sim }\xspace \qty {600}{\mu J \cdot cm^{-2}}$. The last row depicts the corresponding value of the \gls {afm} \gls {op} proposed in the text, relative to the hexagonal crystallographic motif.\xspace The schematic representations beneath the \gls {rashg} plots are for illustration purposes only and the depicted angles are not quantitatively verified. }}{128}{figure.6.18}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces \gls {rashg} results in the same domain as \cref {cmb-CtoBshort} plotted out to longer times. The pump fluence is set to ${\sim }\xspace \qty {600}{\mu J \cdot cm^{-2}}$. The last row depicts the corresponding value of the \gls {afm} \gls {op} proposed in the text, relative to the hexagonal crystallographic motif.\xspace The schematic representations beneath the \gls {rashg} plots are for illustration purposes only and the depicted angles are not quantitatively verified. }}{129}{figure.6.19}%
+\contentsline {figure}{\numberline {6.20}{\ignorespaces SHG intensity in the same domain as \cref {cmb-fig1:f} as a function of temperature. }}{130}{figure.6.20}%
 \addvspace {10pt}
 \addvspace {10pt}

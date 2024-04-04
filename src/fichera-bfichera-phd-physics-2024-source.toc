@@ -3,78 +3,82 @@
 \contentsline {chapter}{List of Figures}{xii}{section*.2}%
 \contentsline {chapter}{List of Tables}{xv}{section*.3}%
 \contentsline {chapter}{\chapternumberline {1}Ultrafast optics in correlated electron systems}{17}{chapter.1}%
-\contentsline {chapter}{\chapternumberline {2}Second harmonic generation: theory}{19}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Space groups, point groups, and Neumann's principle}{19}{section.2.1}%
-\contentsline {section}{\numberline {2.2}A classical understanding of SHG}{23}{section.2.2}%
-\contentsline {section}{\numberline {2.3}SHG in quantum mechanics}{25}{section.2.3}%
-\contentsline {section}{\numberline {2.4}SHG in the Ginzburg-Landau paradigm}{29}{section.2.4}%
-\contentsline {chapter}{\chapternumberline {3}Second harmonic generation: practical}{33}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Description of the setup}{33}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Before you build}{36}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Spot size}{36}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Oblique vs. normal incidence}{37}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Choice of detector}{38}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}tr-SHG: methodology}{39}{section.3.3}%
-\contentsline {subsubsection}{Polarization control}{39}{section*.4}%
-\contentsline {subsubsection}{The pump beam path}{40}{section*.5}%
-\contentsline {section}{\numberline {3.4}Data analysis}{41}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Static RA-SHG patterns}{41}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Modeling $\chi _{ijk}$: the simplified bond hyperpolarizability model}{44}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Fitting time traces in tr-SHG}{46}{subsection.3.4.3}%
-\contentsline {chapter}{\chapternumberline {4}Automated polarization rotation for multi-axis RA-SHG experiments}{49}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Preface}{49}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Abstract}{49}{section.4.2}%
-\contentsline {section}{\numberline {4.3} Introduction}{50}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Design}{54}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Slip Ring}{55}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Miniature Stepper Motor}{57}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Validation and Discussion}{59}{section.4.5}%
-\contentsline {chapter}{\chapternumberline {5}Second harmonic generation as a probe of broken mirror symmetry in 1\textit {T}-\ce {TaS2}}{61}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Preface}{61}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Abstract}{61}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Introduction}{62}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Results and discussion}{65}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Conclusion}{72}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Acknowledgments}{72}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Supplemental material}{73}{section.5.7}%
-\contentsline {subsection}{\numberline {5.7.1}Probing broken mirror symmetry with RA-SHG}{73}{subsection.5.7.1}%
-\contentsline {subsubsection}{Complete RA-SHG data}{73}{section*.6}%
-\contentsline {subsubsection}{$\mathscr {I}_{PS}^{(3)}$ as an indicator of broken mirror symmetry}{74}{section*.7}%
-\contentsline {subsection}{\numberline {5.7.2}Physical importance of the P$_\mathrm {in}$-S$_\mathrm {out}$ channel}{77}{subsection.5.7.2}%
-\contentsline {subsection}{\numberline {5.7.3}Generalization to other mirror symmetry-breaking transitions}{79}{subsection.5.7.3}%
-\contentsline {subsection}{\numberline {5.7.4}Probing the sense of planar chirality with RA-SHG}{81}{subsection.5.7.4}%
-\contentsline {subsubsection}{Complete RA-SHG data}{81}{section*.8}%
-\contentsline {subsubsection}{Electron diffraction confirming the sample is single domain}{81}{section*.9}%
-\contentsline {subsubsection}{Fitting RA-SHG data in the $\alpha $ and $\beta $ configurations}{81}{section*.10}%
-\contentsline {subsection}{\numberline {5.7.5}Bulk broken mirror symmetry in 1\textit {T}-\ce {TaS2}}{83}{subsection.5.7.5}%
-\contentsline {subsubsection}{Complete RA-SHG data at $T=295K$}{83}{section*.11}%
-\contentsline {subsubsection}{Symmetry analysis of RA-SHG data}{83}{section*.12}%
-\contentsline {subsection}{\numberline {5.7.6}Methods}{87}{subsection.5.7.6}%
-\contentsline {chapter}{\chapternumberline {6}Light-induced reorientation transition in the antiferromagnetic semiconductor \ce {CaMn2Bi2}}{89}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Preface}{89}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Abstract}{89}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Introduction}{90}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Results}{92}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Equilibrium}{92}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Nonequilibrium}{96}{subsection.6.4.2}%
-\contentsline {section}{\numberline {6.5}Discussion}{98}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Conclusion}{101}{section.6.6}%
-\contentsline {section}{\numberline {6.7}Methods}{101}{section.6.7}%
-\contentsline {subsection}{\numberline {6.7.1}Material growth}{101}{subsection.6.7.1}%
-\contentsline {subsection}{\numberline {6.7.2}\Glsxtrtitleshort {trshg} measurements}{102}{subsection.6.7.2}%
-\contentsline {subsection}{\numberline {6.7.3}\Glsxtrtitleshort {ptmb} measurements}{102}{subsection.6.7.3}%
-\contentsline {subsection}{\numberline {6.7.4}\Glsxtrtitleshort {xrd} measurements}{103}{subsection.6.7.4}%
-\contentsline {subsection}{\numberline {6.7.5}Data availability}{103}{subsection.6.7.5}%
-\contentsline {section}{\numberline {6.8}Acknowledgments}{103}{section.6.8}%
-\contentsline {section}{\numberline {6.9}Author contributions}{104}{section.6.9}%
-\contentsline {section}{\numberline {6.10}Supplementary Material}{104}{section.6.10}%
-\contentsline {subsection}{\numberline {6.10.1}Supporting theoretical discussion}{104}{subsection.6.10.1}%
-\contentsline {subsubsection}{Equilibrium strain-spin coupling}{104}{section*.13}%
-\contentsline {subsubsection}{Laser-induced dynamics of competing magnetic domains: ``incoherent'' scenario}{106}{section*.14}%
-\contentsline {subsubsection}{Laser-induced dynamics of competing magnetic domains: ``coherent'' scenario}{107}{section*.15}%
-\contentsline {subsection}{\numberline {6.10.2}Nonviability of secondary order parameter in describing the \gls {rashg} data}{111}{subsection.6.10.2}%
-\contentsline {subsection}{\numberline {6.10.3}Fits to susceptibility tensors}{112}{subsection.6.10.3}%
-\contentsline {subsection}{\numberline {6.10.4}Error bar estimation for \cref {cmb-fluencedep}}{115}{subsection.6.10.4}%
-\contentsline {chapter}{\chapternumberline {7}Amplitude-mode electromagnon in the XXZ chain \ce {CuBr2}}{127}{chapter.7}%
-\contentsline {chapter}{\chapternumberline {8}Concluding remarks}{129}{chapter.8}%
-\contentsline {chapter}{Bibliography}{133}{chapter*.16}%
+\contentsline {section}{\numberline {1.1}Spectroscopy}{20}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Collective modes}{20}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Coherent oscillations}{21}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Excitation mechanisms}{22}{subsection.1.1.3}%
+\contentsline {chapter}{\chapternumberline {2}Second harmonic generation: theory}{23}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Space groups, point groups, and Neumann's principle}{23}{section.2.1}%
+\contentsline {section}{\numberline {2.2}A classical understanding of SHG}{27}{section.2.2}%
+\contentsline {section}{\numberline {2.3}SHG in quantum mechanics}{29}{section.2.3}%
+\contentsline {section}{\numberline {2.4}SHG in the Ginzburg-Landau paradigm}{33}{section.2.4}%
+\contentsline {chapter}{\chapternumberline {3}Second harmonic generation: practical}{37}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Description of the setup}{37}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Before you build}{40}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Spot size}{40}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Oblique vs. normal incidence}{41}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Choice of detector}{42}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}tr-SHG: methodology}{43}{section.3.3}%
+\contentsline {subsubsection}{Polarization control}{43}{section*.4}%
+\contentsline {subsubsection}{The pump beam path}{44}{section*.5}%
+\contentsline {section}{\numberline {3.4}Data analysis}{45}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Static RA-SHG patterns}{45}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Modeling $\chi _{ijk}$: the simplified bond hyperpolarizability model}{48}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Fitting time traces in tr-SHG}{50}{subsection.3.4.3}%
+\contentsline {chapter}{\chapternumberline {4}Automated polarization rotation for multi-axis RA-SHG experiments}{53}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Preface}{53}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Abstract}{53}{section.4.2}%
+\contentsline {section}{\numberline {4.3} Introduction}{54}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Design}{58}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Slip Ring}{59}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Miniature Stepper Motor}{61}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Validation and Discussion}{63}{section.4.5}%
+\contentsline {chapter}{\chapternumberline {5}Second harmonic generation as a probe of broken mirror symmetry in 1\textit {T}-\ce {TaS2}}{65}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Preface}{65}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Abstract}{65}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Introduction}{66}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Results and discussion}{69}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Conclusion}{76}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Acknowledgments}{76}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Supplemental material}{77}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Probing broken mirror symmetry with RA-SHG}{77}{subsection.5.7.1}%
+\contentsline {subsubsection}{Complete RA-SHG data}{77}{section*.6}%
+\contentsline {subsubsection}{$\mathscr {I}_{PS}^{(3)}$ as an indicator of broken mirror symmetry}{78}{section*.7}%
+\contentsline {subsection}{\numberline {5.7.2}Physical importance of the P$_\mathrm {in}$-S$_\mathrm {out}$ channel}{81}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}Generalization to other mirror symmetry-breaking transitions}{83}{subsection.5.7.3}%
+\contentsline {subsection}{\numberline {5.7.4}Probing the sense of planar chirality with RA-SHG}{85}{subsection.5.7.4}%
+\contentsline {subsubsection}{Complete RA-SHG data}{85}{section*.8}%
+\contentsline {subsubsection}{Electron diffraction confirming the sample is single domain}{85}{section*.9}%
+\contentsline {subsubsection}{Fitting RA-SHG data in the $\alpha $ and $\beta $ configurations}{85}{section*.10}%
+\contentsline {subsection}{\numberline {5.7.5}Bulk broken mirror symmetry in 1\textit {T}-\ce {TaS2}}{87}{subsection.5.7.5}%
+\contentsline {subsubsection}{Complete RA-SHG data at $T=295K$}{87}{section*.11}%
+\contentsline {subsubsection}{Symmetry analysis of RA-SHG data}{87}{section*.12}%
+\contentsline {subsection}{\numberline {5.7.6}Methods}{91}{subsection.5.7.6}%
+\contentsline {chapter}{\chapternumberline {6}Light-induced reorientation transition in the antiferromagnetic semiconductor \ce {CaMn2Bi2}}{93}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Preface}{93}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Abstract}{93}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Introduction}{94}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Results}{96}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Equilibrium}{96}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Nonequilibrium}{100}{subsection.6.4.2}%
+\contentsline {section}{\numberline {6.5}Discussion}{102}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Conclusion}{105}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Methods}{105}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Material growth}{105}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.2}\Glsxtrtitleshort {trshg} measurements}{106}{subsection.6.7.2}%
+\contentsline {subsection}{\numberline {6.7.3}\Glsxtrtitleshort {ptmb} measurements}{106}{subsection.6.7.3}%
+\contentsline {subsection}{\numberline {6.7.4}\Glsxtrtitleshort {xrd} measurements}{107}{subsection.6.7.4}%
+\contentsline {subsection}{\numberline {6.7.5}Data availability}{107}{subsection.6.7.5}%
+\contentsline {section}{\numberline {6.8}Acknowledgments}{107}{section.6.8}%
+\contentsline {section}{\numberline {6.9}Author contributions}{108}{section.6.9}%
+\contentsline {section}{\numberline {6.10}Supplementary Material}{108}{section.6.10}%
+\contentsline {subsection}{\numberline {6.10.1}Supporting theoretical discussion}{108}{subsection.6.10.1}%
+\contentsline {subsubsection}{Equilibrium strain-spin coupling}{108}{section*.13}%
+\contentsline {subsubsection}{Laser-induced dynamics of competing magnetic domains: ``incoherent'' scenario}{110}{section*.14}%
+\contentsline {subsubsection}{Laser-induced dynamics of competing magnetic domains: ``coherent'' scenario}{111}{section*.15}%
+\contentsline {subsection}{\numberline {6.10.2}Nonviability of secondary order parameter in describing the \gls {rashg} data}{115}{subsection.6.10.2}%
+\contentsline {subsection}{\numberline {6.10.3}Fits to susceptibility tensors}{116}{subsection.6.10.3}%
+\contentsline {subsection}{\numberline {6.10.4}Error bar estimation for \cref {cmb-fluencedep}}{119}{subsection.6.10.4}%
+\contentsline {chapter}{\chapternumberline {7}Amplitude-mode electromagnon in the XXZ chain \ce {CuBr2}}{131}{chapter.7}%
+\contentsline {chapter}{\chapternumberline {8}Concluding remarks}{133}{chapter.8}%
+\contentsline {chapter}{Bibliography}{137}{chapter*.16}%

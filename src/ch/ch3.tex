@@ -107,7 +107,7 @@ In contrast, with a \gls{pmt} the \gls{shg} signal is read out as a function of 
 We use an optical chopper wheel attached to the motor shaft; a beam from a laser pointer is directed through the chopper wheel and onto a photodiode, which produces a square wave signal that is used to trigger the oscilloscope.
 One must also be careful that the \gls{pmt} is aligned as close to normal as possible to the axis defined by DM2 and L4 in \cref{fig:setup}, as the \gls{pmt} output is actually quite sensitive to the angle of incidence of the input radiation.
 
-As for the detection efficiency of the two devies, an \gls{emccd} is basically an \emph{array} of \glspl{pmt} -- thus, there is no fundamental difference in the detection efficiences of the two methods, although having never used an \gls{emccd} I cannot speak to any specific considerations that might favor one over the other.
+As for the detection efficiency of the two devies, an \gls{emccd} is basically an \emph{array} of \glspl{pmt}---thus, there is no fundamental difference in the detection efficiences of the two methods, although having never used an \gls{emccd} I cannot speak to any specific considerations that might favor one over the other.
 
 \section{tr-SHG: methodology}
 
@@ -153,7 +153,7 @@ The typical static \gls{rashg} dataset consists of a set of points $\{(\phi_n, I
 \[
 p\in\{\mathPP, \mathPS, \mathSP, \mathSS\}.
 \]
-By \cref{eq:shgsimple}, each of these patterns may be modeled by an equation\footnote{I will focus on electric dipole \gls{shg} for now, although note that the equations for electric quadrupole and magnetic dipole \gls{shg} (\cref{eq:mshort,eq:qshort}) are different -- by \cref{eq:sourceterm}, both involve a factor of the incident wavevector $\bm{k}$, and the magnetic dipole term has a cross product.}
+By \cref{eq:shgsimple}, each of these patterns may be modeled by an equation\footnote{I will focus on electric dipole \gls{shg} for now, although note that the equations for electric quadrupole and magnetic dipole \gls{shg} (\cref{eq:mshort,eq:qshort}) are different---by \cref{eq:sourceterm}, both involve a factor of the incident wavevector $\bm{k}$, and the magnetic dipole term has a cross product.}
 \begin{equation}\label{eq:fundamentalmodel}
 I^p(\phi) \propto |\hat{e}_i^{p,\mathrm{out}}(\phi)\chi_{ijk}\hat{e}_j^{p,\mathrm{in}}(\phi)\hat{e}_k^{p,\mathrm{in}}(\phi)|^2,
 \end{equation}
@@ -221,7 +221,7 @@ Installation instructions and a comprehensive documentation may be found at the 
 
 Sometimes the symmetry-constrained $\chi_{ijk}$ of \cref{sec:staticanalysis} is difficult to analyze (perhaps it has too many fitting parameters), in which case it might be prudent try and justify an even more tightly constrained $\chi_{ijk}$ via some a microscopic model.
 We have already seen two such models via \cref{eq:bigshg,eq:sashg}, but the former is typically not tractable and the latter may only be valid in the presence of a spontaneous symmetry-breaking phase transition with a well-defined order parameter.
-One alternative is to model the microscopic charge degrees of freedom classically -- suppose most of the motion of charges in our solid occurs in the bonds between atoms, and that that motion is constrained to occur along the bond direction only.
+One alternative is to model the microscopic charge degrees of freedom classically---suppose most of the motion of charges in our solid occurs in the bonds between atoms, and that that motion is constrained to occur along the bond direction only.
 Then, the solid can be modeled as an ensemble of oscillating dipoles (one for each bond in the unit cell) with corresponding hyperpolarizabilities $\{\alpha_n\}$.
 Symmetry may dictate how many independent $\alpha_n$'s there are in the unit cell, but otherwise these are considered unknown and to be fit to the data.
 The electric dipole \gls{shg} response of such an ensemble was analyzed by \citet{powell_simplified_2002}, and the electric quadrupole response was later considered by \citet{bauer_bulk_2017}; the answer in both cases is quite simple:
@@ -233,7 +233,7 @@ where $\bm{b}^n$ is a unit vector in the direction of bond $n$ and the $\alpha_n
 
 When valid, this \gls{sbhm} is powerful for two reasons: for one, \cref{eq:esbhm,eq:qsbhm} typically have fewer unknown parameters than the naive, symmetry-constrained tensor $\chi_{ijk}^{P_G}$ of \cref{sec:staticanalysis}, and two, there is a direct connection between the unknown parameters $\alpha_n$ and $\gamma_n$ and the microscopic degrees of freedom.
 One can thus draw conclusions \emph{about} the microscopic degrees of freedom by fitting the \gls{shg} patterns to \cref{eq:esbhm,eq:qsbhm} (see, e.g., \citet{ron_dimensional_2019}).
-Of course, one must be careful that the assumptions of this model -- that the charges are localized to the bonds, and that the only relevant motion is along the bond direction -- are actually correct before proceeding with this sort of analysis.
+Of course, one must be careful that the assumptions of this model---that the charges are localized to the bonds, and that the only relevant motion is along the bond direction---are actually correct before proceeding with this sort of analysis.
 
 Myself and Karna Morey built a comprehensive interface to the \gls{sbhm} in Python using \texttt{pymatgen}\citep{ong_python_2013}, which takes an arbitrary \gls{cif} and calculates the relevant susceptibility tensors via \cref{eq:esbhm,eq:qsbhm}.
 The change to the susceptibility tensor induced by an elastic distortion mode ($\chi_{ijk}(q)$, where $q$ is the mode amplitude) can be computed via integration with \texttt{ISODISTORT}\citep{isodistort, campbell_isodisplace_2006}.
@@ -300,7 +300,7 @@ The idea is to take our estimate $I(t, \params_0)$ and generate new datasets $\{
 for some random variable $N_n$ which we put in by hand.
 This is called the parametric bootstrap, referring to the fact that we are estimating our true distribution $\{D_0, D_1, D_2, \ldots\}$ via the parameters $\params_0$\citep{dekking}.
 In order for the distribution of $\mathscr{D}_m$'s to faithfully represent the true distribution $\{D_0, D_1, D_2, \ldots\}$, obviously $N_n$ needs to reflect the actual noise distribution of the experiment.
-Thankfully, in pump-probe experiments, we usually know this distribution -- as long as we have enough points $(t_n, I_n)$ with $t_n<0$, we can estimate $N_n$ with a normal distribution centered about $0$ with variance $\left<(I_n)^2\right>_{<0} - \left<I_n\right>_{<0}^2$, where $\left<\cdot\right>_{<0}$ means ``average over points with $t_n<0$.''
+Thankfully, in pump-probe experiments, we usually know this distribution---as long as we have enough points $(t_n, I_n)$ with $t_n<0$, we can estimate $N_n$ with a normal distribution centered about $0$ with variance $\left<(I_n)^2\right>_{<0} - \left<I_n\right>_{<0}^2$, where $\left<\cdot\right>_{<0}$ means ``average over points with $t_n<0$.''
 
 Once we have the hypothetical datasets $\{\mathscr{D}_m\}$ (regardless of how we generated them), we proceed by estimating a $\params_m$ for each one using \cref{eq:trobjectivefunction}, and then plotting the distribution $\{\params_m - \params_0\}$; the spread of this distribution tells us the uncertainties $\sigma_i$ in each of our model coefficients.
 The important part is that these uncertainties are much more reflective of the true uncertainty in our measurement of $\params$ than the curvature of \cref{eq:trobjectivefunction} near $\params_0$, which we have argued is strictly incorrect in many cases.
