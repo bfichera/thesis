@@ -95,7 +95,7 @@ One thematic example of such a wavefunction is the so-called ``coherent state'' 
 although the real wavefunction need not be fully coherent to have a nonzero average lattice displacement.
 
 One can show (see \citet{kuznetsov_theory_1994}) that the equation of motion for the operator $D_{\vec{q}}\equiv \big<b_{\vec{q}}\big>+\big<b^\dagger_{-\vec{q}}\big>$ due to \cref{eq:electronlatticehamiltonian} is
-\begin{equation}
+\begin{equation}\label{eq:coherentoscillationwaveequation}
 \frac{\partial^2}{\partial t^2}D_{\vec{q}}+\omega^2_{\vec{q}}D_{\vec{q}} = -2\omega_{\vec{q}}\sum_{\vec{k}\sigma}V^\sigma_{\vec{k}\vec{q}}\left<c^\dagger_{\vec{k}\sigma} c_{\vec{k}+\vec{q}\sigma}\right>,
 \end{equation}
 i.e., $D_{\vec{q}}$ obeys a \emph{wave equation} with an inhomogenous part related (in this case) to the electronic subsystem.\footnote{There will also be a damping term, which may be added phenomenologically but is otherwise not considered in this treatment.}
@@ -107,5 +107,68 @@ In theory, of course, the information obtained is the same---the frequency and d
 \begin{enumerate*}[label=(\roman*)]\item[] However, as I argued at the start of this chapter, the pump-probe techniques offer a number of advantages, most notably \item the ability to design the pump and the probe to specify exactly which excitations we would like to measure, and \item the ability to measure much lower frequencies than in conventional spectroscopy due to the energy being measured in the time domain, rather than the frequency domain.\end{enumerate*}
 
 \subsection{Excitation mechanisms}
+
+The next question is how we typically excite these coherent collective oscillations in real materials.
+The truth is there are many such mechanisms; however, we can start by placing them into two generic categories.
+\emph{Impulsive} mechanisms involve using the light pulse to apply an effective force to the relevant degrees of freedom in the material, which lasts for the duration of the light pulse; i.e., it is a delta function in time.
+\emph{Displacive} mechanisms are, in contrast, typically a step function; i.e., the equilibrium position of the oscillator is different before and after the light pulse.
+One important experimental difference is that impulsive excitation results in a coordinate $D_{\vec{q}}(t)\propto\sin(\omega t)$, whereas displacive excitation results in $D_{\vec{q}}(t)\propto\cos(\omega t)$; this can be seen simply by solving
+\begin{equation}
+\frac{\partial^2}{\partial t^2}D_{\vec{q}}+\omega^2_{\vec{q}}D_{\vec{q}} = f(t)
+\end{equation}
+for $f(t)\propto \delta(t)$ or $f(t)\propto \theta(t)$, respectively.
+
+\subsubsection{In absorption}
+
+Let us consider the Hamiltonian in \cref{eq:electronlatticehamiltonian}.
+We saw that this Hamiltonian resulted in an equation of motion given by \cref{eq:coherentoscillationwaveequation}, which is a wave equation for $D_{\vec{q}}$ with a force term
+\begin{equation}\label{eq:electronlatticeforceterm}
+f(t) = -2\omega_{\vec{q}}\sum_{\vec{k}\sigma}V^\sigma_{\vec{k}\vec{q}}\left<c^\dagger_{\vec{k}\sigma} c_{\vec{k}+\vec{q}\sigma}\right>,
+\end{equation}
+where the time-dependence of the right hand side is complicated but may be phonemnologically modeled.
+For example, let us suppose that we are in a semiconductor and that photon energy of our pump pulse is greater than the band gap of the material.
+Thus, the action of the pump is to excite electrons from the valence band into the conduction band.
+On a very fast timescale (\num{0.1}--\qty{10}{fs}) these electrons thermalize with themselves via electron-electron scattering, resulting in a quasi-equilibrium carrier distribution in which electrons and holes have settled at the bottom of the conduction band and the top of the valence band, respectively.
+Since further decay of these excitations is gapped, the relaxation of this state back to equilibrium may be quite long, especially if the gap is indirect; thus, together with the assumption that the lattice dynamics happen on much longer timescales than the electron thermalization time, it is appropriate to model the force term in \cref{eq:electronlatticeforceterm} as a step function in time
+\begin{equation}
+f(t) \propto \begin{cases} 0 & t<0\\1 & t\ge 0 \end{cases}.
+\end{equation}
+
+Thus we have the generic result that above-gap excitation typically excites coherent oscillations \emph{displacively}.
+In the case that the bosons of \cref{eq:electronlatticehamiltonian} are phonons, this is known as \gls{decp}, and was studied by many authors, notably \citet{zeiger_theory_1992}.
+An important insight which follows from \cref{eq:electronlatticeforceterm} is that, in the limit where the quasi-equilibrium electron distribution doesn't break any symmetries of the original hamiltonian, the applied force also does not break any symmetries.
+Thus only totally-symmetric phonons may be excited via \gls{decp}.
+
+\subsubsection{In transparency}
+
+While the \gls{decp}-like mechanisms tend to dominate when the photon energy is above the band gap, they are forbidden in transparency.
+In this case, the dominant excitation mechanism is actually impulsive.
+Let us consider the case of a collective mode with energy $\hbar\omega_0$ which we wish to excite coherently with an ultrafast laser pulse, below the band gap.
+If the central frequency of the light pulse is resonant with the collective mode (i.e., we have $\nu_\mathrm{photon}=\hbar\omega_0$), then we may drive the coherent oscillation directly; i.e., the mode coordinate $Q$ simply follows the electric field.
+This is of course only possible if the mode carries a finite dipole moment (i.e. it is odd under parity).
+Alternatively, we will see that, under the right conditions, we can also excite coherent oscillation of low-energy collective modes even if the photon energy is far away from any direct resonance.
+
+To see this, recall that ultrafast laser pulses always have a nonzero bandwidth, proportional to the inverse of the pulse width.
+In a nonlinear optical effect known as \gls{dfg}, pairs of these frequencies may \emph{interfere} to produce electric field components at the difference frequency between the two members of the pair.
+Thus, as long as the collective mode in question has a frequency less than approximately the bandwidth $\delta \nu_\mathrm{photon}$ of the incident light pulse, there will exist pairs of frequencies $(\omega_1,\omega_2)$ in that light pulse such that $|\omega_1-\omega_2|\approx\omega_0$.
+This electric field will last for the duration of the light pulse, which may be treated as a delta function in time.
+This phenomenon is referred to as \gls{isrs}.
+
+Since the force is a delta function in time, the result indeed is an impulsive excitation where the coordinate $D_{\vec{q}}(t)\sim\sin(\omega_0t)$.
+Unlike the direct excitation mechanism mentioned above, \gls{isrs} requires two photons and the force is thus even under parity; i.e., we can only excite even-parity bosons.
+
+It is instructive at this point to consider \gls{isrs} in a phenomenological \gls{gl} model.
+We start by writing down an effective free energy
+\begin{equation}
+F = -\left[\chi_{ijk}E^*_i(\omega_0)E_j(\omega_\mathrm{photon})E^*_k(\omega_\mathrm{photon}+\omega_0)+c.c.\right]
+\end{equation}
+with some tensor of coefficients $\chi_{ijk}$ (see \cref{ch:shgtheory}).
+The effective field $\vec{P}$ produced by the pump pulse is given by
+\begin{align}
+P_i(\omega_0) &= -\frac{\partial F}{\partial E_i^*(\omega_0)}\\
+&= \chi_{ijk}E_j(\omega_\mathrm{photon})E^*_k(\omega_\mathrm{photon}+\omega_0)\\
+\end{align}
+
+
 
 \subsection{Collective modes in correlated materials}
