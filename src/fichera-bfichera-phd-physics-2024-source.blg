@@ -1,57 +1,54 @@
-This is BibTeX, Version 0.99d (TeX Live 2023)
+This is BibTeX, Version 0.99d (TeX Live 2024/Arch Linux)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: fichera-bfichera-phd-physics-2024-source.aux
 The style file: plainnat_noclutter.bst
 Database file #1: fichera-bfichera-phd-physics-2024-source.bib
-Warning--entry type for "isodistort" isn't style-file defined
---line 3309 of file fichera-bfichera-phd-physics-2024-source.bib
 Warning--I didn't find a database entry for "landau"
 Warning--I didn't find a database entry for "gell-mann"
 Warning--I didn't find a database entry for "bednorz_possible_1986"
 Warning--I didn't find a database entry for "kuznetsov_theory_1994"
-Warning--empty journal in camn2bi2
-Warning--empty journal in morey_automated_2024
-Warning--empty year in ISOTROPY
-Warning--empty year in isodistort
-You've used 113 entries,
+Warning--I didn't find a database entry for "stevens_coherent_2002"
+Warning--I didn't find a database entry for "juraschek_phono-magnetic_2020"
+Warning--I didn't find a database entry for "gridnev_phenomenological_2008"
+You've used 4 entries,
             2762 wiz_defined-function locations,
-            1442 strings with 36497 characters,
-and the built_in function-call counts, 68994 in all, are:
-= -- 5729
-> -- 5914
-< -- 43
-+ -- 1988
-- -- 1873
-* -- 6719
-:= -- 11149
-add.period$ -- 428
-call.type$ -- 113
-change.case$ -- 950
-chr.to.int$ -- 111
-cite$ -- 230
-duplicate$ -- 2308
-empty$ -- 4298
-format.name$ -- 2024
-if$ -- 13808
-int.to.chr$ -- 3
+            634 strings with 6872 characters,
+and the built_in function-call counts, 4339 in all, are:
+= -- 323
+> -- 534
+< -- 1
++ -- 178
+- -- 174
+* -- 464
+:= -- 730
+add.period$ -- 15
+call.type$ -- 4
+change.case$ -- 70
+chr.to.int$ -- 4
+cite$ -- 8
+duplicate$ -- 78
+empty$ -- 159
+format.name$ -- 180
+if$ -- 829
+int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 123
-newline$ -- 658
-num.names$ -- 455
-pop$ -- 1751
+missing$ -- 3
+newline$ -- 31
+num.names$ -- 16
+pop$ -- 135
 preamble$ -- 1
-purify$ -- 850
+purify$ -- 66
 quote$ -- 0
-skip$ -- 1937
+skip$ -- 105
 stack$ -- 0
-substring$ -- 2055
-swap$ -- 205
-text.length$ -- 1
+substring$ -- 95
+swap$ -- 8
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1163
-warning$ -- 4
-while$ -- 472
+type$ -- 44
+warning$ -- 0
+while$ -- 18
 width$ -- 0
-write$ -- 1630
-(There were 9 warnings)
+write$ -- 64
+(There were 7 warnings)

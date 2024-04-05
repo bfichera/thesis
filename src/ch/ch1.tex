@@ -113,7 +113,7 @@ The truth is there are many such mechanisms; however, we can start by placing th
 \emph{Impulsive} mechanisms involve using the light pulse to apply an effective force to the relevant degrees of freedom in the material, which lasts for the duration of the light pulse; i.e., it is a delta function in time.
 \emph{Displacive} mechanisms are, in contrast, typically a step function; i.e., the equilibrium position of the oscillator is different before and after the light pulse.
 One important experimental difference is that impulsive excitation results in a coordinate $D_{\vec{q}}(t)\propto\sin(\omega t)$, whereas displacive excitation results in $D_{\vec{q}}(t)\propto\cos(\omega t)$; this can be seen simply by solving
-\begin{equation}
+\begin{equation}\label{eq:Dqequationofmotion}
 \frac{\partial^2}{\partial t^2}D_{\vec{q}}+\omega^2_{\vec{q}}D_{\vec{q}} = f(t)
 \end{equation}
 for $f(t)\propto \delta(t)$ or $f(t)\propto \theta(t)$, respectively.
@@ -158,17 +158,94 @@ Since the force is a delta function in time, the result indeed is an impulsive e
 Unlike the direct excitation mechanism mentioned above, \gls{isrs} requires two photons and the force is thus even under parity; i.e., we can only excite even-parity bosons.
 
 It is instructive at this point to consider \gls{isrs} in a phenomenological \gls{gl} model.
-We start by writing down an effective free energy
-\begin{equation}
-F = -\left[\chi_{ijk}E^*_i(\omega_0)E_j(\omega_\mathrm{photon})E^*_k(\omega_\mathrm{photon}+\omega_0)+c.c.\right]
+We start by writing down an effective free energy\citep{stevens_coherent_2002}
+\begin{equation}\label{eq:isrsfreeenergy}
+F = -\chi_{ij}E_i(t)E_j(t)Q
 \end{equation}
-with some tensor of coefficients $\chi_{ijk}$ (see \cref{ch:shgtheory}).
-The effective field $\vec{P}$ produced by the pump pulse is given by
+where $\vec{E}(t)$ is the incident electric field, $Q$ the mode coordinate,\footnote{Here we treat the mode $Q$ as nondegenerate, although the generalization to the degenerate case is straightforward.} and $\chi_{ij}$ is some tensor of coefficients (see \cref{ch:shgtheory}).
+The effective force $f$ due to \cref{eq:isrsfreeenergy} is
 \begin{align}
-P_i(\omega_0) &= -\frac{\partial F}{\partial E_i^*(\omega_0)}\\
-&= \chi_{ijk}E_j(\omega_\mathrm{photon})E^*_k(\omega_\mathrm{photon}+\omega_0)\\
+f &= -\frac{\partial F}{\partial Q}\\
+&= \chi_{ij}E_i(t)E_j(t)
 \end{align}
+which appears on the right hand side of \cref{eq:Dqequationofmotion}.
+Clearly, if the $\vec{E}(t)$ has Fourier components $\omega_1$ and $\omega_2$ such that $|\omega_1-\omega_2|\approx\omega_0$, then the force will be \emph{resonant} with the oscillator frequency.
 
-
+Some interesting insights may be made in light of \cref{eq:isrsfreenergy}.
+Let us consider for example the limit where the ``mode'' $Q$ is a static magnetization $M_k$.
+The free energy reads\citep{juraschek_phono-magnetic_2020}
+\begin{equation}
+F = -\chi_{ijk}E_i(t)E_j(t)M_k,
+\end{equation}
+where we have expanded $\chi_{ij}$ to linear order in $\vec{M}$.
+Then, there is an \emph{effective magnetic field}
+\begin{align}
+H^\mathrm{eff}_k &= \frac{\partial F}{\partial M_k}\\
+&= \chi_{ijk}E_i(t)E_j(t)
+\end{align}
+which exists for the duration of the pump pulse.
+This is the \gls{ife}, which may thus be thought of as a particular limit of \gls{isrs}.\footnote{Despite the similarities presented here, the two effects are actually quite different. For example, the spectral content of the pump pulse in the \gls{ife} does not change before and after interacting with the sample\citep{gridnev_phenomenological_2008}.}
+A similar effect (known as the \gls{icme}) is also present; expanding $\chi_{ij}$ to second order in $\vec{M}$, we have
+\begin{equation}
+F = -\chi_{ijkl}E_i(t)E_j(t)M_kM_l
+\end{equation}
+and
+\begin{align}
+H^\mathrm{eff}_l &= \frac{\partial F}{\partial M_l}\\
+&= \chi_{ijkl}E_i(t)E_j(t)M_k,
+\end{align}
+which, in contrast to the \gls{ife}, may occur when the pump is linearly polarized.
+The \gls{icme} is also available in \glspl{afm}; writing
+\begin{equation}
+F = -\chi_{ijkl}E_i(t)E_j(t)L_kL_l,
+\end{equation}
+where $\vec{L}$ is the \neel vector (defined as the different in sublattice magnetizations), we have
+\begin{align}
+H^\mathrm{eff}_l &= \frac{\partial F}{\partial L_l}\\
+&= \chi_{ijkl}E_i(t)E_j(t)L_k.
+\end{align}
+A full treatment of these and related effects is beyond the scope of this work;\footnote{See \citet{kirilyuk_ultrafast_2010} for a comprehensive review.} the point is just to make a connection between the many different impulsive excitation mechanisms.
 
 \subsection{Collective modes in correlated materials}
+
+\subsubsection{Phase transitions and Goldstone's theorem}
+
+In this section we illustrate one way we can understand the low-energy collective modes of a given material system without knowing precisely the form of the interaction Hamiltonian in \cref{eq:interactionhamiltonian}.
+The important insight is that we can simply write down all of the \emph{symmetry-allowed} terms in the Hamiltonian (or, at nonzero temperature, the free energy), and examine fluctuations near a phase transition where some order parameter takes on a nonzero value.
+In doing so, we find quite generally Goldstone's result that there is a gapless collective mode at the $\Gamma$ point for each spontaneously broken symmetry.
+We also see that, in addition to the gapless Goldstone bosons, we also get a gapped \emph{amplitude} mode which may be measurable in certain circumstances.
+The goal of this section is not to give a rigorous proof of Goldstone's theorem, but to illustrate how it comes about in a very simple model.
+
+Let us consider the \gls{gl} free energy density in the case of superfluidity, which is a functional of the coarse-grained order parameter $\Psi(\vec{x}) \equiv \psi(\vec{x})e^{i\theta(\vec{x})}$ and whose lowest-order terms are
+\begin{equation}\label{eq:glfreeenergydensity}
+f[\Psi(\vec{x})] = -\frac{t}{2}|\Psi(\vec{x})|^2+\frac{u}{4}|\Psi(\vec{x})|^4+\frac{K}{2}|\nabla \Psi(\vec{x})|^2,
+\end{equation}
+where $u,K>0$ and $t=(T_c-T)/T_c$.
+Clearly at all temperatures the minimum of \cref{eq:glfreeenergydensity} is spatially uniform, but for $T<T_c$ it occurs at a finite value of $\psi(\vec{x})$ (see \cref{fig:glfreeenergydensity})
+\begin{equation}
+\Psi(\vec{x}) = \overline{\psi} \equiv \sqrt{\frac{t}{u}},
+\end{equation}
+where we have (without loss of generality) set $\overline{\theta} = 0$.
+Now consider fluctuations $\delta \theta(\vec{x})$ in the phase of the order parameter $\Psi$.
+We have
+\begin{equation}
+f[\overline{\psi}e^{i\delta \theta}] = f[\overline{\psi}]+\frac{K\overline{\psi}^2}{2}|\nabla \delta \theta(\vec{x})|^2,
+\end{equation}
+where we have used that $-t+u\overline{\psi}^2=0$.
+Let us write the fluctuation $\delta \theta(\vec{x})$ in terms of its Fourier transform
+\begin{equation}
+\delta \theta(\vec{x}) = \sum_{\vec{q}} e^{i\vec{q}\cdot\vec{x}}\delta \theta_{\vec{q}}.
+\end{equation}
+Then we have
+\begin{equation}
+F[\overline{\psi}e^{i\delta \theta(\vec{x})}] \equiv \int f[\overline{\psi}e^{i\delta\theta(\vec{x})}] \, d^3\vec{x} = F[\overline{\psi}]+\frac{KV\overline{\psi}^2}{2}\sum_{\vec{q}} q^2|\delta \theta_{\vec{q}}|^2.
+\end{equation}
+Thus, uniform ($\vec{q}=0$) fluctuations in the phase of $\Psi$ cost zero energy, and long-wavelength ($\vec{q}\approx0$) fluctuations in the phase of $\Psi$ cost very little energy.
+These are our Goldstone modes
+
+\subsubsection{Phonons}
+\subsubsection{Magnons}
+\subsubsection{Electromagnons}
+\subsubsection{Plasmons}
+\subsubsection{Excitons}
+\subsubsection{Orbitons}
