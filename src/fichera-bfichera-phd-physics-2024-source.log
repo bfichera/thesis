@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.1)  5 APR 2024 16:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.26)  6 APR 2024 11:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1757,9 +1757,34 @@ efined on input line 187.
 LaTeX Warning: Reference `fig:glfreeenergydensity' on page 1 undefined on input
  line 224.
 
-[22]) [23] [24
+[22]
 
-] (./fichera-bfichera-phd-physics-2024-source.bbl [25] [26
+Package natbib Warning: Citation `jain_higgs_2017' on page 23 undefined on inpu
+t line 258.
+
+
+Package natbib Warning: Citation `measson_amplitude_2014' on page 23 undefined 
+on input line 259.
+
+
+Package natbib Warning: Citation `wang_axial_2022' on page 23 undefined on inpu
+t line 259.
+
+
+Package natbib Warning: Citation `hong_higgs_2017' on page 23 undefined on inpu
+t line 259.
+
+
+Package natbib Warning: Citation `jain_higgs_2017' on page 23 undefined on inpu
+t line 259.
+
+
+Package natbib Warning: Citation `pekker_amplitude_2015' on page 23 undefined o
+n input line 259.
+
+[23]) [24] (./fichera-bfichera-phd-physics-2024-source.bbl [25
+
+] [26
 
 ])
 
@@ -1793,12 +1818,12 @@ Package rerunfilecheck Info: File `fichera-bfichera-phd-physics-2024-source.out
 (rerunfilecheck)             Checksum: A0E00ACA744834E6B95E30C9AB10B40F;1597.
  ) 
 Here is how much of TeX's memory you used:
- 36459 strings out of 474963
- 684182 string characters out of 5774096
+ 36471 strings out of 476000
+ 684296 string characters out of 5792233
  1940187 words of memory out of 5000000
- 57783 multiletter control sequences out of 15000+600000
- 602639 words of font info for 318 fonts, out of 8000000 for 9000
- 725 hyphenation exceptions out of 8191
+ 57622 multiletter control sequences out of 15000+600000
+ 602975 words of font info for 325 fonts, out of 8000000 for 9000
+ 59 hyphenation exceptions out of 8191
  115i,12n,120p,2420b,980s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
@@ -1814,11 +1839,11 @@ e/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-d
 ist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/
 palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
 </usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on fichera-bfichera-phd-physics-2024-source.pdf (28 pages, 25274
-3 bytes).
+Output written on fichera-bfichera-phd-physics-2024-source.pdf (28 pages, 25608
+8 bytes).
 PDF statistics:
- 361 PDF objects out of 1000 (max. 8388607)
- 294 compressed objects within 3 object streams
- 87 named destinations out of 1000 (max. 500000)
+ 363 PDF objects out of 1000 (max. 8388607)
+ 296 compressed objects within 3 object streams
+ 89 named destinations out of 1000 (max. 500000)
  79965 words of extra memory for PDF output out of 89155 (max. 10000000)
 

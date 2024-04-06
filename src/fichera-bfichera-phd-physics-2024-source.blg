@@ -10,9 +10,14 @@ Warning--I didn't find a database entry for "kuznetsov_theory_1994"
 Warning--I didn't find a database entry for "stevens_coherent_2002"
 Warning--I didn't find a database entry for "juraschek_phono-magnetic_2020"
 Warning--I didn't find a database entry for "gridnev_phenomenological_2008"
+Warning--I didn't find a database entry for "jain_higgs_2017"
+Warning--I didn't find a database entry for "measson_amplitude_2014"
+Warning--I didn't find a database entry for "wang_axial_2022"
+Warning--I didn't find a database entry for "hong_higgs_2017"
+Warning--I didn't find a database entry for "pekker_amplitude_2015"
 You've used 4 entries,
             2762 wiz_defined-function locations,
-            634 strings with 6872 characters,
+            639 strings with 6960 characters,
 and the built_in function-call counts, 4339 in all, are:
 = -- 323
 > -- 534
@@ -51,4 +56,4 @@ warning$ -- 0
 while$ -- 18
 width$ -- 0
 write$ -- 64
-(There were 7 warnings)
+(There were 12 warnings)
