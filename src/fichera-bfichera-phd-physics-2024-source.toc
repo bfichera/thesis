@@ -11,10 +11,5 @@
 \contentsline {subsubsection}{In transparency}{20}{section*.5}%
 \contentsline {subsection}{\numberline {1.1.4}Collective modes in correlated materials}{22}{subsection.1.1.4}%
 \contentsline {subsubsection}{Phase transitions and Goldstone's theorem}{22}{section*.6}%
-\contentsline {subsubsection}{Phonons}{24}{section*.7}%
-\contentsline {subsubsection}{Magnons}{24}{section*.8}%
-\contentsline {subsubsection}{Electromagnons}{24}{section*.9}%
-\contentsline {subsubsection}{Plasmons}{24}{section*.10}%
-\contentsline {subsubsection}{Excitons}{24}{section*.11}%
-\contentsline {subsubsection}{Orbitons}{24}{section*.12}%
-\contentsline {chapter}{Bibliography}{27}{chapter*.13}%
+\contentsline {subsubsection}{Example: electromagnons in multiferroics}{24}{section*.7}%
+\contentsline {chapter}{Bibliography}{29}{chapter*.8}%

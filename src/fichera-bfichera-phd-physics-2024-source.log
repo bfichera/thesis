@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.26)  6 APR 2024 11:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.26)  6 APR 2024 15:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1782,9 +1782,22 @@ t line 259.
 Package natbib Warning: Citation `pekker_amplitude_2015' on page 23 undefined o
 n input line 259.
 
-[23]) [24] (./fichera-bfichera-phd-physics-2024-source.bbl [25
+[23]
 
-] [26
+LaTeX Warning: Reference `ch:cubr2' on page 1 undefined on input line 266.
+
+[24]
+
+Package natbib Warning: Citation `katsura_spin_2005' on page 25 undefined on in
+put line 278.
+
+
+Package natbib Warning: Citation `katsura_spin_2005' on page 25 undefined on in
+put line 279.
+
+) [25] [26
+
+] (./fichera-bfichera-phd-physics-2024-source.bbl [27] [28
 
 ])
 
@@ -1794,7 +1807,7 @@ Package natbib Warning: There were undefined citations.
 Package caption Warning: Unused \captionsetup[subfigure] on input line 24.
 See the caption package documentation for explanation.
 
-[27] [28]
+[29] [30]
 \tf@toc=\write6
 \openout6 = `fichera-bfichera-phd-physics-2024-source.toc'.
 
@@ -1815,11 +1828,11 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `fichera-bfichera-phd-physics-2024-source.out
 ' has not changed.
-(rerunfilecheck)             Checksum: A0E00ACA744834E6B95E30C9AB10B40F;1597.
+(rerunfilecheck)             Checksum: 83BD2ED9D37E5FB075CF7E1AEE9A75CB;1596.
  ) 
 Here is how much of TeX's memory you used:
- 36471 strings out of 476000
- 684296 string characters out of 5792233
+ 36469 strings out of 476000
+ 684266 string characters out of 5792233
  1940187 words of memory out of 5000000
  57622 multiletter control sequences out of 15000+600000
  602975 words of font info for 325 fonts, out of 8000000 for 9000
@@ -1839,11 +1852,11 @@ e/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-d
 ist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/
 palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
 </usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on fichera-bfichera-phd-physics-2024-source.pdf (28 pages, 25608
-8 bytes).
+Output written on fichera-bfichera-phd-physics-2024-source.pdf (30 pages, 25912
+6 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
- 296 compressed objects within 3 object streams
- 89 named destinations out of 1000 (max. 500000)
+ 368 PDF objects out of 1000 (max. 8388607)
+ 299 compressed objects within 3 object streams
+ 87 named destinations out of 1000 (max. 500000)
  79965 words of extra memory for PDF output out of 89155 (max. 10000000)
 
