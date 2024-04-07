@@ -208,7 +208,7 @@ A full treatment of these and related effects is beyond the scope of this work;\
 
 \subsection{Collective modes in correlated materials}
 
-\subsubsection{Phase transitions and Goldstone's theorem}
+\subsubsection{Phase transitions and Goldstone's theorem}\label{sec:superfluidgoldstone}
 
 In this section we illustrate one way we can understand the low-energy collective modes of a given material system without knowing precisely the form of the interaction Hamiltonian in \cref{eq:interactionhamiltonian}.
 The important insight is that we can simply write down all of the \emph{symmetry-allowed} terms in the Hamiltonian (or, at nonzero temperature, the free energy), and examine fluctuations near a phase transition where some order parameter takes on a nonzero value.
@@ -277,12 +277,52 @@ Here we will focus on type-II multiferroics, not only because they tend to be mo
 The central question is then: can we describe (microscopically) how ferroelectricity may appear as a \emph{result} of long-range magnetic order?
 A critical insight due to \citet{katsura_spin_2005} is that type-II multiferroicity can happen in quasi-\oned Mott insulators when spin-orbit coupling is strong and the spins are ordered in a \emph{magnetic spiral}.
 \citet{katsura_spin_2005} consider a \num{3}-site \oned cluster model in which two transition metal ions with local spin-orbit coupled $d$ electron orbitals interact via superexchange across an intermediate ligand atom (with an associated set of $p$ orbitals).
+The tendency towards magnetic ordering is put in by hand, by placing a local spin at each transition metal site $j$ in the direction $\hat{e}_j = (\cos\phi_j \sin\theta_j, \sin\phi_j \sin\theta_j, \cos\theta_j)$, and letting the $d$ spins $\vec{S}_j$ interact with these local spins via a Hamiltonian $H_U=-U\sum_j \hat{e}_j\cdot \vec{S}_j$.
+They find quite generally the following geometrical relation between the spin directions $\hat{e}_j$ and an \emph{induced} polarization $\vec{P}$:
+\begin{equation}\label{eq:knbtheoryequation}
+\vec{P} \propto \hat{e}_{12}\times(\hat{e}_1\times\hat{e}_2)
+\end{equation}
+where $\hat{e}_{12}$ is the unit vector parallel to the bond connecting the two transition metal sites.
 
-how to get spiral order? j1/j2 
+Clearly if $\hat{e}_1$ and $\hat{e}_2$ are either parallel or anti-parallel to one another, there is no induced polarization.
+However, if the magnetic order is \emph{noncolinear}, and the spin plane is not perpendicular the chain direction, an induced polarization appears via \cref{eq:knbtheoryequation}.
+This explains very generally the multiferroicity of many noncollinear magnets.
+The multiferroic state thus described is also clearly ``type-II'', since the polarization is zero absent the magnetic ordering.
+Heuristically, such a spiral magnetic order may occur due to competition between a ferromagnetic nearest neighbor exchange interaction $J_1$ and an antiferromagnetic next-nearest neighbor interaction $J_2$ in a \oned spin chain; for $|J_2/J_1|<4$ one can show that the ground state is such a noncollinear spiral.
 
+Let us now consider the low-energy excitations of such a \oned chain.
+The Hamiltonian may be written as
+\begin{equation}\label{eq:knbhamiltonian}
+H=H_1+H_2+H_3+H_4,
+\end{equation}
+where
+\begin{equation}
+H_1 = \sum_i J_1\vec{S}_i\cdot\vec{S}_{i+1}+J_2\vec{S}_i\cdot\vec{S}_{i+2},
+\end{equation}
+\begin{equation}\label{eq:knbpolarizationcoupling}
+H_2 = -\lambda \sum_i \vec{u}_i\cdot [\hat{x}\times (\vec{S}_i\times\vec{S}_{i+1})],
+\end{equation}
+\begin{equation}
+H_3 = \sum_i \frac{\kappa}{2}\vec{u}_i^2+\frac{1}{2m}\vec{P}_i^2,
+\end{equation}
+and
+\begin{equation}\label{eq:knbanisotropy}
+H_4 = \sum_i D(S^z_i)^2.
+\end{equation}
+This Hamiltonian describes a \oned spin chain along $\hat{x}$ interacting with a charge coordinate $u_i$ (with conjugate momentrum $P_i$) via \cref{eq:knbtheoryequation}.
+The anisotropy $D>0$ pins the magnetic order to the $xy$ plane.
+As discussed above, for $|J_2/J_1|<4$ the ground state is a noncollinear spin spiral with spins lying in the $xy$ plane, and the relative angle between adjacent spins is defined by some quantity $\phi\neq 0,\pi$ which is related to $|J_2/J_1|$.
 
+\citet{katsura_dynamical_2007} discuss the low-lying excitations of this ground state in light of \cref{eq:knbhamiltonian}.
+First of all, clearly uniform rotations of all of the spins in the chain cost zero energy; this is the \emph{Goldstone mode} of \cref{eq:knbhamiltonian}, and is in direct analogy with the Goldstone mode of the superfluid discussed in \cref{sec:superfluidgoldstone}.
 
+If we temporarily set $D\rightarrow 0^+$ in \cref{eq:knbanisotropy}, we may also observe that, in this limit, uniform rotations of the spin spiral \emph{about the chain axis} also cost zero energy.
+This mode is also a Goldstone mode, although in this case it is due to the spontaneous breaking of the $\hat{x}$ rotational symmetry rather than the $\hat{z}$ rotational symmetry.
+For nonzero $D$, this mode of course acquires a finite energy; it is thus referred to as the \emph{pseudo}-Goldstone mode, to highlight the fact that the symmetry is explicitly broken by the Hamiltonian rather than spontaneously broken.
 
+The pseudo-Goldstone mode, however, is still quite interesting---note that, due to \cref{eq:knbpolarizationcoupling} and \cref{eq:knbtheoryequation}, a rotation of the spins about the chain axis \emph{also} rotates the induced polarization about that axis.
+This mode is thus our first encounter with an electromagnon, which is any spin boson that acquires a finite electric dipole moment due to coupling to the charge degrees of freedom.
 
-
+Electromagnons are in fact an intrinsic feature of multiferroics, and what we have discussed above is by no means the only mechanism by which such modes may be achieved.\footnote{For example, in cases where magnetoelastic coupling is strong, a multi-particle excitation in which a spin boson couples to a phonon, and a phonon then couples to the electric polarization, is possible and common\citep{takahashi_magnetoelectric_2012}.}
+While a complete description of electromagnons and multiferroics is beyond the scope of this work (see \citet{cheong_multiferroics_2007} and \citet{fiebig_evolution_2016} for review), I hope to have nevertheless motivated the idea that elementary excitations in correlated systems may still be understood in the context of broken symmetries and the \gls{gl} paradigm---a notion that we will encounter frequently in the course of this thesis.
 

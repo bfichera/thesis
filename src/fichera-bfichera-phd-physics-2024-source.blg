@@ -16,9 +16,13 @@ Warning--I didn't find a database entry for "wang_axial_2022"
 Warning--I didn't find a database entry for "hong_higgs_2017"
 Warning--I didn't find a database entry for "pekker_amplitude_2015"
 Warning--I didn't find a database entry for "katsura_spin_2005"
+Warning--I didn't find a database entry for "katsura_dynamical_2007"
+Warning--I didn't find a database entry for "takahashi_magnetoelectric_2012"
+Warning--I didn't find a database entry for "cheong_multiferroics_2007"
+Warning--I didn't find a database entry for "fiebig_evolution_2016"
 You've used 4 entries,
             2762 wiz_defined-function locations,
-            640 strings with 6977 characters,
+            644 strings with 7075 characters,
 and the built_in function-call counts, 4339 in all, are:
 = -- 323
 > -- 534
@@ -57,4 +61,4 @@ warning$ -- 0
 while$ -- 18
 width$ -- 0
 write$ -- 64
-(There were 13 warnings)
+(There were 17 warnings)

@@ -12,4 +12,4 @@
 \contentsline {subsection}{\numberline {1.1.4}Collective modes in correlated materials}{22}{subsection.1.1.4}%
 \contentsline {subsubsection}{Phase transitions and Goldstone's theorem}{22}{section*.6}%
 \contentsline {subsubsection}{Example: electromagnons in multiferroics}{24}{section*.7}%
-\contentsline {chapter}{Bibliography}{29}{chapter*.8}%
+\contentsline {chapter}{Bibliography}{31}{chapter*.8}%
