@@ -341,18 +341,34 @@ We will discuss both cases below.
 
 \subsection{Incoherent}
 
-\subsubsection{Heating}
+\subsubsection{Heating across a phase transition}
 
 The most basic level of ultrafast control is to use the light pulse simply to heat the material; if the initial and final temperatures lie below and above an equilibrium phase transition, then ultrafast control has been achieved.
 This is a somewhat trivial mechanism, but it played an important part in early research on ultrafast control, especially in materials where dynamical phase control \emph{not} based on heating was rare or difficult (such as antiferromagnetis\citep{kimel_laser-induced_2004}).
 In addition, interactions between the sample area melted by the pump pulse and the surrounding unpumped area may cause interesting effects, such as magnetization reversal in ferromagnetic thin films due to the stray field of the unpumped sample volume\citep{ogasawara_submicron-scale_2009}.
 We are more interested, however, in \emph{nonthermal} ultrafast phenomena---that is, dynamical phenomena which cannot be replicated quasi-adiabatically.
 
+\subsubsection{Ultrafast quench}
+
+One example of such a phonemonon is the ultrafast quench (or ``nonthermal melting'') of some equilibrium order parameter via photoexcitation of electrons by the pump pulse.
+Let us consider, for example, the case discussed briefly in the beginning of this chapter of a quasi-\oned Fermi liquid which becomes gapped by a periodic lattice distortion (i.e. via the Peierls mechanism).
+The basis for this mechanism is that quasiparticles near the Fermi vector in the undistorted Fermi liquid decrease their energy when the gap is opened via hybridization of folded bands, which happens at the expense of some energy gain associated with distorting the lattice away from its equilibrium configuration.
+When light is incident on this system in the distorted phase,\footnote{Let us say that the pump photon energy is above the Peierls gap.} quasiparticles are excited \emph{away} from the valence band top, and the energy savings we gained by distorting the lattice disappears.
+The system thus relaxes back to its previous configuration and we lose our periodic lattice distortion---the light pulse destroyed the \gls{lro}.
+
+Note that this is referred to as a \emph{nonthermal} effect, even though for typical metals the quasiparticles experience an effective temperature change in this picture on the order of \qty{e3}{K}\citep{rethfeld_ultrafast_2002}.
+Nevertheless, the dynamical phase transition we just described proceeds, by construction, via the creation of a \emph{nonequilibrium} distribution of photoexcited electrons, and in this sense it is nonthermal.
+There is often difficulty encountered in \emph{proving} that the action of the pump is truly nonthermal.
+Indeed, the existence of an ordered phase implies some finite temperature $T_c$ where that order is destroyed by equilibrium thermal fluctuations---it is the job of the experimenter to show that the laser pulse is not simply heating the material above this critical temperature.
+This is obvious if the phenomenology following the quench (see the next section) is in any case not reproduced in equilibrium, but may also be shown (heuristically) by dividing the energy absorbed by the material from the pulse by the heat capacity.
+
+
 
 % What control means - using phase transitions DONE
 % Types of control - incoherent and coherent DONE
-% Incoherent - melting of CDW
-% Incoherent can still be nonthermal - compare pumped sample to equilibrium phase diagram
+% Heating DONE
+% Incoherent - melting of CDW DONE
+% Incoherent can still be nonthermal - compare pumped sample to equilibrium phase diagram DONE
 % Dynamical phase transitions Metastable states and sun+millis; LLG equations
 % Control as spectroscopy
 % Coherent - lattice control of magnetism

@@ -14,5 +14,6 @@
 \contentsline {subsubsection}{Example: electromagnons in multiferroics}{24}{section*.7}%
 \contentsline {section}{\numberline {1.2}Control}{27}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Incoherent}{28}{subsection.1.2.1}%
-\contentsline {subsubsection}{Heating}{28}{section*.8}%
-\contentsline {chapter}{Bibliography}{31}{chapter*.9}%
+\contentsline {subsubsection}{Heating across a phase transition}{28}{section*.8}%
+\contentsline {subsubsection}{Ultrafast quench}{28}{section*.9}%
+\contentsline {chapter}{Bibliography}{33}{chapter*.10}%
