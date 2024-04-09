@@ -72,7 +72,7 @@ Suppose we didn't know the ground state of the system, but we did know that the 
 This is good evidence that the ground state of the system involves this coupling to some extent.
 Thus, we have learned something quite important about our system without doing anything but look at the low-energy collective excitations.
 
-\subsection{Coherent oscillations}
+\subsection{Coherent oscillations}\label{sec:coherentoscillations}
 
 Clearly understanding the low-energy excitations corresponding to a given ground state is a useful way to understand its properties.
 So far, however, we have made no mention of how to \emph{probe} these excitations in pump-probe spectroscopy.
@@ -326,3 +326,34 @@ This mode is thus our first encounter with an electromagnon, which is any spin b
 Electromagnons are in fact an intrinsic feature of multiferroics, and what we have discussed above is by no means the only mechanism by which such modes may be achieved.\footnote{For example, in cases where magnetoelastic coupling is strong, a multi-particle excitation in which a spin boson couples to a phonon, and a phonon then couples to the electric polarization, is possible and common\citep{takahashi_magnetoelectric_2012}.}
 While a complete description of electromagnons and multiferroics is beyond the scope of this work (see \citet{cheong_multiferroics_2007} and \citet{fiebig_evolution_2016} for review), I hope to have nevertheless motivated the idea that elementary excitations in correlated systems may still be understood in the context of broken symmetries and the \gls{gl} paradigm---a notion that we will encounter frequently in the course of this thesis.
 
+\section{Control}
+
+From a technological perspective, ultrafast spectroscopy is useful because it helps us understand the physics of materials in equilibrium and how those materials might function in practical applications.
+Ultrafast control is different in the sense that it seeks to understand the different ways we can \emph{manipulate} materials, with the idea that the knowledge thus gained may be used as a control scheme in some future technology, whether that involves using light or some other stimulus.
+The material of study is thus of a different kind of importance in ultrafast control---we are more interested in the phenomenology of the light-matter interaction rather than the phenomenology of the material itself.
+Usually the phenomenology of interest is, for example, being able to control the \emph{state} of the material (like the direction of a magnetization, or the presence of a charge density wave) using light.
+
+In my view, the dynamics relevant for ultrafast control fall into two categories.
+In one case, the dynamics following the light pulse are \emph{coherent}; that is, the light field, for instance, excites coherent oscillations (see \cref{sec:coherentoscillations}), and those coherent oscillations drive the system to a new state.\footnote{Here I take the view that simply exciting coherent oscillations (i.e. without a dynamical phase transition) is \emph{not} coherent control, but some may disagree with this point perspective, especially when the amplitude of such oscillations are large.}
+In contrast, \emph{incoherent} dynamics do not involve coherent oscillations of any degrees of freedom; instead, the light is used to, for example, heat the material, or excite quasiparticles away from the Fermi surface.
+This can also drive the material into a different (nonequilibrium) state, for example by quenching some \gls{lro} of the electrons near the Fermi surface, but the mechanism is qualitatively different from the coherent case.
+We will discuss both cases below.
+
+\subsection{Incoherent}
+
+\subsubsection{Heating}
+
+The most basic level of ultrafast control is to use the light pulse simply to heat the material; if the initial and final temperatures lie below and above an equilibrium phase transition, then ultrafast control has been achieved.
+This is a somewhat trivial mechanism, but it played an important part in early research on ultrafast control, especially in materials where dynamical phase control \emph{not} based on heating was rare or difficult (such as antiferromagnetis\citep{kimel_laser-induced_2004}).
+In addition, interactions between the sample area melted by the pump pulse and the surrounding unpumped area may cause interesting effects, such as magnetization reversal in ferromagnetic thin films due to the stray field of the unpumped sample volume\citep{ogasawara_submicron-scale_2009}.
+We are more interested, however, in \emph{nonthermal} ultrafast phenomena---that is, dynamical phenomena which cannot be replicated quasi-adiabatically.
+
+
+% What control means - using phase transitions DONE
+% Types of control - incoherent and coherent DONE
+% Incoherent - melting of CDW
+% Incoherent can still be nonthermal - compare pumped sample to equilibrium phase diagram
+% Dynamical phase transitions Metastable states and sun+millis; LLG equations
+% Control as spectroscopy
+% Coherent - lattice control of magnetism
+% Nonlinear phononics; coherently driven dynamical phase transition

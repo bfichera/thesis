@@ -1,4 +1,4 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{5}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -31,6 +31,14 @@ T.W.B Kibble and G.R Pickett.
 \newblock \emph{Phil. Trans. R. Soc. A.}, 366\penalty0 (1877):\penalty0
   2793--2802, August 2008.
 \newblock \doi{10.1098/rsta.2008.0098}.
+
+\bibitem[Kimel et~al.(2004)Kimel, Kirilyuk, Tsvetkov, Pisarev, and
+  Rasing]{kimel_laser-induced_2004}
+A.~V. Kimel, A.~Kirilyuk, A.~Tsvetkov, R.~V. Pisarev, and Th. Rasing.
+\newblock Laser-induced ultrafast spin reorientation in the antiferromagnet
+  \ce{TmFeO3}.
+\newblock \emph{Nature}, 429\penalty0 (6994):\penalty0 850--853, June 2004.
+\newblock \doi{10.1038/nature02659}.
 
 \bibitem[Kirilyuk et~al.(2010)Kirilyuk, Kimel, and
   Rasing]{kirilyuk_ultrafast_2010}
