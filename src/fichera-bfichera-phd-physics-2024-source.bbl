@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{6}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -47,6 +47,13 @@ Andrei Kirilyuk, Alexey~V. Kimel, and Theo Rasing.
 \newblock \emph{Rev. Mod. Phys.}, 82\penalty0 (3):\penalty0 2731--2784,
   September 2010.
 \newblock \doi{10.1103/RevModPhys.82.2731}.
+
+\bibitem[Sun and Millis(2020)]{sun_transient_2020}
+Zhiyuan Sun and Andrew~J. Millis.
+\newblock Transient {Trapping} into {Metastable} {States} in {Systems} with
+  {Competing} {Orders}.
+\newblock \emph{Phys. Rev. X}, 10\penalty0 (2):\penalty0 021028, May 2020.
+\newblock \doi{10.1103/PhysRevX.10.021028}.
 
 \bibitem[Zeiger et~al.(1992)Zeiger, Vidal, Cheng, Ippen, Dresselhaus, and
   Dresselhaus]{zeiger_theory_1992}

@@ -22,45 +22,45 @@ Warning--I didn't find a database entry for "cheong_multiferroics_2007"
 Warning--I didn't find a database entry for "fiebig_evolution_2016"
 Warning--I didn't find a database entry for "ogasawara_submicron-scale_2009"
 Warning--I didn't find a database entry for "rethfeld_ultrafast_2002"
-You've used 5 entries,
+You've used 6 entries,
             2762 wiz_defined-function locations,
-            657 strings with 7416 characters,
-and the built_in function-call counts, 4961 in all, are:
-= -- 378
-> -- 582
-< -- 1
-+ -- 194
-- -- 189
-* -- 528
-:= -- 828
-add.period$ -- 19
-call.type$ -- 5
-change.case$ -- 78
-chr.to.int$ -- 5
-cite$ -- 10
-duplicate$ -- 99
-empty$ -- 200
-format.name$ -- 196
-if$ -- 954
+            667 strings with 7664 characters,
+and the built_in function-call counts, 5411 in all, are:
+= -- 420
+> -- 603
+< -- 2
++ -- 201
+- -- 195
+* -- 567
+:= -- 897
+add.period$ -- 23
+call.type$ -- 6
+change.case$ -- 83
+chr.to.int$ -- 6
+cite$ -- 12
+duplicate$ -- 119
+empty$ -- 239
+format.name$ -- 205
+if$ -- 1049
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 4
-newline$ -- 37
-num.names$ -- 20
-pop$ -- 148
+missing$ -- 5
+newline$ -- 43
+num.names$ -- 24
+pop$ -- 155
 preamble$ -- 1
-purify$ -- 73
+purify$ -- 77
 quote$ -- 0
-skip$ -- 121
+skip$ -- 136
 stack$ -- 0
-substring$ -- 122
-swap$ -- 10
+substring$ -- 142
+swap$ -- 12
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 55
+type$ -- 66
 warning$ -- 0
-while$ -- 23
+while$ -- 27
 width$ -- 0
-write$ -- 79
+write$ -- 94
 (There were 19 warnings)

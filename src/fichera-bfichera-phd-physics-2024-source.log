@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.26)  9 APR 2024 16:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.26)  9 APR 2024 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1753,79 +1753,93 @@ Package natbib Warning: Citation `gridnev_phenomenological_2008' on page 21 und
 efined on input line 187.
 
 [21]
+<gfx/ch1/pdf/glfreeenergydensity.pdf, id=265, 520.94624pt x 128.48pt>
+File: gfx/ch1/pdf/glfreeenergydensity.pdf Graphic file (type pdf)
+<use gfx/ch1/pdf/glfreeenergydensity.pdf>
+Package pdftex.def Info: gfx/ch1/pdf/glfreeenergydensity.pdf  used on input lin
+e 221.
+(pdftex.def)             Requested size: 306.40117pt x 75.56728pt.
+ [22] [23 <./gfx/ch1/pdf/glfreeenergydensity.pdf>]
 
-LaTeX Warning: Reference `fig:glfreeenergydensity' on page 1 undefined on input
- line 224.
-
-[22]
-
-Package natbib Warning: Citation `jain_higgs_2017' on page 23 undefined on inpu
-t line 258.
-
-
-Package natbib Warning: Citation `measson_amplitude_2014' on page 23 undefined 
-on input line 259.
+Package natbib Warning: Citation `jain_higgs_2017' on page 24 undefined on inpu
+t line 267.
 
 
-Package natbib Warning: Citation `wang_axial_2022' on page 23 undefined on inpu
-t line 259.
+Package natbib Warning: Citation `measson_amplitude_2014' on page 24 undefined 
+on input line 268.
 
 
-Package natbib Warning: Citation `hong_higgs_2017' on page 23 undefined on inpu
-t line 259.
+Package natbib Warning: Citation `wang_axial_2022' on page 24 undefined on inpu
+t line 268.
 
 
-Package natbib Warning: Citation `jain_higgs_2017' on page 23 undefined on inpu
-t line 259.
+Package natbib Warning: Citation `hong_higgs_2017' on page 24 undefined on inpu
+t line 268.
 
 
-Package natbib Warning: Citation `pekker_amplitude_2015' on page 23 undefined o
-n input line 259.
+Package natbib Warning: Citation `jain_higgs_2017' on page 24 undefined on inpu
+t line 268.
 
-[23]
 
-LaTeX Warning: Reference `ch:cubr2' on page 1 undefined on input line 266.
+Package natbib Warning: Citation `pekker_amplitude_2015' on page 24 undefined o
+n input line 268.
+
+
+LaTeX Warning: Reference `ch:cubr2' on page 1 undefined on input line 275.
 
 [24]
 
 Package natbib Warning: Citation `katsura_spin_2005' on page 25 undefined on in
-put line 278.
+put line 287.
 
 
 Package natbib Warning: Citation `katsura_spin_2005' on page 25 undefined on in
-put line 279.
+put line 288.
 
 [25]
 
 Package natbib Warning: Citation `katsura_dynamical_2007' on page 26 undefined 
-on input line 316.
+on input line 325.
 
 [26]
 
 Package natbib Warning: Citation `takahashi_magnetoelectric_2012' on page 27 un
-defined on input line 326.
+defined on input line 335.
 
 
 Package natbib Warning: Citation `cheong_multiferroics_2007' on page 27 undefin
-ed on input line 327.
+ed on input line 336.
 
 
 Package natbib Warning: Citation `fiebig_evolution_2016' on page 27 undefined o
-n input line 327.
+n input line 336.
 
 [27]
 
 Package natbib Warning: Citation `ogasawara_submicron-scale_2009' on page 28 un
-defined on input line 348.
+defined on input line 357.
 
 [28]
 
 Package natbib Warning: Citation `rethfeld_ultrafast_2002' on page 29 undefined
- on input line 359.
+ on input line 368.
 
-) [29] [30
 
-] (./fichera-bfichera-phd-physics-2024-source.bbl [31] [32
+LaTeX Warning: Reference `eq:coupledfreeenergydensity' on page 1 undefined on i
+nput line 392.
+
+[29]
+
+LaTeX Warning: Reference `eq:coupledfreeenergydensity' on page 1 undefined on i
+nput line 395.
+
+
+LaTeX Warning: Reference `eq:tdglequation' on page 1 undefined on input line 39
+6.
+
+) [30] (./fichera-bfichera-phd-physics-2024-source.bbl [31
+
+] [32
 
 ] [33])
 
@@ -1856,16 +1870,16 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `fichera-bfichera-phd-physics-2024-source.out
 ' has not changed.
-(rerunfilecheck)             Checksum: 9A4090E438A9E0BDF2038ED3637E8C91;1799.
+(rerunfilecheck)             Checksum: 454050E5E512DB779C46ECD3710D5265;3346.
  ) 
 Here is how much of TeX's memory you used:
- 36535 strings out of 476000
- 685245 string characters out of 5792233
+ 36573 strings out of 476000
+ 686288 string characters out of 5792233
  1940187 words of memory out of 5000000
- 57642 multiletter control sequences out of 15000+600000
+ 57673 multiletter control sequences out of 15000+600000
  605127 words of font info for 344 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 115i,12n,120p,2420b,1154s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 115i,12n,120p,2420b,1152s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -1880,11 +1894,11 @@ e/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-d
 ist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/
 palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
 </usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on fichera-bfichera-phd-physics-2024-source.pdf (34 pages, 27730
-5 bytes).
+Output written on fichera-bfichera-phd-physics-2024-source.pdf (34 pages, 24049
+88 bytes).
 PDF statistics:
- 424 PDF objects out of 1000 (max. 8388607)
- 350 compressed objects within 4 object streams
- 105 named destinations out of 1000 (max. 500000)
- 84077 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 22252 PDF objects out of 26593 (max. 8388607)
+ 14819 compressed objects within 149 object streams
+ 112 named destinations out of 1000 (max. 500000)
+ 84138 words of extra memory for PDF output out of 89155 (max. 10000000)
 

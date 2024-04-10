@@ -216,6 +216,15 @@ In doing so, we find quite generally Goldstone's result that there is a gapless 
 We also see that, in addition to the gapless Goldstone bosons, we also get a gapped \emph{amplitude} mode which may be measurable in certain circumstances.
 The goal of this section is not to give a rigorous proof of Goldstone's theorem, but to illustrate how it comes about in a very simple model.
 
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{gfx/ch1/pdf/glfreeenergydensity.pdf}
+\caption[Schematic free energy density in the GL model.]{
+\label{fig:glfreeenergydensity}
+Schematic free energy density in the GL model.
+}
+\end{figure}
+
 Let us consider the \gls{gl} free energy density in the case of superfluidity, which is a functional of the coarse-grained order parameter $\Psi(\vec{x}) \equiv \psi(\vec{x})e^{i\theta(\vec{x})}$ and whose lowest-order terms are
 \begin{equation}\label{eq:glfreeenergydensity}
 f[\Psi(\vec{x})] = -\frac{t}{2}|\Psi(\vec{x})|^2+\frac{u}{4}|\Psi(\vec{x})|^4+\frac{K}{2}|\nabla \Psi(\vec{x})|^2,
@@ -348,7 +357,7 @@ This is a somewhat trivial mechanism, but it played an important part in early r
 In addition, interactions between the sample area melted by the pump pulse and the surrounding unpumped area may cause interesting effects, such as magnetization reversal in ferromagnetic thin films due to the stray field of the unpumped sample volume\citep{ogasawara_submicron-scale_2009}.
 We are more interested, however, in \emph{nonthermal} ultrafast phenomena---that is, dynamical phenomena which cannot be replicated quasi-adiabatically.
 
-\subsubsection{Nonthermal melting}
+\subsubsection{Nonthermal melting}\label{sec:nonthermalmelting}
 
 One example of such a phonemonon is the ultrafast quench (or ``nonthermal melting'') of some equilibrium order parameter via photoexcitation of electrons by the pump pulse.
 Let us consider, for example, the case discussed briefly in the beginning of this chapter of a quasi-\oned Fermi liquid which becomes gapped by a periodic lattice distortion (i.e. via the Peierls mechanism).
@@ -365,7 +374,32 @@ This is obvious if the phenomenology following the quench (see the next section)
 \subsubsection{Dynamics following an ultrafast quench}
 
 Let us examine the situation above in slightly more general terms.
-We consider a system with free energy 
+% tdgl...
+
+An interesting special case is when two order parameters compete with each other in the equilibrium free energy.
+We consider a system with free energy density
+\begin{equation}\label{eq:coupledfreeneergydensity}
+f = f_1+f_2+f_c,
+\end{equation}
+where
+\begin{equation}
+f_i = -\frac{t_i}{2} \psi_i^2+\frac{u_i}{4}\psi_i^4+\frac{K}{2}(\nabla\psi_i)^2
+\end{equation}
+and
+\begin{equation}
+f_c = c\psi_1^2\psi_2^2.
+\end{equation}
+\Cref{eq:coupledfreeenergydensity} describes a system with two single-component order parameters $\psi_1$ and $\psi_2$ with a coupling term $f_c$.
+Without loss of generality, let us consider the case where $t_2>0$ and $t_1<0$, so that $\psi_2$ is favored in equilibrium, but let $c$ take some value so that there is an additional local minimum for $\psi_1\neq0$.
+
+In the spirit of \cref{sec:nonthermalmelting}, we consider an ultrafast quench of the equilibrium order parameter $\psi_2$ which corresponds to a free energy density (\cref{eq:coupledfreeenergydensity}) with $t_1,t_2<0$.
+Using \cref{eq:tdglequation}, \citet{sun_transient_2020} showed that, as the relaxation proceeds towards (meta)stability, there is a probability
+\begin{equation}
+p\sim 1-\zeta^\delta
+\end{equation}
+that the final state of the system has $\psi_1\neq 0$ and $\psi_2 = 0$; i.e., that the order has switched from $\psi_2$ to $\psi_1$.
+
+
 
 
 
