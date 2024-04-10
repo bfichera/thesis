@@ -1,17 +1,34 @@
 import matplotlib.pyplot as plt
+from matplotlib import colormaps
+import matplotlib
 import numpy as np
 
+font = {'family' : 'normal',
+        'weight' : 'normal',
+        'size'   : 8.67}
+
+matplotlib.rc('font', **font)
+
 # Create the mesh in polar coordinates and compute corresponding Z.
-T = [0.0, 0.2, 0.4]
+T = [-0.2, 0.0, 0.4]
 u = 1
 r = np.linspace(0, 0.6, 50)
 p = np.linspace(0, 2*np.pi, 50)
 R, P = np.meshgrid(r, p)
-fig, axd = plt.subplot_mosaic([T], subplot_kw=dict(projection='3d'))
+axd = {}
+figd = {}
 bottoms = []
 tops = []
 for t in T:
-    ax = axd[t]
+    Z = -t*R**2+u*R**4
+
+    # Express the mesh in the cartesian system.
+    X, Y = R*np.cos(P), R*np.sin(P)
+    bottoms.append(min(Z.flatten()))
+    tops.append(max(Z.flatten()))
+
+for t in T:
+    fig, ax = plt.subplots(1, 1, subplot_kw=dict(projection='3d'), figsize=(2.4, 2.4))
     Z = -t*R**2+u*R**4
 
     # Express the mesh in the cartesian system.
@@ -38,7 +55,7 @@ for t in T:
     smallY = np.linspace(ax.get_ylim()[0], ax.get_ylim()[1], 50)
     bigX, bigY = np.meshgrid(smallX, smallY)
     Zero = 0.0*bigX
-    ax.plot_wireframe(bigX, bigY, Zero, color='black', rstride=2, cstride=2, linewidth=0.3)
-for ax in axd.values():
     ax.set_zlim(min(bottoms), max(tops))
-plt.show()
+    fig.tight_layout()
+
+    fig.savefig(f'surface_{t}.pdf')
