@@ -1,9 +1,17 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{42}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Afanasiev et~al.(2021)Afanasiev, Hortensius, Ivanov, Sasani, Bousquet,
+  Blanter, Mikhaylovskiy, Kimel, and Caviglia]{afanasiev_ultrafast_2021}
+D.~Afanasiev, J.~R. Hortensius, B.~A. Ivanov, A.~Sasani, E.~Bousquet, Y.~M.
+  Blanter, R.~V. Mikhaylovskiy, A.~V. Kimel, and A.~D. Caviglia.
+\newblock Ultrafast control of magnetic interactions via light-driven phonons.
+\newblock \emph{Nat. Mater.}, 20\penalty0 (5):\penalty0 607--611, May 2021.
+\newblock \doi{10.1038/s41563-021-00922-7}.
 
 \bibitem[Alexandradinata et~al.(2022)Alexandradinata, Armitage, Baydin, Bi,
   Cao, Changlani, Chertkov, Neto, Delacretaz, Baggari, Ferguson, Gannon,
@@ -25,6 +33,88 @@ A.~Alexandradinata, N.~P. Armitage, Andrey Baydin, Wenli Bi, Yue Cao, Hitesh~J.
 \newblock The {Future} of the {Correlated} {Electron} {Problem}, July 2022.
 \newblock arXiv:2010.00584 [cond-mat].
 
+\bibitem[Bauer and Hingerl(2017)]{bauer_bulk_2017}
+Klaus-Dieter Bauer and Kurt Hingerl.
+\newblock Bulk quadrupole contribution to second harmonic generation from
+  classical oscillator model in silicon.
+\newblock \emph{Opt. Express}, 25\penalty0 (22):\penalty0 26567, October 2017.
+\newblock \doi{10.1364/OE.25.026567}.
+
+\bibitem[Birss(1964)]{birss}
+Robert~R. Birss.
+\newblock \emph{Symmetry and Magnetism}.
+\newblock North-Holland Pub. Co., 1964.
+
+\bibitem[Boyd(2008)]{boyd}
+Robert Boyd.
+\newblock \emph{Nonlinear Optics}.
+\newblock Academic Press, third edition, mar 2008.
+
+\bibitem[Campbell et~al.(2006)Campbell, Stokes, Tanner, and
+  Hatch]{campbell_isodisplace_2006}
+Branton~J. Campbell, Harold~T. Stokes, David~E. Tanner, and Dorian~M. Hatch.
+\newblock \textit{{ISODISPLACE}} : a web-based tool for exploring structural
+  distortions.
+\newblock \emph{J Appl Crystallogr}, 39\penalty0 (4):\penalty0 607--614, August
+  2006.
+\newblock \doi{10.1107/S0021889806014075}.
+
+\bibitem[contributors(2024)]{wiki:spacegroups}
+Wikipedia contributors.
+\newblock List of space groups --- {W}ikipedia{,} the free encyclopedia, 2024.
+\newblock [Online; accessed 06-March-2024].
+
+\bibitem[Cressie(1991)]{cressie}
+N.A.C. Cressie.
+\newblock \emph{Statistics for Spatial Data}.
+\newblock A Wiley-interscience publication. J. Wiley, 1991.
+
+\bibitem[Curie(1894)]{curie_sur_1894}
+Pierre Curie.
+\newblock Sur la symétrie dans les phénomènes physiques, symétrie d'un
+  champ électrique et d'un champ magnétiqueu.
+\newblock \emph{J. Phys. Theor. Appl.}, 3\penalty0 (1):\penalty0 393--415,
+  1894.
+
+\bibitem[Dekking et~al.(2006)Dekking, Kraaikamp, Lopuha{\"a}, and
+  Meester]{dekking}
+F.M. Dekking, C.~Kraaikamp, H.P. Lopuha{\"a}, and L.E. Meester.
+\newblock \emph{A Modern Introduction to Probability and Statistics:
+  Understanding Why and How}.
+\newblock Springer Texts in Statistics. Springer London, 2006.
+
+\bibitem[Fausti et~al.(2011)Fausti, Tobey, Dean, Kaiser, Dienst, Hoffmann,
+  Pyon, Takayama, Takagi, and Cavalleri]{fausti_light-induced_2011}
+D.~Fausti, R.~I. Tobey, N.~Dean, S.~Kaiser, A.~Dienst, M.~C. Hoffmann, S.~Pyon,
+  T.~Takayama, H.~Takagi, and A.~Cavalleri.
+\newblock Light-{Induced} {Superconductivity} in a {Stripe}-{Ordered}
+  {Cuprate}.
+\newblock \emph{Science}, 331\penalty0 (6014):\penalty0 189--191, January 2011.
+\newblock \doi{10.1126/science.1197294}.
+
+\bibitem[Fiebig et~al.(2001)Fiebig, Fröhlich, Lottermoser, Pavlov, Pisarev,
+  and Weber]{fiebig_second_2001}
+M.~Fiebig, D.~Fröhlich, Th. Lottermoser, V.~V. Pavlov, R.~V. Pisarev, and H.-J
+  Weber.
+\newblock Second {Harmonic} {Generation} in the {Centrosymmetric}
+  {Antiferromagnet} {NiO}.
+\newblock \emph{Phys. Rev. Lett.}, 87\penalty0 (13):\penalty0 137202, September
+  2001.
+\newblock \doi{10.1103/PhysRevLett.87.137202}.
+
+\bibitem[Harter et~al.(2015)Harter, Niu, Woss, and
+  Hsieh]{harter_high-speed_2015}
+J.~W. Harter, L.~Niu, A.~J. Woss, and D.~Hsieh.
+\newblock High-speed measurement of rotational anisotropy nonlinear optical
+  harmonic generation using position-sensitive detection.
+\newblock \emph{Opt. Lett.}, 40\penalty0 (20):\penalty0 4671, October 2015.
+\newblock \doi{10.1364/OL.40.004671}.
+
+\bibitem[Jackson(1999)]{jackson}
+John~David Jackson.
+\newblock \emph{Classical electrodynamics}.
+\newblock Wiley, New York, {NY}, 3rd ed. edition, 1999.
+
 \bibitem[Kibble and Pickett(2008)]{kibble_introduction_2008}
 T.W.B Kibble and G.R Pickett.
 \newblock Introduction. {Cosmology} meets condensed matter.
@@ -40,6 +130,14 @@ A.~V. Kimel, A.~Kirilyuk, A.~Tsvetkov, R.~V. Pisarev, and Th. Rasing.
 \newblock \emph{Nature}, 429\penalty0 (6994):\penalty0 850--853, June 2004.
 \newblock \doi{10.1038/nature02659}.
 
+\bibitem[Kimel et~al.(2009)Kimel, Ivanov, Pisarev, Usachev, Kirilyuk, and
+  Rasing]{kimel_inertia-driven_2009}
+A.~V. Kimel, B.~A. Ivanov, R.~V. Pisarev, P.~A. Usachev, A.~Kirilyuk, and Th.
+  Rasing.
+\newblock Inertia-driven spin switching in antiferromagnets.
+\newblock \emph{Nature Phys}, 5\penalty0 (10):\penalty0 727--731, October 2009.
+\newblock \doi{10.1038/nphys1369}.
+
 \bibitem[Kirilyuk et~al.(2010)Kirilyuk, Kimel, and
   Rasing]{kirilyuk_ultrafast_2010}
 Andrei Kirilyuk, Alexey~V. Kimel, and Theo Rasing.
@@ -48,12 +146,197 @@ Andrei Kirilyuk, Alexey~V. Kimel, and Theo Rasing.
   September 2010.
 \newblock \doi{10.1103/RevModPhys.82.2731}.
 
+\bibitem[Kumar(2017)]{kumar_magnetic_2017}
+Challa~S.S.R. Kumar, editor.
+\newblock \emph{Magnetic {Characterization} {Techniques} for {Nanomaterials}}.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2017.
+\newblock \doi{10.1007/978-3-662-52780-1}.
+
+\bibitem[Levenberg(1944)]{levenberg_method_1944}
+Kenneth Levenberg.
+\newblock A method for the solution of certain non-linear problems in least
+  squares.
+\newblock \emph{Quart. Appl. Math.}, 2\penalty0 (2):\penalty0 164--168, 1944.
+\newblock \doi{10.1090/qam/10666}.
+
+\bibitem[Marquardt(1963)]{marquardt_algorithm_1963}
+Donald~W. Marquardt.
+\newblock An {Algorithm} for {Least}-{Squares} {Estimation} of {Nonlinear}
+  {Parameters}.
+\newblock \emph{Journal of the Society for Industrial and Applied Mathematics},
+  11\penalty0 (2):\penalty0 431--441, June 1963.
+\newblock \doi{10.1137/0111030}.
+
+\bibitem[Meurer et~al.(2017)Meurer, Smith, Paprocki, \v{C}ert\'{i}k, Kirpichev,
+  Rocklin, Kumar, Ivanov, Moore, Singh, Rathnayake, Vig, Granger, Muller,
+  Bonazzi, Gupta, Vats, Johansson, Pedregosa, Curry, Terrel, Rou\v{c}ka, Saboo,
+  Fernando, Kulal, Cimrman, and Scopatz]{sympy}
+Aaron Meurer, Christopher~P. Smith, Mateusz Paprocki, Ond\v{r}ej
+  \v{C}ert\'{i}k, Sergey~B. Kirpichev, Matthew Rocklin, AMiT Kumar, Sergiu
+  Ivanov, Jason~K. Moore, Sartaj Singh, Thilina Rathnayake, Sean Vig, Brian~E.
+  Granger, Richard~P. Muller, Francesco Bonazzi, Harsh Gupta, Shivam Vats,
+  Fredrik Johansson, Fabian Pedregosa, Matthew~J. Curry, Andy~R. Terrel,
+  \v{S}t\v{e}p\'{a}n Rou\v{c}ka, Ashutosh Saboo, Isuru Fernando, Sumith Kulal,
+  Robert Cimrman, and Anthony Scopatz.
+\newblock Sympy: symbolic computing in python.
+\newblock \emph{PeerJ Computer Science}, 3:\penalty0 e103, January 2017.
+\newblock \doi{10.7717/peerj-cs.103}.
+
+\bibitem[Morey et~al.(In preparation)Morey, Fichera, Lv, Shen, and
+  Gedik]{morey_automated_2024}
+K~Morey, Bryan~T. Fichera, Baiqing Lv, Zongqi Shen, and Nuh Gedik.
+\newblock Automated polarization rotation for multi-axis rotational-anisotropy
+  second harmonic generation experiments.
+\newblock In preparation.
+
+\bibitem[Nelder and Mead(1965)]{nelder_simplex_1965}
+J.~A. Nelder and R.~Mead.
+\newblock A {Simplex} {Method} for {Function} {Minimization}.
+\newblock \emph{The Computer Journal}, 7\penalty0 (4):\penalty0 308--313,
+  January 1965.
+\newblock \doi{10.1093/comjnl/7.4.308}.
+
+\bibitem[Neumann(1885)]{neumann_vorlesungen_1885}
+Franz Neumann.
+\newblock \emph{Vorlesungen über die Theorie der Elasticität der festen
+  Körper und des Lichtäthers, gehalten an der Universität Königsberg}.
+\newblock Leipzig, B. G. Teubner, 1885.
+
+\bibitem[Ong et~al.(2013)Ong, Richards, Jain, Hautier, Kocher, Cholia, Gunter,
+  Chevrier, Persson, and Ceder]{ong_python_2013}
+Shyue~Ping Ong, William~Davidson Richards, Anubhav Jain, Geoffroy Hautier,
+  Michael Kocher, Shreyas Cholia, Dan Gunter, Vincent~L. Chevrier, Kristin~A.
+  Persson, and Gerbrand Ceder.
+\newblock Python {Materials} {Genomics} (pymatgen): {A} robust, open-source
+  python library for materials analysis.
+\newblock \emph{Computational Materials Science}, 68:\penalty0 314--319,
+  February 2013.
+\newblock \doi{10.1016/j.commatsci.2012.10.028}.
+
+\bibitem[Patankar et~al.(2018)Patankar, Wu, Lu, Rai, Tran, Morimoto, Parker,
+  Grushin, Nair, Analytis, Moore, Orenstein, and
+  Torchinsky]{patankar_resonance-enhanced_2018}
+Shreyas Patankar, Liang Wu, Baozhu Lu, Manita Rai, Jason~D. Tran, T.~Morimoto,
+  Daniel~E. Parker, Adolfo~G. Grushin, N.~L. Nair, J.~G. Analytis, J.~E. Moore,
+  J.~Orenstein, and D.~H. Torchinsky.
+\newblock Resonance-enhanced optical nonlinearity in the {Weyl} semimetal
+  {TaAs}.
+\newblock \emph{Phys. Rev. B}, 98\penalty0 (16):\penalty0 165113, October 2018.
+\newblock \doi{10.1103/PhysRevB.98.165113}.
+
+\bibitem[Pershan(1963)]{pershan_nonlinear_1963}
+P.~S. Pershan.
+\newblock Nonlinear {Optical} {Properties} of {Solids}: {Energy}
+  {Considerations}.
+\newblock \emph{Phys. Rev.}, 130\penalty0 (3):\penalty0 919--929, May 1963.
+\newblock \doi{10.1103/PhysRev.130.919}.
+
+\bibitem[Powell et~al.(2002)Powell, Wang, and Aspnes]{powell_simplified_2002}
+G.~D. Powell, J.-F. Wang, and D.~E. Aspnes.
+\newblock Simplified bond-hyperpolarizability model of second harmonic
+  generation.
+\newblock \emph{Physical Review B}, 65\penalty0 (20), May 2002.
+\newblock \doi{10.1103/PhysRevB.65.205320}.
+
+\bibitem[Powell(2010)]{powell}
+Richard~C. Powell.
+\newblock \emph{Symmetry, Group Theory, and the Physical Properties of
+  Crystals}.
+\newblock Springer New York, NY, 2010.
+
+\bibitem[Press et~al.(2007)Press, Teukolsky, Vetterling, and
+  Flannery]{numericalrecipes}
+William~H. Press, Saul~A. Teukolsky, William~T. Vetterling, and Brian~P.
+  Flannery.
+\newblock \emph{Numerical Recipes 3rd Edition: The Art of Scientific
+  Computing}.
+\newblock Cambridge University Press, 3 edition, 2007.
+
+\bibitem[Ron et~al.(2019)Ron, Zoghlin, Balents, Wilson, and
+  Hsieh]{ron_dimensional_2019}
+A.~Ron, E.~Zoghlin, L.~Balents, S.~D. Wilson, and D.~Hsieh.
+\newblock Dimensional crossover in a layered ferromagnet detected by spin
+  correlation driven distortions.
+\newblock \emph{Nat Commun}, 10\penalty0 (1):\penalty0 1654, December 2019.
+\newblock \doi{10.1038/s41467-019-09663-3}.
+
+\bibitem[Sa et~al.(2000)Sa, Valentí, and Gros]{sa_generalized_2000}
+D.~Sa, R.~Valentí, and C.~Gros.
+\newblock A generalized {Ginzburg}-{Landau} approach to second harmonic
+  generation.
+\newblock \emph{Eur. Phys. J. B}, 14\penalty0 (2):\penalty0 301--305, March
+  2000.
+\newblock \doi{10.1007/s100510050133}.
+
+\bibitem[Stokes et~al.()Stokes, Hatch, and Campbell]{isodistort}
+H.~T. Stokes, D.~M. Hatch, and B.~J. Campbell.
+\newblock Isodistort.
+
 \bibitem[Sun and Millis(2020)]{sun_transient_2020}
 Zhiyuan Sun and Andrew~J. Millis.
 \newblock Transient {Trapping} into {Metastable} {States} in {Systems} with
   {Competing} {Orders}.
 \newblock \emph{Phys. Rev. X}, 10\penalty0 (2):\penalty0 021028, May 2020.
 \newblock \doi{10.1103/PhysRevX.10.021028}.
+
+\bibitem[Torchinsky et~al.(2014)Torchinsky, Chu, Qi, Cao, and
+  Hsieh]{torchinsky_low_2014}
+Darius~H. Torchinsky, Hao Chu, Tongfei Qi, Gang Cao, and David Hsieh.
+\newblock A low temperature nonlinear optical rotational anisotropy
+  spectrometer for the determination of crystallographic and electronic
+  symmetries.
+\newblock \emph{Review of Scientific Instruments}, 85\penalty0 (8):\penalty0
+  083102, August 2014.
+\newblock \doi{10.1063/1.4891417}.
+
+\bibitem[Virtanen et~al.(2020)Virtanen, Gommers, Oliphant, Haberland, Reddy,
+  Cournapeau, Burovski, Peterson, Weckesser, Bright, {van der Walt}, Brett,
+  Wilson, Millman, Mayorov, Nelson, Jones, Kern, Larson, Carey, Polat, Feng,
+  Moore, {VanderPlas}, Laxalde, Perktold, Cimrman, Henriksen, Quintero, Harris,
+  Archibald, Ribeiro, Pedregosa, {van Mulbregt}, and {SciPy 1.0
+  Contributors}]{scipy}
+Pauli Virtanen, Ralf Gommers, Travis~E. Oliphant, Matt Haberland, Tyler Reddy,
+  David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan
+  Bright, St{\'e}fan~J. {van der Walt}, Matthew Brett, Joshua Wilson, K.~Jarrod
+  Millman, Nikolay Mayorov, Andrew R.~J. Nelson, Eric Jones, Robert Kern, Eric
+  Larson, C~J Carey, {\.I}lhan Polat, Yu~Feng, Eric~W. Moore, Jake
+  {VanderPlas}, Denis Laxalde, Josef Perktold, Robert Cimrman, Ian Henriksen,
+  E.~A. Quintero, Charles~R. Harris, Anne~M. Archibald, Ant{\^o}nio~H. Ribeiro,
+  Fabian Pedregosa, Paul {van Mulbregt}, and {SciPy 1.0 Contributors}.
+\newblock {{SciPy} 1.0: Fundamental Algorithms for Scientific Computing in
+  Python}.
+\newblock \emph{Nature Methods}, 17:\penalty0 261--272, 2020.
+\newblock \doi{10.1038/s41592-019-0686-2}.
+
+\bibitem[Wackernagel(2003)]{wackernagel}
+H.~Wackernagel.
+\newblock \emph{Multivariate Geostatistics: An Introduction with Applications}.
+\newblock Springer Berlin Heidelberg, 2003.
+
+\bibitem[Wales and Doye(1997)]{wales_global_1997}
+David~J. Wales and Jonathan P.~K. Doye.
+\newblock Global {Optimization} by {Basin}-{Hopping} and the {Lowest} {Energy}
+  {Structures} of {Lennard}-{Jones} {Clusters} {Containing} up to 110 {Atoms}.
+\newblock \emph{J. Phys. Chem. A}, 101\penalty0 (28):\penalty0 5111--5116, July
+  1997.
+\newblock \doi{10.1021/jp970984n}.
+
+\bibitem[Wu et~al.(2017)Wu, Patankar, Morimoto, Nair, Thewalt, Little,
+  Analytis, Moore, and Orenstein]{wu_giant_2017}
+Liang Wu, S.~Patankar, T.~Morimoto, N.~L. Nair, E.~Thewalt, A.~Little, J.~G.
+  Analytis, J.~E. Moore, and J.~Orenstein.
+\newblock Giant anisotropic nonlinear optical response in transition metal
+  monopnictide {Weyl} semimetals.
+\newblock \emph{Nature Phys}, 13\penalty0 (4):\penalty0 350--355, April 2017.
+\newblock \doi{10.1038/nphys3969}.
+
+\bibitem[Xiang et~al.(1997)Xiang, Sun, Fan, and Gong]{xiang_generalized_1997}
+Y~Xiang, D.Y Sun, W~Fan, and X.G Gong.
+\newblock Generalized simulated annealing algorithm and its application to the
+  {Thomson} model.
+\newblock \emph{Physics Letters A}, 233\penalty0 (3):\penalty0 216--220, August
+  1997.
+\newblock \doi{10.1016/S0375-9601(97)00474-X}.
 
 \bibitem[Zeiger et~al.(1992)Zeiger, Vidal, Cheng, Ippen, Dresselhaus, and
   Dresselhaus]{zeiger_theory_1992}

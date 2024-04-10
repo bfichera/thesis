@@ -3,6 +3,8 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: fichera-bfichera-phd-physics-2024-source.aux
 The style file: plainnat_noclutter.bst
 Database file #1: fichera-bfichera-phd-physics-2024-source.bib
+Warning--entry type for "isodistort" isn't style-file defined
+--line 1204 of file fichera-bfichera-phd-physics-2024-source.bib
 Warning--I didn't find a database entry for "landau"
 Warning--I didn't find a database entry for "gell-mann"
 Warning--I didn't find a database entry for "bednorz_possible_1986"
@@ -22,45 +24,61 @@ Warning--I didn't find a database entry for "cheong_multiferroics_2007"
 Warning--I didn't find a database entry for "fiebig_evolution_2016"
 Warning--I didn't find a database entry for "ogasawara_submicron-scale_2009"
 Warning--I didn't find a database entry for "rethfeld_ultrafast_2002"
-You've used 6 entries,
+Warning--I didn't find a database entry for "wilson_renormalization_1974"
+Warning--I didn't find a database entry for "hohenberg_theory_1977"
+Warning--I didn't find a database entry for "kawasaki_diffusion_1966"
+Warning--I didn't find a database entry for "zong_role_2021"
+Warning--I didn't find a database entry for "forst_nonlinear_2011"
+Warning--I didn't find a database entry for "oka_floquet_2019"
+Warning--I didn't find a database entry for "shirley_solution_1965"
+Warning--I didn't find a database entry for "wang_observation_2013"
+Warning--I didn't find a database entry for "mahmood_selective_2016"
+Warning--I didn't find a database entry for "mciver_light-induced_2020"
+Warning--I didn't find a database entry for "sie_valley-selective_2015"
+Warning--I didn't find a database entry for "batignani_probing_2015"
+Warning--I didn't find a database entry for "torre_colloquium_2021"
+Warning--I didn't find a database entry for "ning_dynamical_2024"
+Warning--empty journal in morey_automated_2024
+Warning--empty year in isodistort
+You've used 42 entries,
             2762 wiz_defined-function locations,
-            667 strings with 7664 characters,
-and the built_in function-call counts, 5411 in all, are:
-= -- 420
-> -- 603
-< -- 2
-+ -- 201
-- -- 195
-* -- 567
-:= -- 897
-add.period$ -- 23
-call.type$ -- 6
-change.case$ -- 83
-chr.to.int$ -- 6
-cite$ -- 12
-duplicate$ -- 119
-empty$ -- 239
-format.name$ -- 205
-if$ -- 1049
+            972 strings with 17823 characters,
+and the built_in function-call counts, 26267 in all, are:
+= -- 2122
+> -- 2378
+< -- 18
++ -- 801
+- -- 759
+* -- 2543
+:= -- 4287
+add.period$ -- 155
+call.type$ -- 42
+change.case$ -- 372
+chr.to.int$ -- 42
+cite$ -- 86
+duplicate$ -- 849
+empty$ -- 1574
+format.name$ -- 811
+if$ -- 5223
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 5
-newline$ -- 43
-num.names$ -- 24
-pop$ -- 155
+missing$ -- 48
+newline$ -- 245
+num.names$ -- 169
+pop$ -- 724
 preamble$ -- 1
-purify$ -- 77
+purify$ -- 337
 quote$ -- 0
-skip$ -- 136
+skip$ -- 732
 stack$ -- 0
-substring$ -- 142
-swap$ -- 12
+substring$ -- 696
+swap$ -- 68
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 66
-warning$ -- 0
-while$ -- 27
+type$ -- 412
+warning$ -- 2
+while$ -- 171
 width$ -- 0
-write$ -- 94
-(There were 19 warnings)
+write$ -- 598
+(There were 36 warnings)

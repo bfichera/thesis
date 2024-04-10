@@ -139,7 +139,7 @@ In the case that the bosons of \cref{eq:electronlatticehamiltonian} are phonons,
 An important insight which follows from \cref{eq:electronlatticeforceterm} is that, in the limit where the quasi-equilibrium electron distribution doesn't break any symmetries of the original hamiltonian, the applied force also does not break any symmetries.
 Thus only totally-symmetric phonons may be excited via \gls{decp}.
 
-\subsubsection{In transparency}
+\subsubsection{In transparency}\label{sec:intransparency}
 
 While the \gls{decp}-like mechanisms tend to dominate when the photon energy is above the band gap, they are forbidden in transparency.
 In this case, the dominant excitation mechanism is actually impulsive.
@@ -348,12 +348,12 @@ In contrast, \emph{incoherent} dynamics do not involve coherent oscillations of 
 This can also drive the material into a different (nonequilibrium) state, for example by quenching some \gls{lro} of the electrons near the Fermi surface, but the mechanism is qualitatively different from the coherent case.
 We will discuss both cases below.
 
-\subsection{Incoherent}
+\subsection{Incoherent control}
 
 \subsubsection{Heating across a phase transition}
 
 The most basic level of ultrafast control is to use the light pulse simply to heat the material; if the initial and final temperatures lie below and above an equilibrium phase transition, then ultrafast control has been achieved.
-This is a somewhat trivial mechanism, but it played an important part in early research on ultrafast control, especially in materials where dynamical phase control \emph{not} based on heating was rare or difficult (such as antiferromagnetis\citep{kimel_laser-induced_2004}).
+This is a somewhat trivial mechanism, but it played an important part in early research on ultrafast control, especially in materials where dynamical phase control \emph{not} based on heating was rare or difficult (such as antiferromagnets\citep{kimel_laser-induced_2004}).
 In addition, interactions between the sample area melted by the pump pulse and the surrounding unpumped area may cause interesting effects, such as magnetization reversal in ferromagnetic thin films due to the stray field of the unpumped sample volume\citep{ogasawara_submicron-scale_2009}.
 We are more interested, however, in \emph{nonthermal} ultrafast phenomena---that is, dynamical phenomena which cannot be replicated quasi-adiabatically.
 
@@ -371,19 +371,46 @@ There is often difficulty encountered in \emph{proving} that the action of the p
 Indeed, the existence of an ordered phase implies some finite temperature $T_c$ where that order is destroyed by equilibrium thermal fluctuations---it is the job of the experimenter to show that the laser pulse is not simply heating the material above this critical temperature.
 This is obvious if the phenomenology following the quench (see the next section) is in any case not reproduced in equilibrium, but may also be shown (heuristically) by dividing the energy absorbed by the material from the pulse by the heat capacity.
 
-\subsubsection{Dynamics following an ultrafast quench}
+\subsubsection{Formal model: time-dependent Ginzburg-Landau theory}
 
-Let us examine the situation above in slightly more general terms.
-% tdgl...
+In describing many-body systems in the static limit, we have seen that it is useful to define a phenomenological model which captures the important physics (via a free energy density, an order parameter, etc.), rather than attempting to treat the inter-particle interactions explicitly.
+An important concept justifying this practice is the idea of \emph{universality}, which states that, since the correlation length $\xi$ diverges as we approach the critical point, the physics near the critical point is governed not by the microscopic details of the system but rather by a small set of characteristic quantities like the spatial dimensionality of the system and the symmetry of the order parameter\citep{wilson_renormalization_1974}.
+This means that to understand any \emph{complicated} system of a particular universality class, it suffices to study the \emph{simplest} system in that universality class, as long as we are close to the critical point.\footnote{The validity of the universality hypothesis away from criticality is not obvious, but is often heuristically assumed to be the case.}
 
-An interesting special case is when two order parameters compete with each other in the equilibrium free energy.
-We consider a system with free energy density
-\begin{equation}\label{eq:coupledfreeneergydensity}
+In the dynamic limit, the idea of universality is still thought to apply (thus, for example, the wavevector- and frequency-dependent susceptibility $\chi(\vec{k}, \omega)$ is a homogenous function near the critical point), but the relevant parameters now include not just the spatial dimensionality and symmetry of the order parameter but also new characteristics, like the presence of conserved quantities, and Poisson-bracket relationships between those conserved quantities and the order parameter\citep{hohenberg_theory_1977}.
+We are thus motivated, as in the static case, to consider \emph{simple models} for each universality class to derive the important limiting behavior---this is the \gls{tdgl} theory.
+One such model, which is valid when there are no conserved quantities, is the so-called ``Model A'' equation of motion
+\begin{equation}\label{eq:modelaequation}
+\frac{\partial\psi(\vec{x}, t)}{\partial t} = -\Gamma \frac{\delta F}{\delta \psi(\vec{x}, t)}+\eta(\vec{x}, t),
+\end{equation}
+where
+\begin{equation}
+F = \int \left[-\frac{t}{2}\psi^2+\frac{u}{4}\psi^4+\frac{K}{2}|\nabla \psi|^2\right] \, d^d\vec{x}
+\end{equation}
+and $\eta$ is a Gaussian white noise source with zero mean and two-point correlation function
+\begin{equation}
+\left<\eta(\vec{x}, t)\eta(\vec{x}', t')\right>=2\Gamma \delta(\vec{x}-\vec{x}')\delta(t-t')
+\end{equation}
+chosen to satisfy the fluctuation-dissipation theorem.
+
+Different models are appropriate for systems with different conserved quantities.
+For example, the system which otherwise looks like the above but with where the order parameter is a conserved quantity may be modeled using what is referred to as ``Model B''\citep{kawasaki_diffusion_1966}; the equation of motion is
+\begin{equation}\label{eq:modelbequation}
+\frac{\partial\psi(\vec{x}, t)}{\partial t} = \lambda \nabla^2\frac{\delta F}{\delta \psi(\vec{x}, t)}+\eta(\vec{x}, t).
+\end{equation}
+A comprehensive review of all such models is given by \citet{hohenberg_theory_1977}.
+
+\subsubsection{Dynamics following an ultrafast quench}\label{sec:sunandmillis}
+
+\Gls{tdgl} is thus used widely to study dynamical phase transitions in many physical systems.
+An interesting case, which we will treat in detail here due to its applicability to \ce{CaMn2Bi2} (see \cref{ch:camn2bi2}), is when two order parameters compete with each other in the equilibrium free energy density, and we consider the \gls{tdgl} dynamics after an \emph{ultrafast quench} of the equilibrium order.\footnote{This discussion closely follows that of \citet{sun_transient_2020}.}
+The free energy density is
+\begin{equation}\label{eq:coupledfreeeneergydensity}
 f = f_1+f_2+f_c,
 \end{equation}
 where
 \begin{equation}
-f_i = -\frac{t_i}{2} \psi_i^2+\frac{u_i}{4}\psi_i^4+\frac{K}{2}(\nabla\psi_i)^2
+f_i = -\frac{t_i}{2} \psi_i^2+\frac{u_i}{4}\psi_i^4+\frac{K_i}{2}(\nabla\psi_i)^2
 \end{equation}
 and
 \begin{equation}
@@ -392,23 +419,74 @@ f_c = c\psi_1^2\psi_2^2.
 \Cref{eq:coupledfreeenergydensity} describes a system with two single-component order parameters $\psi_1$ and $\psi_2$ with a coupling term $f_c$.
 Without loss of generality, let us consider the case where $t_2>0$ and $t_1<0$, so that $\psi_2$ is favored in equilibrium, but let $c$ take some value so that there is an additional local minimum for $\psi_1\neq0$.
 
-In the spirit of \cref{sec:nonthermalmelting}, we consider an ultrafast quench of the equilibrium order parameter $\psi_2$ which corresponds to a free energy density (\cref{eq:coupledfreeenergydensity}) with $t_1,t_2<0$.
-Using \cref{eq:tdglequation}, \citet{sun_transient_2020} showed that, as the relaxation proceeds towards (meta)stability, there is a probability
+We consider an ultrafast quench of the equilibrium order parameter $\psi_2$ which corresponds to a free energy density (\cref{eq:coupledfreeenergydensity}) with $t_1,t_2<0$.
+Since neither of the order parameters are conserved quantities, nor are there any other conserved quantities in the system, we are free to use Model A (\cref{eq:modelaequation}) to describe the dynamics.
+Using \cref{eq:modelaequation}, \citet{sun_transient_2020} showed that, as the relaxation proceeds towards (meta)stability, there is a probability
 \begin{equation}
 p\sim 1-\zeta^\delta
 \end{equation}
 that the final state of the system has $\psi_1\neq 0$ and $\psi_2 = 0$; i.e., that the order has switched from $\psi_2$ to $\psi_1$.
+Here, $\zeta$ is the Ginzburg parameter which is small when the mean-field theory is valid, and $\delta$ is related to the relaxation rates $\gamma_1$ and $\gamma_2$ (see \cref{eq:modelaequation}) of the two order parameters:\footnote{This is the value of $\delta$ when $\gamma_1 \gg \gamma_2$, but the same conclusions apply when $\gamma_1 \gtrsim \gamma_2$; see \citet{sun_transient_2020} for details.}
+\begin{equation}\label{eq:sunandmillisdelta}
+\delta\sim \left|\frac{\gamma_1 t_1}{\gamma_2 t_2}\right|.
+\end{equation}
+Thus, as long as mean-field theory holds and $\delta > 1$, the final state after the quench is the metastable state with $\psi_1\neq 0$. 
 
+The intuition associated with this result is that, following the ultrafast quench, the dynamics are dominated not by whichever state has the lowest free energy in equilibrium, but by the exponential amplification of long-wavelength spatial fluctuations which occurs for \emph{both} order parameters.
+Thus, even a small relative difference in growth rates of these fluctuations becomes exponentially amplified as the system relaxes.
+In light of \cref{eq:modelaequation}, this means that the dynamics are determined not by the minima of the free energy, but by its gradient.
+At long times the equilibrium state of course recovers, although this recovery involves slower processes like domain nucleation so that the metastable state survives for long timescales.
 
+Many examples of ultrafast trapping into metastable states following an ultrafast quench can be understood in this paradigm.
+\citet{sun_transient_2020} consider, for instance, the enhancement of superconductivity that occurs in \ce{La_{1.675}Eu_{0.2}Sr_{0.125}CuO4} upon transient melting of the equilibrium \gls{cdw} state in that compound\citep{fausti_light-induced_2011}.
+Since the \gls{cdw} state---in contrast to the superconducting state---involves collective motion of electrons and the (heavy) lattice at the same time, recovery of this state after photoexcitation is much slower than recovery of the superconducting state.
+The superconducting state is thus favored after the quench.
 
+The framework has also been applied to the case of \ce{LaTe3}, in which an $a$-axis \gls{cdw} appears in nonequilibrium following a quench of the equilibrium $c$-axis \gls{cdw} order.\footnote{Strictly speaking the induced $a$-axis order is not truly long-ranged, see \citet{zong_role_2021}.}
+In this case, both states are \glspl{cdw} so the relaxation rates $\gamma_1$ and $\gamma_2$ should be roughly equal.
+\Cref{eq:sunandmillisdelta} should thus be replaced by a more stringent condition which also includes the fact that, if the cooling rate following the quench is too slow, the exponential amplification described above may not be effective in switching to the metastable state\citep{sun_transient_2020}.
 
+\subsection{Coherent control}
 
-% What control means - using phase transitions DONE
-% Types of control - incoherent and coherent DONE
-% Heating DONE
-% Incoherent - melting of CDW DONE
-% Incoherent can still be nonthermal - compare pumped sample to equilibrium phase diagram DONE
-% Dynamical phase transitions Metastable states and sun+millis; LLG equations
-% Control as spectroscopy
-% Coherent - lattice control of magnetism
-% Nonlinear phononics; coherently driven dynamical phase transition
+\subsubsection{Via coherent oscillations}
+
+In the previous section we described how ultrafast phenomena may be understood phenomenologically using the \gls{gl} or \gls{tdgl} paradigm, where the important physics is captured by a generic a free energy gensity whose minima, gradients, etc. determine the relevant phases.
+In describing the action of the pump pulse, we treated the case where the light only quenches the equilibrium order via excitation of electrons from near the Fermi level, but of course, we know from \cref{sec:ultrafastspectroscopy} that this is hardly the only thing the pump can do.
+For example, we studied in detail in \cref{sec:ultrafastspectroscopy} that the pump may indeed excite coherent oscillations, and if these oscillations are strong, it turns out that they may also allow us to control the nonequilibrium or metastable phases of materials.
+
+Let us consider for example the free energy density of \cref{eq:coupledfreeenergydensity}, and let us imagine that the constant $c$ has some dependence on the coordinate $Q$ of some collective mode, i.e.
+\begin{equation}\label{eq:latticefreeenergydensity}
+f_c = \left(c(0)+\frac{\partial c(Q)}{\partial Q}\Big|_{Q=0}Q+\ldots\right)\psi_1^2\psi_2^2.
+\end{equation}
+Clearly if the pump pulse brings $Q$ to some finite value, the free energy landscape may look quite different compared to equilibrium.
+
+One example of this phenomenon occurs on intense resonant excitation of the \qty{17}{THz} phonon mode in \ce{DyFeO3}, which is a magnetic material with a thermal metamagnetic transition at \qty{51}{K} between a low-temperature \gls{afm} state and a high-temperature canted-\gls{afm} state with a small magnetic moment.
+\Citet{afanasiev_ultrafast_2021} showed the appearance of a long-lived offset in the Faraday effect signal following excitation which disappeared above \qty{51}{K}, signaling that the pump pulse triggers an ultrafast phase transition between the two magnetic states in this material.
+They claim that anharmonic phonon interactions rectify the coherent oscillation of the \qty{17}{THz} phonon mode and transfer a finite, time-independent amplitude to a \emph{different} phonon mode associated with the displacement of \ce{Dy^{3+}} ions.
+This displacement causes a long-lived change in the magnetic exchange interaction which modifies the free energy density and triggers a phase transition in a manner resembling \cref{eq:latticefreeenergydensity}.
+This is just one example of a whole field of research referred to as \emph{nonlinear phononics}\citep{forst_nonlinear_2011}, which seeks to use anharmonic interactions like these to effect control over the crystal lattice with light.
+
+\subsubsection{Via Floquet engineering}
+
+A related scenario occurs when the light couples not to the constants $t$, $u$, $c$, etc. of the free energy, but rather acts as a \emph{field} $h$ for one of the order parameters, i.e. by the \gls{ife} (see \cref{sec:intransparency}).
+Then we have, for example,
+\begin{equation}
+f(t) = f(0)+h(t)\psi_1(t).
+\end{equation}
+and the field may thus provide an ultrafast ``kick'' to push the material into a new state.\footnote{This is especially relevant in the case of magnets, where the magnetic field from the \gls{ife} can couple directly to the magnetic moment, although one needs intertial terms in the Lagrangian which are not present in the Landau-Lifshitz equation for a simple ferromagnet\citep{kimel_inertia-driven_2009}.}
+In this case, the purpose of the pump is \emph{not} to excite coherent oscillations---which go on to modify the free energy landscape---but rather to control the free energy landscape via the light-matter interaction \emph{itself}.
+The study of mechanisms which fall under this umbrella is known as ``Floquet engineering''\citep{oka_floquet_2019}, referring to the Floquet theorem\citep{shirley_solution_1965} which gives the energy eigenstates of a Hamiltonian which is periodic in time.
+
+The fact that an ultrafast light pulse may produce Floquet bands in solids and that those bands may hybridize with the eigenstates of the time-independent Hamiltonian was established by \citet{wang_observation_2013} and later \citet{mahmood_selective_2016} using time-resolved photoemission spectroscopy.
+Multiple control strategies using this effect, like the manipulation of band topologies\citep{mciver_light-induced_2020}, observation of a large optical stark effect\citep{sie_valley-selective_2015}, and manipulation of the magnetic exchange energy\citep{batignani_probing_2015}, were shown to occur as a result of this effect.
+A complete accounting of the progress experimentally and theoretically in this field is beyond the present scope, but the literature has been reviewed extensively by, e.g. \citet{torre_colloquium_2021} and \citet{oka_floquet_2019}.
+
+\subsection{Control as spectroscopy}
+
+The above treatment of ultrafast control was motivated by a desire to manipulate quantum materials with light for some practical benefit, such as, for example, being able to control the direction of the spins in a magnetic memory device.
+However, there is an additional, related motivation which is quite important to note.
+Clearly, the mechanism by which the light manipulates the phases of materials depends quite sensitively on the material characteristics; for example, the discussion in \cref{sec:sunandmillis} depended critically on the fact that the two order parameters $\psi_1$ and $\psi_2$ \emph{compete} in equilibrium---a which may not be obvious otherwise!
+Indeed, the fact that light may be used to suppress some phases and enhance others is sometimes the only information we have about how and whether those different phases interact with each other.
+The fact that \gls{cdw} order competes with superconductivity in cuprates is, for example, strongly evidenced by the enhancement of superconductivity that occurs upon a photoinduced quench of the \gls{cdw} order\citep{fausti_light-induced_2011}.
+A similar observation about \glspl{cdw} in \ce{CsV3Sb5} was recently reported by \citet{ning_dynamical_2024}.
+The line between ultrafast spectroscopy and ultrafast control should not, then, be considered particularly sharp, and both of the motivations described here---to learn about materials, and to manipulate materials---are deeply related to one another.
