@@ -1,4 +1,7 @@
+#!./venv/bin/python
+
 import bibtexparser
+
 with open('bib/tastwo.bib', 'r') as fh:
     tastwolib = bibtexparser.load(fh)
 with open('bib/CuBr2.bib', 'r') as fh:
@@ -6,7 +9,7 @@ with open('bib/CuBr2.bib', 'r') as fh:
 with open('bib/cmb.bib', 'r') as fh:
     cmblib = bibtexparser.load(fh)
 with open('bib/Thesis.bib', 'r') as fh:
-    thesislib = bibtexparser.load(fh)j
+    thesislib = bibtexparser.load(fh)
 
 
 fixes = [
@@ -120,8 +123,18 @@ fixes = [
     ],
 ]
 
+for lib, label, badcode, newval in fixes:
+    badentry = lib.entries_dict[label]
+    badentry[badcode] = newval
 
-
+with open('fixed-bib/tastwo.bib', 'w') as fh:
+    bibtexparser.dump(tastwolib, fh)
+with open('fixed-bib/CuBr2.bib', 'w') as fh:
+    bibtexparser.dump(cubr2lib, fh)
+with open('fixed-bib/cmb.bib', 'w') as fh:
+    bibtexparser.dump(cmblib, fh)
+with open('fixed-bib/Thesis.bib', 'w') as fh:
+    bibtexparser.dump(thesislib, fh)
 
 
 

@@ -1,3 +1,6 @@
 #!/bin/bash
 
-cat bib/* > bibliography.bib
+mkdir fixed-bib
+./fix-bib
+cat fixed-bib/* > bibliography.bib
+rm -r fixed-bib

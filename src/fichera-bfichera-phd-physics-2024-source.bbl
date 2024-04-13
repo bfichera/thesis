@@ -1,4 +1,4 @@
-\begin{thebibliography}{170}
+\begin{thebibliography}{152}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -47,875 +47,6 @@ N.~Argibay, J.A. Bares, and W.G. Sawyer.
   slip-ring sliding electrical contacts in a humid carbon dioxide environment.
 \newblock \emph{Wear}, 268\penalty0 (3-4):\penalty0 455--463, February 2010.
 \newblock \doi{10.1016/j.wear.2009.08.036}.
-
-\bibitem[{atlas collaboration} et~al.(2015){atlas collaboration}, aad, abbott,
-  abdallah, abdinov, aben, abolins, abouzeid, abramowicz, abreu, abreu,
-  abulaiti, acharya, adamczyk, adams, adelman, adomeit, adye, affolder,
-  agatonovic jovin, aguilar saavedra, agustoni, ahlen, ahmadov, aielli,
-  akerstedt, åkesson, akimoto, akimov, alberghi, albert, albrand, alconada
-  verzini, aleksa, aleksandrov, alexa, alexander, alexopoulos, alhroob,
-  alimonti, alio, alison, alkire, allbrooke, allport, aloisio, alonso, alonso,
-  alpigiani, altheimer, alvarez gonzalez, piqueras, alviggi, amako, amaral
-  coutinho, amelung, amidei, amor~dos santos, amorim, amoroso, amram, amundsen,
-  anastopoulos, ancu, andari, andeen, anders, anders, anderson, andreazza,
-  andrei, angelidakis, angelozzi, anger, angerami, anghinolfi, anisenkov,
-  anjos, annovi, antonelli, antonov, antos, anulli, aoki, aperio bella,
-  arabidze, arai, araque, arce, arduh, arguin, argyropoulos, arik, armbruster,
-  arnaez, arnal, arnold, arratia, arslan, artamonov, artoni, asai, asbah,
-  ashkenazi, åsman, asquith, assamagan, astalos, atkinson, atlay, auerbach,
-  augsten, aurousseau, avolio, axen, ayoub, azuelos, baak, baas, bacci,
-  bachacou, bachas, backes, backhaus, badescu, bagiacchi, bagnaia, bai, bain,
-  baines, baker, balek, balestri, balli, banas, banerjee, bannoura, bansil,
-  barak, baranov, barberio, barberis, barbero, barillari, barisonzi, barklow,
-  barlow, barnes, barnett, barnett, barnovska, baroncelli, barone, barr,
-  barreiro, barreiro guimarães~da costa, bartoldus, barton, bartos, bassalat,
-  basye, bates, batista, batley, battaglia, bauce, bauer, bawa, beacham,
-  beattie, beau, beauchemin, beccherle, bechtle, beck, becker, becker, becker,
-  beckingham, becot, beddall, beddall, bednyakov, bee, beemster, beermann,
-  begel, behr, belanger champagne, bell, bell, bella, bellagamba, bellerive,
-  bellomo, belotskiy, beltramello, benary, benchekroun, bender, bendtz,
-  benekos, benhammou, benhar noccioli, benitez garcia, benjamin, bensinger,
-  bentvelsen, beresford, beretta, berge, bergeaas kuutmann, berger, berghaus,
-  beringer, bernard, bernard, bernius, bernlochner, berry, berta, bertella,
-  bertoli, bertolucci, bertsche, bertsche, besana, besjes, bessidskaia bylund,
-  bessner, besson, betancourt, bethke, beven, bhimji, bianchi, bianchini,
-  bianco, biebel, bieniek, biglietti, bilbao~de mendizabal, bilokon, bindi,
-  binet, bingul, bini, black, black, black, blackburn, blair, blanchard,
-  blanco, blazek, bloch, blocker, blum, blumenschein, bobbink, bobrovnikov,
-  bocchetta, bocci, bock, boehler, bogaerts, bogdanchikov, bohm, boisvert,
-  bold, boldea, boldyrev, bomben, bona, boonekamp, borisov, borissov, borroni,
-  bortfeldt, bortolotto, bos, boscherini, bosman, boudreau, bouffard, bouhova
-  thacker, boumediene, bourdarios, bousson, boveia, boyd, boyko, bozic,
-  bracinik, brandt, brandt, brandt, bratzler, brau, brau, braun, brazzale,
-  brendlinger, brennan, brenner, brenner, bressler, bristow, bristow, britton,
-  britzger, brochu, brock, brock, bronner, brooijmans, brooks, brooks,
-  brosamer, brost, brown, bruckman~de renstrom, bruncko, bruneliere, bruni,
-  bruni, bruschi, bryngemark, buanes, buat, buchholz, buckley, buda, budagov,
-  buehrer, bugge, bugge, bulekov, burckhart, burdin, burghgrave, burke,
-  burmeister, busato, büscher, büscher, bussey, buszello, butler, butt,
-  buttar, butterworth, butti, buttinger, buzatu, buzykaev, cabrera urbán,
-  caforio, cakir, calafiura, calandri, calderini, calfayan, caloba, calvet,
-  calvet, camacho toro, camarda, cameron, caminada, caminal armadans, campana,
-  campanelli, campoverde, canale, canepa, cano bret, cantero, cantrill, cao,
-  capeans garrido, caprini, caprini, capua, caputo, cardarelli, carli, carlino,
-  carminati, caron, carquin, carrillo montoya, carter, carvalho, casadei,
-  casado, casolino, castaneda miranda, castelli, castillo gimenez, castro,
-  catastini, catinaccio, catmore, cattai, caudron, cavaliere, cavalli, cavalli
-  sforza, cavasinni, ceradini, cerio, cerny, cerqueira, cerri, cerrito,
-  cerutti, cerv, cervelli, cetin, chafaq, chakraborty, chalupkova, chang,
-  chapleau, chapman, charlton, chau, chavez barajas, cheatham, chegwidden,
-  chekanov, chekulaev, chelkov, chelstowska, chen, chen, chen, chen, chen,
-  chen, chen, cheng, cheng, cheplakov, cheremushkina, cherkaoui~el moursli,
-  chernyatin, cheu, chevalier, chiarella, childers, chiodini, chisholm,
-  chislett, chitan, chizhov, choi, chouridou, chow, christodoulou, chromek
-  burckhart, chu, chudoba, chuinard, chwastowski, chytka, ciapetti, ciftci,
-  cinca, cindro, cioara, ciocio, citron, ciubancan, clark, clark, clark,
-  clarke, cleland, clement, coadou, cobal, coccaro, cochran, coffey, cogan,
-  cole, cole, colijn, collot, colombo, compostella, conde muiño, coniavitis,
-  connell, connelly, consonni, consorti, constantinescu, conta, conti,
-  conventi, cooke, cooper, cooper sarkar, copic, cornelissen, corradi,
-  corriveau, corso radu, cortes gonzalez, cortiana, costa, costa, costanzo,
-  côté, cottin, cowan, cox, cranmer, cree, crépé renaudin, crescioli,
-  cribbs, crispin ortuzar, cristinziani, croft, crosetti, cuhadar donszelmann,
-  cummings, curatolo, cuthbert, czirr, czodrowski, d’auria, d’onofrio,
-  cunha sargedas~de sousa, via, dabrowski, dafinca, dai, dale, dallaire,
-  dallapiccola, dam, dandoy, daniells, danninger, dano hoffmann, dao, darbo,
-  darmora, dassoulas, dattagupta, davey, david, davidek, davies, davies,
-  davison, davygora, dawe, dawson, daya ishmukhametova, de, de~asmundis,
-  de~castro, de~cecco, de~groot, de~jong, de~la torre, de~lorenzi, de~nooij,
-  de~pedis, de~salvo, de~sanctis, de~santo, de~vivie~de regie, dearnaley,
-  debbe, debenedetti, dedovich, deigaard, del peso, del prete, delgove, deliot,
-  delitzsch, deliyergiyev, dell’acqua, dell’asta, dell’orso, della
-  pietra, della volpe, delmastro, delsart, deluca, demarco, demers, demichev,
-  demilly, denisov, derendarz, derkaoui, derue, dervan, desch, deterre,
-  deviveiros, dewhurst, dhaliwal, di~ciaccio, di~ciaccio, di~domenico,
-  di~donato, di~girolamo, di~girolamo, di~mattia, di~micco, di~nardo,
-  di~simone, di~sipio, di~valentino, diaconu, diamond, dias, diaz, diehl,
-  dietrich, diglio, dimitrievska, dingfelder, dittus, djama, djobava,
-  djuvsland, do~vale, dobos, dobre, doglioni, dohmae, dolejsi, dolezal,
-  dolgoshein, donadelli, donati, dondero, donini, dopke, doria, dova, doyle,
-  drechsler, dris, dubreuil, duchovni, duckeck, ducu, duda, dudarev, duflot,
-  duguid, dührssen, dunford, duran yildiz, düren, durglishvili, duschinger,
-  dwuznik, dyndal, eckardt, ecker, edson, edwards, ehrenfeld, eifert, eigen,
-  einsweiler, ekelof, el~kacimi, ellert, elles, ellinghaus, elliot, ellis,
-  elmsheuser, elsing, emeliyanov, enari, endner, endo, engelmann, erdmann,
-  ereditato, ernis, ernst, ernst, errede, ertel, escalier, esch, escobar,
-  esposito, etienvre, etzion, evans, ezhilov, fabbri, facini, fakhrutdinov,
-  falciano, falla, faltova, fang, fanti, farbin, farilla, farooque, farrell,
-  farrington, farthouat, fassi, fassnacht, fassouliotis, favareto, fayard,
-  federic, fedin, fedorko, feigl, feligioni, feng, feng, feng, fenyuk,
-  martinez, fernandez perez, ferrag, ferrando, ferrari, ferrari, ferrari,
-  ferreira~de lima, ferrer, ferrere, ferretti, ferretto parodi, fiascaris,
-  fiedler, filipčič, filipuzzi, filthaut, fincke keeler, finelli, fiolhais,
-  fiorini, firan, fischer, fischer, fischer, fisher, fitzgerald, flechl, fleck,
-  fleischmann, fleischmann, fletcher, fletcher, flick, floderus, flores
-  castillo, flowerdew, formica, forti, fournier, fox, fracchia, francavilla,
-  franchini, francis, franconi, franklin, fraternali, freeborn, french,
-  friedrich, froidevaux, frost, fukunaga, fullana torregrosa, fulsom, fuster,
-  gabaldon, gabizon, gabrielli, gabrielli, gadatsch, gadomski, gagliardi,
-  gagnon, galea, galhardo, gallas, gallop, gallus, galster, gan, gao, gao, gao,
-  garay walls, garberson, garcía, garcía navarro, garcia sciveres, gardner,
-  garelli, garonne, gatti, gaudiello, gaudio, gaur, gauthier, gauzzi,
-  gavrilenko, gay, gaycken, gazis, ge, gecse, gee, geerts, geich gimbel,
-  geisler, gemme, genest, gentile, george, george, gerbaudo, gershon, ghazlane,
-  ghodbane, giacobbe, giagu, giangiobbe, giannetti, gibbard, gibson,
-  gilchriese, gillam, gillberg, gilles, gingrich, giokaris, giordani, giorgi,
-  giorgi, giraud, giromini, giugni, giuliani, giulini, gjelsten, gkaitatzis,
-  gkialas, gkougkousis, gladilin, glasman, glatzer, glaysher, glazov, glonti,
-  goblirsch kolb, goddard, godlewski, goldfarb, golling, golubkov, gomes,
-  gonçalo, goncalves pinto firmino~da costa, gonella, gonzález de~la hoz,
-  gonzalez parra, gonzalez sevilla, goossens, gorbounov, gordon, gorelov,
-  gorini, gorini, gorišek, gornicki, goshaw, gössling, gostkin, goujdami,
-  goussiou, govender, grabas, graber, grabowska bold, grafström, grahn,
-  gramling, gramstad, grancagnolo, grassi, gratchev, gray, graziani, greenwood,
-  gregersen, gregor, grenier, griffiths, grillo, grimm, grinstein, gris,
-  grishkevich, grivaz, grohs, grohsjean, gross, grosse knetter, grossi, grout,
-  guan, guenther, guescini, guest, gueta, guido, guillemin, guindon, gul,
-  gumpert, guo, gupta, gutierrez, gutierrez ortiz, gutschow, guyot, gwenlan,
-  gwilliam, haas, haber, hadavand, haddad, haefner, hageböck, hajduk,
-  hakobyan, haleem, haley, hall, halladjian, hallewell, hamacher, hamal,
-  hamano, hamer, hamilton, hamilton, hamity, hamnett, han, hanagaki, hanawa,
-  hance, hanke, hanna, hansen, hansen, hansen, hansen, hara, hard, harenberg,
-  hariri, harkusha, harrington, harrison, hartjes, hasegawa, hasegawa,
-  hasegawa, hasib, hassani, haug, hauser, hauswald, havranek, hawkes, hawkings,
-  hawkins, hayashi, hayden, hays, hays, hayward, haywood, head, heck, hedberg,
-  heelan, heim, heim, heinemann, heinrich, hejbal, helary, hellman, hellmich,
-  helsens, henderson, henderson, heng, hengler, henrichs, henriques correia,
-  henrot versille, herbert, hernández jiménez, herrberg schubert, herten,
-  hertenberger, hervas, hesketh, hessey, hetherly, hickling, higón rodriguez,
-  hill, hill, hiller, hillier, hinchliffe, hines, hinman, hirose, hirschbuehl,
-  hobbs, hod, hodgkinson, hodgson, hoecker, hoeferkamp, hoenig, hohlfeld, hohn,
-  holmes, hong, hooft~van huysduynen, hopkins, horii, horton, hostachy, hou,
-  hoummada, howard, howarth, hrabovsky, hristova, hrivnac, hryn’ova,
-  hrynevich, hsu, hsu, hsu, hu, hu, hu, huang, hubacek, hubaut, huegging,
-  huffman, hughes, hughes, huhtinen, hülsing, huseynov, huston, huth,
-  iacobucci, iakovidis, ibragimov, iconomidou fayard, ideal, idrissi, iengo,
-  igonkina, iizawa, ikegami, ikematsu, ikeno, ilchenko, iliadis, ilic, inamaru,
-  ince, ioannou, iodice, iordanidou, ippolito, irles quiles, isaksson, ishino,
-  ishitsuka, ishmukhametov, issever, istin, iturbe ponce, iuppa, ivarsson,
-  iwanski, iwasaki, izen, izzo, jabbar, jackson, jackson, jackson, jaekel,
-  jain, jakobs, jakobsen, jakoubek, jakubek, jamin, jana, jansen, jansky,
-  janssen, janus, jarlskog, javadov, javůrek, jeanty, jejelava, jeng, jennens,
-  jenni, jentzsch, jeske, jézéquel, ji, jia, jiang, jiggins, jimenez pena,
-  jin, jinaru, jinnouchi, joergensen, johansson, johns, jon and, jones, jones,
-  jones, jongmanns, jorge, joshi, jovicevic, ju, jung, jussel, juste rozas,
-  kaci, kaczmarska, kado, kagan, kagan, kahn, kajomovitz, kalderon, kama,
-  kamenshchikov, kanaya, kaneda, kaneti, kantserov, kanzaki, kaplan, kapliy,
-  kar, karakostas, karamaoun, karastathis, kareem, karnevskiy, karpov, karpova,
-  karthik, kartvelishvili, karyukhin, kashif, kass, kastanas, kataoka, katre,
-  katzy, kawagoe, kawamoto, kawamura, kazama, kazanin, kazarinov, keeler,
-  kehoe, keil, keller, kempster, keoshkerian, kepka, kerševan, kersten, keyes,
-  khalil zada, khandanyan, khanov, kharlamov, khoo, khoriauli, khovanskiy,
-  khramov, khubua, kim, kim, kim, kim, kimura, kind, king, king, king, king,
-  kirk, kiryunin, kishimoto, kisielewska, kiss, kiuchi, kivernyk, kladiva,
-  klein, klein, klein, kleinknecht, klimek, klimentov, klingenberg, klinger,
-  klioutchnikova, klok, kluge, kluit, kluth, kneringer, knoops, knue,
-  kobayashi, kobayashi, kobel, kocian, kodys, koffas, koffeman, kogan,
-  kohlmann, kohout, kohriki, koi, kolanoski, koletsou, komar, komori, kondo,
-  kondrashova, köneke, könig, könig, kono, konoplich, konstantinidis,
-  kopeliansky, koperny, köpke, kopp, korcyl, kordas, korn, korol, korolkov,
-  korolkova, kortner, kortner, kosek, kostyukhin, kotov, kotwal, kourkoumeli
-  charalampidi, kourkoumelis, kouskoura, koutsman, kowalewski, kowalski,
-  kozanecki, kozhin, kramarenko, kramberger, krasnopevtsev, krasny,
-  krasznahorkay, kraus, kravchenko, kreiss, kretz, kretzschmar, kreutzfeldt,
-  krieger, krizka, kroeninger, kroha, kroll, kroseberg, krstic, kruchonak,
-  krüger, krumnack, krumshteyn, kruse, kruse, kruskal, kubota, kucuk, kuday,
-  kuehn, kugel, kuger, kuhl, kuhl, kukhtin, kulchitsky, kuleshov, kuna, kunigo,
-  kupco, kurashige, kurochkin, kurumida, kus, kuwertz, kuze, kvita, kwan,
-  kyriazopoulos, la~rosa, la~rosa navarro, la~rotonda, lacasta, lacava, lacey,
-  lacker, lacour, lacuesta, ladygin, lafaye, laforge, lagouri, lai, lambourne,
-  lammers, lampen, lampl, lançon, landgraf, landon, lang, lange, lankford,
-  lanni, lantzsch, laplace, lapoire, laporte, lari, manghi, lassnig, laurelli,
-  lavrijsen, law, laycock, le~dortz, le~guirriec, le~menedeu, leblanc,
-  lecompte, ledroit guillon, lee, lee, lee, lefebvre, lefebvre, legger,
-  leggett, lehan, lehmann miotto, lei, leight, leisos, leister, leite, leitner,
-  lellouch, lemmer, leney, lenz, lenzen, lenzi, leone, leone, leonidopoulos,
-  leontsinis, leroy, lester, levchenko, levêque, levin, levinson, levy, lewis,
-  leyko, leyton, li, li, li, li, li, li, li, liang, liao, liberti, liblong,
-  lichard, lie, liebal, liebig, limbach, limosani, lin, lin, linde, lindquist,
-  linnemann, lipeles, lipniacka, lisovyi, liss, lissauer, lister, litke, liu,
-  liu, liu, liu, liu, liu, liu, liu, liu, livan, lleres, llorente merino,
-  lloyd, lo~sterzo, lobodzinska, loch, lockman, loebinger, loevschall jensen,
-  loginov, lohse, lohwasser, lokajicek, long, long, long, looper, lopes, lopez
-  mateos, lopez paredes, lopez paz, lorenz, lorenzo martinez, losada,
-  loscutoff, lösel, lou, lounis, love, love, lu, lubatti, luci, lucotte,
-  luehring, lukas, luminari, lundberg, lund jensen, lungwitz, lynn, lysak,
-  lytken, ma, ma, maccarrone, macchiolo, macdonald, machado miguens, macina,
-  madaffari, madar, maddocks, mader, madsen, maeland, maeno, maevskiy,
-  magradze, mahboubi, mahlstedt, maiani, maidantchik, maier, maier, maio,
-  majewski, makida, makovec, malaescu, malecki, maleev, malek, mallik, malon,
-  malone, maltezos, malyshev, malyukov, mamuzic, mancini, mandelli, mandelli,
-  mandić, mandrysch, maneira, manfredini, manhaes de~andrade filho, manjarres
-  ramos, mann, manning, manousakis katsikakis, mansoulie, mantifel, mantoani,
-  mapelli, march, marchiori, marcisovsky, marino, marjanovic, marroquim,
-  marsden, marshall, marti, marti garcia, martin, martin, martin, martin~dit
-  latour, martinez, martin haugh, martoiu, martyniuk, marx, marzano, marzin,
-  masetti, mashimo, mashinistov, masik, maslennikov, massa, massa, massol,
-  mastrandrea, mastroberardino, masubuchi, mättig, mattmann, maurer, maxfield,
-  maximov, mazini, mazza, mazzaferro, mc~goldrick, mc~kee, mccarn, mccarthy,
-  mccarthy, mccubbin, mcfarlane, mcfayden, mchedlidze, mcmahon, mcpherson,
-  medinnis, meehan, mehlhase, mehta, meier, meineck, meirose, mellado garcia,
-  meloni, mengarelli, menke, meoni, mercurio, mergelmeyer, mermod, merola,
-  meroni, merritt, messina, metcalfe, mete, meyer, meyer, meyer, meyer,
-  middleton, miglioranzi, mijović, mikenberg, mikestikova, mikuž, milesi,
-  milic, miller, mills, milov, milstead, minaenko, minami, minashvili, mincer,
-  mindur, mineev, ming, mir, mitani, mitrevski, mitsou, miucci, miyagawa,
-  mjörnmark, moa, mochizuki, mohapatra, mohr, molander, moles valls, mönig,
-  monini, monk, monnier, montejo berlingen, monticelli, monzani, moore,
-  morange, moreno, moreno llácer, morettini, morgenstern, morii, morisbak,
-  moritz, morley, mornacchi, morris, mortensen, morton, morvaj, moser, mosidze,
-  moss, motohashi, mount, mountricha, mouraviev, moyse, muanza, mudd, mueller,
-  mueller, mueller, mueller, mueller, muenstermann, mullen, munwes, murillo
-  quijada, murray, musheghyan, musto, myagkov, myska, nackenhorst, nadal,
-  nagai, nagai, nagai, nagano, nagarkar, nagasaka, nagata, nagel, nagy, nairz,
-  nakahama, nakamura, nakamura, nakano, namasivayam, nanava, naranjo garcia,
-  narayan, naumann, navarro, nayyar, neal, nechaeva, neep, nef, negri, negrini,
-  nektarijevic, nellist, nelson, nemecek, nemethy, nepomuceno, nessi, neubauer,
-  neumann, neves, nevski, newman, nguyen, nickerson, nicolaidou, nicquevert,
-  nielsen, nikiforou, nikiforov, nikolaenko, nikolic audit, nikolopoulos,
-  nilsen, nilsson, ninomiya, nisati, nisius, nobe, nomachi, nomidis, nooney,
-  norberg, nordberg, novgorodova, nowak, nozaki, nozka, ntekas, nunes
-  hanninger, nunnemann, nurse, nuti, o’brien, o’grady, o’neil, o’shea,
-  oakham, oberlack, obermann, ocariz, ochi, ochoa, oda, odaka, ogren, oh, oh,
-  ohm, ohman, oide, okamura, okawa, okumura, okuyama, olariu, olivares pino,
-  oliveira damazio, oliver garcia, olszewski, olszowska, onofre, onyisi, oram,
-  oreglia, oren, orestano, orlando, oropeza barrera, orr, osculati, ospanov,
-  otero~y garzon, otono, ouchrif, ouellette, ould saada, ouraou, oussoren,
-  ouyang, ovcharova, owen, owen, ozcan, ozturk, pachal, pacheco pages, padilla
-  aranda, pagáčová, pagan griso, paganis, pahl, paige, pais, pajchel,
-  palacino, palestini, palka, pallin, palma, pan, panagiotopoulou, pandini,
-  panduro vazquez, pani, panitkin, paolozzi, papadopoulou, papageorgiou,
-  paramonov, paredes hernandez, parker, parker, parodi, parsons, parzefall,
-  pasqualucci, passaggio, pastore, pastore, pásztor, pataraia, patel, pater,
-  pauly, pearce, pearson, pedersen, pedersen, pedraza lopez, pedro,
-  peleganchuk, pelikan, peng, penning, penwell, perepelitsa, perez codina,
-  pérez~garcía estañ, perini, pernegger, perrella, peschke, peshekhonov,
-  peters, peters, petersen, petersen, petit, petridis, petridou, petrolo,
-  petrucci, pettersson, pezoa, phillips, piacquadio, pianori, picazio, piccaro,
-  piccinini, pickering, piegaia, pignotti, pilcher, pilkington, pina,
-  pinamonti, pinfold, pingel, pinto, pires, pitt, pizio, plazak, pleier,
-  pleskot, plotnikova, plucinski, pluth, poettgen, poggioli, pohl, polesello,
-  policicchio, polifka, polini, pollard, polychronakos, pommès, pontecorvo,
-  pope, popeneciu, popovic, poppleton, pospisil, potamianos, potrap, potter,
-  potter, poulard, poveda, pozdnyakov, pralavorio, pranko, prasad, prell,
-  price, price, price, primavera, prince, proissl, prokofiev, prokoshin,
-  protopapadaki, protopopescu, proudfoot, przybycien, ptacek, puddu, pueschel,
-  puldon, purohit, puzo, qian, qin, qin, quadt, quarrie, quayle, queitsch
-  maitland, quilty, raddum, radeka, radescu, radhakrishnan, radloff, rados,
-  ragusa, rahal, rajagopalan, rammensee, rangel smith, rauscher, rave,
-  ravenscroft, raymond, read, readioff, rebuzzi, redelbach, redlinger, reece,
-  reeves, rehnisch, reisin, relich, rembser, ren, renaud, rescigno, resconi,
-  rezanova, reznicek, rezvani, richter, richter, richter was, ricken, ridel,
-  rieck, riegel, rieger, rijssenbeek, rimoldi, rinaldi, ristić, ritsch, riu,
-  rizatdinova, rizvi, robertson, robichaud veronneau, robinson, robinson,
-  robson, roda, roe, røhne, rolli, romaniouk, romano, saez, romero adam,
-  rompotis, ronzani, roos, ros, rosati, rosbach, rose, rosendahl, rosenthal,
-  rossetti, rossi, rossi, rosten, rotaru, roth, rothberg, rousseau, royon,
-  rozanov, rozen, ruan, rubbo, rubinskiy, rud, rudolph, rudolph, rühr, ruiz
-  martinez, rurikova, rusakovich, ruschke, russell, rutherfoord, ruthmann,
-  ryabov, rybar, rybkin, ryder, saavedra, sabato, sacerdoti, saddique,
-  sadrozinski, sadykov, safai tehrani, saimpert, sakamoto, sakurai, salamanna,
-  salamon, saleem, salek, sales~de bruin, salihagic, salnikov, salt, salvatore,
-  salvatore, salvucci, salzburger, sampsonidis, sanchez, sánchez, sanchez
-  martinez, sandaker, sandbach, sander, sanders, sandhoff, sandoval,
-  sandstroem, sankey, sannino, sansoni, santoni, santonico, santos, santoyo
-  castillo, sapp, sapronov, saraiva, sarrazin, sasaki, sasaki, sato, sauvage,
-  sauvan, savage, savard, sawyer, sawyer, saxon, sbarra, sbrizzi, scanlon,
-  scannicchio, scarcella, scarfone, schaarschmidt, schacht, schaefer, schaefer,
-  schaeffer, schaepe, schaetzel, schäfer, schaffer, schaile, schamberger,
-  scharf, schegelsky, scheirich, schernau, schiavi, schillo, schioppa,
-  schlenker, schmidt, schmieden, schmitt, schmitt, schmitt, schneider,
-  schnellbach, schnoor, schoeffel, schoening, schoenrock, schopf, schorlemmer,
-  schott, schouten, schovancova, schramm, schreyer, schroeder, schuh,
-  schultens, schultz coulon, schulz, schumacher, schumm, schune,
-  schwanenberger, schwartzman, schwarz, schwegler, schwemling, schwienhorst,
-  schwindling, schwindt, schwoerer, sciacca, scifo, sciolla, scuri, scutti,
-  searcy, sedov, sedykh, seema, seidel, seiden, seifert, seixas, sekhniaidze,
-  sekula, selbach, seliverstov, semprini cesari, serfon, serin, serkin, serre,
-  seuster, severini, sfiligoj, sforza, sfyrla, shabalina, shamim, shan, shang,
-  shank, shapiro, shatalov, shaw, shcherbakova, shehu, sherwood, shi, shimizu,
-  shimmin, shimojima, shiyakova, shmeleva, saadi, shochet, shojaii, shrestha,
-  shulga, shupe, shushkevich, sicho, sidiropoulou, sidorov, sidoti, siegert,
-  sijacki, silva, silver, silverstein, simak, simard, simic, simion, simioni,
-  simmons, simon, simoniello, sinervo, sinev, siragusa, sisakyan, sivoklokov,
-  sjölin, sjursen, skinner, skottowe, skubic, slater, slavicek, slawinska,
-  sliwa, smakhtin, smart, smestad, smirnov, smirnov, smirnova, smirnova, smith,
-  smizanska, smolek, snesarev, snidero, snyder, sobie, socher, soffer, soh,
-  solans, solar, solc, soldatov, soldevila, solodkov, soloshenko, solovyanov,
-  solovyev, sommer, song, soni, sood, sopczak, sopko, sopko, sorin, sosa,
-  sosebee, sotiropoulou, soualah, soueid, soukharev, south, spagnolo, spalla,
-  spanò, spearman, spettel, spighi, spigo, spiller, spousta, spreitzer, denis,
-  staerz, stahlman, stamen, stamm, stanecka, stanescu, stanescu bellu,
-  stanitzki, stapnes, starchenko, stark, staroba, starovoitov, staszewski,
-  stavina, steinberg, stelzer, stelzer, stelzer chilton, stenzel, stern,
-  stewart, stillings, stockton, stoebe, stoicea, stolte, stonjek, stradling,
-  straessner, stramaglia, strandberg, strandberg, strandlie, strauss, strauss,
-  strizenec, ströhmer, strom, stroynowski, strubig, stucci, stugu, styles, su,
-  su, subramaniam, succurro, sugaya, suhr, suk, sulin, sultansoy, sumida, sun,
-  sun, sundermann, suruliz, susinno, sutton, suzuki, suzuki, svatos, swedish,
-  swiatlowski, sykora, sykora, ta, taccini, tackmann, taenzer, taffard,
-  tafirout, taiblum, takai, takashima, takeda, takeshita, takubo, talby,
-  talyshev, tam, tan, tanaka, tanaka, tanaka, tanaka, tannenwald, tannoury,
-  tapprogge, tarem, tarrade, tartarelli, tas, tasevsky, tashiro, tassi, tavares
-  delgado, tayalati, taylor, taylor, taylor, teischinger, teixeira~dias
-  castanheira, teixeira dias, temming, ten kate, teng, teoh, tepel, terada,
-  terashi, terron, terzo, testa, teuscher, therhaag, theveneaux pelzer, thomas,
-  thomas wilsker, thompson, thompson, thompson, thompson, thomsen, thomson,
-  thomson, thun, tibbetts, torres, tikhomirov, tikhonov, timoshenko,
-  tiouchichine, tipton, tisserant, todorov, todorova nova, tojo, tokár,
-  tokushuku, tollefson, tolley, tomlinson, tomoto, tompkins, toms, torrence,
-  torres, torró pastor, toth, touchard, tovey, trefzger, tremblet, tricoli,
-  trigger, trincaz duvoid, tripiana, trischuk, trocmé, troncon, trottier
-  mcdonald, trovatelli, true, trzebinski, trzupek, tsarouchas, tseng,
-  tsiareshka, tsionou, tsipolitis, tsirintanis, tsiskaridze, tsiskaridze,
-  tskhadadze, tsukerman, tsulaia, tsuno, tsybychev, tudorache, tudorache, tuna,
-  tupputi, turchikhin, turecek, turra, turvey, tuts, tykhonov, tylmad, tyndel,
-  ueda, ueno, ughetto, ugland, uhlenbrock, ukegawa, unal, undrus, unel, ungaro,
-  unno, unverdorben, urban, urquijo, urrejola, usai, usanova, vacavant, vacek,
-  vachon, valderanis, valencic, valentinetti, valero, valery, valkar,
-  valladolid gallego, vallecorsa, valls ferrer, van~den wollenberg, van~der
-  deijl, van~der geer, van~der graaf, van~der leeuw, van eldik, van gemmeren,
-  van nieuwkoop, van vulpen, van woerden, vanadia, vandelli, vanguri,
-  vaniachine, vannucci, vardanyan, vari, varnes, varol, varouchas, vartapetian,
-  varvell, vazeille, vazquez schroeder, veatch, veloso, velz, veneziano,
-  ventura, ventura, venturi, venturi, venturini, vercesi, verducci, verkerke,
-  vermeulen, vest, vetterli, viazlo, vichou, vickey, vickey boeriu, viehhauser,
-  viel, vigne, villa, villaplana perez, vilucchi, vincter, vinogradov,
-  vivarelli, vives vaque, vlachos, vladoiu, vlasak, vogel, vokac, volpi, volpi,
-  von~der schmitt, von radziewski, von toerne, vorobel, vorobev, vos, voss,
-  vossebeld, vranjes, vranjes milosavljevic, vrba, vreeswijk, vuillermet,
-  vukotic, vykydal, wagner, wagner, wahlberg, wahrmund, wakabayashi, walder,
-  walker, walkowiak, wang, wang, wang, wang, wang, wang, wang, wang, wang,
-  wang, wang, wanotayaroj, warburton, ward, wardrope, warsinsky, washbrook,
-  wasicki, watkins, watson, watson, watson, watts, watts, waugh, webb, weber,
-  weber, webster, weidberg, weinert, weingarten, weiser, weits, wells, wenaus,
-  wengler, wenig, wermes, werner, werner, wessels, wetter, whalen, wharton,
-  white, white, white, white, whiteson, wickens, wiedenmann, wielers,
-  wienemann, wiglesworth, wiik fuchs, wildauer, wilkens, williams, williams,
-  willis, willocq, wilson, wilson, wingerter seez, winklmeier, winter, wittgen,
-  wittkowski, wollstadt, wolter, wolters, wosiek, wotschack, woudstra, wozniak,
-  wu, wu, wu, wu, wu, wyatt, wynne, xella, xu, xu, yabsley, yacoob, yakabe,
-  yamada, yamaguchi, yamamoto, yamamoto, yamanaka, yamauchi, yamazaki, yan,
-  yang, yang, yang, yao, yao, yasu, yatsenko, yau wong, ye, ye, yeletskikh,
-  yen, yildirim, yorita, yoshida, yoshihara, young, young, youssef, yu, yu, yu,
-  yu, yuan, yurkewicz, yusuff, zabinski, zaidan, zaitsev, zalieckas, zaman,
-  zambito, zanello, zanzi, zeitnitz, zeman, zemla, zengel, zenin, ženiš,
-  zerwas, zhang, zhang, zhang, zhang, zhang, zhang, zhang, zhao, zhao, zhao,
-  zhemchugov, zhong, zhou, zhou, zhou, zhou, zhou, zhu, zhu, zhu, zhu, zhuang,
-  zhukov, zibell, zieminska, zimine, zimmermann, zimmermann, zimmermann,
-  zinonos, zinser, ziolkowski, živković, zobernig, zoccoli, zur nedden,
-  zurzolo, and zwalinski]{atlas_collaboration_determination_2015_fixed}
-{atlas collaboration}, g.~aad, b.~abbott, j.~abdallah, o.~abdinov, r.~aben,
-  m.~abolins, o.~s. abouzeid, h.~abramowicz, h.~abreu, r.~abreu, y.~abulaiti,
-  b.~s. acharya, l.~adamczyk, d.~l. adams, j.~adelman, s.~adomeit, t.~adye,
-  a.~a. affolder, t.~agatonovic jovin, j.~a. aguilar saavedra, m.~agustoni,
-  s.~p. ahlen, f.~ahmadov, g.~aielli, h.~akerstedt, t.~p.~a. åkesson,
-  g.~akimoto, a.~v. akimov, g.~l. alberghi, j.~albert, s.~albrand, m.~j.
-  alconada verzini, m.~aleksa, i.~n. aleksandrov, c.~alexa, g.~alexander,
-  t.~alexopoulos, m.~alhroob, g.~alimonti, l.~alio, j.~alison, s.~p. alkire,
-  b.~m.~m. allbrooke, p.~p. allport, a.~aloisio, a.~alonso, f.~alonso,
-  c.~alpigiani, a.~altheimer, b.~alvarez gonzalez, d.~álvarez piqueras, m.~g.
-  alviggi, k.~amako, y.~amaral coutinho, c.~amelung, d.~amidei, s.~p. amor~dos
-  santos, a.~amorim, s.~amoroso, n.~amram, g.~amundsen, c.~anastopoulos, l.~s.
-  ancu, n.~andari, t.~andeen, c.~f. anders, g.~anders, k.~j. anderson,
-  a.~andreazza, v.~andrei, s.~angelidakis, i.~angelozzi, p.~anger, a.~angerami,
-  f.~anghinolfi, a.~v. anisenkov, n.~anjos, a.~annovi, m.~antonelli,
-  a.~antonov, j.~antos, f.~anulli, m.~aoki, l.~aperio bella, g.~arabidze,
-  y.~arai, j.~p. araque, a.~t.~h. arce, f.~a arduh, j.-f. arguin,
-  s.~argyropoulos, m.~arik, a.~j. armbruster, o.~arnaez, v.~arnal, h.~arnold,
-  m.~arratia, o.~arslan, a.~artamonov, g.~artoni, s.~asai, n.~asbah,
-  a.~ashkenazi, b.~åsman, l.~asquith, k.~assamagan, r.~astalos, m.~atkinson,
-  n.~b. atlay, b.~auerbach, k.~augsten, m.~aurousseau, g.~avolio, b.~axen,
-  m.~k. ayoub, g.~azuelos, m.~a. baak, a.~e. baas, c.~bacci, h.~bachacou,
-  k.~bachas, m.~backes, m.~backhaus, e.~badescu, p.~bagiacchi, p.~bagnaia,
-  y.~bai, t.~bain, j.~t. baines, o.~k. baker, p.~balek, t.~balestri, f.~balli,
-  e.~banas, sw. banerjee, a.~a.~e. bannoura, h.~s. bansil, l.~barak, s.~p.
-  baranov, e.~l. barberio, d.~barberis, m.~barbero, t.~barillari, m.~barisonzi,
-  t.~barklow, n.~barlow, s.~l. barnes, b.~m. barnett, r.~m. barnett,
-  z.~barnovska, a.~baroncelli, g.~barone, a.~j. barr, f.~barreiro, j.~barreiro
-  guimarães~da costa, r.~bartoldus, a.~e. barton, p.~bartos, a.~bassalat,
-  a.~basye, r.~l. bates, s.~j. batista, j.~r. batley, m.~battaglia, m.~bauce,
-  f.~bauer, h.~s. bawa, j.~b. beacham, m.~d. beattie, t.~beau, p.~h.
-  beauchemin, r.~beccherle, p.~bechtle, h.~p. beck, k.~becker, m.~becker,
-  s.~becker, m.~beckingham, c.~becot, a.~j. beddall, a.~beddall, v.~a.
-  bednyakov, c.~p. bee, l.~j. beemster, t.~a. beermann, m.~begel, j.~k. behr,
-  c.~belanger champagne, p.~j. bell, w.~h. bell, g.~bella, l.~bellagamba,
-  a.~bellerive, m.~bellomo, k.~belotskiy, o.~beltramello, o.~benary,
-  d.~benchekroun, m.~bender, k.~bendtz, n.~benekos, y.~benhammou, e.~benhar
-  noccioli, j.~a. benitez garcia, d.~p. benjamin, j.~r. bensinger,
-  s.~bentvelsen, l.~beresford, m.~beretta, d.~berge, e.~bergeaas kuutmann,
-  n.~berger, f.~berghaus, j.~beringer, c.~bernard, n.~r. bernard, c.~bernius,
-  f.~u. bernlochner, t.~berry, p.~berta, c.~bertella, g.~bertoli,
-  f.~bertolucci, c.~bertsche, d.~bertsche, m.~i. besana, g.~j. besjes,
-  o.~bessidskaia bylund, m.~bessner, n.~besson, c.~betancourt, s.~bethke, a.~j.
-  beven, w.~bhimji, r.~m. bianchi, l.~bianchini, m.~bianco, o.~biebel, s.~p.
-  bieniek, m.~biglietti, j.~bilbao~de mendizabal, h.~bilokon, m.~bindi,
-  s.~binet, a.~bingul, c.~bini, c.~w. black, j.~e. black, k.~m. black,
-  d.~blackburn, r.~e. blair, j.-b. blanchard, j.e. blanco, t.~blazek, i.~bloch,
-  c.~blocker, w.~blum, u.~blumenschein, g.~j. bobbink, v.~s. bobrovnikov, s.~s.
-  bocchetta, a.~bocci, c.~bock, m.~boehler, j.~a. bogaerts, a.~g. bogdanchikov,
-  c.~bohm, v.~boisvert, t.~bold, v.~boldea, a.~s. boldyrev, m.~bomben, m.~bona,
-  m.~boonekamp, a.~borisov, g.~borissov, s.~borroni, j.~bortfeldt,
-  v.~bortolotto, k.~bos, d.~boscherini, m.~bosman, j.~boudreau, j.~bouffard,
-  e.~v. bouhova thacker, d.~boumediene, c.~bourdarios, n.~bousson, a.~boveia,
-  j.~boyd, i.~r. boyko, i.~bozic, j.~bracinik, a.~brandt, g.~brandt, o.~brandt,
-  u.~bratzler, b.~brau, j.~e. brau, h.~m. braun, s.~f. brazzale,
-  k.~brendlinger, a.~j. brennan, l.~brenner, r.~brenner, s.~bressler,
-  k.~bristow, t.~m. bristow, d.~britton, d.~britzger, f.~m. brochu, i.~brock,
-  r.~brock, j.~bronner, g.~brooijmans, t.~brooks, w.~k. brooks, j.~brosamer,
-  e.~brost, j.~brown, p.~a. bruckman~de renstrom, d.~bruncko, r.~bruneliere,
-  a.~bruni, g.~bruni, m.~bruschi, l.~bryngemark, t.~buanes, q.~buat,
-  p.~buchholz, a.~g. buckley, s.~i. buda, i.~a. budagov, f.~buehrer, l.~bugge,
-  m.~k. bugge, o.~bulekov, h.~burckhart, s.~burdin, b.~burghgrave, s.~burke,
-  i.~burmeister, e.~busato, d.~büscher, v.~büscher, p.~bussey, c.~p.
-  buszello, j.~m. butler, a.~i. butt, c.~m. buttar, j.~m. butterworth,
-  p.~butti, w.~buttinger, a.~buzatu, r.~buzykaev, s.~cabrera urbán,
-  d.~caforio, o.~cakir, p.~calafiura, a.~calandri, g.~calderini, p.~calfayan,
-  l.~p. caloba, d.~calvet, s.~calvet, r.~camacho toro, s.~camarda, d.~cameron,
-  l.~m. caminada, r.~caminal armadans, s.~campana, m.~campanelli,
-  a.~campoverde, v.~canale, a.~canepa, m.~cano bret, j.~cantero, r.~cantrill,
-  t.~cao, m.~d.~m. capeans garrido, i.~caprini, m.~caprini, m.~capua,
-  r.~caputo, r.~cardarelli, t.~carli, g.~carlino, l.~carminati, s.~caron,
-  e.~carquin, g.~d. carrillo montoya, j.~r. carter, j.~carvalho, d.~casadei,
-  m.~p. casado, m.~casolino, e.~castaneda miranda, a.~castelli, v.~castillo
-  gimenez, n.~f. castro, p.~catastini, a.~catinaccio, j.~r. catmore, a.~cattai,
-  j.~caudron, v.~cavaliere, d.~cavalli, m.~cavalli sforza, v.~cavasinni,
-  f.~ceradini, b.~cerio, k.~cerny, a.~s. cerqueira, a.~cerri, l.~cerrito,
-  f.~cerutti, m.~cerv, a.~cervelli, s.~a. cetin, a.~chafaq, d.~chakraborty,
-  i.~chalupkova, p.~chang, b.~chapleau, j.~d. chapman, d.~g. charlton, c.~c.
-  chau, c.~a. chavez barajas, s.~cheatham, a.~chegwidden, s.~chekanov, s.~v.
-  chekulaev, g.~a. chelkov, m.~a. chelstowska, c.~chen, h.~chen, k.~chen,
-  l.~chen, s.~chen, x.~chen, y.~chen, h.~c. cheng, y.~cheng, a.~cheplakov,
-  e.~cheremushkina, r.~cherkaoui~el moursli, v.~chernyatin, e.~cheu,
-  l.~chevalier, v.~chiarella, j.~t. childers, g.~chiodini, a.~s. chisholm,
-  r.~t. chislett, a.~chitan, m.~v. chizhov, k.~choi, s.~chouridou, b.~k.~b.
-  chow, v.~christodoulou, d.~chromek burckhart, m.~l. chu, j.~chudoba, a.~j.
-  chuinard, j.~j. chwastowski, l.~chytka, g.~ciapetti, a.~k. ciftci, d.~cinca,
-  v.~cindro, i.~a. cioara, a.~ciocio, z.~h. citron, m.~ciubancan, a.~clark,
-  b.~l. clark, p.~j. clark, r.~n. clarke, w.~cleland, c.~clement, y.~coadou,
-  m.~cobal, a.~coccaro, j.~cochran, l.~coffey, j.~g. cogan, b.~cole, s.~cole,
-  a.~p. colijn, j.~collot, t.~colombo, g.~compostella, p.~conde muiño,
-  e.~coniavitis, s.~h. connell, i.~a. connelly, s.~m. consonni, v.~consorti,
-  s.~constantinescu, c.~conta, g.~conti, f.~conventi, m.~cooke, b.~d. cooper,
-  a.~m. cooper sarkar, k.~copic, t.~cornelissen, m.~corradi, f.~corriveau,
-  a.~corso radu, a.~cortes gonzalez, g.~cortiana, g.~costa, m.~j. costa,
-  d.~costanzo, d.~côté, g.~cottin, g.~cowan, b.~e. cox, k.~cranmer, g.~cree,
-  s.~crépé renaudin, f.~crescioli, w.~a. cribbs, m.~crispin ortuzar,
-  m.~cristinziani, v.~croft, g.~crosetti, t.~cuhadar donszelmann, j.~cummings,
-  m.~curatolo, c.~cuthbert, h.~czirr, p.~czodrowski, s.~d’auria,
-  m.~d’onofrio, m.~j.~da cunha sargedas~de sousa, c.~da via, w.~dabrowski,
-  a.~dafinca, t.~dai, o.~dale, f.~dallaire, c.~dallapiccola, m.~dam, j.~r.
-  dandoy, a.~c. daniells, m.~danninger, m.~dano hoffmann, v.~dao, g.~darbo,
-  s.~darmora, j.~dassoulas, a.~dattagupta, w.~davey, c.~david, t.~davidek,
-  e.~davies, m.~davies, p.~davison, y.~davygora, e.~dawe, i.~dawson, r.~k. daya
-  ishmukhametova, k.~de, r.~de~asmundis, s.~de~castro, s.~de~cecco,
-  n.~de~groot, p.~de~jong, h.~de~la torre, f.~de~lorenzi, l.~de~nooij,
-  d.~de~pedis, a.~de~salvo, u.~de~sanctis, a.~de~santo, j.~b. de~vivie~de
-  regie, w.~j. dearnaley, r.~debbe, c.~debenedetti, d.~v. dedovich,
-  i.~deigaard, j.~del peso, t.~del prete, d.~delgove, f.~deliot, c.~m.
-  delitzsch, m.~deliyergiyev, a.~dell’acqua, l.~dell’asta, m.~dell’orso,
-  m.~della pietra, d.~della volpe, m.~delmastro, p.~a. delsart, c.~deluca,
-  d.~a. demarco, s.~demers, m.~demichev, a.~demilly, s.~p. denisov,
-  d.~derendarz, j.~e. derkaoui, f.~derue, p.~dervan, k.~desch, c.~deterre,
-  p.~o. deviveiros, a.~dewhurst, s.~dhaliwal, a.~di~ciaccio, l.~di~ciaccio,
-  a.~di~domenico, c.~di~donato, a.~di~girolamo, b.~di~girolamo, a.~di~mattia,
-  b.~di~micco, r.~di~nardo, a.~di~simone, r.~di~sipio, d.~di~valentino,
-  c.~diaconu, m.~diamond, f.~a. dias, m.~a. diaz, e.~b. diehl, j.~dietrich,
-  s.~diglio, a.~dimitrievska, j.~dingfelder, f.~dittus, f.~djama, t.~djobava,
-  j.~i. djuvsland, m.~a.~b. do~vale, d.~dobos, m.~dobre, c.~doglioni,
-  t.~dohmae, j.~dolejsi, z.~dolezal, b.~a. dolgoshein, m.~donadelli, s.~donati,
-  p.~dondero, j.~donini, j.~dopke, a.~doria, m.~t. dova, a.~t. doyle,
-  e.~drechsler, m.~dris, e.~dubreuil, e.~duchovni, g.~duckeck, o.~a. ducu,
-  d.~duda, a.~dudarev, l.~duflot, l.~duguid, m.~dührssen, m.~dunford, h.~duran
-  yildiz, m.~düren, a.~durglishvili, d.~duschinger, m.~dwuznik, m.~dyndal,
-  c.~eckardt, k.~m. ecker, w.~edson, n.~c. edwards, w.~ehrenfeld, t.~eifert,
-  g.~eigen, k.~einsweiler, t.~ekelof, m.~el~kacimi, m.~ellert, s.~elles,
-  f.~ellinghaus, a.~a. elliot, n.~ellis, j.~elmsheuser, m.~elsing,
-  d.~emeliyanov, y.~enari, o.~c. endner, m.~endo, r.~engelmann, j.~erdmann,
-  a.~ereditato, g.~ernis, j.~ernst, m.~ernst, s.~errede, e.~ertel, m.~escalier,
-  h.~esch, c.~escobar, b.~esposito, a.~i. etienvre, e.~etzion, h.~evans,
-  a.~ezhilov, l.~fabbri, g.~facini, r.~m. fakhrutdinov, s.~falciano, r.~j.
-  falla, j.~faltova, y.~fang, m.~fanti, a.~farbin, a.~farilla, t.~farooque,
-  s.~farrell, s.~m. farrington, p.~farthouat, f.~fassi, p.~fassnacht,
-  d.~fassouliotis, a.~favareto, l.~fayard, p.~federic, o.~l. fedin, w.~fedorko,
-  s.~feigl, l.~feligioni, c.~feng, e.~j. feng, h.~feng, a.~b. fenyuk,
-  p.~fernandez martinez, s.~fernandez perez, s.~ferrag, j.~ferrando,
-  a.~ferrari, p.~ferrari, r.~ferrari, d.~e. ferreira~de lima, a.~ferrer,
-  d.~ferrere, c.~ferretti, a.~ferretto parodi, m.~fiascaris, f.~fiedler,
-  a.~filipčič, m.~filipuzzi, f.~filthaut, m.~fincke keeler, k.~d. finelli,
-  m.~c.~n. fiolhais, l.~fiorini, a.~firan, a.~fischer, c.~fischer, j.~fischer,
-  w.~c. fisher, e.~a. fitzgerald, m.~flechl, i.~fleck, p.~fleischmann,
-  s.~fleischmann, g.~t. fletcher, g.~fletcher, t.~flick, a.~floderus, l.~r.
-  flores castillo, m.~j. flowerdew, a.~formica, a.~forti, d.~fournier, h.~fox,
-  s.~fracchia, p.~francavilla, m.~franchini, d.~francis, l.~franconi,
-  m.~franklin, m.~fraternali, d.~freeborn, s.~t. french, f.~friedrich,
-  d.~froidevaux, j.~a. frost, c.~fukunaga, e.~fullana torregrosa, b.~g. fulsom,
-  j.~fuster, c.~gabaldon, o.~gabizon, a.~gabrielli, a.~gabrielli, s.~gadatsch,
-  s.~gadomski, g.~gagliardi, p.~gagnon, c.~galea, b.~galhardo, e.~j. gallas,
-  b.~j. gallop, p.~gallus, g.~galster, k.~k. gan, j.~gao, y.~gao, y.~s. gao,
-  f.~m. garay walls, f.~garberson, c.~garcía, j.~e. garcía navarro, m.~garcia
-  sciveres, r.~w. gardner, n.~garelli, v.~garonne, c.~gatti, a.~gaudiello,
-  g.~gaudio, b.~gaur, l.~gauthier, p.~gauzzi, i.~l. gavrilenko, c.~gay,
-  g.~gaycken, e.~n. gazis, p.~ge, z.~gecse, c.~n.~p. gee, d.~a.~a. geerts, ch.
-  geich gimbel, m.~p. geisler, c.~gemme, m.~h. genest, s.~gentile, m.~george,
-  s.~george, d.~gerbaudo, a.~gershon, h.~ghazlane, n.~ghodbane, b.~giacobbe,
-  s.~giagu, v.~giangiobbe, p.~giannetti, b.~gibbard, s.~m. gibson,
-  m.~gilchriese, t.~p.~s. gillam, d.~gillberg, g.~gilles, d.~m. gingrich,
-  n.~giokaris, m.~p. giordani, f.~m. giorgi, f.~m. giorgi, p.~f. giraud,
-  p.~giromini, d.~giugni, c.~giuliani, m.~giulini, b.~k. gjelsten,
-  s.~gkaitatzis, i.~gkialas, e.~l. gkougkousis, l.~k. gladilin, c.~glasman,
-  j.~glatzer, p.~c.~f. glaysher, a.~glazov, g.~l. glonti, m.~goblirsch kolb,
-  j.~r. goddard, j.~godlewski, s.~goldfarb, t.~golling, d.~golubkov, a.~gomes,
-  r.~gonçalo, j.~goncalves pinto firmino~da costa, l.~gonella, s.~gonzález
-  de~la hoz, g.~gonzalez parra, s.~gonzalez sevilla, l.~goossens, p.~a.
-  gorbounov, h.~a. gordon, i.~gorelov, b.~gorini, e.~gorini, a.~gorišek,
-  e.~gornicki, a.~t. goshaw, c.~gössling, m.~i. gostkin, d.~goujdami, a.~g.
-  goussiou, n.~govender, h.~m.~x. grabas, l.~graber, i.~grabowska bold,
-  p.~grafström, k-j. grahn, j.~gramling, e.~gramstad, s.~grancagnolo,
-  v.~grassi, v.~gratchev, h.~m. gray, e.~graziani, z.~d. greenwood,
-  k.~gregersen, i.~m. gregor, p.~grenier, j.~griffiths, a.~a. grillo, k.~grimm,
-  s.~grinstein, ph. gris, y.~v. grishkevich, j.-f. grivaz, j.~p. grohs,
-  a.~grohsjean, e.~gross, j.~grosse knetter, g.~c. grossi, z.~j. grout,
-  l.~guan, j.~guenther, f.~guescini, d.~guest, o.~gueta, e.~guido,
-  t.~guillemin, s.~guindon, u.~gul, c.~gumpert, j.~guo, s.~gupta, p.~gutierrez,
-  n.~g. gutierrez ortiz, c.~gutschow, c.~guyot, c.~gwenlan, c.~b. gwilliam,
-  a.~haas, c.~haber, h.~k. hadavand, n.~haddad, p.~haefner, s.~hageböck,
-  z.~hajduk, h.~hakobyan, m.~haleem, j.~haley, d.~hall, g.~halladjian, g.~d.
-  hallewell, k.~hamacher, p.~hamal, k.~hamano, m.~hamer, a.~hamilton,
-  s.~hamilton, g.~n. hamity, p.~g. hamnett, l.~han, k.~hanagaki, k.~hanawa,
-  m.~hance, p.~hanke, r.~hanna, j.~b. hansen, j.~d. hansen, m.~c. hansen, p.~h.
-  hansen, k.~hara, a.~s. hard, t.~harenberg, f.~hariri, s.~harkusha, r.~d.
-  harrington, p.~f. harrison, f.~hartjes, m.~hasegawa, s.~hasegawa,
-  y.~hasegawa, a.~hasib, s.~hassani, s.~haug, r.~hauser, l.~hauswald,
-  m.~havranek, c.~m. hawkes, r.~j. hawkings, a.~d. hawkins, t.~hayashi,
-  d.~hayden, c.~p. hays, j.~m. hays, h.~s. hayward, s.~j. haywood, s.~j. head,
-  t.~heck, v.~hedberg, l.~heelan, s.~heim, t.~heim, b.~heinemann, l.~heinrich,
-  j.~hejbal, l.~helary, s.~hellman, d.~hellmich, c.~helsens, j.~henderson,
-  r.~c.~w. henderson, y.~heng, c.~hengler, a.~henrichs, a.~m. henriques
-  correia, s.~henrot versille, g.~h. herbert, y.~hernández jiménez,
-  r.~herrberg schubert, g.~herten, r.~hertenberger, l.~hervas, g.~g. hesketh,
-  n.~p. hessey, j.~w. hetherly, r.~hickling, e.~higón rodriguez, e.~hill,
-  j.~c. hill, k.~h. hiller, s.~j. hillier, i.~hinchliffe, e.~hines, r.~r.
-  hinman, m.~hirose, d.~hirschbuehl, j.~hobbs, n.~hod, m.~c. hodgkinson,
-  p.~hodgson, a.~hoecker, m.~r. hoeferkamp, f.~hoenig, m.~hohlfeld, d.~hohn,
-  t.~r. holmes, t.~m. hong, l.~hooft~van huysduynen, w.~h. hopkins, y.~horii,
-  a.~j. horton, j-y. hostachy, s.~hou, a.~hoummada, j.~howard, j.~howarth,
-  m.~hrabovsky, i.~hristova, j.~hrivnac, t.~hryn’ova, a.~hrynevich, c.~hsu,
-  p.~j. hsu, s.-c. hsu, d.~hu, q.~hu, x.~hu, y.~huang, z.~hubacek, f.~hubaut,
-  f.~huegging, t.~b. huffman, e.~w. hughes, g.~hughes, m.~huhtinen, t.~a.
-  hülsing, n.~huseynov, j.~huston, j.~huth, g.~iacobucci, g.~iakovidis,
-  i.~ibragimov, l.~iconomidou fayard, e.~ideal, z.~idrissi, p.~iengo,
-  o.~igonkina, t.~iizawa, y.~ikegami, k.~ikematsu, m.~ikeno, y.~ilchenko,
-  d.~iliadis, n.~ilic, y.~inamaru, t.~ince, p.~ioannou, m.~iodice,
-  k.~iordanidou, v.~ippolito, a.~irles quiles, c.~isaksson, m.~ishino,
-  m.~ishitsuka, r.~ishmukhametov, c.~issever, s.~istin, j.~m. iturbe ponce,
-  r.~iuppa, j.~ivarsson, w.~iwanski, h.~iwasaki, j.~m. izen, v.~izzo,
-  s.~jabbar, b.~jackson, m.~jackson, p.~jackson, m.~r. jaekel, v.~jain,
-  k.~jakobs, s.~jakobsen, t.~jakoubek, j.~jakubek, d.~o. jamin, d.~k. jana,
-  e.~jansen, r.~w. jansky, j.~janssen, m.~janus, g.~jarlskog, n.~javadov,
-  t.~javůrek, l.~jeanty, j.~jejelava, g.-y. jeng, d.~jennens, p.~jenni,
-  j.~jentzsch, c.~jeske, s.~jézéquel, h.~ji, j.~jia, y.~jiang, s.~jiggins,
-  j.~jimenez pena, s.~jin, a.~jinaru, o.~jinnouchi, m.~d. joergensen,
-  p.~johansson, k.~a. johns, k.~jon and, g.~jones, r.~w.~l. jones, t.~j. jones,
-  j.~jongmanns, p.~m. jorge, k.~d. joshi, j.~jovicevic, x.~ju, c.~a. jung,
-  p.~jussel, a.~juste rozas, m.~kaci, a.~kaczmarska, m.~kado, h.~kagan,
-  m.~kagan, s.~j. kahn, e.~kajomovitz, c.~w. kalderon, s.~kama,
-  a.~kamenshchikov, n.~kanaya, m.~kaneda, s.~kaneti, v.~a. kantserov,
-  j.~kanzaki, b.~kaplan, a.~kapliy, d.~kar, k.~karakostas, a.~karamaoun,
-  n.~karastathis, m.~j. kareem, m.~karnevskiy, s.~n. karpov, z.~m. karpova,
-  k.~karthik, v.~kartvelishvili, a.~n. karyukhin, l.~kashif, r.~d. kass,
-  a.~kastanas, y.~kataoka, a.~katre, j.~katzy, k.~kawagoe, t.~kawamoto,
-  g.~kawamura, s.~kazama, v.~f. kazanin, m.~y. kazarinov, r.~keeler, r.~kehoe,
-  m.~keil, j.~s. keller, j.~j. kempster, h.~keoshkerian, o.~kepka, b.~p.
-  kerševan, s.~kersten, r.~a. keyes, f.~khalil zada, h.~khandanyan, a.~khanov,
-  a.g. kharlamov, t.~j. khoo, g.~khoriauli, v.~khovanskiy, e.~khramov,
-  j.~khubua, h.~y. kim, h.~kim, s.~h. kim, y.~kim, n.~kimura, o.~m. kind, b.~t.
-  king, m.~king, r.~s.~b. king, s.~b. king, j.~kirk, a.~e. kiryunin,
-  t.~kishimoto, d.~kisielewska, f.~kiss, k.~kiuchi, o.~kivernyk, e.~kladiva,
-  m.~h. klein, m.~klein, u.~klein, k.~kleinknecht, p.~klimek, a.~klimentov,
-  r.~klingenberg, j.~a. klinger, t.~klioutchnikova, p.~f. klok, e.-e. kluge,
-  p.~kluit, s.~kluth, e.~kneringer, e.~b. f.~g. knoops, a.~knue, d.~kobayashi,
-  t.~kobayashi, m.~kobel, m.~kocian, p.~kodys, t.~koffas, e.~koffeman, l.~a.
-  kogan, s.~kohlmann, z.~kohout, t.~kohriki, t.~koi, h.~kolanoski, i.~koletsou,
-  a.~a. komar, y.~komori, t.~kondo, n.~kondrashova, k.~köneke, a.~c. könig,
-  s.~könig, t.~kono, r.~konoplich, n.~konstantinidis, r.~kopeliansky,
-  s.~koperny, l.~köpke, a.~k. kopp, k.~korcyl, k.~kordas, a.~korn, a.~a.
-  korol, i.~korolkov, e.~v. korolkova, o.~kortner, s.~kortner, t.~kosek, v.~v.
-  kostyukhin, v.~m. kotov, a.~kotwal, a.~kourkoumeli charalampidi,
-  c.~kourkoumelis, v.~kouskoura, a.~koutsman, r.~kowalewski, t.~z. kowalski,
-  w.~kozanecki, a.~s. kozhin, v.~a. kramarenko, g.~kramberger,
-  d.~krasnopevtsev, m.~w. krasny, a.~krasznahorkay, j.~k. kraus, a.~kravchenko,
-  s.~kreiss, m.~kretz, j.~kretzschmar, k.~kreutzfeldt, p.~krieger, k.~krizka,
-  k.~kroeninger, h.~kroha, j.~kroll, j.~kroseberg, j.~krstic, u.~kruchonak,
-  h.~krüger, n.~krumnack, z.~v. krumshteyn, a.~kruse, m.~c. kruse, m.~kruskal,
-  t.~kubota, h.~kucuk, s.~kuday, s.~kuehn, a.~kugel, f.~kuger, a.~kuhl,
-  t.~kuhl, v.~kukhtin, y.~kulchitsky, s.~kuleshov, m.~kuna, t.~kunigo,
-  a.~kupco, h.~kurashige, y.~a. kurochkin, r.~kurumida, v.~kus, e.~s. kuwertz,
-  m.~kuze, j.~kvita, t.~kwan, d.~kyriazopoulos, a.~la~rosa, j.~l. la~rosa
-  navarro, l.~la~rotonda, c.~lacasta, f.~lacava, j.~lacey, h.~lacker,
-  d.~lacour, v.~r. lacuesta, e.~ladygin, r.~lafaye, b.~laforge, t.~lagouri,
-  s.~lai, l.~lambourne, s.~lammers, c.~l. lampen, w.~lampl, e.~lançon,
-  u.~landgraf, m.~p.~j. landon, v.~s. lang, j.~c. lange, a.~j. lankford,
-  f.~lanni, k.~lantzsch, s.~laplace, c.~lapoire, j.~f. laporte, t.~lari,
-  f.~lasagni manghi, m.~lassnig, p.~laurelli, w.~lavrijsen, a.~t. law,
-  p.~laycock, o.~le~dortz, e.~le~guirriec, e.~le~menedeu, m.~leblanc,
-  t.~lecompte, f.~ledroit guillon, c.~a. lee, s.~c. lee, l.~lee, g.~lefebvre,
-  m.~lefebvre, f.~legger, c.~leggett, a.~lehan, g.~lehmann miotto, x.~lei,
-  w.~a. leight, a.~leisos, a.~g. leister, m.~a.~l. leite, r.~leitner,
-  d.~lellouch, b.~lemmer, k.~j.~c. leney, t.~lenz, g.~lenzen, b.~lenzi,
-  r.~leone, s.~leone, c.~leonidopoulos, s.~leontsinis, c.~leroy, c.~g. lester,
-  m.~levchenko, j.~levêque, d.~levin, l.~j. levinson, m.~levy, a.~lewis, a.~m.
-  leyko, m.~leyton, b.~li, h.~li, h.~l. li, l.~li, l.~li, s.~li, y.~li,
-  z.~liang, h.~liao, b.~liberti, a.~liblong, p.~lichard, k.~lie, j.~liebal,
-  w.~liebig, c.~limbach, a.~limosani, s.~c. lin, t.~h. lin, f.~linde, b.~e.
-  lindquist, j.~t. linnemann, e.~lipeles, a.~lipniacka, m.~lisovyi, t.~m. liss,
-  d.~lissauer, a.~lister, a.~m. litke, b.~liu, d.~liu, j.~liu, j.~b. liu,
-  k.~liu, l.~liu, m.~liu, m.~liu, y.~liu, m.~livan, a.~lleres, j.~llorente
-  merino, s.~l. lloyd, f.~lo~sterzo, e.~lobodzinska, p.~loch, w.~s. lockman,
-  f.~k. loebinger, a.~e. loevschall jensen, a.~loginov, t.~lohse, k.~lohwasser,
-  m.~lokajicek, b.~a. long, j.~d. long, r.~e. long, k.~a. looper, l.~lopes,
-  d.~lopez mateos, b.~lopez paredes, i.~lopez paz, j.~lorenz, n.~lorenzo
-  martinez, m.~losada, p.~loscutoff, p.~j. lösel, x.~lou, a.~lounis, j.~love,
-  p.~a. love, n.~lu, h.~j. lubatti, c.~luci, a.~lucotte, f.~luehring, w.~lukas,
-  l.~luminari, o.~lundberg, b.~lund jensen, m.~lungwitz, d.~lynn, r.~lysak,
-  e.~lytken, h.~ma, l.~l. ma, g.~maccarrone, a.~macchiolo, c.~m. macdonald,
-  j.~machado miguens, d.~macina, d.~madaffari, r.~madar, h.~j. maddocks, w.~f.
-  mader, a.~madsen, s.~maeland, t.~maeno, a.~maevskiy, e.~magradze,
-  k.~mahboubi, j.~mahlstedt, c.~maiani, c.~maidantchik, a.~a. maier, t.~maier,
-  a.~maio, s.~majewski, y.~makida, n.~makovec, b.~malaescu, pa. malecki, v.~p.
-  maleev, f.~malek, u.~mallik, d.~malon, c.~malone, s.~maltezos, v.~m.
-  malyshev, s.~malyukov, j.~mamuzic, g.~mancini, b.~mandelli, l.~mandelli,
-  i.~mandić, r.~mandrysch, j.~maneira, a.~manfredini, l.~manhaes de~andrade
-  filho, j.~manjarres ramos, a.~mann, p.~m. manning, a.~manousakis katsikakis,
-  b.~mansoulie, r.~mantifel, m.~mantoani, l.~mapelli, l.~march, g.~marchiori,
-  m.~marcisovsky, c.~p. marino, m.~marjanovic, f.~marroquim, s.~p. marsden,
-  z.~marshall, l.~f. marti, s.~marti garcia, b.~martin, t.~a. martin, v.~j.
-  martin, b.~martin~dit latour, m.~martinez, s.~martin haugh, v.~s. martoiu,
-  a.~c. martyniuk, m.~marx, f.~marzano, a.~marzin, l.~masetti, t.~mashimo,
-  r.~mashinistov, j.~masik, a.~l. maslennikov, i.~massa, l.~massa, n.~massol,
-  p.~mastrandrea, a.~mastroberardino, t.~masubuchi, p.~mättig, j.~mattmann,
-  j.~maurer, s.~j. maxfield, d.~a. maximov, r.~mazini, s.~m. mazza,
-  l.~mazzaferro, g.~mc~goldrick, s.~p. mc~kee, a.~mccarn, r.~l. mccarthy, t.~g.
-  mccarthy, n.~a. mccubbin, k.~w. mcfarlane, j.~a. mcfayden, g.~mchedlidze,
-  s.~j. mcmahon, r.~a. mcpherson, m.~medinnis, s.~meehan, s.~mehlhase,
-  a.~mehta, k.~meier, c.~meineck, b.~meirose, b.~r. mellado garcia, f.~meloni,
-  a.~mengarelli, s.~menke, e.~meoni, k.~m. mercurio, s.~mergelmeyer, p.~mermod,
-  l.~merola, c.~meroni, f.~s. merritt, a.~messina, j.~metcalfe, a.~s. mete,
-  c.~meyer, c.~meyer, j-p. meyer, j.~meyer, r.~p. middleton, s.~miglioranzi,
-  l.~mijović, g.~mikenberg, m.~mikestikova, m.~mikuž, m.~milesi, a.~milic,
-  d.~w. miller, c.~mills, a.~milov, d.~a. milstead, a.~a. minaenko, y.~minami,
-  i.~a. minashvili, a.~i. mincer, b.~mindur, m.~mineev, y.~ming, l.~m. mir,
-  t.~mitani, j.~mitrevski, v.~a. mitsou, a.~miucci, p.~s. miyagawa, j.~u.
-  mjörnmark, t.~moa, k.~mochizuki, s.~mohapatra, w.~mohr, s.~molander,
-  r.~moles valls, k.~mönig, c.~monini, j.~monk, e.~monnier, j.~montejo
-  berlingen, f.~monticelli, s.~monzani, r.~w. moore, n.~morange, d.~moreno,
-  m.~moreno llácer, p.~morettini, m.~morgenstern, m.~morii, v.~morisbak,
-  s.~moritz, a.~k. morley, g.~mornacchi, j.~d. morris, s.~s. mortensen,
-  a.~morton, l.~morvaj, h.~g. moser, m.~mosidze, j.~moss, k.~motohashi,
-  r.~mount, e.~mountricha, s.~v. mouraviev, e.~j.~w. moyse, s.~muanza, r.~d.
-  mudd, f.~mueller, j.~mueller, k.~mueller, r.~s.~p. mueller, t.~mueller,
-  d.~muenstermann, p.~mullen, y.~munwes, j.~a. murillo quijada, w.~j. murray,
-  h.~musheghyan, e.~musto, a.~g. myagkov, m.~myska, o.~nackenhorst, j.~nadal,
-  k.~nagai, r.~nagai, y.~nagai, k.~nagano, a.~nagarkar, y.~nagasaka, k.~nagata,
-  m.~nagel, e.~nagy, a.~m. nairz, y.~nakahama, k.~nakamura, t.~nakamura,
-  i.~nakano, h.~namasivayam, g.~nanava, r.~f. naranjo garcia, r.~narayan,
-  t.~naumann, g.~navarro, r.~nayyar, h.~a. neal, p.~yu. nechaeva, t.~j. neep,
-  p.~d. nef, a.~negri, m.~negrini, s.~nektarijevic, c.~nellist, a.~nelson,
-  s.~nemecek, p.~nemethy, a.~a. nepomuceno, m.~nessi, m.~s. neubauer,
-  m.~neumann, r.~m. neves, p.~nevski, p.~r. newman, d.~h. nguyen, r.~b.
-  nickerson, r.~nicolaidou, b.~nicquevert, j.~nielsen, n.~nikiforou,
-  a.~nikiforov, v.~nikolaenko, i.~nikolic audit, k.~nikolopoulos, j.~k. nilsen,
-  p.~nilsson, y.~ninomiya, a.~nisati, r.~nisius, t.~nobe, m.~nomachi,
-  i.~nomidis, t.~nooney, s.~norberg, m.~nordberg, o.~novgorodova, s.~nowak,
-  m.~nozaki, l.~nozka, k.~ntekas, g.~nunes hanninger, t.~nunnemann, e.~nurse,
-  f.~nuti, b.~j. o’brien, f.~o’grady, d.~c. o’neil, v.~o’shea, f.~g.
-  oakham, h.~oberlack, t.~obermann, j.~ocariz, a.~ochi, i.~ochoa, s.~oda,
-  s.~odaka, h.~ogren, a.~oh, s.~h. oh, c.~c. ohm, h.~ohman, h.~oide,
-  w.~okamura, h.~okawa, y.~okumura, t.~okuyama, a.~olariu, s.~a. olivares pino,
-  d.~oliveira damazio, e.~oliver garcia, a.~olszewski, j.~olszowska, a.~onofre,
-  p.~u.~e. onyisi, c.~j. oram, m.~j. oreglia, y.~oren, d.~orestano, n.~orlando,
-  c.~oropeza barrera, r.~s. orr, b.~osculati, r.~ospanov, g.~otero~y garzon,
-  h.~otono, m.~ouchrif, e.~a. ouellette, f.~ould saada, a.~ouraou, k.~p.
-  oussoren, q.~ouyang, a.~ovcharova, m.~owen, r.~e. owen, v.~e. ozcan,
-  n.~ozturk, k.~pachal, a.~pacheco pages, c.~padilla aranda, m.~pagáčová,
-  s.~pagan griso, e.~paganis, c.~pahl, f.~paige, p.~pais, k.~pajchel,
-  g.~palacino, s.~palestini, m.~palka, d.~pallin, a.~palma, y.~b. pan,
-  e.~panagiotopoulou, c.~e. pandini, j.~g. panduro vazquez, p.~pani,
-  s.~panitkin, l.~paolozzi, th.~d. papadopoulou, k.~papageorgiou, a.~paramonov,
-  d.~paredes hernandez, m.~a. parker, k.~a. parker, f.~parodi, j.~a. parsons,
-  u.~parzefall, e.~pasqualucci, s.~passaggio, f.~pastore, fr. pastore,
-  g.~pásztor, s.~pataraia, n.~d. patel, j.~r. pater, t.~pauly, j.~pearce,
-  b.~pearson, l.~e. pedersen, m.~pedersen, s.~pedraza lopez, r.~pedro, s.~v.
-  peleganchuk, d.~pelikan, h.~peng, b.~penning, j.~penwell, d.~v. perepelitsa,
-  e.~perez codina, m.~t. pérez~garcía estañ, l.~perini, h.~pernegger,
-  s.~perrella, r.~peschke, v.~d. peshekhonov, k.~peters, r.~f.~y. peters, b.~a.
-  petersen, t.~c. petersen, e.~petit, a.~petridis, c.~petridou, e.~petrolo,
-  f.~petrucci, n.~e. pettersson, r.~pezoa, p.~w. phillips, g.~piacquadio,
-  e.~pianori, a.~picazio, e.~piccaro, m.~piccinini, m.~a. pickering,
-  r.~piegaia, d.~t. pignotti, j.~e. pilcher, a.~d. pilkington, j.~pina,
-  m.~pinamonti, j.~l. pinfold, a.~pingel, b.~pinto, s.~pires, m.~pitt,
-  c.~pizio, l.~plazak, m.-a. pleier, v.~pleskot, e.~plotnikova, p.~plucinski,
-  d.~pluth, r.~poettgen, l.~poggioli, d.~pohl, g.~polesello, a.~policicchio,
-  r.~polifka, a.~polini, c.~s. pollard, v.~polychronakos, k.~pommès,
-  l.~pontecorvo, b.~g. pope, g.~a. popeneciu, d.~s. popovic, a.~poppleton,
-  s.~pospisil, k.~potamianos, i.~n. potrap, c.~j. potter, c.~t. potter,
-  g.~poulard, j.~poveda, v.~pozdnyakov, p.~pralavorio, a.~pranko, s.~prasad,
-  s.~prell, d.~price, j.~price, l.~e. price, m.~primavera, s.~prince,
-  m.~proissl, k.~prokofiev, f.~prokoshin, e.~protopapadaki, s.~protopopescu,
-  j.~proudfoot, m.~przybycien, e.~ptacek, d.~puddu, e.~pueschel, d.~puldon,
-  m.~purohit, p.~puzo, j.~qian, g.~qin, y.~qin, a.~quadt, d.~r. quarrie, w.~b.
-  quayle, m.~queitsch maitland, d.~quilty, s.~raddum, v.~radeka, v.~radescu,
-  s.~k. radhakrishnan, p.~radloff, p.~rados, f.~ragusa, g.~rahal,
-  s.~rajagopalan, m.~rammensee, c.~rangel smith, f.~rauscher, s.~rave,
-  t.~ravenscroft, m.~raymond, a.~l. read, n.~p. readioff, d.~m. rebuzzi,
-  a.~redelbach, g.~redlinger, r.~reece, k.~reeves, l.~rehnisch, h.~reisin,
-  m.~relich, c.~rembser, h.~ren, a.~renaud, m.~rescigno, s.~resconi, o.~l.
-  rezanova, p.~reznicek, r.~rezvani, r.~richter, s.~richter, e.~richter was,
-  o.~ricken, m.~ridel, p.~rieck, c.~j. riegel, j.~rieger, m.~rijssenbeek,
-  a.~rimoldi, l.~rinaldi, b.~ristić, e.~ritsch, i.~riu, f.~rizatdinova,
-  e.~rizvi, s.~h. robertson, a.~robichaud veronneau, d.~robinson, j.~e.~m.
-  robinson, a.~robson, c.~roda, s.~roe, o.~røhne, s.~rolli, a.~romaniouk,
-  m.~romano, s.~m.~romano saez, e.~romero adam, n.~rompotis, m.~ronzani,
-  l.~roos, e.~ros, s.~rosati, k.~rosbach, p.~rose, p.~l. rosendahl,
-  o.~rosenthal, v.~rossetti, e.~rossi, l.~p. rossi, r.~rosten, m.~rotaru,
-  i.~roth, j.~rothberg, d.~rousseau, c.~r. royon, a.~rozanov, y.~rozen,
-  x.~ruan, f.~rubbo, i.~rubinskiy, v.~i. rud, c.~rudolph, m.~s. rudolph,
-  f.~rühr, a.~ruiz martinez, z.~rurikova, n.~a. rusakovich, a.~ruschke, h.~l.
-  russell, j.~p. rutherfoord, n.~ruthmann, y.~f. ryabov, m.~rybar, g.~rybkin,
-  n.~c. ryder, a.~f. saavedra, g.~sabato, s.~sacerdoti, a.~saddique, h.~f-w.
-  sadrozinski, r.~sadykov, f.~safai tehrani, m.~saimpert, h.~sakamoto,
-  y.~sakurai, g.~salamanna, a.~salamon, m.~saleem, d.~salek, p.~h. sales~de
-  bruin, d.~salihagic, a.~salnikov, j.~salt, d.~salvatore, f.~salvatore,
-  a.~salvucci, a.~salzburger, d.~sampsonidis, a.~sanchez, j.~sánchez,
-  v.~sanchez martinez, h.~sandaker, r.~l. sandbach, h.~g. sander, m.~p.
-  sanders, m.~sandhoff, c.~sandoval, r.~sandstroem, d.~p.~c. sankey,
-  m.~sannino, a.~sansoni, c.~santoni, r.~santonico, h.~santos, i.~santoyo
-  castillo, k.~sapp, a.~sapronov, j.~g. saraiva, b.~sarrazin, o.~sasaki,
-  y.~sasaki, k.~sato, g.~sauvage, e.~sauvan, g.~savage, p.~savard, c.~sawyer,
-  l.~sawyer, j.~saxon, c.~sbarra, a.~sbrizzi, t.~scanlon, d.~a. scannicchio,
-  m.~scarcella, v.~scarfone, j.~schaarschmidt, p.~schacht, d.~schaefer,
-  r.~schaefer, j.~schaeffer, s.~schaepe, s.~schaetzel, u.~schäfer, a.~c.
-  schaffer, d.~schaile, r.~d. schamberger, v.~scharf, v.~a. schegelsky,
-  d.~scheirich, m.~schernau, c.~schiavi, c.~schillo, m.~schioppa, s.~schlenker,
-  e.~schmidt, k.~schmieden, c.~schmitt, s.~schmitt, s.~schmitt, b.~schneider,
-  y.~j. schnellbach, u.~schnoor, l.~schoeffel, a.~schoening, b.~d. schoenrock,
-  e.~schopf, a.~l.~s. schorlemmer, m.~schott, d.~schouten, j.~schovancova,
-  s.~schramm, m.~schreyer, c.~schroeder, n.~schuh, m.~j. schultens, h.-c.
-  schultz coulon, h.~schulz, m.~schumacher, b.~a. schumm, ph. schune,
-  c.~schwanenberger, a.~schwartzman, t.~a. schwarz, ph. schwegler, ph.
-  schwemling, r.~schwienhorst, j.~schwindling, t.~schwindt, m.~schwoerer, f.~g.
-  sciacca, e.~scifo, g.~sciolla, f.~scuri, f.~scutti, j.~searcy, g.~sedov,
-  e.~sedykh, p.~seema, s.~c. seidel, a.~seiden, f.~seifert, j.~m. seixas,
-  g.~sekhniaidze, s.~j. sekula, k.~e. selbach, d.~m. seliverstov, n.~semprini
-  cesari, c.~serfon, l.~serin, l.~serkin, t.~serre, r.~seuster, h.~severini,
-  t.~sfiligoj, f.~sforza, a.~sfyrla, e.~shabalina, m.~shamim, l.~y. shan,
-  r.~shang, j.~t. shank, m.~shapiro, p.~b. shatalov, k.~shaw, a.~shcherbakova,
-  c.~y. shehu, p.~sherwood, l.~shi, s.~shimizu, c.~o. shimmin, m.~shimojima,
-  m.~shiyakova, a.~shmeleva, d.~shoaleh saadi, m.~j. shochet, s.~shojaii,
-  s.~shrestha, e.~shulga, m.~a. shupe, s.~shushkevich, p.~sicho,
-  o.~sidiropoulou, d.~sidorov, a.~sidoti, f.~siegert, dj. sijacki, j.~silva,
-  y.~silver, s.~b. silverstein, v.~simak, o.~simard, lj. simic, s.~simion,
-  e.~simioni, b.~simmons, d.~simon, r.~simoniello, p.~sinervo, n.~b. sinev,
-  g.~siragusa, a.~n. sisakyan, s.~yu. sivoklokov, j.~sjölin, t.~b. sjursen,
-  m.~b. skinner, h.~p. skottowe, p.~skubic, m.~slater, t.~slavicek,
-  m.~slawinska, k.~sliwa, v.~smakhtin, b.~h. smart, l.~smestad, s.~yu. smirnov,
-  y.~smirnov, l.~n. smirnova, o.~smirnova, m.~n.~k. smith, m.~smizanska,
-  k.~smolek, a.~a. snesarev, g.~snidero, s.~snyder, r.~sobie, f.~socher,
-  a.~soffer, d.~a. soh, c.~a. solans, m.~solar, j.~solc, e.~yu. soldatov,
-  u.~soldevila, a.~a. solodkov, a.~soloshenko, o.~v. solovyanov, v.~solovyev,
-  p.~sommer, h.~y. song, n.~soni, a.~sood, a.~sopczak, b.~sopko, v.~sopko,
-  v.~sorin, d.~sosa, m.~sosebee, c.~l. sotiropoulou, r.~soualah, p.~soueid,
-  a.~m. soukharev, d.~south, s.~spagnolo, m.~spalla, f.~spanò, w.~r. spearman,
-  f.~spettel, r.~spighi, g.~spigo, l.~a. spiller, m.~spousta, t.~spreitzer,
-  r.~d.~st. denis, s.~staerz, j.~stahlman, r.~stamen, s.~stamm, e.~stanecka,
-  c.~stanescu, m.~stanescu bellu, m.~m. stanitzki, s.~stapnes, e.~a.
-  starchenko, j.~stark, p.~staroba, p.~starovoitov, r.~staszewski, p.~stavina,
-  p.~steinberg, b.~stelzer, h.~j. stelzer, o.~stelzer chilton, h.~stenzel,
-  s.~stern, g.~a. stewart, j.~a. stillings, m.~c. stockton, m.~stoebe,
-  g.~stoicea, p.~stolte, s.~stonjek, a.~r. stradling, a.~straessner, m.~e.
-  stramaglia, j.~strandberg, s.~strandberg, a.~strandlie, e.~strauss,
-  m.~strauss, p.~strizenec, r.~ströhmer, d.~m. strom, r.~stroynowski,
-  a.~strubig, s.~a. stucci, b.~stugu, n.~a. styles, d.~su, j.~su,
-  r.~subramaniam, a.~succurro, y.~sugaya, c.~suhr, m.~suk, v.~v. sulin,
-  s.~sultansoy, t.~sumida, s.~sun, x.~sun, j.~e. sundermann, k.~suruliz,
-  g.~susinno, m.~r. sutton, s.~suzuki, y.~suzuki, m.~svatos, s.~swedish,
-  m.~swiatlowski, i.~sykora, t.~sykora, d.~ta, c.~taccini, k.~tackmann,
-  j.~taenzer, a.~taffard, r.~tafirout, n.~taiblum, h.~takai, r.~takashima,
-  h.~takeda, t.~takeshita, y.~takubo, m.~talby, a.~a. talyshev, j.~y.~c. tam,
-  k.~g. tan, j.~tanaka, r.~tanaka, s.~tanaka, s.~tanaka, b.~b. tannenwald,
-  n.~tannoury, s.~tapprogge, s.~tarem, f.~tarrade, g.~f. tartarelli, p.~tas,
-  m.~tasevsky, t.~tashiro, e.~tassi, a.~tavares delgado, y.~tayalati, f.~e.
-  taylor, g.~n. taylor, w.~taylor, f.~a. teischinger, m.~teixeira~dias
-  castanheira, p.~teixeira dias, k.~k. temming, h.~ten kate, p.~k. teng, j.~j.
-  teoh, f.~tepel, s.~terada, k.~terashi, j.~terron, s.~terzo, m.~testa, r.~j.
-  teuscher, j.~therhaag, t.~theveneaux pelzer, j.~p. thomas, j.~thomas wilsker,
-  e.~n. thompson, p.~d. thompson, r.~j. thompson, a.~s. thompson, l.~a.
-  thomsen, e.~thomson, m.~thomson, r.~p. thun, m.~j. tibbetts, r.~e.~ticse
-  torres, v.~o. tikhomirov, yu.~a. tikhonov, s.~timoshenko, e.~tiouchichine,
-  p.~tipton, s.~tisserant, t.~todorov, s.~todorova nova, j.~tojo, s.~tokár,
-  k.~tokushuku, k.~tollefson, e.~tolley, l.~tomlinson, m.~tomoto, l.~tompkins,
-  k.~toms, e.~torrence, h.~torres, e.~torró pastor, j.~toth, f.~touchard,
-  d.~r. tovey, t.~trefzger, l.~tremblet, a.~tricoli, i.~m. trigger, s.~trincaz
-  duvoid, m.~f. tripiana, w.~trischuk, b.~trocmé, c.~troncon, m.~trottier
-  mcdonald, m.~trovatelli, p.~true, m.~trzebinski, a.~trzupek, c.~tsarouchas,
-  j.~c-l. tseng, p.~v. tsiareshka, d.~tsionou, g.~tsipolitis, n.~tsirintanis,
-  s.~tsiskaridze, v.~tsiskaridze, e.~g. tskhadadze, i.~i. tsukerman,
-  v.~tsulaia, s.~tsuno, d.~tsybychev, a.~tudorache, v.~tudorache, a.~n. tuna,
-  s.~a. tupputi, s.~turchikhin, d.~turecek, r.~turra, a.~j. turvey, p.~m. tuts,
-  a.~tykhonov, m.~tylmad, m.~tyndel, i.~ueda, r.~ueno, m.~ughetto, m.~ugland,
-  m.~uhlenbrock, f.~ukegawa, g.~unal, a.~undrus, g.~unel, f.~c. ungaro,
-  y.~unno, c.~unverdorben, j.~urban, p.~urquijo, p.~urrejola, g.~usai,
-  a.~usanova, l.~vacavant, v.~vacek, b.~vachon, c.~valderanis, n.~valencic,
-  s.~valentinetti, a.~valero, l.~valery, s.~valkar, e.~valladolid gallego,
-  s.~vallecorsa, j.~a. valls ferrer, w.~van~den wollenberg, p.~c. van~der
-  deijl, r.~van~der geer, h.~van~der graaf, r.~van~der leeuw, n.~van eldik,
-  p.~van gemmeren, j.~van nieuwkoop, i.~van vulpen, m.~c. van woerden,
-  m.~vanadia, w.~vandelli, r.~vanguri, a.~vaniachine, f.~vannucci,
-  g.~vardanyan, r.~vari, e.~w. varnes, t.~varol, d.~varouchas, a.~vartapetian,
-  k.~e. varvell, f.~vazeille, t.~vazquez schroeder, j.~veatch, f.~veloso,
-  t.~velz, s.~veneziano, a.~ventura, d.~ventura, m.~venturi, n.~venturi,
-  a.~venturini, v.~vercesi, m.~verducci, w.~verkerke, j.~c. vermeulen, a.~vest,
-  m.~c. vetterli, o.~viazlo, i.~vichou, t.~vickey, o.~e. vickey boeriu,
-  g.~h.~a. viehhauser, s.~viel, r.~vigne, m.~villa, m.~villaplana perez,
-  e.~vilucchi, m.~g. vincter, v.~b. vinogradov, i.~vivarelli, f.~vives vaque,
-  s.~vlachos, d.~vladoiu, m.~vlasak, m.~vogel, p.~vokac, g.~volpi, m.~volpi,
-  h.~von~der schmitt, h.~von radziewski, e.~von toerne, v.~vorobel, k.~vorobev,
-  m.~vos, r.~voss, j.~h. vossebeld, n.~vranjes, m.~vranjes milosavljevic,
-  v.~vrba, m.~vreeswijk, r.~vuillermet, i.~vukotic, z.~vykydal, p.~wagner,
-  w.~wagner, h.~wahlberg, s.~wahrmund, j.~wakabayashi, j.~walder, r.~walker,
-  w.~walkowiak, c.~wang, f.~wang, h.~wang, h.~wang, j.~wang, j.~wang, k.~wang,
-  r.~wang, s.~m. wang, t.~wang, x.~wang, c.~wanotayaroj, a.~warburton, c.~p.
-  ward, d.~r. wardrope, m.~warsinsky, a.~washbrook, c.~wasicki, p.~m. watkins,
-  a.~t. watson, i.~j. watson, m.~f. watson, g.~watts, s.~watts, b.~m. waugh,
-  s.~webb, m.~s. weber, s.~w. weber, j.~s. webster, a.~r. weidberg, b.~weinert,
-  j.~weingarten, c.~weiser, h.~weits, p.~s. wells, t.~wenaus, t.~wengler,
-  s.~wenig, n.~wermes, m.~werner, p.~werner, m.~wessels, j.~wetter, k.~whalen,
-  a.~m. wharton, a.~white, m.~j. white, r.~white, s.~white, d.~whiteson, f.~j.
-  wickens, w.~wiedenmann, m.~wielers, p.~wienemann, c.~wiglesworth, l.~a.~m.
-  wiik fuchs, a.~wildauer, h.~g. wilkens, h.~h. williams, s.~williams,
-  c.~willis, s.~willocq, a.~wilson, j.~a. wilson, i.~wingerter seez,
-  f.~winklmeier, b.~t. winter, m.~wittgen, j.~wittkowski, s.~j. wollstadt,
-  m.~w. wolter, h.~wolters, b.~k. wosiek, j.~wotschack, m.~j. woudstra, k.~w.
-  wozniak, m.~wu, m.~wu, s.~l. wu, x.~wu, y.~wu, t.~r. wyatt, b.~m. wynne,
-  s.~xella, d.~xu, l.~xu, b.~yabsley, s.~yacoob, r.~yakabe, m.~yamada,
-  y.~yamaguchi, a.~yamamoto, s.~yamamoto, t.~yamanaka, k.~yamauchi,
-  y.~yamazaki, z.~yan, h.~yang, h.~yang, y.~yang, l.~yao, w-m. yao, y.~yasu,
-  e.~yatsenko, k.~h. yau wong, j.~ye, s.~ye, i.~yeletskikh, a.~l. yen,
-  e.~yildirim, k.~yorita, r.~yoshida, k.~yoshihara, c.~young, c.~j.~s. young,
-  s.~youssef, d.~r. yu, j.~yu, j.~m. yu, j.~yu, l.~yuan, a.~yurkewicz,
-  i.~yusuff, b.~zabinski, r.~zaidan, a.~m. zaitsev, j.~zalieckas, a.~zaman,
-  s.~zambito, l.~zanello, d.~zanzi, c.~zeitnitz, m.~zeman, a.~zemla, k.~zengel,
-  o.~zenin, t.~ženiš, d.~zerwas, d.~zhang, f.~zhang, j.~zhang, l.~zhang,
-  r.~zhang, x.~zhang, z.~zhang, x.~zhao, y.~zhao, z.~zhao, a.~zhemchugov,
-  j.~zhong, b.~zhou, c.~zhou, l.~zhou, l.~zhou, n.~zhou, c.~g. zhu, h.~zhu,
-  j.~zhu, y.~zhu, x.~zhuang, k.~zhukov, a.~zibell, d.~zieminska, n.~i. zimine,
-  c.~zimmermann, r.~zimmermann, s.~zimmermann, z.~zinonos, m.~zinser,
-  m.~ziolkowski, l.~živković, g.~zobernig, a.~zoccoli, m.~zur nedden,
-  g.~zurzolo, and l.~zwalinski.
-\newblock Determination of spin and parity of the {Higgs} boson in the
-  ${W}{W}^* \rightarrow e\nu\mu\nu$ decay channel with the {ATLAS} detector.
-\newblock \emph{Eur. Phys. J. C}, 75\penalty0 (5):\penalty0 231, May 2015.
-\newblock \doi{10.1140/epjc/s10052-015-3436-3}.
 
 \bibitem[Bacon(1966)]{bacon1966}
 George~Edward Bacon.
@@ -975,11 +106,6 @@ G.~Berkovic, Y.~R. Shen, G.~Marowsky, and R.~Steinhoff.
   1989.
 \newblock \doi{10.1364/JOSAB.6.000205}.
 
-\bibitem[Birss(1964)]{birss}
-Robert~R. Birss.
-\newblock \emph{Symmetry and Magnetism}.
-\newblock North-Holland Pub. Co., 1964.
-
 \bibitem[Bloembergen et~al.(1968)Bloembergen, Chang, Jha, and
   Lee]{bloembergen_optical_1968}
 N.~Bloembergen, R.~K. Chang, S.~S. Jha, and C.~H. Lee.
@@ -993,15 +119,10 @@ N.~Bloembergen, R.~K. Chang, S.~S. Jha, and C.~H. Lee.
   Berger, Naumović, and Aebi]{bovet_pseudogapped_2004}
 M.~Bovet, D.~Popović, F.~Clerc, C.~Koitzsch, U.~Probst, E.~Bucher, H.~Berger,
   D.~Naumović, and P.~Aebi.
-\newblock Pseudogapped {Fermi} surfaces of 1 {T} - {TaS} 2 and 1 {T} - {TaSe} 2
-  : {A} charge density wave effect.
+\newblock {Pseudogapped {Fermi} surfaces of 1{T}-\ce{TaS2} and 1{T}-\ce{TaSe2}:
+  {A} charge density wave effect}.
 \newblock \emph{Physical Review B}, 69\penalty0 (12), March 2004.
 \newblock \doi{10.1103/PhysRevB.69.125117}.
-
-\bibitem[Boyd(2008)]{boyd}
-Robert Boyd.
-\newblock \emph{Nonlinear Optics}.
-\newblock Academic Press, third edition, mar 2008.
 
 \bibitem[Bruker(2022)]{apex}
 Bruker.
@@ -1030,11 +151,6 @@ Sang-Wook Cheong and Maxim Mostovoy.
 \newblock \emph{Nature Mater}, 6\penalty0 (1):\penalty0 13--20, January 2007.
 \newblock \doi{10.1038/nmat1804}.
 
-\bibitem[contributors(2024)]{wiki:spacegroups}
-Wikipedia contributors.
-\newblock List of space groups --- {W}ikipedia{,} the free encyclopedia, 2024.
-\newblock [Online; accessed 06-March-2024].
-
 \bibitem[Cremin et~al.(2019)Cremin, Zhang, Homes, Gu, Sun, Fogler, Millis,
   Basov, and Averitt]{cremin_photoenhanced_2019}
 Kevin~A. Cremin, Jingdi Zhang, Christopher~C. Homes, G.~D. Gu, Zhiyuan Sun,
@@ -1045,18 +161,6 @@ Kevin~A. Cremin, Jingdi Zhang, Christopher~C. Homes, G.~D. Gu, Zhiyuan Sun,
 \newblock \emph{Proc. Natl. Acad. Sci. U.S.A.}, 116\penalty0 (40):\penalty0
   19875--19879, October 2019.
 \newblock \doi{10.1073/pnas.1908368116}.
-
-\bibitem[Cressie(1991)]{cressie}
-N.A.C. Cressie.
-\newblock \emph{Statistics for Spatial Data}.
-\newblock A Wiley-interscience publication. J. Wiley, 1991.
-
-\bibitem[Curie(1894)]{curie_sur_1894}
-Pierre Curie.
-\newblock Sur la symétrie dans les phénomènes physiques, symétrie d'un
-  champ électrique et d'un champ magnétiqueu.
-\newblock \emph{J. Phys. Theor. Appl.}, 3\penalty0 (1):\penalty0 393--415,
-  1894.
 
 \bibitem[Dagotto(2005)]{dagotto_complexity_2005}
 Elbio Dagotto.
@@ -1073,13 +177,6 @@ Alberto de~la Torre, Dante~M. Kennes, Martin Claassen, Simon Gerber, James~W.
 \newblock \emph{Rev. Mod. Phys.}, 93\penalty0 (4):\penalty0 041002, October
   2021.
 \newblock \doi{10.1103/RevModPhys.93.041002}.
-
-\bibitem[Dekking et~al.(2006)Dekking, Kraaikamp, Lopuha{\"a}, and
-  Meester]{dekking}
-F.M. Dekking, C.~Kraaikamp, H.P. Lopuha{\"a}, and L.E. Meester.
-\newblock \emph{A Modern Introduction to Probability and Statistics:
-  Understanding Why and How}.
-\newblock Springer Texts in Statistics. Springer London, 2006.
 
 \bibitem[Dolgirev et~al.(2020)Dolgirev, Michael, Zong, Gedik, and
   Demler]{dolgirev_self-similar_2020}
@@ -1122,8 +219,8 @@ Von H.-P. Dürr, W.~Heisenberg, H.~Mitter, S.~Schlieder, and K.~Yamazaki.
 \bibitem[Essler et~al.(1997)Essler, Tsvelik, and
   Delfino]{essler_quasi-one-dimensional_1997}
 Fabian H.~L. Essler, Alexei~M. Tsvelik, and Gesualdo Delfino.
-\newblock Quasi-one-dimensional spin- 1 2 {Heisenberg} magnets in their ordered
-  phase: {Correlation} functions.
+\newblock {Quasi-one-dimensional spin-1/2 {H}eisenberg magnets in their ordered
+  phase: {C}orrelation functions}.
 \newblock \emph{Phys. Rev. B}, 56\penalty0 (17):\penalty0 11001--11013,
   November 1997.
 \newblock \doi{10.1103/PhysRevB.56.11001}.
@@ -1144,17 +241,6 @@ Bryan~T. Fichera, Anshul Kogar, Linda Ye, Bilal Gökce, Alfred Zong, Joseph~G.
 \newblock Second harmonic generation as a probe of broken mirror symmetry.
 \newblock \emph{Phys. Rev. B}, 101\penalty0 (24):\penalty0 241106, June 2020.
 \newblock \doi{10.1103/PhysRevB.101.241106}.
-
-\bibitem[Fichera et~al.(In preparation)Fichera, Lv, Morey, Shen, Lee,
-  Liebman-pel, Kogar, Kurumaji, Humberto, Arruabarrena, Ilyas, Luo, Peter,
-  Checkelsky, Orenstein, and Gedik]{camn2bi2}
-Bryan~T Fichera, Baiqing Lv, Karna Morey, Zongqi Shen, Changmin Lee, Alex
-  Liebman-pel, Anshul Kogar, Takashi Kurumaji, Rodrigo Humberto, Mikel
-  Arruabarrena, Batyr Ilyas, Tianchuang Luo, M~Peter, Joseph~G. Checkelsky,
-  Joseph Orenstein, and Nuh Gedik.
-\newblock {Light-induced reorientation transition in an antiferromagnetic
-  semiconductor}.
-\newblock In preparation.
 
 \bibitem[Fiebig et~al.(1994)Fiebig, Fröhlich, Krichevtsov, and
   Pisarev]{fiebig_second_1994}
@@ -1217,8 +303,8 @@ K.K. Fung, J.W. Steeds, and J.A. Eades.
 \bibitem[Furukawa et~al.(2012)Furukawa, Sato, Onoda, and
   Furusaki]{furukawa_ground-state_2012}
 Shunsuke Furukawa, Masahiro Sato, Shigeki Onoda, and Akira Furusaki.
-\newblock Ground-state phase diagram of a spin- 1 2 frustrated ferromagnetic
-  {XXZ} chain: {Haldane} dimer phase and gapped/gapless chiral phases.
+\newblock {Ground-state phase diagram of a spin-1/2 frustrated ferromagnetic
+  {XXZ} chain: {H}aldane dimer phase and gapped/gapless chiral phases}.
 \newblock \emph{Phys. Rev. B}, 86\penalty0 (9):\penalty0 094417, September
   2012.
 \newblock \doi{10.1103/PhysRevB.86.094417}.
@@ -1288,8 +374,8 @@ J.~W. Harter, Z.~Y. Zhao, J.-Q. Yan, D.~G. Mandrus, and D.~Hsieh.
 
 \bibitem[Heinz et~al.(1985)Heinz, Loy, and Thompson]{heinz_study_1985}
 T.~F. Heinz, M.~M.~T. Loy, and W.~A. Thompson.
-\newblock Study of si(111) surfaces by optical second-harmonic generation:
-  Reconstruction and surface phase transformation.
+\newblock {Study of \ce{Si}(111) Surfaces by Optical Second-Harmonic
+  Generation: Reconstruction and Surface Phase Transformation}.
 \newblock \emph{Phys. Rev. Lett.}, 54:\penalty0 63--66, Jan 1985.
 \newblock \doi{10.1103/PhysRevLett.54.63}.
 
@@ -1351,11 +437,6 @@ Takashi Ishiguro and Hiroshi Sato.
 \newblock \emph{Physical Review B}, 52\penalty0 (2):\penalty0 759--765, July
   1995.
 \newblock \doi{10.1103/PhysRevB.52.759}.
-
-\bibitem[Jackson(1999)]{jackson}
-John~David Jackson.
-\newblock \emph{Classical electrodynamics}.
-\newblock Wiley, New York, {NY}, 3rd ed. edition, 1999.
 
 \bibitem[Jain et~al.(2017)Jain, Krautloher, Porras, Ryu, Chen, Abernathy, Park,
   Ivanov, Chaloupka, Khaliullin, Keimer, and Kim]{jain_higgs_2017}
@@ -1490,8 +571,8 @@ Christopher Lane, M.~M. Piva, P.~F.~S. Rosa, and Jian-Xin Zhu.
 \bibitem[Lebernegg et~al.(2013)Lebernegg, Schmitt, Tsirlin, Janson, and
   Rosner]{lebernegg_magnetism_2013}
 S.~Lebernegg, M.~Schmitt, A.~A. Tsirlin, O.~Janson, and H.~Rosner.
-\newblock Magnetism of {CuX2} frustrated chains ({X} = {F}, {Cl}, {Br}): the
-  role of covalency.
+\newblock {Magnetism of \ce{CuX2} frustrated chains (X = F, Cl, Br): the role
+  of covalency}.
 \newblock \emph{Phys. Rev. B}, 87\penalty0 (15):\penalty0 155111, April 2013.
 \newblock \doi{10.1103/PhysRevB.87.155111}.
 \newblock arXiv:1303.4063 [cond-mat].
@@ -1499,8 +580,8 @@ S.~Lebernegg, M.~Schmitt, A.~A. Tsirlin, O.~Janson, and H.~Rosner.
 \bibitem[Lee et~al.(2012)Lee, Liu, Whangbo, Koo, Kremer, and
   Simon]{lee_investigation_2012}
 C.~Lee, Jia Liu, M.-H. Whangbo, H.-J. Koo, R.~K. Kremer, and A.~Simon.
-\newblock Investigation of the spin exchange interactions and the magnetic
-  structure of the high-temperature multiferroic {CuBr} 2.
+\newblock {Investigation of the spin exchange interactions and the magnetic
+  structure of the high-temperature multiferroic \ce{CuBr2}}.
 \newblock \emph{Phys. Rev. B}, 86\penalty0 (6):\penalty0 060407, August 2012.
 \newblock \doi{10.1103/PhysRevB.86.060407}.
 
@@ -1574,8 +655,8 @@ Fahad Mahmood, Ching-Kit Chan, Zhanybek Alpichshev, Dillon Gardner, Young Lee,
   Carbone]{mann_probing_2016}
 Andreas Mann, Edoardo Baldini, Ahmad Odeh, Arnaud Magrez, Helmuth Berger, and
   Fabrizio Carbone.
-\newblock Probing the coupling between a doublon excitation and the
-  charge-density wave in {TaS} 2 by ultrafast optical spectroscopy.
+\newblock {Probing the coupling between a coublon excitation and the
+  charge-density wave in \ce{TaS2} by ultrafast optical spectroscopy}.
 \newblock \emph{Physical Review B}, 94\penalty0 (11), September 2016.
 \newblock \doi{10.1103/PhysRevB.94.115122}.
 
@@ -1627,21 +708,6 @@ D.~E. McNally, J.~W. Simonson, J.~J. Kistner-Morris, G.~J. Smith, J.~E.
 \newblock \emph{Phys. Rev. B}, 91\penalty0 (18):\penalty0 180407, May 2015.
 \newblock \doi{10.1103/PhysRevB.91.180407}.
 
-\bibitem[Meurer et~al.(2017)Meurer, Smith, Paprocki, \v{C}ert\'{i}k, Kirpichev,
-  Rocklin, Kumar, Ivanov, Moore, Singh, Rathnayake, Vig, Granger, Muller,
-  Bonazzi, Gupta, Vats, Johansson, Pedregosa, Curry, Terrel, Rou\v{c}ka, Saboo,
-  Fernando, Kulal, Cimrman, and Scopatz]{sympy}
-Aaron Meurer, Christopher~P. Smith, Mateusz Paprocki, Ond\v{r}ej
-  \v{C}ert\'{i}k, Sergey~B. Kirpichev, Matthew Rocklin, AMiT Kumar, Sergiu
-  Ivanov, Jason~K. Moore, Sartaj Singh, Thilina Rathnayake, Sean Vig, Brian~E.
-  Granger, Richard~P. Muller, Francesco Bonazzi, Harsh Gupta, Shivam Vats,
-  Fredrik Johansson, Fabian Pedregosa, Matthew~J. Curry, Andy~R. Terrel,
-  \v{S}t\v{e}p\'{a}n Rou\v{c}ka, Ashutosh Saboo, Isuru Fernando, Sumith Kulal,
-  Robert Cimrman, and Anthony Scopatz.
-\newblock Sympy: symbolic computing in python.
-\newblock \emph{PeerJ Computer Science}, 3:\penalty0 e103, January 2017.
-\newblock \doi{10.7717/peerj-cs.103}.
-
 \bibitem[Migliori et~al.(1993)Migliori, Sarrao, Visscher, Bell, Lei, Fisk, and
   Leisure]{migliori1993}
 A\_ Migliori, JL~Sarrao, William~M Visscher, TM~Bell, Ming Lei, Z~Fisk, and
@@ -1662,18 +728,11 @@ M.~Mitrano, A.~Cantaluppi, D.~Nicoletti, S.~Kaiser, A.~Perucchi, S.~Lupi,
 \newblock \emph{Nature}, 530\penalty0 (7591):\penalty0 461--464, February 2016.
 \newblock \doi{10.1038/nature16522}.
 
-\bibitem[Morey et~al.(In preparation)Morey, Fichera, Lv, Shen, and
-  Gedik]{morey_automated_2024}
-K~Morey, Bryan~T. Fichera, Baiqing Lv, Zongqi Shen, and Nuh Gedik.
-\newblock Automated polarization rotation for multi-axis rotational-anisotropy
-  second harmonic generation experiments.
-\newblock In preparation.
-
 \bibitem[Méasson et~al.(2014)Méasson, Gallais, Cazayous, Clair, Rodière,
   Cario, and Sacuto]{measson_amplitude_2014}
 M.-A. Méasson, Y.~Gallais, M.~Cazayous, B.~Clair, P.~Rodière, L.~Cario, and
   A.~Sacuto.
-\newblock Amplitude {Higgs} mode in the 2 {H} − {NbSe} 2 superconductor.
+\newblock {Amplitude {H}iggs mode in the 2{H}-\ce{NbSe2} superconductor}.
 \newblock \emph{Phys. Rev. B}, 89\penalty0 (6):\penalty0 060503, February 2014.
 \newblock \doi{10.1103/PhysRevB.89.060503}.
 
@@ -1690,12 +749,6 @@ J.~A. Nelder and R.~Mead.
 \newblock \emph{The Computer Journal}, 7\penalty0 (4):\penalty0 308--313,
   January 1965.
 \newblock \doi{10.1093/comjnl/7.4.308}.
-
-\bibitem[Neumann(1885)]{neumann_vorlesungen_1885}
-Franz Neumann.
-\newblock \emph{Vorlesungen über die Theorie der Elasticität der festen
-  Körper und des Lichtäthers, gehalten an der Universität Königsberg}.
-\newblock Leipzig, B. G. Teubner, 1885.
 
 \bibitem[Ni et~al.(2021)Ni, Haglund, Wang, Xu, Bernhard, Mandrus, Qian, Mele,
   Kane, and Wu]{ni_imaging_2021}
@@ -1795,7 +848,7 @@ P.~S. Pershan.
   Mandrus]{petersen_nonlinear_2006}
 Jesse~C. Petersen, Michael~D. Caswell, J.~Steven Dodge, Ivan~A. Sergienko, Jian
   He, Rongying Jin, and David Mandrus.
-\newblock Nonlinear optical signatures of the tensor order in {Cd2Re2O7}.
+\newblock {Nonlinear optical signature of the tensor order in \ce{Cd2Re2O7}}.
 \newblock \emph{Nature Phys}, 2\penalty0 (9):\penalty0 605--608, September
   2006.
 \newblock \doi{10.1038/nphys392}.
@@ -1814,20 +867,6 @@ G.~D. Powell, J.-F. Wang, and D.~E. Aspnes.
   generation.
 \newblock \emph{Physical Review B}, 65\penalty0 (20), May 2002.
 \newblock \doi{10.1103/PhysRevB.65.205320}.
-
-\bibitem[Powell(2010)]{powell}
-Richard~C. Powell.
-\newblock \emph{Symmetry, Group Theory, and the Physical Properties of
-  Crystals}.
-\newblock Springer New York, NY, 2010.
-
-\bibitem[Press et~al.(2007)Press, Teukolsky, Vetterling, and
-  Flannery]{numericalrecipes}
-William~H. Press, Saul~A. Teukolsky, William~T. Vetterling, and Brian~P.
-  Flannery.
-\newblock \emph{Numerical Recipes 3rd Edition: The Art of Scientific
-  Computing}.
-\newblock Cambridge University Press, 3 edition, 2007.
 
 \bibitem[Reimers et~al.(2022)Reimers, Kriegner, Gomonay, Carbone, Krizek,
   Novák, Campion, Maccherozzi, Björling, Amin, Barton, Poole, Omari,
@@ -1862,8 +901,8 @@ A.~Ron, E.~Zoghlin, L.~Balents, S.~D. Wilson, and D.~Hsieh.
   Krämer, Güdel, Gvasaliya, Mutka, and Boehm]{ruegg_quantum_2008}
 Ch. Rüegg, B.~Normand, M.~Matsumoto, A.~Furrer, D.~F. McMorrow, K.~W. Krämer,
   H.~U. Güdel, S.~N. Gvasaliya, H.~Mutka, and M.~Boehm.
-\newblock Quantum {Magnets} under {Pressure}: {Controlling} {Elementary}
-  {Excitations} in {TlCuCl} 3.
+\newblock {Quantum {M}agnets under {P}ressure: {C}ontrolling {E}lementary
+  {E}xcitations in \ce{TlCuCl3}}.
 \newblock \emph{Phys. Rev. Lett.}, 100\penalty0 (20):\penalty0 205701, May
   2008.
 \newblock \doi{10.1103/PhysRevLett.100.205701}.
@@ -1931,7 +970,7 @@ Jon~H. Shirley.
   Gedik]{sie_valley-selective_2015}
 Edbert~J. Sie, James~W. McIver, Yi-Hsien Lee, Liang Fu, Jing Kong, and Nuh
   Gedik.
-\newblock Valley-selective optical {Stark} effect in monolayer {WS2}.
+\newblock {Valley-selective optical {S}tark effect in monolayer \ce{WS2}}.
 \newblock \emph{Nature Mater}, 14\penalty0 (3):\penalty0 290--294, March 2015.
 \newblock \doi{10.1038/nmat4156}.
 
@@ -1961,13 +1000,9 @@ T.~E. Stevens, J.~Kuhl, and R.~Merlin.
 \newblock \emph{Phys. Rev. B}, 65\penalty0 (14):\penalty0 144304, March 2002.
 \newblock \doi{10.1103/PhysRevB.65.144304}.
 
-\bibitem[Stokes et~al.({\natexlab{a}})Stokes, Hatch, and Campbell]{ISOTROPY}
+\bibitem[Stokes et~al.()Stokes, Hatch, and Campbell]{ISOTROPY}
 H.~T. Stokes, D.~M. Hatch, and B.~J. Campbell.
-\newblock Isotropy software suite, {\natexlab{a}}.
-
-\bibitem[Stokes et~al.({\natexlab{b}})Stokes, Hatch, and Campbell]{isodistort}
-H.~T. Stokes, D.~M. Hatch, and B.~J. Campbell.
-\newblock Isodistort, {\natexlab{b}}.
+\newblock Isotropy software suite.
 
 \bibitem[Su et~al.(2020)Su, Masaki-Kato, Zhu, Zhu, Kamiya, and
   Lin]{su_stable_2020}
@@ -1996,9 +1031,8 @@ Youtarou Takahashi, Ryo Shimano, Yoshio Kaneko, Hiroshi Murakawa, and Yoshinori
 
 \bibitem[Teo et~al.(2008)Teo, Fu, and Kane]{teo2008}
 Jeffrey C.~Y. Teo, Liang Fu, and C.~L. Kane.
-\newblock Surface states and topological invariants in three-dimensional
-  topological insulators: Application to
-  ${\text{bi}}_{1\ensuremath{-}x}{\text{sb}}_{x}$.
+\newblock {Surface states and topological invariants in three-dimensional
+  topological insulators: Application to \ce{Bi_{1-x}Sb_x}}.
 \newblock \emph{Phys. Rev. B}, 78:\penalty0 045426, Jul 2008.
 \newblock \doi{10.1103/PhysRevB.78.045426}.
 
@@ -2033,30 +1067,6 @@ Darius~H. Torchinsky, Hao Chu, Tongfei Qi, Gang Cao, and David Hsieh.
   083102, August 2014.
 \newblock \doi{10.1063/1.4891417}.
 
-\bibitem[Virtanen et~al.(2020)Virtanen, Gommers, Oliphant, Haberland, Reddy,
-  Cournapeau, Burovski, Peterson, Weckesser, Bright, {van der Walt}, Brett,
-  Wilson, Millman, Mayorov, Nelson, Jones, Kern, Larson, Carey, Polat, Feng,
-  Moore, {VanderPlas}, Laxalde, Perktold, Cimrman, Henriksen, Quintero, Harris,
-  Archibald, Ribeiro, Pedregosa, {van Mulbregt}, and {SciPy 1.0
-  Contributors}]{scipy}
-Pauli Virtanen, Ralf Gommers, Travis~E. Oliphant, Matt Haberland, Tyler Reddy,
-  David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan
-  Bright, St{\'e}fan~J. {van der Walt}, Matthew Brett, Joshua Wilson, K.~Jarrod
-  Millman, Nikolay Mayorov, Andrew R.~J. Nelson, Eric Jones, Robert Kern, Eric
-  Larson, C~J Carey, {\.I}lhan Polat, Yu~Feng, Eric~W. Moore, Jake
-  {VanderPlas}, Denis Laxalde, Josef Perktold, Robert Cimrman, Ian Henriksen,
-  E.~A. Quintero, Charles~R. Harris, Anne~M. Archibald, Ant{\^o}nio~H. Ribeiro,
-  Fabian Pedregosa, Paul {van Mulbregt}, and {SciPy 1.0 Contributors}.
-\newblock {{SciPy} 1.0: Fundamental Algorithms for Scientific Computing in
-  Python}.
-\newblock \emph{Nature Methods}, 17:\penalty0 261--272, 2020.
-\newblock \doi{10.1038/s41592-019-0686-2}.
-
-\bibitem[Wackernagel(2003)]{wackernagel}
-H.~Wackernagel.
-\newblock \emph{Multivariate Geostatistics: An Introduction with Applications}.
-\newblock Springer Berlin Heidelberg, 2003.
-
 \bibitem[Wales and Doye(1997)]{wales_global_1997}
 David~J. Wales and Jonathan P.~K. Doye.
 \newblock Global {Optimization} by {Basin}-{Hopping} and the {Lowest} {Energy}
@@ -2075,13 +1085,14 @@ Chong Wang, Daiwei Yu, Xiaoqiang Liu, Rongyan Chen, Xinyu Du, Biaoyan Hu,
 \newblock \emph{Phys. Rev. B}, 96\penalty0 (8):\penalty0 085111, August 2017.
 \newblock \doi{10.1103/PhysRevB.96.085111}.
 
-\bibitem[Wang et~al.(2018)Wang, Zheng, Chen, Wang, Zhang, Cui, Wang, Li, Xu,
-  Yuan, and Yu]{wang_nmr_2018}
+\bibitem[Wang et~al.()Wang, Zheng, Chen, Wang, Zhang, Cui, Wang, Li, Xu, Yuan,
+  and Yu]{wang_nmr_2018}
 Rui-Qi Wang, Jia-Cheng Zheng, Tao Chen, Peng-Shuai Wang, Jin-Shan Zhang,
   Yi~Cui, Chao Wang, Yuan Li, Sheng Xu, Feng Yuan, and Wei-Qiang Yu.
-\newblock {NMR} evidence of charge fluctuations in multiferroic {CuBr}
-  $_{\textrm{2}}$.
-\newblock \emph{Chinese Phys. B}, 27\penalty0 (3):\penalty0 037502, March 2018.
+\newblock {{NMR} evidence of charge fluctuations in multiferroic \ce{CuBr2}},
+  url = {https://iopscience.iop.org/article/10.1088/1674-1056/27/3/037502},
+  urldate = {2020-05-19}, volume = {27}, year = {2018}.
+\newblock \emph{Chinese Phys. B}, \penalty0 (3):\penalty0 037502, March .
 \newblock \doi{10.1088/1674-1056/27/3/037502}.
 
 \bibitem[Wang et~al.(2013)Wang, Steinberg, Jarillo-Herrero, and
@@ -2096,8 +1107,8 @@ Y~H Wang, H~Steinberg, P~Jarillo-Herrero, and N~Gedik.
 Yiping Wang, Ioannis Petrides, Grant McNamara, Md~Mofazzel Hosen, Shiming Lei,
   Yueh-Chun Wu, James~L. Hart, Hongyan Lv, Jun Yan, Di~Xiao, Judy~J. Cha,
   Prineha Narang, Leslie~M. Schoop, and Kenneth~S. Burch.
-\newblock Axial {Higgs} mode detected by quantum pathway interference in
-  {RTe3}.
+\newblock {Axial {Higgs} mode detected by quantum pathway interference in
+  \ce{RTe3}}.
 \newblock \emph{Nature}, 606\penalty0 (7916):\penalty0 896--901, June 2022.
 \newblock \doi{10.1038/s41586-022-04746-6}.
 
@@ -2145,8 +1156,7 @@ J.A. Wilson, F.J. Di~Salvo, and S.~Mahajan.
 
 \bibitem[Wilson(1974)]{wilson_renormalization_1974}
 Kenneth~G Wilson.
-\newblock {THE} {RENORMALIZATION} {GROUP} {AND} {THE}
-  {\textasciitilde}{EXPANSION}.
+\newblock The renormalization group and the $\epsilon$ expansion.
 \newblock \emph{Physics Reports}, 12\penalty0 (2):\penalty0 75--200, 1974.
 
 \bibitem[Wu et~al.(2017)Wu, Patankar, Morimoto, Nair, Thewalt, Little,
@@ -2160,8 +1170,8 @@ Liang Wu, S.~Patankar, T.~Morimoto, N.~L. Nair, E.~Thewalt, A.~Little, J.~G.
 
 \bibitem[Wu and Lieber(1989)]{wu_hexagonal_1989}
 X.~L. Wu and C.~M. Lieber.
-\newblock Hexagonal {Domain}-{Like} {Charge} {Density} {Wave} {Phase} of {TaS}2
-  {Determined} by {Scanning} {Tunneling} {Microscopy}.
+\newblock {Hexagonal {Domain}-{Like} {Charge} {Density} {Wave} {Phase} of
+  \ce{TaS2} {Determined} by {Scanning} {Tunneling} {Microscopy}}.
 \newblock \emph{Science}, 243\penalty0 (4899):\penalty0 1703--1705, March 1989.
 \newblock \doi{10.1126/science.243.4899.1703}.
 
@@ -2194,7 +1204,7 @@ J.~Zhang and R.D. Averitt.
 J.~S. Zhang, Yiqi Xie, X.~Q. Liu, A.~Razpopov, V.~Borisov, C.~Wang, J.~P. Sun,
   Y.~Cui, J.~C. Wang, X.~Ren, Hongshan Deng, Xia Yin, Yang Ding, Yuan Li, J.~G.
   Cheng, Ji~Feng, R.~Valentí, B.~Normand, and Weiqiang Yu.
-\newblock Giant pressure-enhancement of multiferroicity in {CuBr} 2.
+\newblock {Giant pressure-enhancement of multiferroicity in \ce{CuBr2}}.
 \newblock \emph{Phys. Rev. Research}, 2\penalty0 (1):\penalty0 013144, February
   2020.
 \newblock \doi{10.1103/PhysRevResearch.2.013144}.
@@ -2204,16 +1214,10 @@ J.~S. Zhang, Yiqi Xie, X.~Q. Liu, A.~Razpopov, V.~Borisov, C.~Wang, J.~P. Sun,
 Li. Zhao, Tsu-Lien Hung, Ching-Chien Li, Yang-Yuan Chen, Maw-Kuen Wu,
   Reinhard~K. Kremer, Michael~G. Banks, Arndt Simon, Myung-Hwan Whangbo,
   Changhoon Lee, Jun~Sung Kim, Ingyu Kim, and Kee~Hoon Kim.
-\newblock {CuBr2} - {A} {New} {Multiferroic} {Material} with {High} {Critical}
-  {Temperature}.
+\newblock {\ce{CuBr2} - {A} {New} {Multiferroic} {Material} with {High}
+  {Critical} {Temperature}}.
 \newblock \emph{Adv. Mater.}, 24\penalty0 (18):\penalty0 2469--2473, May 2012.
 \newblock \doi{10.1002/adma.201200734}.
-
-\bibitem[Zhao et~al.(2019)Zhao, Li, and Wu]{zhao_pressure_2019}
-Li~Zhao, Ching-Chien Li, and Maw-Kuen Wu.
-\newblock Pressure effect on multiferroic {CuBr2}.
-\newblock \penalty0 (arXiv:1911.11453):\penalty0 10, 2019.
-\newblock \doi{10.48550/arXiv.1911.11453}.
 
 \bibitem[Zhou et~al.(2021)Zhou, Yan, Wu, Sun, Starykh, and
   Meng]{zhou_amplitude_2021}

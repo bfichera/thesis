@@ -3,10 +3,6 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: fichera-bfichera-phd-physics-2024-source.aux
 The style file: plainnat_noclutter.bst
 Database file #1: fichera-bfichera-phd-physics-2024-source.bib
-Repeated entry---line 2043 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{dudarev_electron-energy-loss_1998
- :                                           ,
-I'm skipping whatever remains of this entry
 Reallocated buffer (elt_size=1) to 40000 items from 20000.
 Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
 Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
@@ -19,97 +15,117 @@ Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
 Reallocated out_buf (elt_size=1) to 60000 items from 40000.
 Reallocated name_tok (elt_size=8) to 60000 items from 40000.
 Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
-Warning--entry type for "isodistort" isn't style-file defined
---line 2334 of file fichera-bfichera-phd-physics-2024-source.bib
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 4613 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{kirilyuk_ultrafast_2010
- :                                 ,
+Repeated entry---line 1304 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{dudarev_electron-energy-loss_1998
+ :                                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4716 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{sa_generalized_2000
- :                             ,
+I was expecting a `,' or a `}'---line 2124 of file fichera-bfichera-phd-physics-2024-source.bib
+ : 
+ : @article{wang_observation_2017,
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 4752 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{torchinsky_low_2014
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4770 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{harter_high-speed_2015
- :                                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4982 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{fichera_second_2020
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5034 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{jain_higgs_2017
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5051 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{hong_higgs_2017
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5085 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{pekker_amplitudehiggs_2015
- :                                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5121 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{fiebig_evolution_2016
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5139 of file fichera-bfichera-phd-physics-2024-source.bib
+Repeated entry---line 4461 of file fichera-bfichera-phd-physics-2024-source.bib
  : @article{cheong_multiferroics_2007
  :                                   ,
 I'm skipping whatever remains of this entry
-Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Repeated entry---line 4497 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{fichera_second_2020
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4514 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{fiebig_evolution_2016
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4603 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{harter_high-speed_2015
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4638 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{hong_higgs_2017
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4655 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{jain_higgs_2017
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4727 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{kirilyuk_ultrafast_2010
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4992 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{pekker_amplitudehiggs_2015
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5096 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{sa_generalized_2000
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5185 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{torchinsky_low_2014
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "neumann_vorlesungen_1885"
+Warning--I didn't find a database entry for "curie_sur_1894"
+Warning--I didn't find a database entry for "wiki:spacegroups"
+Warning--I didn't find a database entry for "powell"
+Warning--I didn't find a database entry for "birss"
+Warning--I didn't find a database entry for "jackson"
+Warning--I didn't find a database entry for "boyd"
+Warning--I didn't find a database entry for "morey_automated_2024"
+Warning--I didn't find a database entry for "scipy"
+Warning--I didn't find a database entry for "sympy"
+Warning--I didn't find a database entry for "isodistort"
+Warning--I didn't find a database entry for "numericalrecipes"
+Warning--I didn't find a database entry for "cressie"
+Warning--I didn't find a database entry for "wackernagel"
+Warning--I didn't find a database entry for "dekking"
+Warning--I didn't find a database entry for "camn2bi2"
+Warning--I didn't find a database entry for "atlas_collaboration_determination_2015_fixed"
+Warning--I didn't find a database entry for "zhao_pressure_2019"
 Warning--there's a number but no volume in bednorz_possible_1986
-Warning--empty journal in camn2bi2
-Warning--empty journal in morey_automated_2024
 Warning--empty year in ISOTROPY
-Warning--empty year in isodistort
+Warning--there's a number but no volume in wang_nmr_2018
+Warning--empty year in wang_nmr_2018
 Warning--empty journal in wang_observation_2013
-Warning--empty journal in zhao_pressure_2019
-Warning--there's a number but no volume in zhao_pressure_2019
-You've used 170 entries,
+You've used 152 entries,
             2762 wiz_defined-function locations,
-            1815 strings with 99974 characters,
-and the built_in function-call counts, 245750 in all, are:
-= -- 17222
-> -- 34242
-< -- 62
-+ -- 11439
-- -- 11266
-* -- 27223
-:= -- 42258
-add.period$ -- 652
-call.type$ -- 170
-change.case$ -- 4252
-chr.to.int$ -- 167
-cite$ -- 348
-duplicate$ -- 3480
-empty$ -- 6569
-format.name$ -- 11490
-if$ -- 46352
-int.to.chr$ -- 4
+            1735 strings with 47944 characters,
+and the built_in function-call counts, 94159 in all, are:
+= -- 7973
+> -- 7809
+< -- 53
++ -- 2621
+- -- 2467
+* -- 9328
+:= -- 15108
+add.period$ -- 593
+call.type$ -- 152
+change.case$ -- 1271
+chr.to.int$ -- 150
+cite$ -- 309
+duplicate$ -- 3123
+empty$ -- 5962
+format.name$ -- 2673
+if$ -- 18881
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 179
-newline$ -- 996
-num.names$ -- 683
-pop$ -- 8211
+missing$ -- 154
+newline$ -- 903
+num.names$ -- 611
+pop$ -- 2213
 preamble$ -- 1
-purify$ -- 4095
+purify$ -- 1126
 quote$ -- 0
-skip$ -- 5711
+skip$ -- 2573
 stack$ -- 0
-substring$ -- 3363
-swap$ -- 313
+substring$ -- 3254
+swap$ -- 293
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1790
-warning$ -- 8
-while$ -- 728
+type$ -- 1637
+warning$ -- 5
+while$ -- 668
 width$ -- 0
-write$ -- 2474
-(There were 11 error messages)
+write$ -- 2243
+(There were 12 error messages)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.26)  13 APR 2024 18:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.26)  13 APR 2024 18:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1732,7 +1732,20 @@ nput line 457.
 
 [35] [36]) [37] [38
 
-] (./ch/ch2.tex [39]
+] (./ch/ch2.tex
+
+Package natbib Warning: Citation `neumann_vorlesungen_1885' on page 39 undefine
+d on input line 3.
+
+
+Package natbib Warning: Citation `curie_sur_1894' on page 39 undefined on input
+ line 3.
+
+
+Package natbib Warning: Citation `wiki:spacegroups' on page 39 undefined on inp
+ut line 22.
+
+[39]
 
 LaTeX Warning: Command \i invalid in math mode on input line 40.
 
@@ -1743,7 +1756,34 @@ LaTeX Warning: Command \i invalid in math mode on input line 42.
 
 LaTeX Warning: Command \i invalid in math mode on input line 52.
 
-[41] [42] [43] [44] [45] [46]
+
+Package natbib Warning: Citation `powell' on page 41 undefined on input line 52
+.
+
+[41] [42]
+
+Package natbib Warning: Citation `birss' on page 43 undefined on input line 130
+.
+
+
+Package natbib Warning: Citation `jackson' on page 43 undefined on input line 1
+41.
+
+[43] [44]
+
+Package natbib Warning: Citation `boyd' on page 45 undefined on input line 196.
+
+
+[45] [46]
+
+Package natbib Warning: Citation `boyd' on page 47 undefined on input line 234.
+
+
+
+Package natbib Warning: Citation `boyd' on page 47 undefined on input line 249.
+
+
+
 Underfull \vbox (badness 2351) has occurred while \output is active []
 
  [47]
@@ -1753,16 +1793,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [49]) [50] [51] [52
 
 ] (./ch/ch3.tex
-<gfx/ch3/pdf/setup.pdf, id=23121, 698.10274pt x 199.10564pt>
+<gfx/ch3/pdf/setup.pdf, id=23105, 698.10274pt x 199.10564pt>
 File: gfx/ch3/pdf/setup.pdf Graphic file (type pdf)
 <use gfx/ch3/pdf/setup.pdf>
 Package pdftex.def Info: gfx/ch3/pdf/setup.pdf  used on input line 11.
 (pdftex.def)             Requested size: 383.0pt x 109.235pt.
- [53]
-Underfull \vbox (badness 7012) has occurred while \output is active []
+
+
+Package natbib Warning: Citation `morey_automated_2024' on page 53 undefined on
+ input line 12.
+
+
+Package natbib Warning: Citation `morey_automated_2024' on page 53 undefined on
+ input line 12.
+
+[53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [54 <./gfx/ch3/pdf/setup.pdf>]
-<gfx/ch3/pdf/setup_real.pdf, id=23217, 2055.68pt x 1541.76pt>
+<gfx/ch3/pdf/setup_real.pdf, id=23198, 2055.68pt x 1541.76pt>
 File: gfx/ch3/pdf/setup_real.pdf Graphic file (type pdf)
 <use gfx/ch3/pdf/setup_real.pdf>
 Package pdftex.def Info: gfx/ch3/pdf/setup_real.pdf  used on input line 29.
@@ -1775,7 +1824,12 @@ Underfull \vbox (badness 2165) has occurred while \output is active []
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 114.
 
-[59] [60] [61] [62] [63
+[59] [60] [61] [62]
+
+Package natbib Warning: Citation `boyd' on page 63 undefined on input line 183.
+
+
+[63
 
 
 ]
@@ -1788,6 +1842,18 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+
+Package natbib Warning: Citation `scipy' on page 64 undefined on input line 214
+.
+
+
+Package natbib Warning: Citation `sympy' on page 64 undefined on input line 217
+.
+
+
+Package natbib Warning: Citation `scipy' on page 64 undefined on input line 217
+.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1806,38 +1872,69 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 220.
 
 [64]
-Overfull \hbox (0.2059pt too wide) in paragraph at lines 238--241
-\OT1/ppl/m/n/12 (-20) in Python us-ing \OT1/pcr/m/n/12 pymatgen\OT1/ppl/m/n/12 
-(-20) [[]], which takes an ar-bi-trary crys-tal-lo-graphic
- []
+
+Package natbib Warning: Citation `isodistort' on page 65 undefined on input lin
+e 239.
 
 
 Underfull \vbox (badness 7116) has occurred while \output is active []
 
  [65]
-[66] [67]) [68] (./ch/ch4.tex [69
+[66]
+
+Package natbib Warning: Citation `numericalrecipes' on page 67 undefined on inp
+ut line 285.
+
+
+Package natbib Warning: Citation `cressie' on page 67 undefined on input line 2
+90.
+
+
+Package natbib Warning: Citation `wackernagel' on page 67 undefined on input li
+ne 293.
+
+[67]
+
+Package natbib Warning: Citation `dekking' on page 68 undefined on input line 3
+01.
+
+) [68] (./ch/ch4.tex [69
 
 ] [70]
-<gfx/ch4/km-fig1.pdf, id=23423, 554.58119pt x 625.24643pt>
+
+Package natbib Warning: Citation `boyd' on page 71 undefined on input line 34.
+
+
+Package natbib Warning: Citation `birss' on page 71 undefined on input line 37.
+
+
+<gfx/ch4/km-fig1.pdf, id=23385, 554.58119pt x 625.24643pt>
 File: gfx/ch4/km-fig1.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig1.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig1.pdf  used on input line 46.
 (pdftex.def)             Requested size: 306.40117pt x 345.45123pt.
- [71] [72 <./gfx/ch4/km-fig1.pdf>]
-<gfx/ch4/km-fig2.pdf, id=23514, 698.10274pt x 199.10564pt>
+[71] [72 <./gfx/ch4/km-fig1.pdf>]
+
+Package natbib Warning: Citation `camn2bi2' on page 73 undefined on input line 
+70.
+
+
+Package natbib Warning: Citation `camn2bi2' on page 73 undefined on input line 
+77.
+
+<gfx/ch4/km-fig2.pdf, id=23475, 698.10274pt x 199.10564pt>
 File: gfx/ch4/km-fig2.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig2.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig2.pdf  used on input line 82.
 (pdftex.def)             Requested size: 383.0pt x 109.235pt.
-
 [73] [74 <./gfx/ch4/km-fig2.pdf>]
-<gfx/ch4/km-fig3.pdf, id=23618, 758.38692pt x 630.78336pt>
+<gfx/ch4/km-fig3.pdf, id=23578, 758.38692pt x 630.78336pt>
 File: gfx/ch4/km-fig3.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig3.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig3.pdf  used on input line 131.
 (pdftex.def)             Requested size: 383.0pt x 318.55751pt.
  [75] [76 <./gfx/ch4/km-fig3.pdf>]
-<gfx/ch4/km-fig4.pdf, id=23687, 590.48682pt x 414.34465pt>
+<gfx/ch4/km-fig4.pdf, id=23646, 590.48682pt x 414.34465pt>
 File: gfx/ch4/km-fig4.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig4.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig4.pdf  used on input line 161.
@@ -1846,7 +1943,7 @@ Package pdftex.def Info: gfx/ch4/km-fig4.pdf  used on input line 161.
 Underfull \vbox (badness 1097) has occurred while \output is active []
 
  [77]
-<gfx/ch4/km-fig5.pdf, id=23699, 462.52798pt x 346.89601pt>
+<gfx/ch4/km-fig5.pdf, id=23659, 462.52798pt x 346.89601pt>
 File: gfx/ch4/km-fig5.pdf Graphic file (type pdf)
 <use gfx/ch4/km-fig5.pdf>
 Package pdftex.def Info: gfx/ch4/km-fig5.pdf  used on input line 186.
@@ -1857,7 +1954,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [78 <./gfx/ch4/km-fig4.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79 <./gfx/ch4/km-fig5.pdf>]) [80]
+ [79 <./gfx/ch4/km-fig5.pdf>]
+
+Package natbib Warning: Citation `camn2bi2' on page 80 undefined on input line 
+206.
+
+) [80]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\mhchem@cee' on input line 39.
@@ -1865,7 +1967,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (./ch/ch5.tex [81
 
 ] [82]
-<./gfx/ch5/fig0red1.pdf, id=24030, 243.91125pt x 231.264pt>
+<./gfx/ch5/fig0red1.pdf, id=23989, 243.91125pt x 231.264pt>
 File: ./gfx/ch5/fig0red1.pdf Graphic file (type pdf)
 <use ./gfx/ch5/fig0red1.pdf>
 Package pdftex.def Info: ./gfx/ch5/fig0red1.pdf  used on input line 59.
@@ -1875,17 +1977,26 @@ Package pdftex.def Info: ./gfx/ch5/fig0red1.pdf  used on input line 59.
 LaTeX Warning: Float too large for page by 4.52919pt on input line 74.
 
 [83] [84 <./gfx/ch5/fig0red1.pdf>]
-<./gfx/ch5/fig1more.pdf, id=25445, 243.91125pt x 252.945pt>
+
+Package natbib Warning: Citation `boyd' on page 85 undefined on input line 88.
+
+
+Package natbib Warning: Citation `boyd' on page 85 undefined on input line 89.
+
+
+Package natbib Warning: Citation `powell' on page 85 undefined on input line 89
+.
+
+<./gfx/ch5/fig1more.pdf, id=25401, 243.91125pt x 252.945pt>
 File: ./gfx/ch5/fig1more.pdf Graphic file (type pdf)
 <use ./gfx/ch5/fig1more.pdf>
 Package pdftex.def Info: ./gfx/ch5/fig1more.pdf  used on input line 102.
 (pdftex.def)             Requested size: 383.0pt x 397.19014pt.
 
-
 LaTeX Warning: Float too large for page by 11.59131pt on input line 113.
 
 [85]
-<./gfx/ch5/fig2.pdf, id=25476, 243.91125pt x 162.6075pt>
+<./gfx/ch5/fig2.pdf, id=25431, 243.91125pt x 162.6075pt>
 File: ./gfx/ch5/fig2.pdf Graphic file (type pdf)
 <use ./gfx/ch5/fig2.pdf>
 Package pdftex.def Info: ./gfx/ch5/fig2.pdf  used on input line 124.
@@ -1899,14 +2010,14 @@ Overfull \hbox (6.84009pt too wide) in paragraph at lines 122--133
 Underfull \vbox (badness 1668) has occurred while \output is active []
 
  [89]
-<./gfx/ch5/fig3rev.pdf, id=27239, 243.91125pt x 209.58301pt>
+<./gfx/ch5/fig3rev.pdf, id=27195, 243.91125pt x 209.58301pt>
 File: ./gfx/ch5/fig3rev.pdf Graphic file (type pdf)
 <use ./gfx/ch5/fig3rev.pdf>
 Package pdftex.def Info: ./gfx/ch5/fig3rev.pdf  used on input line 198.
 (pdftex.def)             Requested size: 383.0pt x 329.1004pt.
 
 [90] [91 <./gfx/ch5/fig3rev.pdf>]
-<./gfx/ch5/figS1.pdf, id=27913, 487.8225pt x 216.81pt>
+<./gfx/ch5/figS1.pdf, id=27869, 487.8225pt x 216.81pt>
 File: ./gfx/ch5/figS1.pdf Graphic file (type pdf)
 <use ./gfx/ch5/figS1.pdf>
 Package pdftex.def Info: ./gfx/ch5/figS1.pdf  used on input line 243.
@@ -1934,7 +2045,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [93 <./gfx/ch5/figS1.pdf>] [94] [95] [96]
+ [93 <./gfx/ch5/figS1.pdf>]
+
+Package natbib Warning: Citation `boyd' on page 94 undefined on input line 268.
+
+
+[94] [95] [96]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 415.
@@ -1959,7 +2075,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 415.
 
-<./gfx/ch5/mirror.pdf, id=29586, 243.91125pt x 173.448pt>
+<./gfx/ch5/mirror.pdf, id=29541, 243.91125pt x 173.448pt>
 File: ./gfx/ch5/mirror.pdf Graphic file (type pdf)
 <use ./gfx/ch5/mirror.pdf>
 Package pdftex.def Info: ./gfx/ch5/mirror.pdf  used on input line 427.
@@ -1970,7 +2086,7 @@ Overfull \hbox (15.9602pt too wide) in paragraph at lines 423--440
  []
 
 [97] [98 <./gfx/ch5/mirror.pdf>] [99] [100]
-<./gfx/ch5/figS2.pdf, id=29698, 487.8225pt x 216.81pt>
+<./gfx/ch5/figS2.pdf, id=29653, 487.8225pt x 216.81pt>
 File: ./gfx/ch5/figS2.pdf Graphic file (type pdf)
 <use ./gfx/ch5/figS2.pdf>
 Package pdftex.def Info: ./gfx/ch5/figS2.pdf  used on input line 518.
@@ -2014,23 +2130,31 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 577.
 
 [103]
-<./gfx/ch5/diffraction.pdf, id=31351, 243.91125pt x 158.994pt>
+
+Package natbib Warning: Citation `boyd' on page 104 undefined on input line 607
+.
+
+
+Package natbib Warning: Citation `boyd' on page 104 undefined on input line 626
+.
+
+<./gfx/ch5/diffraction.pdf, id=31304, 243.91125pt x 158.994pt>
 File: ./gfx/ch5/diffraction.pdf Graphic file (type pdf)
 <use ./gfx/ch5/diffraction.pdf>
 Package pdftex.def Info: ./gfx/ch5/diffraction.pdf  used on input line 629.
 (pdftex.def)             Requested size: 383.0pt x 249.66237pt.
-<./gfx/ch5/figS3.pdf, id=31352, 487.8225pt x 136.58307pt>
+<./gfx/ch5/figS3.pdf, id=31305, 487.8225pt x 136.58307pt>
 File: ./gfx/ch5/figS3.pdf Graphic file (type pdf)
 <use ./gfx/ch5/figS3.pdf>
 Package pdftex.def Info: ./gfx/ch5/figS3.pdf  used on input line 640.
 (pdftex.def)             Requested size: 383.0pt x 107.2346pt.
-<./gfx/ch5/figS4.pdf, id=31353, 487.8225pt x 121.48587pt>
+<./gfx/ch5/figS4.pdf, id=31306, 487.8225pt x 121.48587pt>
 File: ./gfx/ch5/figS4.pdf Graphic file (type pdf)
 <use ./gfx/ch5/figS4.pdf>
 Package pdftex.def Info: ./gfx/ch5/figS4.pdf  used on input line 647.
 (pdftex.def)             Requested size: 383.0pt x 95.38142pt.
- [104] [105 <./gfx/ch5/diffraction.pdf>] [106 <./gfx/ch5/figS3.pdf> <./gfx/ch5/
-figS4.pdf
+[104] [105 <./gfx/ch5/diffraction.pdf>] [106 <./gfx/ch5/figS3.pdf> <./gfx/ch5/f
+igS4.pdf
 
 pdfTeX warning: pdflatex (file ./gfx/ch5/figS4.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
@@ -2058,7 +2182,7 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
 [110]
-<./gfx/ch6/fig0.pdf, id=33096, 256.0748pt x 219.08621pt>
+<./gfx/ch6/fig0.pdf, id=33049, 256.0748pt x 219.08621pt>
 File: ./gfx/ch6/fig0.pdf Graphic file (type pdf)
 <use ./gfx/ch6/fig0.pdf>
 Package pdftex.def Info: ./gfx/ch6/fig0.pdf  used on input line 52.
@@ -2067,7 +2191,7 @@ Package pdftex.def Info: ./gfx/ch6/fig0.pdf  used on input line 52.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [111]
-<./gfx/ch6/fig1.pdf, id=33128, 512.1496pt x 324.3614pt>
+<./gfx/ch6/fig1.pdf, id=33081, 512.1496pt x 324.3614pt>
 File: ./gfx/ch6/fig1.pdf Graphic file (type pdf)
 <use ./gfx/ch6/fig1.pdf>
 Package pdftex.def Info: ./gfx/ch6/fig1.pdf  used on input line 90.
@@ -2086,8 +2210,13 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[114 <./gfx/ch6/fig1.pdf>] [115]
-<./gfx/ch6/fig2.pdf, id=34935, 512.1496pt x 378.42165pt>
+[114 <./gfx/ch6/fig1.pdf>]
+
+Package natbib Warning: Citation `boyd' on page 115 undefined on input line 134
+.
+
+[115]
+<./gfx/ch6/fig2.pdf, id=34887, 512.1496pt x 378.42165pt>
 File: ./gfx/ch6/fig2.pdf Graphic file (type pdf)
 <use ./gfx/ch6/fig2.pdf>
 Package pdftex.def Info: ./gfx/ch6/fig2.pdf  used on input line 145.
@@ -2101,7 +2230,7 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
 [118]
-<./gfx/ch6/fig3.pdf, id=35438, 512.1496pt x 117.1087pt>
+<./gfx/ch6/fig3.pdf, id=35389, 512.1496pt x 117.1087pt>
 File: ./gfx/ch6/fig3.pdf Graphic file (type pdf)
 <use ./gfx/ch6/fig3.pdf>
 Package pdftex.def Info: ./gfx/ch6/fig3.pdf  used on input line 197.
@@ -2117,6 +2246,10 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\Glsxtrtitleshort' on input line 250.
+
+
+Package natbib Warning: Citation `morey_automated_2024' on page 122 undefined o
+n input line 258.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2156,7 +2289,7 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 pdfTeX warning: pdflatex (file ./gfx/ch6/equilibriumtheory.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<./gfx/ch6/equilibriumtheory.pdf, id=35600, 845.0471pt x 597.50804pt>
+<./gfx/ch6/equilibriumtheory.pdf, id=35551, 845.0471pt x 597.50804pt>
 File: ./gfx/ch6/equilibriumtheory.pdf Graphic file (type pdf)
 <use ./gfx/ch6/equilibriumtheory.pdf>
 Package pdftex.def Info: ./gfx/ch6/equilibriumtheory.pdf  used on input line 32
@@ -2177,13 +2310,13 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
 [128]
-<./gfx/ch6/nonequilibriumtheory1.pdf, id=35636, 533.995pt x 163.61125pt>
+<./gfx/ch6/nonequilibriumtheory1.pdf, id=35587, 533.995pt x 163.61125pt>
 File: ./gfx/ch6/nonequilibriumtheory1.pdf Graphic file (type pdf)
 <use ./gfx/ch6/nonequilibriumtheory1.pdf>
 Package pdftex.def Info: ./gfx/ch6/nonequilibriumtheory1.pdf  used on input lin
 e 435.
 (pdftex.def)             Requested size: 383.0pt x 117.35312pt.
-<./gfx/ch6/nonequilibriumtheory2.pdf, id=35638, 529.98pt x 172.645pt>
+<./gfx/ch6/nonequilibriumtheory2.pdf, id=35589, 529.98pt x 172.645pt>
 File: ./gfx/ch6/nonequilibriumtheory2.pdf Graphic file (type pdf)
 <use ./gfx/ch6/nonequilibriumtheory2.pdf>
 Package pdftex.def Info: ./gfx/ch6/nonequilibriumtheory2.pdf  used on input lin
@@ -2208,7 +2341,7 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
 [132] [133]
-<./gfx/ch6/fitting.pdf, id=37293, 512.1496pt x 225.57913pt>
+<./gfx/ch6/fitting.pdf, id=37244, 512.1496pt x 225.57913pt>
 File: ./gfx/ch6/fitting.pdf Graphic file (type pdf)
 <use ./gfx/ch6/fitting.pdf>
 Package pdftex.def Info: ./gfx/ch6/fitting.pdf  used on input line 569.
@@ -2219,10 +2352,14 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 [134 <./gfx/ch6/fitting.pdf>]
 
+Package natbib Warning: Citation `birss' on page 135 undefined on input line 57
+9.
+
+
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\new@ifnextchar' on input line 584.
 
-<./gfx/ch6/errorbars.pdf, id=61956, 512.1496pt x 288.92635pt>
+<./gfx/ch6/errorbars.pdf, id=61905, 512.1496pt x 288.92635pt>
 File: ./gfx/ch6/errorbars.pdf Graphic file (type pdf)
 <use ./gfx/ch6/errorbars.pdf>
 Package pdftex.def Info: ./gfx/ch6/errorbars.pdf  used on input line 588.
@@ -2231,32 +2368,32 @@ Package pdftex.def Info: ./gfx/ch6/errorbars.pdf  used on input line 588.
 
 
  <./gfx/ch6/errorbars.pdf>]
-<./gfx/ch6/quenchtimes.pdf, id=68745, 217.81375pt x 362.35374pt>
+<./gfx/ch6/quenchtimes.pdf, id=68694, 217.81375pt x 362.35374pt>
 File: ./gfx/ch6/quenchtimes.pdf Graphic file (type pdf)
 <use ./gfx/ch6/quenchtimes.pdf>
 Package pdftex.def Info: ./gfx/ch6/quenchtimes.pdf  used on input line 603.
 (pdftex.def)             Requested size: 217.8132pt x 362.35286pt.
-<./gfx/ch6/fluencedep.pdf, id=68750, 512.1496pt x 268.12169pt>
+<./gfx/ch6/fluencedep.pdf, id=68699, 512.1496pt x 268.12169pt>
 File: ./gfx/ch6/fluencedep.pdf Graphic file (type pdf)
 <use ./gfx/ch6/fluencedep.pdf>
 Package pdftex.def Info: ./gfx/ch6/fluencedep.pdf  used on input line 618.
 (pdftex.def)             Requested size: 383.0pt x 200.518pt.
-<./gfx/ch6/pp.pdf, id=68753, 512.1496pt x 365.78012pt>
+<./gfx/ch6/pp.pdf, id=68702, 512.1496pt x 365.78012pt>
 File: ./gfx/ch6/pp.pdf Graphic file (type pdf)
 <use ./gfx/ch6/pp.pdf>
 Package pdftex.def Info: ./gfx/ch6/pp.pdf  used on input line 633.
 (pdftex.def)             Requested size: 383.0pt x 273.55302pt.
-<./gfx/ch6/xrd.pdf, id=68754, 512.1496pt x 279.8613pt>
+<./gfx/ch6/xrd.pdf, id=68703, 512.1496pt x 279.8613pt>
 File: ./gfx/ch6/xrd.pdf Graphic file (type pdf)
 <use ./gfx/ch6/xrd.pdf>
 Package pdftex.def Info: ./gfx/ch6/xrd.pdf  used on input line 645.
 (pdftex.def)             Requested size: 383.0pt x 209.29759pt.
-<./gfx/ch6/full_fig0.pdf, id=68757, 512.1496pt x 129.78441pt>
+<./gfx/ch6/full_fig0.pdf, id=68706, 512.1496pt x 129.78441pt>
 File: ./gfx/ch6/full_fig0.pdf Graphic file (type pdf)
 <use ./gfx/ch6/full_fig0.pdf>
 Package pdftex.def Info: ./gfx/ch6/full_fig0.pdf  used on input line 657.
 (pdftex.def)             Requested size: 383.0pt x 97.06079pt.
-<./gfx/ch6/full_fig1.pdf, id=68760, 512.1496pt x 581.76784pt>
+<./gfx/ch6/full_fig1.pdf, id=68709, 512.1496pt x 581.76784pt>
 File: ./gfx/ch6/full_fig1.pdf Graphic file (type pdf)
 <use ./gfx/ch6/full_fig1.pdf>
 Package pdftex.def Info: ./gfx/ch6/full_fig1.pdf  used on input line 669.
@@ -2278,7 +2415,7 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 pdfTeX warning: pdflatex (file ./gfx/ch6/full_fig0.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
 >] [141 <./gfx/ch6/full_fig1.pdf>]
-<./gfx/ch6/full_fig2.pdf, id=70699, 512.1496pt x 192.88693pt>
+<./gfx/ch6/full_fig2.pdf, id=70648, 512.1496pt x 192.88693pt>
 File: ./gfx/ch6/full_fig2.pdf Graphic file (type pdf)
 <use ./gfx/ch6/full_fig2.pdf>
 Package pdftex.def Info: ./gfx/ch6/full_fig2.pdf  used on input line 682.
@@ -2288,13 +2425,13 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
 [142 <./gfx/ch6/full_fig2.pdf>]
-<./gfx/ch6/polarization.pdf, id=71600, 512.1496pt x 75.74693pt>
+<./gfx/ch6/polarization.pdf, id=71549, 512.1496pt x 75.74693pt>
 File: ./gfx/ch6/polarization.pdf Graphic file (type pdf)
 <use ./gfx/ch6/polarization.pdf>
 Package pdftex.def Info: ./gfx/ch6/polarization.pdf  used on input line 691.
 (pdftex.def)             Requested size: 383.0pt x 56.64822pt.
  [143 <./gfx/ch6/polarization.pdf>]
-<./gfx/ch6/C2B_short.pdf, id=72162, 512.1496pt x 238.99178pt>
+<./gfx/ch6/C2B_short.pdf, id=72112, 512.1496pt x 238.99178pt>
 File: ./gfx/ch6/C2B_short.pdf Graphic file (type pdf)
 <use ./gfx/ch6/C2B_short.pdf>
 Package pdftex.def Info: ./gfx/ch6/C2B_short.pdf  used on input line 701.
@@ -2304,13 +2441,13 @@ Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
 [144 <./gfx/ch6/C2B_short.pdf>]
-<./gfx/ch6/C2B_long.pdf, id=72945, 512.1496pt x 238.74423pt>
+<./gfx/ch6/C2B_long.pdf, id=72894, 512.1496pt x 238.74423pt>
 File: ./gfx/ch6/C2B_long.pdf Graphic file (type pdf)
 <use ./gfx/ch6/C2B_long.pdf>
 Package pdftex.def Info: ./gfx/ch6/C2B_long.pdf  used on input line 713.
 (pdftex.def)             Requested size: 383.0pt x 178.54771pt.
  [145 <./gfx/ch6/C2B_long.pdf>]
-<./gfx/ch6/ctempdep.pdf, id=73649, 256.0748pt x 323.89194pt>
+<./gfx/ch6/ctempdep.pdf, id=73599, 256.0748pt x 323.89194pt>
 File: ./gfx/ch6/ctempdep.pdf Graphic file (type pdf)
 <use ./gfx/ch6/ctempdep.pdf>
 Package pdftex.def Info: ./gfx/ch6/ctempdep.pdf  used on input line 724.
@@ -2335,55 +2472,71 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 ]
-<./gfx/ch7/fig1.pdf, id=73763, 520.94624pt x 241.90375pt>
+<./gfx/ch7/fig1.pdf, id=73713, 520.94624pt x 241.90375pt>
 File: ./gfx/ch7/fig1.pdf Graphic file (type pdf)
 <use ./gfx/ch7/fig1.pdf>
 Package pdftex.def Info: ./gfx/ch7/fig1.pdf  used on input line 31.
 (pdftex.def)             Requested size: 383.0pt x 177.84694pt.
- [148]
+
+
+Package natbib Warning: Citation `atlas_collaboration_determination_2015_fixed'
+ on page 148 undefined on input line 51.
+
+[148]
 Underfull \vbox (badness 5331) has occurred while \output is active []
 
  [149 <./gfx/ch7/fig1.pdf>]
-<./gfx/ch7/fig2.pdf, id=73976, 253.94875pt x 305.14pt>
+
+Package natbib Warning: Citation `zhao_pressure_2019' on page 150 undefined on 
+input line 71.
+
+<./gfx/ch7/fig2.pdf, id=73924, 253.94875pt x 305.14pt>
 File: ./gfx/ch7/fig2.pdf Graphic file (type pdf)
 <use ./gfx/ch7/fig2.pdf>
 Package pdftex.def Info: ./gfx/ch7/fig2.pdf  used on input line 78.
 (pdftex.def)             Requested size: 253.22952pt x 304.28717pt.
- [150]
-<./gfx/ch7/fig3.pdf, id=73996, 520.94624pt x 369.38pt>
+
+Package natbib Warning: Citation `birss' on page 150 undefined on input line 96
+.
+
+[150]
+<./gfx/ch7/fig3.pdf, id=73942, 520.94624pt x 369.38pt>
 File: ./gfx/ch7/fig3.pdf Graphic file (type pdf)
 <use ./gfx/ch7/fig3.pdf>
 Package pdftex.def Info: ./gfx/ch7/fig3.pdf  used on input line 105.
 (pdftex.def)             Requested size: 383.0pt x 271.56712pt.
  [151 <./gfx/ch7/fig2.pdf>] [152 <./gfx/ch7/fig3.pdf>]
-<./gfx/ch7/fig4.pdf, id=75245, 253.94875pt x 405.515pt>
+<./gfx/ch7/fig4.pdf, id=75190, 253.94875pt x 405.515pt>
 File: ./gfx/ch7/fig4.pdf Graphic file (type pdf)
 <use ./gfx/ch7/fig4.pdf>
 Package pdftex.def Info: ./gfx/ch7/fig4.pdf  used on input line 133.
 (pdftex.def)             Requested size: 253.22952pt x 404.38164pt.
-
-[153] [154 <./gfx/ch7/fig4.pdf>]
+ [153] [154 <./gfx/ch7/fig4.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [155]
 [156]
 
+Package natbib Warning: Citation `morey_automated_2024' on page 157 undefined o
+n input line 194.
+
+
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\mhchem@cee' on input line 199.
 
 [157] [158]
-<./gfx/ch7/timedomain.pdf, id=75688, 520.94624pt x 251.94125pt>
+<./gfx/ch7/timedomain.pdf, id=75632, 520.94624pt x 251.94125pt>
 File: ./gfx/ch7/timedomain.pdf Graphic file (type pdf)
 <use ./gfx/ch7/timedomain.pdf>
 Package pdftex.def Info: ./gfx/ch7/timedomain.pdf  used on input line 272.
 (pdftex.def)             Requested size: 383.0pt x 185.22649pt.
-<./gfx/ch7/timedomain_zoom.pdf, id=75695, 253.22952pt x 237.90202pt>
+<./gfx/ch7/timedomain_zoom.pdf, id=75639, 253.22952pt x 237.90202pt>
 File: ./gfx/ch7/timedomain_zoom.pdf Graphic file (type pdf)
 <use ./gfx/ch7/timedomain_zoom.pdf>
 Package pdftex.def Info: ./gfx/ch7/timedomain_zoom.pdf  used on input line 285.
 
 (pdftex.def)             Requested size: 253.22952pt x 237.90869pt.
-<./gfx/ch7/timedomain_nosoften.pdf, id=75698, 520.68546pt x 268.46881pt>
+<./gfx/ch7/timedomain_nosoften.pdf, id=75642, 520.68546pt x 268.46881pt>
 File: ./gfx/ch7/timedomain_nosoften.pdf Graphic file (type pdf)
 <use ./gfx/ch7/timedomain_nosoften.pdf>
 Package pdftex.def Info: ./gfx/ch7/timedomain_nosoften.pdf  used on input line 
@@ -2394,8 +2547,12 @@ Package pdftex.def Info: ./gfx/ch7/timedomain_nosoften.pdf  used on input line
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\new@ifnextchar' on input line 308.
 
+
+Package natbib Warning: Citation `dekking' on page 159 undefined on input line 
+315.
+
 [159]
-<./gfx/ch7/static.pdf, id=75724, 236.885pt x 244.915pt>
+<./gfx/ch7/static.pdf, id=75668, 236.885pt x 244.915pt>
 File: ./gfx/ch7/static.pdf Graphic file (type pdf)
 <use ./gfx/ch7/static.pdf>
 Package pdftex.def Info: ./gfx/ch7/static.pdf  used on input line 325.
@@ -2417,7 +2574,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Underfull \vbox (badness 7869) has occurred while \output is active []
 
  [160 <./gfx/ch7/timedomain.pdf>] [161 <./gfx/ch7/timedomain_zoom.pdf>]
-<./gfx/ch7/phonons.pdf, id=75907, 520.94624pt x 282.05376pt>
+<./gfx/ch7/phonons.pdf, id=75851, 520.94624pt x 282.05376pt>
 File: ./gfx/ch7/phonons.pdf Graphic file (type pdf)
 <use ./gfx/ch7/phonons.pdf>
 Package pdftex.def Info: ./gfx/ch7/phonons.pdf  used on input line 363.
@@ -2432,70 +2589,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 (./fichera-bfichera-phd-physics-2024-source.bbl [169] [170
 
-] [171]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [172]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [173]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [174]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [175]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [176]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [177]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [178]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [179]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [180]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [181]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [182]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [183]
-[184] [185]
-Underfull \hbox (badness 1584) in paragraph at lines 1042--1045
+] [171] [172]
+Underfull \hbox (badness 1584) in paragraph at lines 158--161
 []\OT1/ppl/m/n/10.95 (+20) Photoenhanced metastable c-axis elec-tro-dy-nam-ics 
 in stripe-ordered
  []
 
-[186] [187] [188] [189] [190]
-Underfull \hbox (badness 2119) in paragraph at lines 1331--1335
+[173] [174] [175] [176] [177]
+Underfull \hbox (badness 2119) in paragraph at lines 417--421
 []\OT1/ppl/m/n/10.95 (+20) Tao Hong, Masashige Mat-sumoto, Yim-ing Qiu, Wangchu
 n Chen,
  []
 
-[191] [192] [193]
-Underfull \hbox (badness 3219) in paragraph at lines 1485--1487
+[178] [179]
+Underfull \hbox (badness 3219) in paragraph at lines 566--568
 []\OT1/ppl/m/n/10.95 (+20) Competition be-tween elec-tronic cor-re-la-tions and
  hy-bridiza-tion in
  []
 
-[194] [195] [196] [197] [198] [199] [200] [201] [202] [203] [204] [205]
-[206])
+[180] [181] [182] [183] [184] [185] [186] [187] [188]
+Underfull \hbox (badness 3291) in paragraph at lines 1092--1095
+[]\OT1/ppl/m/n/10.95 (+20) NMR ev-i-dence of charge fluc-tu-a-tions in mul-ti-f
+er-roic $[][][]$, url
+ []
+
+[189] [190] [191])
 
 Class memoir Warning: The material used in the headers is too large
 (28.99998pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 52.
 
-[207]
+
+Package natbib Warning: There were undefined citations.
+
+[192]
 \tf@toc=\write6
 \openout6 = `fichera-bfichera-phd-physics-2024-source.toc'.
 
@@ -2522,13 +2650,13 @@ Package rerunfilecheck Info: File `fichera-bfichera-phd-physics-2024-source.out
 (rerunfilecheck)             Checksum: F8B8BA61E7161F653585840922B93ED3;22897.
  ) 
 Here is how much of TeX's memory you used:
- 39587 strings out of 476000
- 745438 string characters out of 5792233
- 2022187 words of memory out of 5000000
- 59605 multiletter control sequences out of 15000+600000
- 638935 words of font info for 563 fonts, out of 8000000 for 9000
+ 39514 strings out of 476000
+ 743993 string characters out of 5792233
+ 1955187 words of memory out of 5000000
+ 59543 multiletter control sequences out of 15000+600000
+ 639270 words of font info for 578 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 115i,21n,120p,26464b,2079s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 115i,21n,120p,2420b,2152s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{figure.7.5} has been referenced but does not exist,
  replaced by a fixed one
@@ -2633,11 +2761,11 @@ urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplbi8a
 .pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/tex
 mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/
 urw/palatino/uplri8a.pfb>
-Output written on fichera-bfichera-phd-physics-2024-source.pdf (207 pages, 3231
-9177 bytes).
+Output written on fichera-bfichera-phd-physics-2024-source.pdf (192 pages, 3227
+4814 bytes).
 PDF statistics:
- 76998 PDF objects out of 79402 (max. 8388607)
- 51754 compressed objects within 518 object streams
- 920 named destinations out of 1000 (max. 500000)
+ 76871 PDF objects out of 79402 (max. 8388607)
+ 51644 compressed objects within 517 object streams
+ 887 named destinations out of 1000 (max. 500000)
  125608 words of extra memory for PDF output out of 128383 (max. 10000000)
 
