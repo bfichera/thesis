@@ -1,11 +1,55 @@
 \addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces }}{11}{figure.1.1}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces }}{14}{figure.1.2}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces }}{15}{figure.1.3}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces }}{17}{figure.1.4}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces }}{23}{figure.1.5}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces }}{24}{figure.1.6}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces }}{25}{figure.1.7}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces }}{26}{figure.1.8}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces }}{27}{figure.1.9}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Schematic free energy density in the GL model.}}{25}{figure.1.1}%
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic drawing of the SHG setup used in this research.}}{54}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Photograph of the SHG setup.}}{55}{figure.3.2}%
+\addvspace {10pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A demonstration of \glsxtrtitleshort {rashg} in the test sample \ce {GaAs}}}{72}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces A diagram of the full second harmonic generation setup}}{74}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Exploded-view diagram of one of the automated polarization rotators}}{76}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces A 3-dimensional rendering of the automated polarization rotators}}{78}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Demonstration of the automatic polarization rotators}}{79}{figure.4.5}%
+\addvspace {10pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Structure of $1$\textit {T}-\ce {TaS2} and schematic of the SHG setup}}{84}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces SHG in 1\textit {T}-\ce {TaS2}\xspace above and below $T_\mathrm {IC-NC}$}}{87}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces SHG in NC-\ce {TaS2}}}{88}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces RA-SHG in the $S_\mathrm {in}S_\mathrm {out}$\xspace polarization channel in 1\textit {T}-\ce {TaS2}\xspace }}{91}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces RA-SHG of 1\textit {T}-\ce {TaS2}\xspace : all polarization channels}}{93}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Intuition for mirror symmetry breaking in SHG}}{98}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces RA-SHG in the $\alpha $ and $\beta $ phases of 1\textit {T}-\ce {TaS2}\xspace }}{102}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Electron diffraction of 1\textit {T}-\ce {TaS2}\xspace }}{105}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Electric quadrupole RA-SHG in 1\textit {T}-\ce {TaS2}\xspace ($T=\qty {295}{K}$)}}{106}{figure.5.9}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Electric quadrupole RA-SHG in 1\textit {T}-\ce {TaS2}\xspace ($T=\qty {356}{K}$)}}{106}{figure.5.10}%
+\addvspace {10pt}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Crystal structure of \ce {CaMn2Bi2}\xspace and temperature dependence of \glsxtrtitleshort {shg}}}{113}{figure.6.1}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Equilibrium domain distribution in \ce {CaMn2Bi2}\xspace }}{114}{figure.6.2}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces \Glsxtrtitleshort {trshg} of \ce {CaMn2Bi2}\xspace }}{117}{figure.6.3}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Illustration of our theoretical understanding of \ce {CaMn2Bi2}\xspace }}{119}{figure.6.4}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Energy difference between $x$ and $y$-directions with respect to the easy axis}}{125}{figure.6.5}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Phonon mode and \glsxtrtitleshort {afm} \glsxtrtitlelong {op} following photo-excitation with coupling $(L_1^2 + L_2^2)(Q+Q^2)$}}{130}{figure.6.6}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Phonon mode and \glsxtrtitleshort {afm} \glsxtrtitlelong {op} following photo-excitation with coupling $L_1 L_2 e_2 Q$}}{130}{figure.6.7}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Fits to the \gls {rashg} pattern in the four domains of \cref {cmb-fig1} \qty {2.0}{ps} before ($A$, $B$, $C$, $D$) and ${\sim }\xspace \qty {40}{ps}$ after ($A'$, $B'$, $C'$, $D'$) zero delay}}{134}{figure.6.8}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces \gls {rashg} results of \cref {cmb-fluencedep} depicted with estimated errorbars (see text).}}{135}{figure.6.9}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Comparison of quench times in different domains}}{137}{figure.6.10}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Fluence dependence if \ce {CaMn2Bi2}\xspace }}{138}{figure.6.11}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Pump-probe spectroscopy of \ce {CaMn2Bi2}\xspace }}{139}{figure.6.12}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces \Glsxtrtitlelong {xrd} of \ce {CaMn2Bi2}\xspace }}{140}{figure.6.13}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces \gls {rashg} results of \cref {cmb-fig0} depicted in all four polarization channels ($P_\mathrm {in}P_\mathrm {out}$\xspace , $P_\mathrm {in}S_\mathrm {out}$\xspace , $S_\mathrm {in}P_\mathrm {out}$\xspace , and $S_\mathrm {in}S_\mathrm {out}$\xspace )}}{140}{figure.6.14}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Full equilibrium \glsxtrtitleshort {rashg} results in \ce {CaMn2Bi2}\xspace }}{141}{figure.6.15}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Full nonequilibrium \glsxtrtitleshort {trshg} results in \ce {CaMn2Bi2}\xspace }}{142}{figure.6.16}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Polarization dependence of \glsxtrtitleshort {trshg} results}}{143}{figure.6.17}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Transition of \ce {CaMn2Bi2}\xspace to the state opposite of that presented in the main text}}{144}{figure.6.18}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Transiton of \ce {CaMn2Bi2}\xspace to state opposite of that presented in the main text, at long times}}{145}{figure.6.19}%
+\contentsline {figure}{\numberline {6.20}{\ignorespaces \Glsxtrtitleshort {shg} intensity in the same domain as \cref {cmb-fig1:f} as a function of temperature}}{146}{figure.6.20}%
+\addvspace {10pt}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Electromagnons in \ce {CuBr2}}}{149}{figure.7.1}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces SHG in \ce {CuBr2}: temperature dependence}}{151}{figure.7.2}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces tr-SHG in \ce {CuBr2}}}{152}{figure.7.3}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Frequency of coherent oscillations in \ce {CuBr2}}}{154}{figure.7.4}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Time-domain signals for temperature dependence of collective oscillation frequencies in \ce {CuBr2}}}{160}{figure.7.5}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Rescaled time-domain signals in \ce {CuBr2}}}{161}{figure.7.6}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Time-domain signals in \ce {CuBr2} fit without mode softening}}{162}{figure.7.7}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Fits to static SHG signal in \ce {CuBr2}}}{163}{figure.7.8}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces DFT calculation of acoustic phonons in \ce {CuBr2}}}{164}{figure.7.9}%
 \addvspace {10pt}

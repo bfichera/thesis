@@ -19,66 +19,97 @@ Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
 Reallocated out_buf (elt_size=1) to 60000 items from 40000.
 Reallocated name_tok (elt_size=8) to 60000 items from 40000.
 Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
-Repeated entry---line 4666 of file fichera-bfichera-phd-physics-2024-source.bib
+Warning--entry type for "isodistort" isn't style-file defined
+--line 2334 of file fichera-bfichera-phd-physics-2024-source.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Repeated entry---line 4613 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{kirilyuk_ultrafast_2010
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4716 of file fichera-bfichera-phd-physics-2024-source.bib
  : @article{sa_generalized_2000
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4702 of file fichera-bfichera-phd-physics-2024-source.bib
+Repeated entry---line 4752 of file fichera-bfichera-phd-physics-2024-source.bib
  : @article{torchinsky_low_2014
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4720 of file fichera-bfichera-phd-physics-2024-source.bib
+Repeated entry---line 4770 of file fichera-bfichera-phd-physics-2024-source.bib
  : @article{harter_high-speed_2015
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4932 of file fichera-bfichera-phd-physics-2024-source.bib
+Repeated entry---line 4982 of file fichera-bfichera-phd-physics-2024-source.bib
  : @article{fichera_second_2020
  :                             ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "zhao_pressure_2019"
-Warning--I didn't find a database entry for ""
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Repeated entry---line 5034 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{jain_higgs_2017
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5051 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{hong_higgs_2017
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5085 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{pekker_amplitudehiggs_2015
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5121 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{fiebig_evolution_2016
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5139 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{cheong_multiferroics_2007
+ :                                   ,
+I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Warning--there's a number but no volume in bednorz_possible_1986
+Warning--empty journal in camn2bi2
 Warning--empty journal in morey_automated_2024
-You've used 34 entries,
+Warning--empty year in ISOTROPY
+Warning--empty year in isodistort
+Warning--empty journal in wang_observation_2013
+Warning--empty journal in zhao_pressure_2019
+Warning--there's a number but no volume in zhao_pressure_2019
+You've used 170 entries,
             2762 wiz_defined-function locations,
-            877 strings with 63123 characters,
-and the built_in function-call counts, 162293 in all, are:
-= -- 10242
-> -- 27162
-< -- 10
-+ -- 9058
-- -- 9024
-* -- 19046
-:= -- 28815
-add.period$ -- 135
-call.type$ -- 34
-change.case$ -- 3108
-chr.to.int$ -- 34
-cite$ -- 69
-duplicate$ -- 703
-empty$ -- 1342
-format.name$ -- 9066
-if$ -- 29640
-int.to.chr$ -- 1
+            1815 strings with 99974 characters,
+and the built_in function-call counts, 245750 in all, are:
+= -- 17222
+> -- 34242
+< -- 62
++ -- 11439
+- -- 11266
+* -- 27223
+:= -- 42258
+add.period$ -- 652
+call.type$ -- 170
+change.case$ -- 4252
+chr.to.int$ -- 167
+cite$ -- 348
+duplicate$ -- 3480
+empty$ -- 6569
+format.name$ -- 11490
+if$ -- 46352
+int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 36
-newline$ -- 210
-num.names$ -- 136
-pop$ -- 6138
+missing$ -- 179
+newline$ -- 996
+num.names$ -- 683
+pop$ -- 8211
 preamble$ -- 1
-purify$ -- 3076
+purify$ -- 4095
 quote$ -- 0
-skip$ -- 3394
+skip$ -- 5711
 stack$ -- 0
-substring$ -- 729
-swap$ -- 62
-text.length$ -- 0
+substring$ -- 3363
+swap$ -- 313
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 364
-warning$ -- 1
-while$ -- 146
+type$ -- 1790
+warning$ -- 8
+while$ -- 728
 width$ -- 0
-write$ -- 510
-(There were 5 error messages)
+write$ -- 2474
+(There were 11 error messages)

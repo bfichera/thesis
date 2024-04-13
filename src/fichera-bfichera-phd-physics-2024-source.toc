@@ -1,27 +1,119 @@
 \changetocdepth {3}
 \contentsline {chapter}{Contents}{v}{section*.1}%
-\contentsline {chapter}{List of Figures}{vii}{section*.2}%
-\contentsline {chapter}{List of Tables}{viii}{section*.3}%
-\contentsline {chapter}{\chapternumberline {1}Amplitude-mode electromagnon in the spin-spiral multiferroic \ce {CuBr2}}{9}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Preface}{9}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Abstract}{10}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Introduction}{10}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Results}{12}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Equilibrium}{12}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Nonequilibrium}{13}{subsection.1.4.2}%
-\contentsline {section}{\numberline {1.5}Discussion}{19}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Conclusion}{19}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Methods}{20}{section.1.7}%
-\contentsline {section}{\numberline {1.8}Supplementary material}{20}{section.1.8}%
-\contentsline {subsection}{\numberline {1.8.1}Electromagnons in \ce {CuBr2}}{20}{subsection.1.8.1}%
-\contentsline {subsection}{\numberline {1.8.2}Energy of the pseudo-Goldstone mode}{22}{subsection.1.8.2}%
-\contentsline {subsection}{\numberline {1.8.3}Fits of time domain signals}{22}{subsection.1.8.3}%
-\contentsline {subsection}{\numberline {1.8.4}Error bars in \cref {cubrtwo-fig:fig4}}{23}{subsection.1.8.4}%
-\contentsline {subsection}{\numberline {1.8.5}Fits to static RASHG data}{25}{subsection.1.8.5}%
-\contentsline {subsection}{\numberline {1.8.6}Excluded possibilities for observed results}{25}{subsection.1.8.6}%
-\contentsline {subsubsection}{\numberline {1.8.6.1}$\delta \vec {P} || \hat {x}$ oscillation}{25}{subsubsection.1.8.6.1}%
-\contentsline {subsubsection}{\numberline {1.8.6.2}Zone-folded acoustic phonons}{26}{subsubsection.1.8.6.2}%
-\contentsline {subsubsection}{\numberline {1.8.6.3}Magnetic SHG}{27}{subsubsection.1.8.6.3}%
-\contentsline {subsubsection}{\numberline {1.8.6.4}Multi-phason excitation}{28}{subsubsection.1.8.6.4}%
-\contentsline {chapter}{\chapternumberline {2}Concluding remarks}{31}{chapter.2}%
-\contentsline {chapter}{Bibliography}{35}{chapter*.4}%
+\contentsline {chapter}{List of Figures}{xi}{section*.2}%
+\contentsline {chapter}{List of Tables}{xiii}{section*.3}%
+\contentsline {chapter}{\chapternumberline {1}Ultrafast optics in correlated electron systems}{15}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Spectroscopy}{18}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Collective modes}{18}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Coherent oscillations}{19}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Excitation mechanisms}{20}{subsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.3.1}In absorption}{21}{subsubsection.1.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.1.3.2}In transparency}{22}{subsubsection.1.1.3.2}%
+\contentsline {subsection}{\numberline {1.1.4}Collective modes in correlated materials}{24}{subsection.1.1.4}%
+\contentsline {subsubsection}{\numberline {1.1.4.1}Phase transitions and Goldstone's theorem}{24}{subsubsection.1.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.1.4.2}Example: electromagnons in multiferroics}{26}{subsubsection.1.1.4.2}%
+\contentsline {section}{\numberline {1.2}Control}{29}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Incoherent control}{30}{subsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.1.1}Heating across a phase transition}{30}{subsubsection.1.2.1.1}%
+\contentsline {subsubsection}{\numberline {1.2.1.2}Nonthermal melting}{31}{subsubsection.1.2.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1.3}Formal model: time-dependent Ginzburg-Landau theory}{32}{subsubsection.1.2.1.3}%
+\contentsline {subsubsection}{\numberline {1.2.1.4}Dynamics following an ultrafast quench}{33}{subsubsection.1.2.1.4}%
+\contentsline {subsection}{\numberline {1.2.2}Coherent control}{35}{subsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2.1}Via coherent oscillations}{35}{subsubsection.1.2.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2.2}Via Floquet engineering}{36}{subsubsection.1.2.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Control as spectroscopy}{37}{subsection.1.2.3}%
+\contentsline {chapter}{\chapternumberline {2}Second harmonic generation: theory}{39}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Space groups, point groups, and Neumann's principle}{39}{section.2.1}%
+\contentsline {section}{\numberline {2.2}A classical understanding of SHG}{43}{section.2.2}%
+\contentsline {section}{\numberline {2.3}SHG in quantum mechanics}{45}{section.2.3}%
+\contentsline {section}{\numberline {2.4}SHG in the Ginzburg-Landau paradigm}{49}{section.2.4}%
+\contentsline {chapter}{\chapternumberline {3}Second harmonic generation: practical}{53}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Description of the setup}{53}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Before you build}{56}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Spot size}{56}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Oblique vs. normal incidence}{57}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Choice of detector}{58}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}tr-SHG: methodology}{59}{section.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.0.1}Polarization control}{59}{subsubsection.3.3.0.1}%
+\contentsline {subsubsection}{\numberline {3.3.0.2}The pump beam path}{60}{subsubsection.3.3.0.2}%
+\contentsline {section}{\numberline {3.4}Data analysis}{61}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Static RA-SHG patterns}{61}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Modeling $\chi _{ijk}$: the simplified bond hyperpolarizability model}{64}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Fitting time traces in tr-SHG}{66}{subsection.3.4.3}%
+\contentsline {chapter}{\chapternumberline {4}Automated polarization rotation for multi-axis RA-SHG experiments}{69}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Preface}{69}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Abstract}{69}{section.4.2}%
+\contentsline {section}{\numberline {4.3} Introduction}{70}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Design}{74}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Slip Ring}{75}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Miniature Stepper Motor}{77}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Validation and Discussion}{79}{section.4.5}%
+\contentsline {chapter}{\chapternumberline {5}Second harmonic generation as a probe of broken mirror symmetry in 1\textit {T}-\ce {TaS2}\xspace }{81}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Preface}{81}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Abstract}{81}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Introduction}{82}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Results and discussion}{85}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Conclusion}{92}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Acknowledgments}{92}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Supplemental material}{93}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Probing broken mirror symmetry with RA-SHG}{93}{subsection.5.7.1}%
+\contentsline {subsubsection}{\numberline {5.7.1.1}Complete RA-SHG data}{93}{subsubsection.5.7.1.1}%
+\contentsline {subsubsection}{\numberline {5.7.1.2}$\mathscr {I}_{PS}^{(3)}$ as an indicator of broken mirror symmetry}{94}{subsubsection.5.7.1.2}%
+\contentsline {subsection}{\numberline {5.7.2}Physical importance of the P$_\mathrm {in}$-S$_\mathrm {out}$ channel}{97}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}Generalization to other mirror symmetry-breaking transitions}{99}{subsection.5.7.3}%
+\contentsline {subsection}{\numberline {5.7.4}Probing the sense of planar chirality with RA-SHG}{101}{subsection.5.7.4}%
+\contentsline {subsubsection}{\numberline {5.7.4.1}Complete RA-SHG data}{101}{subsubsection.5.7.4.1}%
+\contentsline {subsubsection}{\numberline {5.7.4.2}Electron diffraction confirming the sample is single domain}{101}{subsubsection.5.7.4.2}%
+\contentsline {subsubsection}{\numberline {5.7.4.3}Fitting RA-SHG data in the $\alpha $ and $\beta $ configurations}{101}{subsubsection.5.7.4.3}%
+\contentsline {subsection}{\numberline {5.7.5}Bulk broken mirror symmetry in 1\textit {T}-\ce {TaS2}\xspace }{103}{subsection.5.7.5}%
+\contentsline {subsubsection}{\numberline {5.7.5.1}Complete RA-SHG data at $T=295K$}{103}{subsubsection.5.7.5.1}%
+\contentsline {subsubsection}{\numberline {5.7.5.2}Symmetry analysis of RA-SHG data}{103}{subsubsection.5.7.5.2}%
+\contentsline {subsection}{\numberline {5.7.6}Methods}{107}{subsection.5.7.6}%
+\contentsline {chapter}{\chapternumberline {6}Light-induced reorientation transition in the antiferromagnetic semiconductor \ce {CaMn2Bi2}}{109}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Preface}{109}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Abstract}{109}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Introduction}{110}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Results}{112}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Equilibrium}{112}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Nonequilibrium}{116}{subsection.6.4.2}%
+\contentsline {section}{\numberline {6.5}Discussion}{118}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Conclusion}{121}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Methods}{121}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Material growth}{121}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.2}\Glsxtrtitleshort {trshg} measurements}{122}{subsection.6.7.2}%
+\contentsline {subsection}{\numberline {6.7.3}\Glsxtrtitleshort {ptmb} measurements}{122}{subsection.6.7.3}%
+\contentsline {subsection}{\numberline {6.7.4}\Glsxtrtitleshort {xrd} measurements}{123}{subsection.6.7.4}%
+\contentsline {subsection}{\numberline {6.7.5}Data availability}{123}{subsection.6.7.5}%
+\contentsline {section}{\numberline {6.8}Acknowledgments}{123}{section.6.8}%
+\contentsline {section}{\numberline {6.9}Author contributions}{124}{section.6.9}%
+\contentsline {section}{\numberline {6.10}Supplementary Material}{124}{section.6.10}%
+\contentsline {subsection}{\numberline {6.10.1}Supporting theoretical discussion}{124}{subsection.6.10.1}%
+\contentsline {subsubsection}{\numberline {6.10.1.1}Equilibrium strain-spin coupling}{124}{subsubsection.6.10.1.1}%
+\contentsline {subsubsection}{\numberline {6.10.1.2}Laser-induced dynamics of competing magnetic domains: ``incoherent'' scenario}{126}{subsubsection.6.10.1.2}%
+\contentsline {subsubsection}{\numberline {6.10.1.3}Laser-induced dynamics of competing magnetic domains: ``coherent'' scenario}{127}{subsubsection.6.10.1.3}%
+\contentsline {subsection}{\numberline {6.10.2}Nonviability of secondary order parameter in describing the \gls {rashg} data}{131}{subsection.6.10.2}%
+\contentsline {subsection}{\numberline {6.10.3}Fits to susceptibility tensors}{132}{subsection.6.10.3}%
+\contentsline {subsection}{\numberline {6.10.4}Error bar estimation for \cref {cmb-fluencedep}}{135}{subsection.6.10.4}%
+\contentsline {chapter}{\chapternumberline {7}Amplitude-mode electromagnon in the spin-spiral multiferroic \ce {CuBr2}}{147}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Preface}{147}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Abstract}{147}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Introduction}{148}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Results}{150}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Equilibrium}{150}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Nonequilibrium}{151}{subsection.7.4.2}%
+\contentsline {section}{\numberline {7.5}Discussion}{156}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Conclusion}{156}{section.7.6}%
+\contentsline {section}{\numberline {7.7}Methods}{157}{section.7.7}%
+\contentsline {section}{\numberline {7.8}Supplementary material}{157}{section.7.8}%
+\contentsline {subsection}{\numberline {7.8.1}Electromagnons in \ce {CuBr2}}{157}{subsection.7.8.1}%
+\contentsline {subsection}{\numberline {7.8.2}Energy of the pseudo-Goldstone mode}{158}{subsection.7.8.2}%
+\contentsline {subsection}{\numberline {7.8.3}Fits of time domain signals}{159}{subsection.7.8.3}%
+\contentsline {subsection}{\numberline {7.8.4}Error bars in \cref {cubr2-fig:fig4}}{159}{subsection.7.8.4}%
+\contentsline {subsection}{\numberline {7.8.5}Fits to static RASHG data}{160}{subsection.7.8.5}%
+\contentsline {subsection}{\numberline {7.8.6}Excluded possibilities for observed results}{161}{subsection.7.8.6}%
+\contentsline {subsubsection}{\numberline {7.8.6.1}$\delta \vec {P} || \hat {x}$ oscillation}{161}{subsubsection.7.8.6.1}%
+\contentsline {subsubsection}{\numberline {7.8.6.2}Zone-folded acoustic phonons}{162}{subsubsection.7.8.6.2}%
+\contentsline {subsubsection}{\numberline {7.8.6.3}Magnetic SHG}{162}{subsubsection.7.8.6.3}%
+\contentsline {subsubsection}{\numberline {7.8.6.4}Multi-phason excitation}{165}{subsubsection.7.8.6.4}%
+\contentsline {chapter}{\chapternumberline {8}Concluding remarks}{167}{chapter.8}%
+\contentsline {chapter}{Bibliography}{171}{chapter*.4}%
