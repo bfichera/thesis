@@ -1,4 +1,6 @@
 \usepackage{tabularx}
+\usepackage{newunicodechar}
+\newunicodechar{∗}{*}
 \usepackage{multirow}
 \usepackage{palatino}
 \usepackage{pdflscape}
@@ -101,7 +103,7 @@
 \newabbreviation{na}{NA}{numerical aperture}
 \newabbreviation{emccd}{EM-CCD}{electron multiplying charge coupled device}
 \newabbreviation{nir}{near-infrared}{NIR}
-\newabbreviation{dft}{DFT}{discrete Fourier transform}
+\newabbreviation[type=ignored]{dftr}{DFT}{discrete Fourier transform}
 \newabbreviation{ft}{FT}{Fourier transform}
 \newabbreviation{sbhm}{SBHM}{simplified bond hyperpolarizability model}
 \newabbreviation{cif}{CIF}{crystallographic information file}
@@ -124,6 +126,9 @@
 \newabbreviation{gl}{GL}{Ginzburg-Landau}
 \newabbreviation{icme}{ICME}{inverse Cotton-Mouton effect}
 \newabbreviation{tdgl}{TDGL}{time-dependent Ginzburg-Landau}
+\newabbreviation{ins}{INS}{inelastic neutron scattering}
+\newabbreviation{lswt}{LSWT}{linear spin wave theory}
+\newabbreviation{qcp}{QCP}{quantum critical point}
 
 \renewcommand{\vec}{\bm}
 \newcommand{\suchthat}{\mathrm{s.t.}}
@@ -151,6 +156,7 @@
 \newcommand{\insets}{Insets show the corresponding value of the \gls{afm} \gls{op} proposed in the text, relative to the hexagonal crystallographic motif.\xspace}
 \newcommand{\lastrow}{The last row depicts the corresponding value of the \gls{afm} \gls{op} proposed in the text, relative to the hexagonal crystallographic motif.\xspace}
 \newcommand{\degree}{^\circ?}
+\newcommand{\supp}{Supplementary material}
 \newcommand{\supcref}[1]{Supplementary material, \cref{#1}}
 \newcommand{\xrd}{cmb-xrd}
 \newcommand{\fulltempdep}{cmb-fulltempdep}
@@ -163,6 +169,10 @@
 \newcommand{\errorbars}{cmb-errorbars}
 \newcommand{\oned}{\num{1}D\xspace}
 \newcommand{\neel}{N\'{e}el\xspace}
+\newcommand{\higgs}{amplitude\xspace}
+\newcommand{\ahiggs}{an amplitude\xspace}
+\newcommand{\Higgs}{Amplitude\xspace}
+\newcommand{\bigO}{\mathcal{O}}
 \DeclareMathOperator{\atantwo}{atan2}
 
 \newtheorem{theorem}{Theorem}[section]

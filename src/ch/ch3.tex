@@ -194,7 +194,7 @@ An alternative is to cast the problem in terms of the \glspl{ft}
 \begin{equation}\label{eq:ftmodel}
 \ft{I}^p(k) \equiv \frac{1}{2\pi}\int_0^{2\pi}I^p(\phi)e^{-i k\phi} \, d\phi
 \end{equation}
-of $I^p(\phi)$ and the \glspl{dft}
+of $I^p(\phi)$ and the \glspl{dftr}
 \begin{equation}
 \{(k, \ft{I}^p_k)\},
 \end{equation}
@@ -202,7 +202,7 @@ of $\{(\phi_n, I^p_n)\}$, where\footnote{I am assuming the $\phi_n$'s are equall
 \begin{equation}
 \ft{I}^p_k \equiv \frac{1}{N}\sum_{n=0}^{N-1}I^p_n e^{-ik\phi_n}.
 \end{equation}
-Since the \gls{dft} is unitary, the uncertainties $\ft{\sigma}^p_k$ are simply the \gls{dft} of the $\sigma^p_n$'s.
+Since the \gls{dftr} is unitary, the uncertainties $\ft{\sigma}^p_k$ are simply the \gls{dftr} of the $\sigma^p_n$'s.
 Thus, our new objective function is
 \begin{equation}\label{eq:objectivefunction}
 f(\{\chi_i\}) = \sum_{\substack{p\in \{\mathPP, \mathPS,\\ \mathSP, \mathSS\}}}\sum_{k=0}^{N-1}\left(\frac{\ft{I}^p(k) - \ft{I}^p_k}{\ft{\sigma}^p_k}\right)^2.
