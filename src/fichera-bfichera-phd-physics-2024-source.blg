@@ -40,45 +40,45 @@ Warning--I didn't find a database entry for ""
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Warning--empty journal in morey_automated_2024
-You've used 36 entries,
+You've used 34 entries,
             2762 wiz_defined-function locations,
-            894 strings with 64420 characters,
-and the built_in function-call counts, 165392 in all, are:
-= -- 10456
-> -- 27609
-< -- 11
-+ -- 9207
-- -- 9171
-* -- 19387
-:= -- 29346
-add.period$ -- 142
-call.type$ -- 36
-change.case$ -- 3163
-chr.to.int$ -- 36
-cite$ -- 73
-duplicate$ -- 739
-empty$ -- 1417
-format.name$ -- 9217
-if$ -- 30224
+            877 strings with 63123 characters,
+and the built_in function-call counts, 162293 in all, are:
+= -- 10242
+> -- 27162
+< -- 10
++ -- 9058
+- -- 9024
+* -- 19046
+:= -- 28815
+add.period$ -- 135
+call.type$ -- 34
+change.case$ -- 3108
+chr.to.int$ -- 34
+cite$ -- 69
+duplicate$ -- 703
+empty$ -- 1342
+format.name$ -- 9066
+if$ -- 29640
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 37
-newline$ -- 221
-num.names$ -- 144
-pop$ -- 6249
+missing$ -- 36
+newline$ -- 210
+num.names$ -- 136
+pop$ -- 6138
 preamble$ -- 1
-purify$ -- 3129
+purify$ -- 3076
 quote$ -- 0
-skip$ -- 3467
+skip$ -- 3394
 stack$ -- 0
-substring$ -- 764
-swap$ -- 66
+substring$ -- 729
+swap$ -- 62
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 386
+type$ -- 364
 warning$ -- 1
-while$ -- 154
+while$ -- 146
 width$ -- 0
-write$ -- 537
+write$ -- 510
 (There were 5 error messages)

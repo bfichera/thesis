@@ -1,4 +1,4 @@
-\begin{thebibliography}{36}
+\begin{thebibliography}{34}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -11,26 +11,6 @@ Ian Affleck and Greg~F. Wellman.
 \newblock \emph{Phys. Rev. B}, 46\penalty0 (14):\penalty0 8934--8953, October
   1992.
 \newblock \doi{10.1103/PhysRevB.46.8934}.
-
-\bibitem[Alexandradinata et~al.(2022)Alexandradinata, Armitage, Baydin, Bi,
-  Cao, Changlani, Chertkov, Neto, Delacretaz, Baggari, Ferguson, Gannon,
-  Ghorashi, Goodge, Goulko, Grissonnanche, Hallas, Hayes, He, Huang, Kogar,
-  Kumah, Lee, Legros, Mahmood, Maximenko, Pellatz, Polshyn, Sarkar, Scheie,
-  Seyler, Shi, Skinner, Steinke, Thirunavukkuarasu, Trevisan, Vogl, Volkov,
-  Wang, Wang, Wei, Wei, Yang, Zhang, Zhang, Zhao, and
-  Zong]{alexandradinata_future_2022}
-A.~Alexandradinata, N.~P. Armitage, Andrey Baydin, Wenli Bi, Yue Cao, Hitesh~J.
-  Changlani, Eli Chertkov, Eduardo H. da~Silva Neto, Luca Delacretaz, Ismail~El
-  Baggari, G.~M. Ferguson, William~J. Gannon, Sayed Ali~Akbar Ghorashi,
-  Berit~H. Goodge, Olga Goulko, G.~Grissonnanche, Alannah Hallas, Ian~M. Hayes,
-  Yu~He, Edwin~W. Huang, Anshul Kogar, Divine Kumah, Jong~Yeon Lee, A.~Legros,
-  Fahad Mahmood, Yulia Maximenko, Nick Pellatz, Hryhoriy Polshyn, Tarapada
-  Sarkar, Allen Scheie, Kyle~L. Seyler, Zhenzhong Shi, Brian Skinner, Lucia
-  Steinke, K.~Thirunavukkuarasu, Thaís~Victa Trevisan, Michael Vogl, Pavel~A.
-  Volkov, Yao Wang, Yishu Wang, Di~Wei, Kaya Wei, Shuolong Yang, Xian Zhang,
-  Ya-Hui Zhang, Liuyan Zhao, and Alfred Zong.
-\newblock The {Future} of the {Correlated} {Electron} {Problem}, July 2022.
-\newblock arXiv:2010.00584 [cond-mat].
 
 \bibitem[{ATLAS collaboration} et~al.(2015){ATLAS collaboration}, Aad, Abbott,
   Abdallah, Abdinov, Aben, Abolins, AbouZeid, Abramowicz, Abreu, Abreu,
@@ -1019,13 +999,6 @@ Hosho Katsura, Alexander~V. Balatsky, and Naoto Nagaosa.
 \newblock \emph{Phys. Rev. Lett.}, 98\penalty0 (2):\penalty0 027203, January
   2007.
 \newblock \doi{10.1103/PhysRevLett.98.027203}.
-
-\bibitem[Kibble and Pickett(2008)]{kibble_introduction_2008}
-T.W.B Kibble and G.R Pickett.
-\newblock Introduction. {Cosmology} meets condensed matter.
-\newblock \emph{Phil. Trans. R. Soc. A.}, 366\penalty0 (1877):\penalty0
-  2793--2802, August 2008.
-\newblock \doi{10.1098/rsta.2008.0098}.
 
 \bibitem[Lebernegg et~al.(2013)Lebernegg, Schmitt, Tsirlin, Janson, and
   Rosner]{lebernegg_magnetism_2013}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.26)  13 APR 2024 14:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.26)  13 APR 2024 14:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1645,94 +1645,63 @@ Underfull \hbox (badness 10000) in alignment at lines 28--28
 ]) (./frontbackmatter/abstract.tex) [3]
 (./frontbackmatter/acknowledgements.tex) [4
 
-] (./frontbackmatter/preface.tex
-[5
+]
+(./fichera-bfichera-phd-physics-2024-source.toc [5
 
+]) [6]
+(./fichera-bfichera-phd-physics-2024-source.lof) [7
 
 ]
-
-LaTeX Warning: Reference `ch:intro' on page i undefined on input line 27.
-
-
-LaTeX Warning: Reference `ch:intro' on page i undefined on input line 32.
-
-
-LaTeX Warning: Reference `ch:shgpractice' on page i undefined on input line 34.
-
-
-
-LaTeX Warning: Reference `ch:shgtheory' on page i undefined on input line 34.
-
-
-LaTeX Warning: Reference `ch:polrotators' on page i undefined on input line 35.
-
-
-[6]
-
-LaTeX Warning: Reference `ch:tastwo' on page i undefined on input line 39.
-
-
-LaTeX Warning: Reference `ch:cmb' on page i undefined on input line 42.
-
-
-LaTeX Warning: Reference `ch:cmb' on page i undefined on input line 43.
-
-) [7] [8] (./fichera-bfichera-phd-physics-2024-source.toc [9
-
-]) [10]
-(./fichera-bfichera-phd-physics-2024-source.lof) [11
-
-]
-(./fichera-bfichera-phd-physics-2024-source.lot) [12
+(./fichera-bfichera-phd-physics-2024-source.lot) [8
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mhchem@cee' on input line 45.
+(hyperref)                removing `\mhchem@cee' on input line 42.
 
 (./ch/ch7.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13
+ [9
 
 
 
 ]
-<./gfx/ch7/fig1.pdf, id=239, 520.94624pt x 241.90375pt>
+<./gfx/ch7/fig1.pdf, id=207, 520.94624pt x 241.90375pt>
 File: ./gfx/ch7/fig1.pdf Graphic file (type pdf)
 <use ./gfx/ch7/fig1.pdf>
 Package pdftex.def Info: ./gfx/ch7/fig1.pdf  used on input line 32.
 (pdftex.def)             Requested size: 383.0pt x 177.84694pt.
 
-[14] [15 <./gfx/ch7/fig1.pdf>]
+[10] [11 <./gfx/ch7/fig1.pdf>]
 Underfull \vbox (badness 1708) has occurred while \output is active []
 
- [16]
+ [12]
 
-Package natbib Warning: Citation `zhao_pressure_2019' on page 17 undefined on i
+Package natbib Warning: Citation `zhao_pressure_2019' on page 13 undefined on i
 nput line 72.
 
-<./gfx/ch7/fig2.pdf, id=459, 253.94875pt x 305.14pt>
+<./gfx/ch7/fig2.pdf, id=428, 253.94875pt x 305.14pt>
 File: ./gfx/ch7/fig2.pdf Graphic file (type pdf)
 <use ./gfx/ch7/fig2.pdf>
 Package pdftex.def Info: ./gfx/ch7/fig2.pdf  used on input line 79.
 (pdftex.def)             Requested size: 253.22952pt x 304.28717pt.
 
-LaTeX Warning: Reference `fig:fig2a' on page 17 undefined on input line 87.
+LaTeX Warning: Reference `fig:fig2a' on page 13 undefined on input line 87.
 
 
-LaTeX Warning: Reference `fig:fig2a' on page 17 undefined on input line 87.
+LaTeX Warning: Reference `fig:fig2a' on page 13 undefined on input line 87.
 
-<./gfx/ch7/fig3.pdf, id=465, 520.94624pt x 369.38pt>
+<./gfx/ch7/fig3.pdf, id=434, 520.94624pt x 369.38pt>
 File: ./gfx/ch7/fig3.pdf Graphic file (type pdf)
 <use ./gfx/ch7/fig3.pdf>
 Package pdftex.def Info: ./gfx/ch7/fig3.pdf  used on input line 106.
 (pdftex.def)             Requested size: 383.0pt x 271.56712pt.
-[17]
+[13]
 Underfull \vbox (badness 2772) has occurred while \output is active []
 
- [18 <./gfx/ch7/fig2.pdf>] [19 <./gfx/ch7/fig3.pdf>]
-<./gfx/ch7/fig4.pdf, id=1727, 253.94875pt x 405.515pt>
+ [14 <./gfx/ch7/fig2.pdf>] [15 <./gfx/ch7/fig3.pdf>]
+<./gfx/ch7/fig4.pdf, id=1697, 253.94875pt x 405.515pt>
 File: ./gfx/ch7/fig4.pdf Graphic file (type pdf)
 <use ./gfx/ch7/fig4.pdf>
 Package pdftex.def Info: ./gfx/ch7/fig4.pdf  used on input line 134.
@@ -1744,12 +1713,12 @@ LaTeX Warning: Reference `fig:fig4' on page 1 undefined on input line 147.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
-[21 <./gfx/ch7/fig4.pdf>]
+ [16]
+[17 <./gfx/ch7/fig4.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
-[23]
+ [18]
+[19]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\mhchem@cee' on input line 200.
@@ -1757,24 +1726,24 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Underfull \vbox (badness 2359) has occurred while \output is active []
 
- [24]
+ [20]
 Overfull \hbox (15.67471pt too wide) detected at line 227
 [][][][][]
  []
 
-[25] [26]
-<./gfx/ch7/timedomain.pdf, id=2185, 520.94624pt x 251.94125pt>
+[21] [22]
+<./gfx/ch7/timedomain.pdf, id=2156, 520.94624pt x 251.94125pt>
 File: ./gfx/ch7/timedomain.pdf Graphic file (type pdf)
 <use ./gfx/ch7/timedomain.pdf>
 Package pdftex.def Info: ./gfx/ch7/timedomain.pdf  used on input line 273.
 (pdftex.def)             Requested size: 383.0pt x 185.22649pt.
-<./gfx/ch7/timedomain_zoom.pdf, id=2192, 253.22952pt x 237.90202pt>
+<./gfx/ch7/timedomain_zoom.pdf, id=2163, 253.22952pt x 237.90202pt>
 File: ./gfx/ch7/timedomain_zoom.pdf Graphic file (type pdf)
 <use ./gfx/ch7/timedomain_zoom.pdf>
 Package pdftex.def Info: ./gfx/ch7/timedomain_zoom.pdf  used on input line 286.
 
 (pdftex.def)             Requested size: 253.22952pt x 237.90869pt.
-<./gfx/ch7/timedomain_nosoften.pdf, id=2195, 520.68546pt x 268.46881pt>
+<./gfx/ch7/timedomain_nosoften.pdf, id=2166, 520.68546pt x 268.46881pt>
 File: ./gfx/ch7/timedomain_nosoften.pdf Graphic file (type pdf)
 <use ./gfx/ch7/timedomain_nosoften.pdf>
 Package pdftex.def Info: ./gfx/ch7/timedomain_nosoften.pdf  used on input line 
@@ -1788,11 +1757,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Underfull \vbox (badness 3302) has occurred while \output is active []
 
- [27 <./gfx/ch7/timedomain.pdf>]
+ [23 <./gfx/ch7/timedomain.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28 <./gfx/ch7/timedomain_zoom.pdf>]
-<./gfx/ch7/static.pdf, id=2382, 236.885pt x 244.915pt>
+ [24 <./gfx/ch7/timedomain_zoom.pdf>]
+<./gfx/ch7/static.pdf, id=2353, 236.885pt x 244.915pt>
 File: ./gfx/ch7/static.pdf Graphic file (type pdf)
 <use ./gfx/ch7/static.pdf>
 Package pdftex.def Info: ./gfx/ch7/static.pdf  used on input line 326.
@@ -1810,7 +1779,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 337.
 
-[29 <./gfx/ch7/timedomain_nosoften.pdf>]
+[25 <./gfx/ch7/timedomain_nosoften.pdf>]
 
 Package siunitx Warning: Unit macro \angstrom has been deprecated in this
 (siunitx)                release.
@@ -1821,60 +1790,52 @@ Package siunitx Warning: Unit macro \angstrom has been deprecated in this
 (siunitx)                
 (siunitx)                \DeclareSIUnit\angstrom{\text {Å}}
 
-[30 <./gfx/ch7/static.pdf>]
-<./gfx/ch7/phonons.pdf, id=2508, 520.94624pt x 282.05376pt>
+[26 <./gfx/ch7/static.pdf>]
+<./gfx/ch7/phonons.pdf, id=2480, 520.94624pt x 282.05376pt>
 File: ./gfx/ch7/phonons.pdf Graphic file (type pdf)
 <use ./gfx/ch7/phonons.pdf>
 Package pdftex.def Info: ./gfx/ch7/phonons.pdf  used on input line 364.
 (pdftex.def)             Requested size: 383.0pt x 207.36511pt.
- [31 <./gfx/ch7/phonons.pdf>]) [32] [33] [34
+ [27 <./gfx/ch7/phonons.pdf>]) [28] [29] [30
 
 ]
-[35] [36
+[31] [32
 
-] (./fichera-bfichera-phd-physics-2024-source.bbl [37] [38
+] (./fichera-bfichera-phd-physics-2024-source.bbl [33] [34
 
-]
-Underfull \hbox (badness 1383) in paragraph at lines 22--32
-\OT1/ppl/m/n/12 (+20) Yu He, Ed-win W. Huang, An-shul Kogar, Di-vine Kumah,
- []
-
-[39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53]
-LaTeX Font Info:    Trying to load font information for OMS+ppl on input line 9
-04.
+] [35]
+[36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49]
+LaTeX Font Info:    Trying to load font information for OMS+ppl on input line 8
+84.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 904.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 884.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ppl in TS1 encoding.
-            Default family used instead on input line 905.
-LaTeX Font Info:    Trying to load font information for LGR+ppl on input line 9
-05.
-LaTeX Font Info:    No file LGRppl.fd. on input line 905.
+            Default family used instead on input line 885.
+LaTeX Font Info:    Trying to load font information for LGR+ppl on input line 8
+85.
+LaTeX Font Info:    No file LGRppl.fd. on input line 885.
 
 
 LaTeX Font Warning: Font shape `LGR/ppl/m/n' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 905.
+(Font)              using `LGR/cmr/m/n' instead on input line 885.
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 903--907
+Underfull \hbox (badness 1127) in paragraph at lines 883--887
 []\OT1/ppl/m/n/12 (+20) Determination of spin and par-ity of the Higgs bo-son i
 n the
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [55] [56
-] [57]
-[58] [59])
+[50{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [51]
+[52] [53] [54])
 
 Package natbib Warning: There were undefined citations.
 
-[60]
+[55]
 \tf@toc=\write6
 \openout6 = `fichera-bfichera-phd-physics-2024-source.toc'.
 
@@ -1904,13 +1865,13 @@ Package rerunfilecheck Info: File `fichera-bfichera-phd-physics-2024-source.out
 (rerunfilecheck)             Checksum: 42C35E57C3D4BA097875509378FDB1FF;4118.
  ) 
 Here is how much of TeX's memory you used:
- 37192 strings out of 476000
- 698978 string characters out of 5792233
- 2019187 words of memory out of 5000000
- 58237 multiletter control sequences out of 15000+600000
- 616704 words of font info for 365 fonts, out of 8000000 for 9000
+ 37107 strings out of 476000
+ 697693 string characters out of 5792233
+ 2018187 words of memory out of 5000000
+ 58200 multiletter control sequences out of 15000+600000
+ 611882 words of font info for 337 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 115i,21n,120p,26452b,1339s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 115i,21n,120p,26452b,1315s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{figure.1.5} has been referenced but does not exist,
  replaced by a fixed one
@@ -1934,21 +1895,20 @@ pdfTeX warning (dest): name{figure.1.1} has been referenced but does not exist,
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-b10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cbfonts/gr
-mn1200.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pf
-b></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/t
-exmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type
-1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8
-a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on fichera-bfichera-phd-physics-2024-source.pdf (60 pages, 18531
-97 bytes).
+msfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/cbfonts/grmn1200.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symb
+ols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+</usr/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-di
+st/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/p
+alatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on fichera-bfichera-phd-physics-2024-source.pdf (55 pages, 18335
+07 bytes).
 PDF statistics:
- 3223 PDF objects out of 3580 (max. 8388607)
- 2261 compressed objects within 23 object streams
- 188 named destinations out of 1000 (max. 500000)
- 97034 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 3184 PDF objects out of 3580 (max. 8388607)
+ 2229 compressed objects within 23 object streams
+ 179 named destinations out of 1000 (max. 500000)
+ 89866 words of extra memory for PDF output out of 106986 (max. 10000000)
 
