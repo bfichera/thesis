@@ -3,82 +3,82 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: fichera-bfichera-phd-physics-2024-source.aux
 The style file: plainnat_noclutter.bst
 Database file #1: fichera-bfichera-phd-physics-2024-source.bib
-Warning--entry type for "isodistort" isn't style-file defined
---line 1204 of file fichera-bfichera-phd-physics-2024-source.bib
-Warning--I didn't find a database entry for "landau"
-Warning--I didn't find a database entry for "gell-mann"
-Warning--I didn't find a database entry for "bednorz_possible_1986"
-Warning--I didn't find a database entry for "kuznetsov_theory_1994"
-Warning--I didn't find a database entry for "stevens_coherent_2002"
-Warning--I didn't find a database entry for "juraschek_phono-magnetic_2020"
-Warning--I didn't find a database entry for "gridnev_phenomenological_2008"
-Warning--I didn't find a database entry for "jain_higgs_2017"
-Warning--I didn't find a database entry for "measson_amplitude_2014"
-Warning--I didn't find a database entry for "wang_axial_2022"
-Warning--I didn't find a database entry for "hong_higgs_2017"
-Warning--I didn't find a database entry for "pekker_amplitude_2015"
-Warning--I didn't find a database entry for "katsura_spin_2005"
-Warning--I didn't find a database entry for "katsura_dynamical_2007"
-Warning--I didn't find a database entry for "takahashi_magnetoelectric_2012"
-Warning--I didn't find a database entry for "cheong_multiferroics_2007"
-Warning--I didn't find a database entry for "fiebig_evolution_2016"
-Warning--I didn't find a database entry for "ogasawara_submicron-scale_2009"
-Warning--I didn't find a database entry for "rethfeld_ultrafast_2002"
-Warning--I didn't find a database entry for "wilson_renormalization_1974"
-Warning--I didn't find a database entry for "hohenberg_theory_1977"
-Warning--I didn't find a database entry for "kawasaki_diffusion_1966"
-Warning--I didn't find a database entry for "zong_role_2021"
-Warning--I didn't find a database entry for "forst_nonlinear_2011"
-Warning--I didn't find a database entry for "oka_floquet_2019"
-Warning--I didn't find a database entry for "shirley_solution_1965"
-Warning--I didn't find a database entry for "wang_observation_2013"
-Warning--I didn't find a database entry for "mahmood_selective_2016"
-Warning--I didn't find a database entry for "mciver_light-induced_2020"
-Warning--I didn't find a database entry for "sie_valley-selective_2015"
-Warning--I didn't find a database entry for "batignani_probing_2015"
-Warning--I didn't find a database entry for "torre_colloquium_2021"
-Warning--I didn't find a database entry for "ning_dynamical_2024"
+Repeated entry---line 2043 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{dudarev_electron-energy-loss_1998
+ :                                           ,
+I'm skipping whatever remains of this entry
+Reallocated buffer (elt_size=1) to 40000 items from 20000.
+Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
+Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
+Reallocated out_buf (elt_size=1) to 40000 items from 20000.
+Reallocated name_tok (elt_size=8) to 40000 items from 20000.
+Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
+Reallocated buffer (elt_size=1) to 60000 items from 40000.
+Reallocated sv_buffer (elt_size=1) to 60000 items from 40000.
+Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
+Reallocated out_buf (elt_size=1) to 60000 items from 40000.
+Reallocated name_tok (elt_size=8) to 60000 items from 40000.
+Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
+Repeated entry---line 4666 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{sa_generalized_2000
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4702 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{torchinsky_low_2014
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4720 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{harter_high-speed_2015
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4932 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{fichera_second_2020
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "zhao_pressure_2019"
+Warning--I didn't find a database entry for ""
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Warning--empty journal in morey_automated_2024
-Warning--empty year in isodistort
-You've used 42 entries,
+You've used 36 entries,
             2762 wiz_defined-function locations,
-            972 strings with 17823 characters,
-and the built_in function-call counts, 26267 in all, are:
-= -- 2122
-> -- 2378
-< -- 18
-+ -- 801
-- -- 759
-* -- 2543
-:= -- 4287
-add.period$ -- 155
-call.type$ -- 42
-change.case$ -- 372
-chr.to.int$ -- 42
-cite$ -- 86
-duplicate$ -- 849
-empty$ -- 1574
-format.name$ -- 811
-if$ -- 5223
+            894 strings with 64420 characters,
+and the built_in function-call counts, 165392 in all, are:
+= -- 10456
+> -- 27609
+< -- 11
++ -- 9207
+- -- 9171
+* -- 19387
+:= -- 29346
+add.period$ -- 142
+call.type$ -- 36
+change.case$ -- 3163
+chr.to.int$ -- 36
+cite$ -- 73
+duplicate$ -- 739
+empty$ -- 1417
+format.name$ -- 9217
+if$ -- 30224
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 48
-newline$ -- 245
-num.names$ -- 169
-pop$ -- 724
+missing$ -- 37
+newline$ -- 221
+num.names$ -- 144
+pop$ -- 6249
 preamble$ -- 1
-purify$ -- 337
+purify$ -- 3129
 quote$ -- 0
-skip$ -- 732
+skip$ -- 3467
 stack$ -- 0
-substring$ -- 696
-swap$ -- 68
+substring$ -- 764
+swap$ -- 66
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 412
-warning$ -- 2
-while$ -- 171
+type$ -- 386
+warning$ -- 1
+while$ -- 154
 width$ -- 0
-write$ -- 598
-(There were 36 warnings)
+write$ -- 537
+(There were 5 error messages)
