@@ -1,0 +1,417 @@
+\section{Preface}
+
+This chapter is based on a manuscript intended for standalone publication and modified to fit the format of this thesis.
+It was coauthored by myself and Baiqing Lv (as co-first authors), along with Karna Morey, Zongqi Shen, Changmin Lee, Elizabeth Donoway, Alex Liebman-Pel\'{a}ez, Anshul Kogar, Takashi Kurumaji, Martin Rodriguez-Vega, Rodrigo Humberto Aguilera del Toro, Mikel Arruabarrena, Batyr Ilyas, Tianchuang Luo, Peter M\"{u}ller, Aritz Leonardo, Andres Ayuela, Gregory A. Fiete, Joseph G. Checkelsky, Joseph Orenstein, and Nuh Gedik.
+It was coauthored by myself, Ajesh Kumar, and Baiqing Lv (as co-first authors), as well as Zongqi Shen, Karna Morey, Qian Song, Riccardo Comin, Todadri Senthil, and Nuh Gedik.
+Myself, Baiqing Lv, Zonqi Shen, and Karna Morey took the \gls{trshg} measurements, under the supervision of Nuh Gedik.
+Myself and Ajesh Kumar did the theory and analyzed the data, under the supervision of Nuh Gedik and Todadri Senthil.
+Qian Song grew the samples, under the supervision of Riccardo Comin.
+Myself and Ajesh Kumar wrote the paper, and Nuh Gedik supervised the project.
+
+\section{Abstract}
+Below a spontaneous symmetry breaking phase transition, the relevant collective excitations may be described as fluctuations in the amplitude and phase of the order parameter, referred to as \higgs and Goldstone modes, respectively.
+In solids, these modes may take on a different character than the equivalent excitations in particle physics due to the diverse vacuum states accessible in condensed matter.
+However, the \higgs mode in particular is quite difficult to observe experimentally as it decays quickly into the lower-energy Goldstone bosons and thus has a negligible lifetime in most systems.
+In this work, we report evidence for a novel \higgs mode in the multiferroic material \ce{CuBr2}, which shows up as a coherent oscillation in the \glsfmtlong{trshg} signal upon excitation with a femtosecond light pulse.
+Since the spiral spin order in \ce{CuBr2} induces a nonzero electric dipole moment in equilibrium, the \higgs mode---which is due to fluctuations in the amplitude of the on-site spin expectation value---is an electromagnon, and thus acquires an inversion quantum number of \num{-1}. 
+This is in stark contrast to the \higgs boson of particle physics, which has even parity.
+Moreover, the excitation described here represents an entirely new type of electromagnon, distinct from the traditional electromagnon in \glsfmtlong{lswt} which is due to the Goldstone mode.
+We argue that the \higgs mode in \ce{CuBr2} acquires a nontrivial lifetime due to the combination of two features: (i) the quasi-\oned nature of the material, and (ii) proximity at zero temperature to a quantum critical point separating the multiferroic ground state from a topological Haldane dimer phase.
+
+\section{Introduction}
+When the ground state of a given theory fails to respect one of its symmetries, that symmetry is said to have been be broken spontaneously\citep{durr_zur_1959,nambu_axial_1960}.
+The low-energy excitations of this ground state may then be described as excitations of the order parameter either within the subspace of degenerate ground states, or perpendicular to it; these excitations are referred to as Goldstone and \higgs modes, respectively\citep{pekker_amplitudehiggs_2015} (see \cref{fig:fig1a}).
+This paradigm describes many fundamental phenomena in both particle physics and condensed matter, and the study of these modes has thus emerged as an essential pursuit in both contexts.
+
+\begin{figure}
+\centering
+\phantomsubfloat{\label{fig:fig1a}}
+\phantomsubfloat{\label{fig:fig1b}}
+\phantomsubfloat{\label{fig:fig1c}}
+\phantomsubfloat{\label{fig:fig1d}}
+\makebox[\linewidth]{\includegraphics[width=183mm]{./gfx/pdf/fig1.pdf}}
+\captionsetup{singlelinecheck=off}
+\caption[]{
+\label{fig:fig1}
+\begin{enumerate*}[label=\caplabel, ref=\capref]
+\item Mexican hat potential with \higgs and Goldstone modes indicated.
+\item $q=0$ electromagnons in the quasi-\oned spin-spiral in the spin (left) and charge (right) sectors.
+The \higgs and Goldstone modes are shown in blue and red, respectively.
+A second Goldstone mode, corresponding to uniform rotations of the spins about the $z$ axis (which does not affect the polarization $\vec{P}$), is not shown.
+\item Magnetic ground state of \ce{CuBr2}.
+The macroscopic polarization due to the spin order is depicted with a blue arrow.
+The axis labelled $x$ is parallel to the nominal $b$ axis of the crystal structure.
+\item Schematic of the \glsfmtshort{trshg} experimental geometry.
+\end{enumerate*}
+}
+\end{figure}
+
+A rich interplay exists between these two fields due to the fact that in particle physics we are limited to a single theory (the standard model), but in condensed matter, the theory is determined by the particular system of interest and may differ dramatically from one material to another.
+Thus, various exotic species of \higgs modes may be studied simply by exploring different material systems with spontaneous symmetry breaking.
+An important example is in multiferroics, where it has been predicted\citep{matsumoto_electromagnon_2014,matsumoto_electromagnon_2015} that the \higgs mode of the magnetic order (corresponding to modulations in the amplitude of the on-site spin excitation value, see \cref{fig:fig1b}) should couple to the macroscopic polarization as an electromagnon, and thus acquire a negative parity eigenvalue.
+This is not the case for the Higgs boson of the standard model, which is of even parity\citep{atlas_collaboration_determination_2015}.
+In addition to its connection to particle physics, the excitation described here is is also fundamentally different from the traditional electromagnon in multiferroics (which is due to the (pseudo-)Goldstone mode\citep{katsura_dynamical_2007}), and is thus of great interest for magnetoelectric device applications.
+Unfortunately, like in particle physics, the \higgs mode in condensed matter is difficult to observe since it may quickly decay into Goldstone bosons upon excitation\cite{jain_higgs_2017}, and the existence of this mode in real multiferroic systems has thus remained an important open question.
+
+In this work, we report evidence for this mode in \ce{CuBr2} (a quasi-\oned, spin-spiral multiferroic, see \cref{fig:fig1c}), observed by launching a coherent oscillation of this mode with a near-infrared light pulse and measuring the induced modulations in the electric polarization using a delayed \gls{shg} probe pulse (\cref{fig:fig1d}).
+We find, as expected, that the mode modulates the macroscopic polarization only along the static ordering direction, and that the frequency of the mode decreases on approaching the critical temperature of the multiferroic order.
+These results provide conclusive evidence for the existence of this electromagnon in \ce{CuBr2}, solving a decade-old puzzle and paving the way for future study of the \higgs mode in novel condensed-matter contexts.
+
+\section{Results}
+\subsection{Equilibrium}
+The low-energy spin Hamiltonian of \ce{CuBr2} is well approximated by the so-called frustrated \oned XXZ spin chain, where localized spin-$1/2$ electrons interact ferromagnetically ($J_1 < 0$) with nearest neighbors but antiferromagnetically ($J_2 > 0$) with next-nearest neighbors (see \cref{fig:fig1c}).
+When these interaction strengths are of comparable magnitude, the ground state is an incommensurate magnetic spiral, where the ordering wavevector is directed along the chain direction and has the appropriate magnitude so as to balance the two competing interaction terms.
+According to theory developed by Katsura, Nagaosa, and Balatsky\cite{katsura_spin_2005}, when spin-orbit coupling is strong this ground state induces an electric polarization at each site $n$ given by
+\begin{equation}\label{eq:scrosss}
+\vec{P}^n \propto \hat{x}\times(\vec{S}^{n} \times \vec{S}^{n+1}),
+\end{equation}
+where we have set the chain direction to lie along $\hat{x}$.
+If the spins lie in the $xy$ plane, then \cref{eq:scrosss} induces a macroscopic electric polarization which is equal for each bond and directed purely along the $\hat{y}$ direction (\cref{fig:fig1c}).
+
+According to powder neutron diffraction, this spiral magnetic phase is realized in \ce{CuBr2} below $T_c=\qty{75}{K}$ \cite{zhao_cubr2_2012,wang_nmr_2018,zhao_pressure_2019,
+zhang_giant_2020}, with the propogation vector (in reciprocal lattice units) given by $\vec{k} = (0, k_y, 0.5)$, with $k_y\sim 0.235$\cite{zhao_cubr2_2012,lee_investigation_2012}.
+A pyroelectric current turns on at this temperature as well, indicating a macroscopic electric polarization density $|\vec{P}_0|$ of about \qty{8}{\mu C / m^2} at \qty{10}{K}\cite{zhao_cubr2_2012}.
+
+\begin{figure}
+\centering
+\phantomsubfloat{\label{fig:fig2a}}
+\phantomsubfloat{\label{fig:fig2b}}
+\includegraphics[width=89mm]{./gfx/pdf/fig2.pdf}
+\captionsetup{singlelinecheck=off}
+\caption[]{
+\label{fig:fig2}
+\begin{enumerate*}[label=\caplabel, ref=\capref]
+\item \Gls{shg} intensity as a function of temperature in the \PS polarization channel.
+\item Integrated \gls{shg} intensity in the region near $\pi/2$ of \ref{fig:fig2a} marked by the tick marks.
+\end{enumerate*}
+}
+\end{figure}
+
+In a generalized Ginzburg-Landau theory, the \gls{shg} susceptibility tensor $\chi_{ijk}$ is linearly proportional to this polarization:
+\begin{equation}\label{eq:glshg}
+\chi_{ijk}(T<T_c) = \chi_{ijkl}(T>T_c)P_{0l} = \chi_{ijky}(T>T_c)P_0,
+\end{equation}
+where $\chi_{ijkl}$ is some unknown tensor with the symmetry of the high temperature phase\cite{sa_generalized_2000}, and we have used that $\vec{P}_0 || \hat{y}$.
+\Cref{fig:fig2} shows the temperature dependence of the \gls{shg} intensity in \ce{CuBr2}, indicating a pronounced, order parameter-like enhancement of the \gls{shg} intensity at $T_c$ due to \cref{eq:glshg}.
+Note that other contributions to the \gls{shg} intensity due to e.g. magnetic dipole, surface electric dipole, and electric quadrupole terms are allowed above and below $T_c$ and thus cannot explain the intensity increase below $T_c$.
+In addition, the $c$-type electric dipole term purely due to the magnetic order\cite{birss} is also not allowed by the magnetic point group of the incommensurate spin spiral (see \supcref{sup:magshg}).
+
+\subsection{Nonequilibrium}
+\begin{figure}
+\centering
+\phantomsubfloat{\label{fig:fig3a}}
+\phantomsubfloat{\label{fig:fig3b}}
+\phantomsubfloat{\label{fig:fig3c}}
+\phantomsubfloat{\label{fig:fig3d}}
+\makebox[\linewidth]{\includegraphics[width=183mm]{./gfx/pdf/fig3.pdf}}
+\captionsetup{singlelinecheck=off}
+\caption[]{
+\label{fig:fig3}
+\begin{enumerate*}[label=\caplabel, ref=\capref]
+\item[] Pump-induced change in the \gls{shg} intensity at \qty{15}{K} in the four polarization channels \item \PP \item \PS \item \SP, and \item \SS.
+Insets depict the static \gls{shg} intensity in each polarization channel.
+The time-domain signals are computed by performing an azimuthal integration at each delay of the full \gls{shg} pattern over the angles specified by the additional tick marks in each inset.
+\end{enumerate*}
+}
+\end{figure}
+
+Having thus demonstrated that the \gls{shg} intensity is a direct probe of the electric polarization in \ce{CuBr2}, we proceed to investigate the low-energy collective excitations in this phase.
+To do so, we excite the sample with a \qty{150}{fs} near-infrared pump pulse, and then probe the \gls{shg} intensity with a second pulse delayed in time by an amount $\Delta t$.
+We carry out this procedure in each of four independent polarization channels (\PP, \PS, \SP, and \SS, see \cref{sec:methods}), where each channel probes a different linear combination of the tensor elements $\chi_{ijk}$.
+The results are shown in \cref{fig:fig3}.
+Two oscillations, with different dependencies on the \gls{shg} polarization channel, may be observed: one high-frequency mode ($\nu \sim \qty{0.23}{THz}$, $\hbar \omega \sim \qty{1.0}{meV}$), which is only observed in the crossed polarization channels \PS and \SP, and one low-frequency mode ($\nu \sim \qty{0.05}{THz}$, $\hbar \omega \sim \qty{0.20}{meV}$), which occurs in all polarization channels equally.
+Both of these are too low to be observed with typical \si{THz} or neutron spectroscopies, yet they are readily apparent in the \gls{trshg} data due to the pump-probe nature of the experiment.
+
+To show that these two modes are directly related to the multiferroic transition at $T_c$, we measure the pump-induced change in the \gls{shg} intensity as a function of $\Delta t$ for a series of temperatures approaching $T_c$ \cref{fig:fig4}.
+By fitting the respective time-domain traces to damped harmonic oscillators (see \supcref{sup:timedomain}), we can extract the natural frequency of each collective mode as a function of temperature (\cref{fig:fig4}).
+Both modes exhibit a pronounced softening on approaching $T_c$, confirming their direct involvement in the multiferroic transition.
+We also note that both modes disappear above $T_c$, which is sensible given that the macroscopic polarization $\vec{P}_{0}$ also disappears above this temperature.
+
+\begin{figure}
+\centering
+\phantomsubfloat{\label{fig:fig4a}}
+\phantomsubfloat{\label{fig:fig4b}}
+\makebox[\linewidth]{\includegraphics[width=89mm]{./gfx/pdf/fig4.pdf}}
+\captionsetup{singlelinecheck=off}
+\caption[]{
+\label{fig:fig4}
+\begin{enumerate*}[label=\caplabel, ref=\capref]
+\item[] Temperature dependece of the frequencies extracted from the \item \PS and \item \SS time-domain signals (\supcref{sup:timedomain}) in a damped harmonic oscillator model.
+Error bars denote \qty{95}{\percent} confidence intervals estimated within a parametric bootstrap (see \supcref{sup:errorbars}).
+\end{enumerate*}
+}
+\end{figure}
+
+To clarify the microscopic origin of these polarization oscillations, we begin by performing \gls{dft}+U and finite-displacement lattice dynamics calculations\cite{} (see \supcref{sup:phonons}) to compare their energies with those of the zone-center phonon modes.
+The lowest zone-center optical phonon in this calculation appears at \qty{7.4}{meV}, in excellent agreement with Raman spectroscopy\cite{wang_observation_2017}, and the calculated acoustic phonon branches (which agree with \gls{ins}\cite{wang_observation_2017}) disperse too rapidly to form a zone-folded acoustic phonon mode at the $\Gamma$ point with an energy low enough to match the frequencies observed in the \gls{trshg} experiment.
+Thus, the modes observed in \cref{fig:fig3,fig:fig4} are not phonons.
+The only remaining possibility is that these modes are magnons of the incommensurate spin spiral, which imprint themselves on the polarization via \cref{eq:scrosss}; i.e., they are electromagnons.
+
+In \gls{lswt}, there is only one spin boson which couples to the polarization in the spiral magnetic phase of \ce{CuBr2} (see \supcref{sup:pimpliess}); it is the so-called pseudo-goldstone mode of the magnetic order\cite{katsura_dynamical_2007}, which corresponds to a rotation of the spin plane about the chain direction\cref{fig:fig1b}.
+This mode has zero energy if the system is isotropic about the chain axis, but in the presence of an anisotropy term it acquires a finite energy.
+In \ce{CuBr2}, this energy is expected to lie around \qty{1.25}{meV} (see \supcref{sup:anisotropyenergy}), which is close to the value observed for our high-frequency oscillation (\qty{1.0}{meV}).
+Additionally, since this mode involves a rotation of the spin plane about the chain direction, the effect of this mode (from \cref{eq:scrosss}) on the polarization is to tilt the vector $\vec{P}_0$ into the $\hat{z}$ direction (\cref{fig:fig1b}).
+Since the equilibrium polarization lies along $\hat{y}$, \cref{eq:glshg} implies that a canting of the polarization $\delta \vec{P} || \hat{z}$ involves new elements of the tensor $\chi_{ijkz}(T>T_c)$ which are not present in equilibrium.
+The result is that this mode may appear in different polarization channels with different magnitudes; we thus identify the fast, \qty{0.23}{Thz} oscillation in \cref{fig:fig3} with this mode.
+
+The observation of a \emph{second} mode in the \gls{trshg}, however, is impossible to explain in \gls{lswt}, and represents the most striking aspect of this work.
+To understand the origin of this second mode, we note that there are only three normal modes of the polarization which occur at the $\Gamma$ point in the Brillouin zone, corresponding to polarization oscillations $\delta\vec{P}$ along $\hat{x}$, $\hat{y}$, and $\hat{z}$.
+Since the $\delta\vec{P} || \hat{z}$ mode is already accounted for by the pseudo-goldstone mode, that leaves only $\delta\vec{P} || \hat{x}$ and $\delta\vec{P} || \hat{y}$ as possibilities.
+The $\delta\vec{P} || \hat{x}$ mode does not couple to the spin order in this compound\cite{katsura_dynamical_2007}, and in any case is not observable in the geometry of our experiment (see \supcref{sup:nopxmode}).
+Thus, the only polarization oscillation which is consistent with the observation of a second mode is an oscillation with $\delta\vec{P} || \hat{y}$.
+Since the equilibrium polarization is also directed along $\hat{y}$, this mode simply corresponds to an oscillation in the total amplitude of the polarization, and is thus expected to modulate the overall \gls{shg} intensity irrespective of the polarization channel -- in excellent agreement with \cref{fig:fig3}, which shows the low-frequency oscillation appearing in all four polarization channels with equal magnitude.
+
+Naively, electromagnons with $\delta\vec{P} || \hat{y}$ do not exist in \gls{lswt}.
+The key insight, however, is that \gls{lswt} neglects dynamics associated with the magnitude of the onsite spin expectation value.
+By \cref{eq:scrosss}, such dynamics change the magnitude of the induced polarization only, not its direction; i.e., they induce oscillations $\delta\vec{P} || \hat{y}$.
+In fact, it is possible to show (see \supcref{sup:pimpliess}) that oscillations along $\hat{y}$ of the induced polarization \emph{necessarily} involve modulations in the amplitude of the onsite spin excpectation value; that is, the only mode which couples to $\delta\vec{P} || \hat{y}$ is the \higgs mode of the magnetic spiral.
+Naturally, this mode should soften on approaching $T_c$, in agreement with \cref{fig:fig4}.
+The \qty{0.05}{THz} oscillation observed in our experiment (which is of similar energy to the \higgs mode in non-ferroelectric quantum magnets\citet{hong_higgs_2017}) is therefore direct evidence for this mode in \ce{CuBr2}, with the additional information that it couples to the electric polarization (i.e., it is an electromagnon) via \cref{eq:scrosss}.
+
+\section{Discussion}
+Let us make two important remarks about this mode in \ce{CuBr2}.
+First, we note that this mode is fundamentally distinct from the \higgs mode in non-multiferroic magnets -- since the multiferroic order breaks inversion symmetry, the \higgs mode of this phase has a parity quantum number $l=-1$ rather than $+1$.
+The static polarization $\vec{P}_0$ which appears at $T_c$ can thus be viewed as arising from the odd-parity nature of its \higgs mode.
+Second, we remark that the \higgs mode in \ce{CuBr2} can in principle decay -- as in non-multiferroic magnets -- quite rapidly into the Goldstone modes of the magnetic order (which in the spin-spiral phase of \cref{fig:fig1c} are gapless and correspond to uniform rotations of each spin about the $\hat{z}$ direction), and thus should not exist as a well-defined quasiparticle unless these decay channels are quenched by some mechanism.
+
+In non-multiferroic magnets, two such mechanisms have been identified.
+First, the \higgs mode may be stabilized by bringing the system close to a \gls{qcp}\cite{ruegg_quantum_2008,jain_higgs_2017,hong_higgs_2017,su_stable_2020}, which suppresses the Goldstone bosons and thus stabilizes the \higgs mode.
+A second option is to lower the dimensionality\cite{canali_theory_1992,affleck_longitudinal_1992,schulz_dynamics_1996,essler_quasi-one-dimensional_1997,zhou_amplitude_2021}; in \oned, enhanced fluctuations weaken the long range magnetic order and also reduce the spectral weight of the Goldstone bosons\cite{zhou_amplitude_2021}. 
+In \ce{CuBr2}, not only is the system fundamentally one-dimensional, but is thought also to lie in close proximity to a zero-temperature \gls{qcp}\cite{furukawa_ground-state_2012} separating the spiral phase considered here and a paraelectric Haldane dimer phase.
+Both of these mechanisms thus likely contribute to stabilizing the \higgs electromagnon in \ce{CuBr2}.
+
+\section{Conclusion}
+To summarize, we have presented evidence of a novel electromagnon arising from the \higgs mode of the spiral magnetic order in \ce{CuBr2}.
+This mode appears alongside the pseudo-Goldstone mode in the \gls{trshg} data as a low-frequency oscillation in the longitudinal component of the electric polarization, which softens on warming close to $T_c$.
+Looking forward, we note that the two mechanisms we identified for stabilizing this mode in \ce{CuBr2} -- low dimensionality and potential proximity to a \gls{qcp} -- are not necessarily unique to this material.
+Thus, the \higgs electromagnon presented here may in fact be a common feature of \oned multiferroics, and its observation could indicate a wealth of new opportunities to explore the \higgs mode of particle physics in novel condensed-matter contexts.
+
+\section{Methods}\label{sec:methods}
+\Gls{trshg} measurements were carried out using a fast-rotating optical grating setup described previously\citep{fichera_second_2020,harter_high-speed_2015,torchinsky_low_2014}.
+\qty{100}{fs} ultrashort pulses from a regeneratively amplified \qty{5}{kHz} \ce{Ti}:Sapphire laser were used to pump an \gls{opa}, producing \qty{1300}{nm} (\cref{fig:fig3}) or \qty{1650}{nm} (\cref{fig:fig4}) pump pulses which were delayed with an optical delay line and focused at normal incidence to a \qty{300}{um}-diameter spot on the sample.
+The pump fluence was $\sim \qty{1}{mJ\cdot cm^{-2}}$ for all measurements.
+A small portion of the \ce{Ti}:Sapphire output was used for the \gls{shg} probe experiment, the output of which was spectrally filtered with a \qty{400}{nm} bandpass filter, collected by a photomultiplier tube, filtered with a lock-in amplifier, and correlated with the plane of incidence angle using an optical rotary encoder.
+To measure the pump-induced change in the \gls{shg} signal, the pump pulses were chopped at a frequency of \qty{2.5}{kHz}, and the lock-in amplifier was set to that frequency so as to measure $I_{\mathrm{pump}+\mathrm{probe}}-I_\mathrm{probe}$.
+For the pump-probe \gls{rashg} measurements, the plane of incidence was rotated while the delay stage was moved and the polarizers were controlled automatically using homebuilt polarization rotators described in \citet{morey_automated_2024}.
+For the single-angle \gls{trshg} measurements, the plane of incidence was parked at the angle which maximized the static \gls{shg} intensity in the respective polarization channel.
+
+\section{Supplementary material}
+
+\subsection{Electromagnons in \ce{CuBr2}}\label{sup:pimpliess}
+The observed co-existence of spiral magnetic order and ferroelectricity is due to the spin-orbit coupling enabled interaction term between the spins $\vec S$ and the electronic polarization $\vec P$~\cite{}:
+\begin{equation}
+    H_{s-P} = \lambda \sum_i \vec P_i \cdot (\hat x \times \vec S_i \times \vec S_{i+1})
+\end{equation}
+The ordered state for $T<T_N$ is a multiferroic with spontaneous polarization
+\begin{equation}
+\left<\vec P_i\right> = P_0 \hat y
+\end{equation}
+and spiral spin ordering
+\begin{equation}
+\left< \vec S_i\right> \equiv \vec S_{0,i} = S_0 \left( \cos (\vec Q \cdot \vec R_i) \hat x + \sin (\vec Q \cdot \vec R_i) \hat y\right),
+\end{equation}
+where $\vec Q$ is the spin-ordering wavevector and $\vec R_i$ are the spatial coordinates of the Cu atoms.
+Let us consider fluctuations about this ordered state and ask which fluctuations are detectable via SHG.
+Representing fluctuations in the polarization by $\delta \vec P_i$ and spin by $\delta \vec S_i$, we get the following fluctuation Hamiltonian:
+\begin{equation}\label{eq:fluctuationhamiltonian}
+    H^f_{s-P} = \lambda \sum_i \delta \vec P_i \cdot (\hat x \times \delta \vec S_i \times \vec S_{0,i+1} + \hat x \times \vec S_{0,i} \times \delta \vec S_{i+1}) + \mathcal{O}(\delta \vec P^2, \delta \vec S^2).
+\end{equation}
+Expanding the spin fluctuations along all directions, we find that they couple only to polarization fluctuations along $\hat y$ and $\hat z$.
+Focusing on zero-momentum polarization fluctuations (since they are sensitive to SHG),
+\begin{equation}\label{eq:ftfluctuationhamiltonian}
+\begin{aligned}
+H^f_{s-P} = &i \sin (\vec Q \cdot \vec a) \delta P_z(\vec q=0) \left(\delta S_z(-\vec Q) - \delta S_z (\vec Q) \right)\\
+&+\sin (\vec Q \cdot \vec a) \delta P_y(\vec q=0) \left( -\delta S_x(-\vec Q) + i\delta S_y(-\vec Q) - \delta S_x(\vec Q) - i\delta S_y(\vec Q) \right)\\
+& + \mathcal{O}(\delta \vec P^2, \delta \vec S^2)
+\end{aligned}
+\end{equation}
+where $\vec a$ is the lattice vector along the chain.
+Transverse polarization fluctuations $\delta P \sim \hat z$ couple to a uniform rotation of the spin-plane about the $x$ axis.
+These are the electromagnons discussed in \citet{katsura_dynamical_2007}.
+The longitudinal fluctuations, on the other hand, couple to longitudinal fluctuations of the magnetization on each site.
+
+\subsection{Energy of the pseudo-Goldstone mode}\label{sup:anisotropyenergy}
+An expression for the frequency of the pseudo-Goldstone mode in the presence of an easy-plane anisotropy is given by \citet{katsura_dynamical_2007} as
+\begin{equation}
+\omega_- = \sqrt{A(Q)B(Q)},
+\end{equation}
+where
+\begin{align}
+A(q) &= 2S\left[\frac{2J(Q)-J(Q+q)-J(Q-q)}{2}\right],\\
+B(q) &= 2S\left[J(Q)-J(q)+D\right],\\
+J(q) &= 2\left[J_1\cos(qa)+J_2\cos(2qa)\right],
+\end{align}
+$D$ is the anisotropy energy, and $2S$ is the amplitude of the spin in units of $\mu_B$.
+
+Using $Q=\qty{0.235}{rlu}$\citep{zhao_cubr2_2012}, $J_1=\qty{8.8}{meV}$\citep{lebernegg_magnetism_2013}, $J_2=\qty{-22.2}{meV}$\citep{lebernegg_magnetism_2013}, $D=\qty{0.15}{meV/\ce{Cu}}$\citep{lee_investigation_2012}, and $2S=\num{0.38}$\citep{lee_investigation_2012}), we have
+\begin{equation}
+\omega_- = \qty{1.3}{meV}
+\end{equation}
+in good agreement with the experiment.
+
+\subsection{Fits of time domain signals}\label{sup:timedomain}
+Time-domain plots corresponding to the frequencies in \cref{fig:fig4} are illustrated in \cref{fig:timedomain}.
+Each plot is a least-squares fit of the data to a damped harmonic oscillator model
+\begin{equation}
+I^\mathrm{SHG}_p(t, \params) = P^0_p\delta P_p(t, \params)+[\delta P_p(t)]^2,
+\end{equation}
+where
+\begin{equation}\label{eq:model}
+\delta P_p = A_pe^{-\gamma_p t}\cos\left(\sqrt{(2\pi\nu_p)^2-\gamma_p^2}t+\psi_p\right),
+\end{equation}
+$p \in \{\mathPS, \mathSS\}$, and $\params$ denotes the set of free parameters to be estimated.
+
+The main conclusion of these fits is that the frequency of the two modes (most notably, the low-frequency \SS mode) soften on approaching $T_c$.
+This may also be seen heuristically from the time-domain signals without doing any fits.
+\Cref{fig:timedomain_zoom} shows an enlarged (i.e., scaled to account for the decrease in signal amplitude) view of the \SS signal for three temperatures below $T_c$, showing a clear decrease in the oscillation frequency at high temperature.
+\Cref{fig:timedomain_nosoften} shows an alternative fit where the frequency parameter $\nu_\mathrm{SS}$ is constrained to be constant as a function of temperature, showing that our data is not consistent with a hypothetical model where the frequency shift with temperature in \cref{eq:model} is only attributed to the damping term $\gamma_\mathrm{SS}$.
+
+\begin{figure}
+\phantomsubfloat{\label{fig:timedomaina}}
+\phantomsubfloat{\label{fig:timedomainb}}
+\centering
+\makebox[\linewidth]{\includegraphics[width=183mm]{./supgfx/pdf/timedomain.pdf}}
+\captionsetup{singlelinecheck=off}
+\caption[]{
+\label{fig:timedomain}
+\begin{enumerate*}[label=\caplabel, ref=\capref]
+\item[] Time-domain signals corresponding to \item \cref{fig:fig4a} and \item \cref{fig:fig4b}.
+Dashed lines depict least-squares fits to the data in a damped harmonic oscillator model, see \supcref{sup:timedomain}.
+\end{enumerate*}
+}
+\end{figure}
+
+\begin{figure}
+\centering
+\makebox[\linewidth]{\includegraphics[width=89mm]{./supgfx/pdf/timedomain_zoom.pdf}}
+\captionsetup{singlelinecheck=off}
+\caption[]{
+\label{fig:timedomain_zoom}
+\begin{enumerate*}[label=\caplabel, ref=\capref]
+\item[] Rescaled \SS time-domain signals (see \cref{fig:timedomainb}) for select temperatures below $T_c$.
+\end{enumerate*}
+}
+\end{figure}
+
+\begin{figure}
+\centering
+\makebox[\linewidth]{\includegraphics[width=183mm]{./supgfx/pdf/timedomain_nosoften.pdf}}
+\captionsetup{singlelinecheck=off}
+\caption[]{
+\label{fig:timedomain_nosoften}
+\begin{enumerate*}[label=\caplabel, ref=\capref]
+\item[] \SS time-domain signals (see \cref{fig:timedomainb}) for select temperatures approaching $T_c$.
+Dashed lines depict least-squares fits to the data in a variant of \cref{eq:model} where $\nu_\mathrm{SS}$ is constrained not to vary with temperature.
+\end{enumerate*}
+}
+\end{figure}
+
+\subsection{Error bars in \cref{fig:fig4}}\label{sup:errorbars}
+In this section, we describe how the uncertainties in the least square estimates of the frequency parameter $\nu$ of \cref{eq:model}, which are depicted as a function of temperature in \cref{fig:fig4}, were calculated from the the time-domain signals in \cref{fig:timedomain}.
+For each temperature and polarization channel, a \gls{lm} algorithm was used to find the minimum $\params_0$ of the objective function
+\begin{equation}\label{eq:objectivefunction}
+f_p(\theta) \propto \sum_{n=0}^{N-1}\left(I^\mathrm{SHG}_p(t_n, \params) - I^\mathrm{SHG}_{p,n}\right)^2,
+\end{equation}
+where $\{(t_n, I^\mathrm{SHG}_{p,n}), n\in (0, 1, \ldots, N-1)\}$ are the data points in \cref{fig:timedomain}, and we have assumed the noise level is independent of delay.
+The uncertainty in each parameter is estimated within a parametric bootstrap\citep{dekking}: for each temperature, \num{1000} bootstrap samples are generated by adding noise (normally distributed, with variance given by the variance of data points at long times where the signal is constant) to the \gls{lm} estimate $I^\mathrm{SHG}_p(t_n, \params_0)$.
+For each bootstrap sample $s$, an estimate $\params_s$ is computed by minimizing \cref{eq:objectivefunction} as above, and the \qty{95}{\percent} confidence interval reported in \cref{fig:fig4} is taken to be \num{1.96} times the standard deviation of the distribution $\{\params_s-\theta_0\}$.
+
+\subsection{Fits to static RASHG data}\label{sup:static}
+The static \gls{shg} intensity was fit by \cref{eq:shgintensityequation}.
+The susceptibility tensor was taken to be the form \cref{eq:susceptibilityshortform}, plus an additional $C_1$ component (likely due to surface adsorbates).
+The result is shown in \cref{fig:static}.
+
+\begin{figure}
+\centering
+\makebox[\linewidth]{\includegraphics[width=89mm]{./supgfx/pdf/static.pdf}}
+\captionsetup{singlelinecheck=off}
+\caption[]{
+\label{fig:static}
+\begin{enumerate*}[label=\caplabel, ref=\capref]
+\item[] Fits (red) to static \gls{rashg} data (black) depicted in \cref{fig:fig3}.
+\end{enumerate*}
+}
+\end{figure}
+
+\subsection{Excluded possibilities for observed results}\label{sup:excluded}
+\subsubsection{$\delta \vec{P} || \hat{x}$ oscillation\label{sup:nopxmode}}
+
+Without loss of generality, let the maximum of the SHG in \SP occur when the incoming electric field is along $\hat{x}$.
+Then, we have:
+\begin{equation}
+\Delta I_\mathrm{SP}^\mathrm{SHG} \propto |\hat{e}^\mathrm{out}_i \chi_{ijkl}\hat{e}^\mathrm{in}_j\hat{e}^\mathrm{in}_k[P_{0l}+\delta P_l]|^2-|\hat{e}^\mathrm{out}_i \chi_{ijkl}\hat{e}^\mathrm{in}_j\hat{e}^\mathrm{in}_kP_{0l}|^2
+\end{equation}
+with $\hat{e}^\mathrm{in}_i || x$ and $P_{0l} || y$, we have
+\begin{equation}
+\label{eq:longdeltai}
+\Delta I_\mathrm{SHG} \propto 2\hat{e}^\mathrm{out}_i \hat{e}^\mathrm{out}_j\chi_{ixxy} \chi_{jxxx}P_{0y}\delta P_x + \hat{e}^\mathrm{out}_i \hat{e}^\mathrm{out}_j\chi_{ixxx} \chi_{jxxx}\delta P_x\delta P_x 
+\end{equation}
+Since we are in \SP, $\hat{e}^\mathrm{out}_i \perp x$; thus, \cref{eq:longdeltai} involves the tensor elements $\chi_{yxxx}$ and $\chi_{zxxx}$.
+Both of these elements are zero due to the $x \rightarrow -x$ mirror symmetry.
+Thus, the $\delta \vec{P} || \hat{x}$ oscillation is not visible in our experiment.
+
+Additionally, since the $\delta \vec{P} || \hat{x}$ mode does not couple to the spin order in this compound\cite{katsura_dynamical_2007}, its frequency should be far above the frequencies observed in our experiment (which are determined by the energy scales of the spin Hamiltonian).
+
+\subsubsection{Zone-folded acoustic phonons}\label{sup:phonons}
+
+Phonon band structure calculations were carried out using the finite displacement method\citep{togo_first_2015} with a distance of \qty{0.01}{\angstrom} within a $3\times3\times3$ supercell.
+Forces were calculated via the DFT-D2 method\cite{grimme_semiempirical_2006} and LDA+U method\cite{dudarev_electron-energy-loss_1998} ($U_\mathrm{\ce{Cu}}=\qty{3}{eV}$) using a $7\times7\times5$ $k$-mesh with \num{122} irreducible $k$-points and a plane-wave cutoff energy of \qty{100}{eV}.
+The result is shown in \cref{fig:phonons}.
+The acoustic phonons in \cref{fig:phonons} all disperse too rapidly for the \qty{0.05}{THz} oscillation in the \gls{trshg} to be consistent with a zone-folded (at $k=(0, 0.235, 0.5)$) acoustic phonon.
+
+\begin{figure}
+\centering
+\makebox[\linewidth]{\includegraphics[width=183mm]{./supgfx/pdf/phonons.pdf}}
+\captionsetup{singlelinecheck=off}
+\caption[]{
+\label{fig:phonons}
+\begin{enumerate*}[label=\caplabel, ref=\capref]
+\item[] Phonon band structure of \ce{CuBr2} within a finite displacement calculation.
+\end{enumerate*}
+}
+\end{figure}
+
+\subsubsection{Magnetic SHG}\label{sup:magshg}
+
+In principle, magnetic systems with broken inversion symmetry may generate electric-dipole SHG with or without a static electric dipole moment.
+In this section, we wish to show that this is not the case in \ce{CuBr2}; i.e., in \ce{CuBr2}, the SHG intensity is a direct measure of the macroscopic electric dipole moment.
+
+Indeed, in the presence of such a static electric dipole moment $\vec{P}_0$, we typically expect the SHG response to be directly proportional to it; i.e.
+\begin{equation}\label{eq:shgintensityequation}
+I(2\omega) \propto |\hat{e}^\mathrm{out}_i \chi_{ijk} \hat{e}^\mathrm{in}_j \hat{e}^\mathrm{in}_k|^2,
+\end{equation}
+where
+\begin{equation}\label{eq:susceptibilityshortform}
+\chi_{ijk} = \chi_{ijkl} P_{0l},
+\end{equation}
+and $\hat{e}^\mathrm{in}$, $\hat{e}^\mathrm{out}$ are unit vectors in the direction of the incoming and outgoing electric fields, respectively.
+In \ce{CuBr2}, we have  
+\begin{equation}
+\vec{P}_0 = \sum\limits_{\left<i, j\right>} \hat{x} \times \vec{S}_i \times \vec{S}_j,
+\end{equation}
+i.e., the static polarization is quadratic in the spin degree of freedom.
+
+The question, then, is whether there exists some additional term
+\begin{equation}
+\chi'_{ijk} = \chi_{ijkl} G_{0l},
+\end{equation}
+where $\vec{G}_0$ is either (a) linear in spin, or (b) quadratic in the spins but not of the form $\sum_{\left<ij\right>}\vec{S}_i\times\vec{S}_j$.
+For case (b), note that the term $\sum_{\left<ij\right>}\vec{S}_i\times\vec{S}_j$ is the only quadratic form which is simultaneously antisymmetric in the bond direction and $\vec{q}=0$ (i.e. each bond has the same coefficient).
+
+For case (a), we argue here that any such term is weak due to the approximate time-reversal symmetry of the spiral magnetic order.
+Consider first a four-site commensurate approximant of the incommensurate spin spiral.
+This phase has a symmetry element consisting of the time-reversal operation followed by a translation by half of the magnetic supercell.
+Thus, the point group contains time-reversal symmetry.
+Since $\vec{G}_0$ is linear in spin, time-reversal takes $\vec{G}_0\rightarrow-\vec{G}_0$; but since time-reversal is a symmetry, it must also take $\chi'_{ijk}\rightarrow\chi'_{ijk}$ and $\chi_{ijkl}\rightarrow\chi_{ijkl}$.
+Thus, $\chi'_{ijk}=0$ in the commensurate approximation.
+
+In the incommensurate case, note that the magnetic point group of an incommensurate magnetic phase is defined as the set of point-group operations present in the operations belonging to the superspace group.
+Thus, for a single-k incommensurate magnetic structure, time-reversal is always an element of the magnetic point group.
+This is due to the fact that the lattice constant in the chain direction is $3.51$ \si{\angstrom}, so lengthscales associated with translations in the space group are much smaller than the probe wavelength ($\sim\qty{800}{nm}$).
+The symmetry group ``seen'' by the probe thus contains time reversal to a very good approximation.
+
+\subsubsection{Multi-phason excitation}
+
+While the amplitude mode of the spin spiral in \ce{CuBr2} is the only single-particle excitation which couples to $\delta P_y$ (see \cref{eq:ftfluctuationhamiltonian}), in principle multiparticle excitations consisting of, e.g., two phasons with opposite momenta are also allowed.
+However, note that the relevant energy scale which defines the phason sound velocity depends on the intra-chain coupling terms, which are $\bigO(\qty{10}{meV})$; the peak in the phason joint density of states thus occurs at this high energy scale, which is much larger than the \qty{0.2}{meV} energy of our low-frequency oscillation.
+Multi-phason excitations are thus not consistent with the long-lived oscillation observed in our experiment.
