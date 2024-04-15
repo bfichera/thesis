@@ -10,6 +10,8 @@ with open('bib/cmb.bib', 'r') as fh:
     cmblib = bibtexparser.load(fh)
 with open('bib/Thesis.bib', 'r') as fh:
     thesislib = bibtexparser.load(fh)
+with open('bib/manual_bibliography.bib', 'r') as fh:
+    manuallib = bibtexparser.load(fh)
 
 
 fixes = [
@@ -135,6 +137,8 @@ with open('fixed-bib/cmb.bib', 'w') as fh:
     bibtexparser.dump(cmblib, fh)
 with open('fixed-bib/Thesis.bib', 'w') as fh:
     bibtexparser.dump(thesislib, fh)
+with open('fixed-bib/manual_bibliography.bib', 'w') as fh:
+    bibtexparser.dump(manuallib, fh)
 
 
 

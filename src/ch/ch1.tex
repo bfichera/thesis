@@ -10,41 +10,40 @@ H_0 = \epsilon_{\vec{p}} c^\dagger_{\vec{p},\sigma}c_{\vec{p},\sigma}
 \end{equation}
 for the noninteracting electrons.
 The key insight, due conceptually to \citet{landau_theory_1957} and later formalized by \citet{gell-mann_bound_1951}, is that, as long as the interactions are sufficiently weak, this problem can be adiabatically connected to a similar problem with non-interacting quasiparticles.
-Since these quasiparticles are fermions, they obey the Pauli exclusion principle, and the phase space available for scattering low-energy excitations is thus goes to zero at small energies.
-By Fermi's golden rule, the lifetime of such particles thus approaches infinity as we get closer and closer to the Fermi surface; i.e., there are still well-defined quasiparticles there, even though we started with an interacting Hamiltonian.
+Since these quasiparticles are fermions, they obey the Pauli exclusion principle, and the phase space available for scattering low-energy excitations thus goes to zero at small energies.
+By Fermi's golden rule, the lifetime of such particles thus approaches infinity as we get closer and closer to the Fermi surface; i.e., there are still well-defined quasiparticles there.
 Such a system is hence referred as a ``Fermi liquid,'' to signify the fact that we have made only a slight departure from the nominal model of a Fermi gas where the particles are treated as noninteracting.
 
-Fermi liquid theory is almost unreasonably successful in describing the ground state of a large number of correlated electron systems.
+Fermi liquid theory is unreasonably successful in describing the ground state of correlated electron systems.
 Truly \emph{most} metals can be very adequately described as a simple Fermi gas with renormalized effective mass, specific heat, etc.; while these modifications may be large (e.g. $m^*/m\approx\num{e3}$ in \ce{CeAl3}), they otherwise look like normal metals.
 Nevertheless, we can discuss circumstances in which the theory fails.
 Clearly various electronic instabilities may gap out the Fermi surface, resulting in an insulator; this happens for arbitrarily weak interactions in quasi-\oned systems due to the Peierls mechanism, and in higher dimensions due to, e.g., Fermi surface nesting.
 Whether the interaction is attractive or repulsive determines whether the instability occurs in the charge or the spin channel.
-In the other limit, where the kinetic energy hamiltonian \ref{eq:kinetichamiltonian} is treated as a perturbation to the interaction term \ref{eq:interactionhamiltonian}, the Fermi liquid state gives way to an (Mott) insulating state where the electrons become localized so as to minimize the coulomb repulsion $U$.
+In the other limit, where the kinetic energy hamiltonian \ref{eq:kinetichamiltonian} is treated as a perturbation to the interaction term \ref{eq:interactionhamiltonian}, the Fermi liquid state gives way to an (Mott, or Wigner) insulating state where the electrons become localized so as to minimize the coulomb repulsion $U$.
 
 Studying such departures from Fermi liquid theory has become one of the most important fields in condensed matter physics.
 It is usually referred to as ``strongly correlated electron physics'', but many of the instabilities mentioned above are present even in the limit of weak interactions.
 Much of this interest was spurred by the discovery in \num{1986} by \citet{bednorz_possible_1986} of high-$T_c$ superconductivity in \ce{Ba_xLa_{5-x}Cu5O_{5(3-y)}}, although the field has grown to include many other phenomena which occur in the strongly interacting limit that may or may not be related to superconductivity.
-Despite nearly four decades of research, however, there still exists no universal theory for strongly correlated electron systems, in the sense that, if someone hands you a random strongly correlated material, it is impossible from the outset to \emph{predict} what will be the ground state, what are its low-energy excitations, etc.
+Despite nearly four decades of research, however, there still exists no universal theory for strongly correlated electron systems, in the sense that, if someone hands you a random strongly correlated material, it is impossible from the outset to \emph{predict} its ground state or its low-energy excitations.
 In fact, it is not even clear such a theory ought to exist\citep{alexandradinata_future_2022}.
 
 The \emph{field} of strongly correlated physics is thus, in some sense, still very much in its infancy, although that's not to say there haven't been huge advances, both theoretically and experimentally, especially since the discovery by \citet{bednorz_possible_1986}.
 A lot of the effort experimentally has been focused on cataloguing the huge number of different exotic ordered phases---charge density wave, spin density wave, superconducting, strange metals, spin liquids, pseudogap, etc.---that are realized in these systems.
-Usually this is done by mapping out a phase diagram for a given material, which indicates which phases are present at various values of external parameters like magnetic field, pressure, strain, etc.
-Ultrafast optics has played an important role in this respect, as it allows one (heuristically) to add a \emph{nonequilibrium} axis to such phase diagrams.
+Usually this is done by mapping out a \emph{phase diagram} for each given material, which indicates which phases are present at various values of external parameters (magnetic field, pressure, strain, etc).
+Ultrafast optics has played an important role in this respect, as it allows one to add a \emph{nonequilibrium} axis to such phase diagrams.
 Such experiments, for example, have not only helped illustrate the extent to which different phases compete with one another in the cuprate phase diagram, but also the extent to which the action of the light pulse in strongly correlated materials can be used to tune the properties of those materials for practical purposes.
 This is paradigm is referred to as ``ultrafast control,'' and I will discuss it in more detail in \cref{sec:ultrafastcontrol}.
 
-A parallel effort in the field of ultrafast optics is to use the pump not to control the state of the material, but rather to excite coherent oscillations of the low-energy collective modes and study these oscillations in the time domain in a pump-probe scheme.
+A parallel effort in the field of ultrafast optics is to use the pump not to control the state of the material, but rather to excite coherent oscillations of the low-energy collective modes and study these oscillations in the time domain.
 This approach is advantageous for two reasons.
-For one, the frequencies accessible with this technique are bounded from below only by the length of one's delay stage, in contrast to conventional spectrometer-based methods which involve finite-frequency filters, gratings, etc.
+For one, the frequencies accessible with this technique are bounded from below only by the length of one's delay stage, in contrast to conventional spectrometer-based methods which involve finite-frequency filters and gratings.
 Second of all, the ability to select both the excitation mechanism (the pump) and the measurement apparatus (the probe) allows one to design experiments that target specific degrees of freedom of interest.
 Thus, for example, in multiferroics, one can use \gls{shg} to selecitively probe the collective modes which modulate the macroscopic polarization.
 This direction is referred to as ``ultrafast spectroscopy,'' which I will explain in detail in \cref{sec:ultrafastspectroscopy}.
 
-This chapter may thus be regarded as an introduction to strongly correlated electron systems, with a special emphasis on ultrafast experiments (of the two types explained above).
+This chapter may thus be regarded as an introduction to ultrafast optics, with special emphasis on how we can use ultrafast experiments to understand correlated materials without having to consider the interaction terms explicitly.
 A complete review of this material is beyond the scope of this thesis; instead, I will focus on a few seminal works that I think tell this story most pedagogically.
-We will also need a bit of machinery to understand \cref{ch:tastwo,ch:cmb,ch:cubr2}, which focus on \gls{cdw}, \gls{afm}, and multiferroic materials, respectively; hence I will primarily focus on these types of ground states, although of course this obviously misses e.g. strange metal phases, unconventional superconductivity, quantum spin liquids, etc.
-When appropriate, I point to pedagogical references that may be more useful than this thesis for these and other concepts.
+Where appropriate, I point to pedagogical references that may be more useful than this thesis for these and other concepts.
 
 \section{Spectroscopy}\label{sec:ultrafastspectroscopy}
 
@@ -65,7 +64,7 @@ Usually, though, more complicated systems can be broken down into a small number
 Thus, for example, it makes sense to refer to the phonon subsytem independently from the electronic subsystem, with different and independent collective mode spectra in the limit where the inter-subsystem coupling goes to zero.
 
 When this coupling is finite, however, many interesting phenomena may occur.
-For example, spin-orbit coupling coupling---which implies a coupling between spin and orbital degrees of freedom of the electron---can, in the right circumstances, cause the statically ordered state of the spin subsystem to also induce a ferroelectric distortion of the electron orbitals.
+For example, spin-orbit coupling---which implies a coupling between spin and orbital degrees of freedom of the electron---can, in the right circumstances, cause the statically ordered state of the spin subsystem to also induce a ferroelectric distortion of the electron orbitals.
 The normal modes of the system in the presence of this coupling are no longer pure magnon or orbital modes, but rather collective modes of the spin and orbital degrees of freedom together.
 Let us look at this phenomenon from a different perspective.
 Suppose we didn't know the ground state of the system, but we did know that the relevant low-energy excitations involved both spin and orbital degrees of freedom (for example, we might see a response in both the time-resolved kerr rotation as well as the \gls{trshg}).
@@ -98,7 +97,7 @@ One can show (see \citet{kuznetsov_theory_1994}) that the equation of motion for
 \begin{equation}\label{eq:coherentoscillationwaveequation}
 \frac{\partial^2}{\partial t^2}D_{\vec{q}}+\omega^2_{\vec{q}}D_{\vec{q}} = -2\omega_{\vec{q}}\sum_{\vec{k}\sigma}V^\sigma_{\vec{k}\vec{q}}\left<c^\dagger_{\vec{k}\sigma} c_{\vec{k}+\vec{q}\sigma}\right>,
 \end{equation}
-i.e., $D_{\vec{q}}$ obeys a \emph{wave equation} with an inhomogenous part related (in this case) to the electronic subsystem.\footnote{There will also be a damping term, which may be added phenomenologically but is otherwise not considered in this treatment.}
+i.e., $D_{\vec{q}}$ obeys a second-order differential equation with an inhomogenous part related (in this case) to the electronic subsystem.\footnote{There will also be a damping term, which may be added phenomenologically but is otherwise not considered in this treatment.}
 Thus, if we manage to initialize a wavefunction with a finite $D_{\vec{q}}$, the frequency with which $D_{\vec{q}}$ oscillates in time is the frequency $\omega_{\vec{q}}$ of the boson $b_{\vec{q}}$.
 
 The central idea in ultrafast spectroscopy is therefore to excite coherent modes like \cref{eq:coherentstate}, and then measure the frequency, damping, etc. of these modes by measuring $D_{\vec{q}}$.
@@ -108,7 +107,7 @@ In theory, of course, the information obtained is the same---the frequency and d
 
 \subsection{Excitation mechanisms}
 
-The next question is how we typically excite these coherent collective oscillations in real materials.
+The next question is: how do we intend to excite these coherent oscillations in real materials?
 The truth is there are many such mechanisms; however, we can start by placing them into two generic categories.
 \emph{Impulsive} mechanisms involve using the light pulse to apply an effective force to the relevant degrees of freedom in the material, which lasts for the duration of the light pulse; i.e., it is a delta function in time.
 \emph{Displacive} mechanisms are, in contrast, typically a step function; i.e., the equilibrium position of the oscillator is different before and after the light pulse.
@@ -121,7 +120,7 @@ for $f(t)\propto \delta(t)$ or $f(t)\propto \theta(t)$, respectively.
 \subsubsection{In absorption}
 
 Let us consider the Hamiltonian in \cref{eq:electronlatticehamiltonian}.
-We saw that this Hamiltonian resulted in an equation of motion given by \cref{eq:coherentoscillationwaveequation}, which is a wave equation for $D_{\vec{q}}$ with a force term
+We saw that this Hamiltonian resulted in an equation of motion given by \cref{eq:coherentoscillationwaveequation}, which is a differential equation for $D_{\vec{q}}$ with an inhomogenous part
 \begin{equation}\label{eq:electronlatticeforceterm}
 f(t) = -2\omega_{\vec{q}}\sum_{\vec{k}\sigma}V^\sigma_{\vec{k}\vec{q}}\left<c^\dagger_{\vec{k}\sigma} c_{\vec{k}+\vec{q}\sigma}\right>,
 \end{equation}
@@ -129,7 +128,7 @@ where the time-dependence of the right hand side is complicated but may be phone
 For example, let us suppose that we are in a semiconductor and that photon energy of our pump pulse is greater than the band gap of the material.
 Thus, the action of the pump is to excite electrons from the valence band into the conduction band.
 On a very fast timescale (\num{0.1}--\qty{10}{fs}) these electrons thermalize with themselves via electron-electron scattering, resulting in a quasi-equilibrium carrier distribution in which electrons and holes have settled at the bottom of the conduction band and the top of the valence band, respectively.
-Since further decay of these excitations is gapped, the relaxation of this state back to equilibrium may be quite long, especially if the gap is indirect; thus, together with the assumption that the lattice dynamics happen on much longer timescales than the electron thermalization time, it is appropriate to model the force term in \cref{eq:electronlatticeforceterm} as a step function in time
+Since further decay of these excitations is gapped, the relaxation of this state back to equilibrium may be much longer than the pulse width, especially if the gap is indirect; thus, together with the assumption that the lattice dynamics happen on much longer timescales than the electron thermalization time, it is appropriate to model the force term in \cref{eq:electronlatticeforceterm} as a step function in time
 \begin{equation}
 f(t) \propto \begin{cases} 0 & t<0\\1 & t\ge 0 \end{cases}.
 \end{equation}
@@ -142,8 +141,8 @@ Thus only totally-symmetric phonons may be excited via \gls{decp}.
 \subsubsection{In transparency}\label{sec:intransparency}
 
 While the \gls{decp}-like mechanisms tend to dominate when the photon energy is above the band gap, they are forbidden in transparency.
-In this case, the dominant excitation mechanism is actually impulsive.
-Let us consider the case of a collective mode with energy $\hbar\omega_0$ which we wish to excite coherently with an ultrafast laser pulse, below the band gap.
+In this case, the dominant excitation mechanism is usually impulsive.
+To see this, let us consider the case of a collective mode with energy $\hbar\omega_0$ which we wish to excite coherently with a below-gap ultrafast laser pulse.
 If the central frequency of the light pulse is resonant with the collective mode (i.e., we have $\nu_\mathrm{photon}=\hbar\omega_0$), then we may drive the coherent oscillation directly; i.e., the mode coordinate $Q$ simply follows the electric field.
 This is of course only possible if the mode carries a finite dipole moment (i.e. it is odd under parity).
 Alternatively, we will see that, under the right conditions, we can also excite coherent oscillation of low-energy collective modes even if the photon energy is far away from any direct resonance.
@@ -171,7 +170,7 @@ f &= -\frac{\partial F}{\partial Q}\\
 which appears on the right hand side of \cref{eq:Dqequationofmotion}.
 Clearly, if the $\vec{E}(t)$ has Fourier components $\omega_1$ and $\omega_2$ such that $|\omega_1-\omega_2|\approx\omega_0$, then the force will be \emph{resonant} with the oscillator frequency.
 
-Some interesting insights may be made in light of \cref{eq:isrsfreenergy}.
+Some interesting insights may be made in light of \cref{eq:isrsfreeenergy}.
 Let us consider for example the limit where the ``mode'' $Q$ is a static magnetization $M_k$.
 The free energy reads\citep{juraschek_phono-magnetic_2020}
 \begin{equation}
@@ -204,7 +203,7 @@ where $\vec{L}$ is the \neel vector (defined as the different in sublattice magn
 H^\mathrm{eff}_l &= \frac{\partial F}{\partial L_l}\\
 &= \chi_{ijkl}E_i(t)E_j(t)L_k.
 \end{align}
-A full treatment of these and related effects is beyond the scope of this work;\footnote{See \citet{kirilyuk_ultrafast_2010} for a comprehensive review.} the point is just to make a connection between the many different impulsive excitation mechanisms.
+A full treatment of these and related effects is beyond the scope of this work;\footnote{See \citet{kirilyuk_ultrafast_2010} for a comprehensive review.} the point is just to draw a connection between the various impulsive excitation mechanisms available to us in ultrafast spectroscopy.
 
 \subsection{Collective modes in correlated materials}
 
@@ -272,15 +271,15 @@ Nevertheless, amplitude modes have been observed in a number of different circum
 In the above we have described how coherent oscillations of collective modes in solids may be excited with an ultrafast laser, and we have explored how we can understand what those modes are without having to solve the full many-body Hamiltonian.
 Let us start to apply this machinery to a relevant physical system.
 A full accounting of the different collective modes in correlated systems is beyond the scope of this work; instead. let us focus on a particular class of physical system---multiferroics---which encompasses a lot of the physics of correlated materials and may also be described well in terms of the \gls{gl} theory we outlined above.
-\Cref{ch:cubr2} is concerned with one member of this class (\ce{CuBr2}); in this material, we believe we are seeing the amplitude mode of the magnetic Hamiltonian imprinted on the charge degree of freedom in the form of an electromagnon.
-The understanding developed in this chapter will thus be quite helpful when we encounter that chapter.
+\Cref{ch:cubr2} is concerned with one member of this class (\ce{CuBr2}); in this material, we have evidence that the amplitude mode of the magnetic Hamiltonian is imprinted on the charge degrees of freedom in the form of an electromagnon.
+The understanding developed here will thus be quite helpful when we encounter that chapter.
 
 Multiferroics are materials in which magnetic order exists in the same phase as ferroelectric order.
 They may typically be classified into two types.
 In the so-called type-II multiferroics, the transition to the ferroelectric state appears at the same temperature as a concomitant magnetic transition.
 This is because the ferroelectricity is \emph{due to} some inversion symmetry breaking of the magnetic order, for instance by a helical spin density wave.\footnote{The ferroelectricity is thus considered of the ``improper'' type.}
 The microscopic mechanism will be discussed shortly, but let us contrast this with the case of type-I multiferroics---in type-I multiferroics, the magnetic and ferroelectric transition temperatures are different, and neither is ``due'' to the other; they just happen to exist in the same material.
-Intuitively this may happen when magnetic ions exist alongside different ions which participate in the ferroelectricity; this is the case in \ce{BiFeO3}[?].
+Intuitively this may happen when magnetic ions exist alongside different ions which participate in the ferroelectricity; this is the case in \ce{BiFeO3}\cite{kiselev_detection_1963}.
 Here we will focus on type-II multiferroics, not only because they tend to be more interesting but also because they usually have larger magnetoelectric effects (since the ferroelectric order is due to the magnetic order) and have thus been the central focus of the modern research on multiferroics.
 
 The central question is then: can we describe (microscopically) how ferroelectricity may appear as a \emph{result} of long-range magnetic order?
@@ -320,7 +319,7 @@ H_4 = \sum_i D(S^z_i)^2.
 \end{equation}
 This Hamiltonian describes a \oned spin chain along $\hat{x}$ interacting with a charge coordinate $u_i$ (with conjugate momentrum $P_i$) via \cref{eq:knbtheoryequation}.
 The anisotropy $D>0$ pins the magnetic order to the $xy$ plane.
-As discussed above, for $|J_2/J_1|<4$ the ground state is a noncollinear spin spiral with spins lying in the $xy$ plane, and the relative angle between adjacent spins is defined by some quantity $\phi\neq 0,\pi$ which is related to $|J_2/J_1|$.
+As discussed above, for $|J_2/J_1|<4$ the ground state is a noncollinear spin spiral with spins lying in the $xy$ plane, and the relative angle between adjacent spins is defined by some quantity $\phi\neq 0,\pi$ which is chosen to minimize the competition between $J_1$ and $J_2$.
 
 \citet{katsura_dynamical_2007} discuss the low-lying excitations of this ground state in light of \cref{eq:knbhamiltonian}.
 First of all, clearly uniform rotations of all of the spins in the chain cost zero energy; this is the \emph{Goldstone mode} of \cref{eq:knbhamiltonian}, and is in direct analogy with the Goldstone mode of the superfluid discussed in \cref{sec:superfluidgoldstone}.
@@ -335,14 +334,14 @@ This mode is thus our first encounter with an electromagnon, which is any spin b
 Electromagnons are in fact an intrinsic feature of multiferroics, and what we have discussed above is by no means the only mechanism by which such modes may be achieved.\footnote{For example, in cases where magnetoelastic coupling is strong, a multi-particle excitation in which a spin boson couples to a phonon, and a phonon then couples to the electric polarization, is possible and common\citep{takahashi_magnetoelectric_2012}.}
 While a complete description of electromagnons and multiferroics is beyond the scope of this work (see \citet{cheong_multiferroics_2007} and \citet{fiebig_evolution_2016} for review), I hope to have nevertheless motivated the idea that elementary excitations in correlated systems may still be understood in the context of broken symmetries and the \gls{gl} paradigm---a notion that we will encounter frequently in the course of this thesis.
 
-\section{Control}
+\section{Control}\label{sec:ultrafastcontrol}
 
 From a technological perspective, ultrafast spectroscopy is useful because it helps us understand the physics of materials in equilibrium and how those materials might function in practical applications.
 Ultrafast control is different in the sense that it seeks to understand the different ways we can \emph{manipulate} materials, with the idea that the knowledge thus gained may be used as a control scheme in some future technology, whether that involves using light or some other stimulus.
 The material of study is thus of a different kind of importance in ultrafast control---we are more interested in the phenomenology of the light-matter interaction rather than the phenomenology of the material itself.
 Usually the phenomenology of interest is, for example, being able to control the \emph{state} of the material (like the direction of a magnetization, or the presence of a charge density wave) using light.
 
-In my view, the dynamics relevant for ultrafast control fall into two categories.
+In my view, ultrafast control schemes may be divided into two categories.
 In one case, the dynamics following the light pulse are \emph{coherent}; that is, the light field, for instance, excites coherent oscillations (see \cref{sec:coherentoscillations}), and those coherent oscillations drive the system to a new state.\footnote{Here I take the view that simply exciting coherent oscillations (i.e. without a dynamical phase transition) is \emph{not} coherent control, but some may disagree with this point perspective, especially when the amplitude of such oscillations are large.}
 In contrast, \emph{incoherent} dynamics do not involve coherent oscillations of any degrees of freedom; instead, the light is used to, for example, heat the material, or excite quasiparticles away from the Fermi surface.
 This can also drive the material into a different (nonequilibrium) state, for example by quenching some \gls{lro} of the electrons near the Fermi surface, but the mechanism is qualitatively different from the coherent case.
@@ -361,11 +360,11 @@ We are more interested, however, in \emph{nonthermal} ultrafast phenomena---that
 
 One example of such a phonemonon is the ultrafast quench (or ``nonthermal melting'') of some equilibrium order parameter via photoexcitation of electrons by the pump pulse.
 Let us consider, for example, the case discussed briefly in the beginning of this chapter of a quasi-\oned Fermi liquid which becomes gapped by a periodic lattice distortion (i.e. via the Peierls mechanism).
-The basis for this mechanism is that quasiparticles near the Fermi vector in the undistorted Fermi liquid decrease their energy when the gap is opened via hybridization of folded bands, which happens at the expense of some energy gain associated with distorting the lattice away from its equilibrium configuration.
-When light is incident on this system in the distorted phase,\footnote{Let us say that the pump photon energy is above the Peierls gap.} quasiparticles are excited \emph{away} from the valence band top, and the energy savings we gained by distorting the lattice disappears.
+The basis for this mechanism is that quasiparticles near the Fermi vector in the undistorted Fermi liquid decrease their energy when the gap is opened (via hybridization of folded bands), which happens at the expense of some energy gain associated with distorting the lattice away from its equilibrium configuration.
+When light is incident on this system in the distorted phase,\footnote{Let us say that the pump photon energy is above the Peierls gap.} quasiparticles are excited \emph{away} from the top of the valence band, and the energy savings we gained by distorting the lattice disappears.
 The system thus relaxes back to its previous configuration and we lose our periodic lattice distortion---the light pulse destroyed the \gls{lro}.
 
-Note that this is referred to as a \emph{nonthermal} effect, even though for typical metals the quasiparticles experience an effective temperature change in this picture on the order of \qty{e3}{K}\citep{rethfeld_ultrafast_2002}.
+Note that this is referred to as a \emph{nonthermal} effect, even though for typical metals the quasiparticles experience an effective temperature change on the order of \qty{e3}{K}\citep{rethfeld_ultrafast_2002}.
 Nevertheless, the dynamical phase transition we just described proceeds, by construction, via the creation of a \emph{nonequilibrium} distribution of photoexcited electrons, and in this sense it is nonthermal.
 There is often difficulty encountered in \emph{proving} that the action of the pump is truly nonthermal.
 Indeed, the existence of an ordered phase implies some finite temperature $T_c$ where that order is destroyed by equilibrium thermal fluctuations---it is the job of the experimenter to show that the laser pulse is not simply heating the material above this critical temperature.
@@ -403,9 +402,9 @@ A comprehensive review of all such models is given by \citet{hohenberg_theory_19
 \subsubsection{Dynamics following an ultrafast quench}\label{sec:sunandmillis}
 
 \Gls{tdgl} is thus used widely to study dynamical phase transitions in many physical systems.
-An interesting case, which we will treat in detail here due to its applicability to \ce{CaMn2Bi2} (see \cref{ch:camn2bi2}), is when two order parameters compete with each other in the equilibrium free energy density, and we consider the \gls{tdgl} dynamics after an \emph{ultrafast quench} of the equilibrium order.\footnote{This discussion closely follows that of \citet{sun_transient_2020}.}
+An interesting case, which we will treat in detail here due to its applicability to \ce{CaMn2Bi2} (see \cref{ch:cmb}), is when two order parameters compete with each other in the equilibrium free energy density, and we consider the \gls{tdgl} dynamics after an \emph{ultrafast quench} of the equilibrium order.\footnote{This discussion closely follows that of \citet{sun_transient_2020}.}
 The free energy density is
-\begin{equation}\label{eq:coupledfreeeneergydensity}
+\begin{equation}\label{eq:coupledfreeenergydensity}
 f = f_1+f_2+f_c,
 \end{equation}
 where
@@ -450,7 +449,7 @@ In this case, both states are \glspl{cdw} so the relaxation rates $\gamma_1$ and
 
 \subsubsection{Via coherent oscillations}
 
-In the previous section we described how ultrafast phenomena may be understood phenomenologically using the \gls{gl} or \gls{tdgl} paradigm, where the important physics is captured by a generic a free energy gensity whose minima, gradients, etc. determine the relevant phases.
+In the previous section we described how ultrafast phenomena may be understood phenomenologically using the \gls{gl} or \gls{tdgl} paradigm, where the important physics is captured by a generic free energy density whose minima, gradients, etc. determine the relevant phases.
 In describing the action of the pump pulse, we treated the case where the light only quenches the equilibrium order via excitation of electrons from near the Fermi level, but of course, we know from \cref{sec:ultrafastspectroscopy} that this is hardly the only thing the pump can do.
 For example, we studied in detail in \cref{sec:ultrafastspectroscopy} that the pump may indeed excite coherent oscillations, and if these oscillations are strong, it turns out that they may also allow us to control the nonequilibrium or metastable phases of materials.
 
@@ -458,9 +457,9 @@ Let us consider for example the free energy density of \cref{eq:coupledfreeenerg
 \begin{equation}\label{eq:latticefreeenergydensity}
 f_c = \left(c(0)+\frac{\partial c(Q)}{\partial Q}\Big|_{Q=0}Q+\ldots\right)\psi_1^2\psi_2^2.
 \end{equation}
-Clearly if the pump pulse brings $Q$ to some finite value, the free energy landscape may look quite different compared to equilibrium.
+Clearly if the pump pulse brings $Q$ to some finite value, the free energy landscape may look quite different from equilibrium.
 
-One example of this phenomenon occurs on intense resonant excitation of the \qty{17}{THz} phonon mode in \ce{DyFeO3}, which is a magnetic material with a thermal metamagnetic transition at \qty{51}{K} between a low-temperature \gls{afm} state and a high-temperature canted-\gls{afm} state with a small magnetic moment.
+One example of this phenomenon occurs on intense resonant excitation of the \qty{17}{THz} phonon mode in \ce{DyFeO3}, which is a magnetic material with a thermal metamagnetic transition at \qty{51}{K} between a low-temperature \gls{afm} state and a high-temperature canted-\gls{afm} state (with a small magnetic moment).
 \Citet{afanasiev_ultrafast_2021} showed the appearance of a long-lived offset in the Faraday effect signal following excitation which disappeared above \qty{51}{K}, signaling that the pump pulse triggers an ultrafast phase transition between the two magnetic states in this material.
 They claim that anharmonic phonon interactions rectify the coherent oscillation of the \qty{17}{THz} phonon mode and transfer a finite, time-independent amplitude to a \emph{different} phonon mode associated with the displacement of \ce{Dy^{3+}} ions.
 This displacement causes a long-lived change in the magnetic exchange interaction which modifies the free energy density and triggers a phase transition in a manner resembling \cref{eq:latticefreeenergydensity}.
