@@ -62,8 +62,8 @@ Bauer, K.-D. and Hingerl, K.
 
 \bibitem{bednorz_possible_1986}
 Bednorz, J.~G.
-\newblock {\em Possible {High} {Tc} {Superconductivity} in the {Ba} - {La}-
-  {Cu}- 0 {System}\/}.
+\newblock {\em Possible {High} {Tc} {Superconductivity} in the
+  {Ba}-{La}-{Cu}-{O} {System}\/}.
 \newblock {\em Z. Phys.B - Condensed Matter\/}, (64), 189--193 (1986).
 
 \bibitem{belinicher1980}
@@ -670,6 +670,12 @@ Ning, H., Oh, K.~H., Su, Y., von Hoegen, A., Porter, Z., Salinas, A.~C.,
   waves in a kagome superconductor\/} (2024).
 \newblock ArXiv:2403.03169 [cond-mat].
 
+\bibitem{neel_properties_1948}
+Néel, M.~L.
+\newblock {\em Propriétés magnétiques des ferrites ; ferrimagnétisme et
+  antiferromagnétisme\/}.
+\newblock {\em Ann. Phys.\/}, 12(3), 137--198 (1948).
+
 \bibitem{nemec_antiferromagnetic_2018}
 Němec, P., Fiebig, M., Kampfrath, T., and Kimel, A.~V.
 \newblock {\em Antiferromagnetic opto-spintronics\/}.
@@ -828,6 +834,12 @@ Shirley, J.~H.
 \newblock {\em Solution of the {Schrödinger} {Equation} with a {Hamiltonian}
   {Periodic} in {Time}\/}.
 \newblock {\em Phys. Rev.\/}, 138(4B), B979--B987 (1965).
+
+\bibitem{shull_neutron_1951}
+Shull, C.~G., Strauser, W.~A., and Wollan, E.~O.
+\newblock {\em Neutron {Diffraction} by {Paramagnetic} and {Antiferromagnetic}
+  {Substances}\/}.
+\newblock {\em Phys. Rev.\/}, 83(2), 333--345 (1951).
 
 \bibitem{sie_valley-selective_2015}
 Sie, E.~J., McIver, J.~W., Lee, Y.-H., Fu, L., Kong, J., and Gedik, N.
@@ -1077,5 +1089,10 @@ Zong, A., Shen, X., Kogar, A., Ye, L., Marks, C., Chowdhury, D., Rohwer, T.,
 \newblock {\em Ultrafast manipulation of mirror domain walls in a charge
   density wave\/}.
 \newblock {\em Science Advances\/}, 4(10) (2018).
+
+\bibitem{magnetism_fundamentals}
+Étienne du Trémolet~de Lacheisserie, Gignoux, D., and Schlenker, M.
+\newblock {\em Magnetism: Fundamentals\/}.
+\newblock Springer New York, NY, first ed. (2005).
 
 \end{thebibliography}

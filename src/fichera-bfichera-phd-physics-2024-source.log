@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.26)  14 APR 2024 12:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.16)  1 MAY 2024 11:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1163,6 +1163,9 @@ Package mhchem Warning: You did not specify a 'version' option for the mhchem
 .
 
 ) (/usr/share/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/share/texmf-dist/tex/generic/nth/nth.sty
+Package: nth 2002/02/27
+)
 (/usr/share/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip267
@@ -1500,7 +1503,7 @@ Package: memhfixc 2023/09/10 v1.22 hyperref package fixes for memoir class
 \c@memhycontfloat=\count426
 \c@Hpagenote=\count427
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 42.
+Package hyperref Info: Option `colorlinks' set `true' on input line 43.
 
 (/usr/share/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
@@ -2661,27 +2664,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [164 <./gfx/ch7/phonons.pdf>] [165] [166
 
-] [167] [168
+] (./ch/ch8.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
-(./fichera-bfichera-phd-physics-2024-source.bbl [169] [170
+ [167]
 
-] [171] [172]
-[173] [174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184]
-[185] [186] [187]
-Underfull \hbox (badness 5548) in paragraph at lines 950--954
+Package natbib Warning: Citation `palstra_superconducting_1985' on page 168 und
+efined on input line 33.
+
+
+Package natbib Warning: Citation `shen_unveiling_2020' on page 168 undefined on
+ input line 37.
+
+[168]) [169] [170
+
+] (./fichera-bfichera-phd-physics-2024-source.bbl [171]
+[172
+
+] [173] [174] [175] [176] [177] [178] [179] [180] [181] [182] [183]
+[184] [185] [186] [187] [188] [189]
+Underfull \hbox (badness 5548) in paragraph at lines 962--966
 []\OT1/ppl/m/it/10.95 (+20) NMR ev-i-dence of charge fluc-tu-a-tions in mul-ti-
 fer-roic $[][][]$, url =
  []
 
-[188] [189])
+[190] [191])
 
 Class memoir Warning: The material used in the headers is too large
 (28.99998pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 52.
+(in both cases you will find help in the memoir manual). on input line 53.
 
-[190]
+
+Package natbib Warning: There were undefined citations.
+
+[192]
 \tf@toc=\write6
 \openout6 = `fichera-bfichera-phd-physics-2024-source.toc'.
 
@@ -2705,13 +2722,13 @@ Package rerunfilecheck Info: File `fichera-bfichera-phd-physics-2024-source.out
 (rerunfilecheck)             Checksum: F8B8BA61E7161F653585840922B93ED3;22897.
  ) 
 Here is how much of TeX's memory you used:
- 39641 strings out of 476000
- 746197 string characters out of 5792233
+ 39697 strings out of 476000
+ 747232 string characters out of 5792233
  1956187 words of memory out of 5000000
- 59608 multiletter control sequences out of 15000+600000
- 641286 words of font info for 609 fonts, out of 8000000 for 9000
+ 59645 multiletter control sequences out of 15000+600000
+ 641570 words of font info for 613 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 115i,21n,120p,2420b,1864s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 115i,21n,120p,2420b,1858s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{figure.7.5} has been referenced but does not exist,
  replaced by a fixed one
@@ -2816,11 +2833,11 @@ urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplbi8a
 .pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/tex
 mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/
 urw/palatino/uplri8a.pfb>
-Output written on fichera-bfichera-phd-physics-2024-source.pdf (190 pages, 3227
-7869 bytes).
+Output written on fichera-bfichera-phd-physics-2024-source.pdf (192 pages, 3228
+6271 bytes).
 PDF statistics:
- 76932 PDF objects out of 79402 (max. 8388607)
- 51705 compressed objects within 518 object streams
- 904 named destinations out of 1000 (max. 500000)
+ 76952 PDF objects out of 79402 (max. 8388607)
+ 51723 compressed objects within 518 object streams
+ 910 named destinations out of 1000 (max. 500000)
  125608 words of extra memory for PDF output out of 128383 (max. 10000000)
 

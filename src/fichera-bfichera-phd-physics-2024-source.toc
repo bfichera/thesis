@@ -116,4 +116,4 @@
 \contentsline {subsubsection}{\numberline {7.8.6.3}Magnetic SHG}{162}{subsubsection.7.8.6.3}%
 \contentsline {subsubsection}{\numberline {7.8.6.4}Multi-phason excitation}{165}{subsubsection.7.8.6.4}%
 \contentsline {chapter}{\chapternumberline {8}Concluding remarks}{167}{chapter.8}%
-\contentsline {chapter}{Bibliography}{171}{chapter*.4}%
+\contentsline {chapter}{Bibliography}{173}{chapter*.4}%
