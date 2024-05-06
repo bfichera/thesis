@@ -1,6 +1,11 @@
-#!./venv/bin/python
+#!./venv/Scripts/python.exe
 
 import bibtexparser
+
+open_ = open
+def open(*args, **kwargs):
+    kwargs['encoding'] = 'utf8'
+    return open_(*args, **kwargs)
 
 with open('bib/tastwo.bib', 'r') as fh:
     tastwolib = bibtexparser.load(fh)
