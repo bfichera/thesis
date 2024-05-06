@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.27)  6 MAY 2024 16:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.27)  6 MAY 2024 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1632,7 +1632,7 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-msb.cfg)
 (c:/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd)
-Underfull \hbox (badness 10000) in alignment at lines 28--28
+Underfull \hbox (badness 10000) in alignment at lines 27--27
 [][] 
  []
 
@@ -1835,7 +1835,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [81 <./gfx/ch4/km-fig5.pdf>]) [82]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mhchem@cee' on input line 39.
+(hyperref)                removing `\mhchem@cee' on input line 37.
 
 (./ch/ch5.tex [83
 
@@ -2012,7 +2012,7 @@ e pdfs with page group included in a single page
 >] [109]) [110]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mhchem@cee' on input line 42.
+(hyperref)                removing `\mhchem@cee' on input line 40.
 
 (./ch/ch6.tex [111
 
@@ -2305,7 +2305,7 @@ Package pdftex.def Info: ./gfx/ch6/ctempdep.pdf  used on input line 724.
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mhchem@cee' on input line 44.
+(hyperref)                removing `\mhchem@cee' on input line 42.
 
 (./ch/ch7.tex [151]
 <./gfx/ch7/fig1.pdf, id=73790, 520.94624pt x 241.90375pt>
@@ -2445,7 +2445,7 @@ Underfull \hbox (badness 4024) in paragraph at lines 706--708
 Class memoir Warning: The material used in the headers is too large
 (28.99998pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 53.
+(in both cases you will find help in the memoir manual). on input line 51.
 
 
 Package natbib Warning: There were undefined citations.
@@ -2474,11 +2474,11 @@ Package rerunfilecheck Info: File `fichera-bfichera-phd-physics-2024-source.out
 (rerunfilecheck)             Checksum: F8B8BA61E7161F653585840922B93ED3;22897.
  ) 
 Here is how much of TeX's memory you used:
- 39564 strings out of 474174
- 748116 string characters out of 5749676
- 1954460 words of memory out of 5000000
- 59858 multiletter control sequences out of 15000+600000
- 633439 words of font info for 500 fonts, out of 8000000 for 9000
+ 39496 strings out of 474174
+ 747136 string characters out of 5749676
+ 1955460 words of memory out of 5000000
+ 59831 multiletter control sequences out of 15000+600000
+ 627365 words of font info for 463 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,21n,120p,2420b,1772s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2588,10 +2588,10 @@ dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/palatino/
 uplri8a.pfb>
 Output written on fichera-bfichera-phd-physics-2024-source.pdf (200 pages, 3228
-2104 bytes).
+2814 bytes).
 PDF statistics:
  76988 PDF objects out of 79402 (max. 8388607)
  51751 compressed objects within 518 object streams
  918 named destinations out of 1000 (max. 500000)
- 125608 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 116392 words of extra memory for PDF output out of 128383 (max. 10000000)
 
