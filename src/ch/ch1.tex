@@ -83,10 +83,10 @@ H = \sum_{\vec{k}\sigma}\epsilon_{\vec{k}\sigma}c^\dagger_{\vec{k}\sigma}c_{\vec
 \end{equation}
 The average lattice displacement is given by
 \begin{equation}
-\left<u(\vec{r})\right> \propto \sum_{\vec{q}}\left(\left<b_{\vec{q}}\right>e^{i\vec{q}\cdot\vec{r}}+\left<b^\dagger_{\vec{q}}\right>e^{-i\vec{q}\cdot\vec{r}}\right).
+\big<u(\vec{r})\big> \propto \sum_{\vec{q}}\left(\big<b_{\vec{q}}\big>e^{i\vec{q}\cdot\vec{r}}+\big<b^\dagger_{\vec{q}}\big>e^{-i\vec{q}\cdot\vec{r}}\right).
 \end{equation}
-Clearly, in order for us to have a macroscopic lattice displacement, we need to have a finite value for $\left<b_{\vec{q}}\right>$ and $\left<b^\dagger_{\vec{q}}\right>$, which is impossible if there are a definite number of phonons in the mode $\vec{q}$ (since $\bra{n}b_{\vec{q}}\ket{m}=0$ for $n=m$).
-In contrast, if the wavefunction of the system consists of a coherent superposition of different phonon numbers, $\left<u(\vec{r})\right>$ may acquire a finite value.
+Clearly, in order for us to have a macroscopic lattice displacement, we need to have a finite value for $\big<b_{\vec{q}}\big>$ and $\big<b^\dagger_{\vec{q}}\big>$, which is impossible if there are a definite number of phonons in the mode $\vec{q}$ (since $\bra{n}b_{\vec{q}}\ket{m}=0$ for $n=m$).
+In contrast, if the wavefunction of the system consists of a coherent superposition of different phonon numbers, $\big<u(\vec{r})\big>$ may acquire a finite value.
 One thematic example of such a wavefunction is the so-called ``coherent state'' of the quantum harmonic oscillator
 \begin{equation}\label{eq:coherentstate}
 \ket{\alpha_{\vec{q}}} = \sum_n \frac{\alpha^ne^{-z^2/2}}{n!}(b^\dagger_{\vec{q}})^n\ket{0},
@@ -95,7 +95,7 @@ although the real wavefunction need not be fully coherent to have a nonzero aver
 
 One can show (see \citet{kuznetsov_theory_1994}) that the equation of motion for the operator $D_{\vec{q}}\equiv \big<b_{\vec{q}}\big>+\big<b^\dagger_{-\vec{q}}\big>$ due to \cref{eq:electronlatticehamiltonian} is
 \begin{equation}\label{eq:coherentoscillationwaveequation}
-\frac{\partial^2}{\partial t^2}D_{\vec{q}}+\omega^2_{\vec{q}}D_{\vec{q}} = -2\omega_{\vec{q}}\sum_{\vec{k}\sigma}V^\sigma_{\vec{k}\vec{q}}\left<c^\dagger_{\vec{k}\sigma} c_{\vec{k}+\vec{q}\sigma}\right>,
+\frac{\partial^2}{\partial t^2}D_{\vec{q}}+\omega^2_{\vec{q}}D_{\vec{q}} = -2\omega_{\vec{q}}\sum_{\vec{k}\sigma}V^\sigma_{\vec{k}\vec{q}}\big<c^\dagger_{\vec{k}\sigma} c_{\vec{k}+\vec{q}\sigma}\big>,
 \end{equation}
 i.e., $D_{\vec{q}}$ obeys a second-order differential equation with an inhomogenous part related (in this case) to the electronic subsystem.\footnote{There will also be a damping term, which may be added phenomenologically but is otherwise not considered in this treatment.}
 Thus, if we manage to initialize a wavefunction with a finite $D_{\vec{q}}$, the frequency with which $D_{\vec{q}}$ oscillates in time is the frequency $\omega_{\vec{q}}$ of the boson $b_{\vec{q}}$.
@@ -122,7 +122,7 @@ for $f(t)\propto \delta(t)$ or $f(t)\propto \theta(t)$, respectively.
 Let us consider the Hamiltonian in \cref{eq:electronlatticehamiltonian}.
 We saw that this Hamiltonian resulted in an equation of motion given by \cref{eq:coherentoscillationwaveequation}, which is a differential equation for $D_{\vec{q}}$ with an inhomogenous part
 \begin{equation}\label{eq:electronlatticeforceterm}
-f(t) = -2\omega_{\vec{q}}\sum_{\vec{k}\sigma}V^\sigma_{\vec{k}\vec{q}}\left<c^\dagger_{\vec{k}\sigma} c_{\vec{k}+\vec{q}\sigma}\right>,
+f(t) = -2\omega_{\vec{q}}\sum_{\vec{k}\sigma}V^\sigma_{\vec{k}\vec{q}}\big<c^\dagger_{\vec{k}\sigma} c_{\vec{k}+\vec{q}\sigma}\big>,
 \end{equation}
 where the time-dependence of the right hand side is complicated but may be phonemnologically modeled.
 For example, let us suppose that we are in a semiconductor and that photon energy of our pump pulse is greater than the band gap of the material.
@@ -388,7 +388,7 @@ F = \int \left[-\frac{t}{2}\psi^2+\frac{u}{4}\psi^4+\frac{K}{2}|\nabla \psi|^2\r
 \end{equation}
 and $\eta$ is a Gaussian white noise source with zero mean and two-point correlation function
 \begin{equation}
-\left<\eta(\vec{x}, t)\eta(\vec{x}', t')\right>=2\Gamma \delta(\vec{x}-\vec{x}')\delta(t-t')
+\big<\eta(\vec{x}, t)\eta(\vec{x}', t')\big>=2\Gamma \delta(\vec{x}-\vec{x}')\delta(t-t')
 \end{equation}
 chosen to satisfy the fluctuation-dissipation theorem.
 

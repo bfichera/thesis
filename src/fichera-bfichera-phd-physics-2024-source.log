@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.27)  6 MAY 2024 18:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.27)  6 MAY 2024 18:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2476,7 +2476,7 @@ Package rerunfilecheck Info: File `fichera-bfichera-phd-physics-2024-source.out
 Here is how much of TeX's memory you used:
  39496 strings out of 474174
  747136 string characters out of 5749676
- 1955460 words of memory out of 5000000
+ 1954460 words of memory out of 5000000
  59831 multiletter control sequences out of 15000+600000
  627365 words of font info for 463 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2588,7 +2588,7 @@ dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/palatino/
 uplri8a.pfb>
 Output written on fichera-bfichera-phd-physics-2024-source.pdf (200 pages, 3228
-2814 bytes).
+2832 bytes).
 PDF statistics:
  76988 PDF objects out of 79402 (max. 8388607)
  51751 compressed objects within 518 object streams
