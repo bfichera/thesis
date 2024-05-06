@@ -29,27 +29,27 @@
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Energy difference between $x$ and $y$-directions with respect to the easy axis}}{127}{figure.6.5}%
 \contentsline {figure}{\numberline {6.6}{\ignorespaces Phonon mode and \glsxtrtitleshort {afm} \glsxtrtitlelong {op} following photo-excitation with coupling $(L_1^2 + L_2^2)(Q+Q^2)$}}{132}{figure.6.6}%
 \contentsline {figure}{\numberline {6.7}{\ignorespaces Phonon mode and \glsxtrtitleshort {afm} \glsxtrtitlelong {op} following photo-excitation with coupling $L_1 L_2 e_2 Q$}}{132}{figure.6.7}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Fits to the \gls {rashg} pattern in the four domains of \cref {cmb-fig1} \qty {2.0}{ps} before ($A$, $B$, $C$, $D$) and ${\sim }\xspace \qty {40}{ps}$ after ($A'$, $B'$, $C'$, $D'$) zero delay}}{136}{figure.6.8}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces \gls {rashg} results of \cref {cmb-fluencedep} depicted with estimated errorbars (see text).}}{137}{figure.6.9}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Comparison of quench times in different domains}}{139}{figure.6.10}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Fluence dependence if \ce {CaMn2Bi2}\xspace }}{140}{figure.6.11}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Pump-probe spectroscopy of \ce {CaMn2Bi2}\xspace }}{141}{figure.6.12}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces \Glsxtrtitlelong {xrd} of \ce {CaMn2Bi2}\xspace }}{142}{figure.6.13}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces \gls {rashg} results of \cref {cmb-fig0} depicted in all four polarization channels ($P_\mathrm {in}P_\mathrm {out}$\xspace , $P_\mathrm {in}S_\mathrm {out}$\xspace , $S_\mathrm {in}P_\mathrm {out}$\xspace , and $S_\mathrm {in}S_\mathrm {out}$\xspace )}}{142}{figure.6.14}%
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Full equilibrium \glsxtrtitleshort {rashg} results in \ce {CaMn2Bi2}\xspace }}{143}{figure.6.15}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Full nonequilibrium \glsxtrtitleshort {trshg} results in \ce {CaMn2Bi2}\xspace }}{144}{figure.6.16}%
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Polarization dependence of \glsxtrtitleshort {trshg} results}}{145}{figure.6.17}%
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Transition of \ce {CaMn2Bi2}\xspace to the state opposite of that presented in the main text}}{146}{figure.6.18}%
-\contentsline {figure}{\numberline {6.19}{\ignorespaces Transiton of \ce {CaMn2Bi2}\xspace to state opposite of that presented in the main text, at long times}}{147}{figure.6.19}%
-\contentsline {figure}{\numberline {6.20}{\ignorespaces \Glsxtrtitleshort {shg} intensity in the same domain as \cref {cmb-fig1:f} as a function of temperature}}{148}{figure.6.20}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Fits to the \gls {rashg} pattern in the four domains of \cref {cmb-fig1} \qty {2.0}{ps} before ($A$, $B$, $C$, $D$) and ${\sim }\xspace \qty {40}{ps}$ after ($A'$, $B'$, $C'$, $D'$) zero delay}}{137}{figure.6.8}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces \gls {rashg} results of \cref {cmb-fluencedep} depicted with estimated errorbars (see text).}}{138}{figure.6.9}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Comparison of quench times in different domains}}{140}{figure.6.10}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Fluence dependence if \ce {CaMn2Bi2}\xspace }}{141}{figure.6.11}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Pump-probe spectroscopy of \ce {CaMn2Bi2}\xspace }}{142}{figure.6.12}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces \Glsxtrtitlelong {xrd} of \ce {CaMn2Bi2}\xspace }}{143}{figure.6.13}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces \gls {rashg} results of \cref {cmb-fig0} depicted in all four polarization channels ($P_\mathrm {in}P_\mathrm {out}$\xspace , $P_\mathrm {in}S_\mathrm {out}$\xspace , $S_\mathrm {in}P_\mathrm {out}$\xspace , and $S_\mathrm {in}S_\mathrm {out}$\xspace )}}{143}{figure.6.14}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Full equilibrium \glsxtrtitleshort {rashg} results in \ce {CaMn2Bi2}\xspace }}{144}{figure.6.15}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Full nonequilibrium \glsxtrtitleshort {trshg} results in \ce {CaMn2Bi2}\xspace }}{145}{figure.6.16}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Polarization dependence of \glsxtrtitleshort {trshg} results}}{146}{figure.6.17}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Transition of \ce {CaMn2Bi2}\xspace to the state opposite of that presented in the main text}}{147}{figure.6.18}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Transiton of \ce {CaMn2Bi2}\xspace to state opposite of that presented in the main text, at long times}}{148}{figure.6.19}%
+\contentsline {figure}{\numberline {6.20}{\ignorespaces \Glsxtrtitleshort {shg} intensity in the same domain as \cref {cmb-fig1:f} as a function of temperature}}{149}{figure.6.20}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Electromagnons in \ce {CuBr2}}}{151}{figure.7.1}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces SHG in \ce {CuBr2}: temperature dependence}}{153}{figure.7.2}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces tr-SHG in \ce {CuBr2}}}{154}{figure.7.3}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Frequency of coherent oscillations in \ce {CuBr2}}}{156}{figure.7.4}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Time-domain signals for temperature dependence of collective oscillation frequencies in \ce {CuBr2}}}{162}{figure.7.5}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Rescaled time-domain signals in \ce {CuBr2}}}{163}{figure.7.6}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Time-domain signals in \ce {CuBr2} fit without mode softening}}{164}{figure.7.7}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Fits to static SHG signal in \ce {CuBr2}}}{165}{figure.7.8}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces DFT calculation of acoustic phonons in \ce {CuBr2}}}{166}{figure.7.9}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Electromagnons in \ce {CuBr2}}}{153}{figure.7.1}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces SHG in \ce {CuBr2}: temperature dependence}}{155}{figure.7.2}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces tr-SHG in \ce {CuBr2}}}{157}{figure.7.3}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Frequency of coherent oscillations in \ce {CuBr2}}}{158}{figure.7.4}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Time-domain signals for temperature dependence of collective oscillation frequencies in \ce {CuBr2}}}{165}{figure.7.5}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Rescaled time-domain signals in \ce {CuBr2}}}{166}{figure.7.6}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Time-domain signals in \ce {CuBr2} fit without mode softening}}{167}{figure.7.7}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Fits to static SHG signal in \ce {CuBr2}}}{168}{figure.7.8}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces DFT calculation of acoustic phonons in \ce {CuBr2}}}{169}{figure.7.9}%
 \addvspace {10pt}

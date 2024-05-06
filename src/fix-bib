@@ -48,7 +48,7 @@ fixes = [
         cubr2lib,
         'wang_nmr_2018',
         'title',
-        '{{NMR} evidence of charge fluctuations in multiferroic \ce{CuBr2}',
+        '{{NMR} evidence of charge fluctuations in multiferroic \ce{CuBr2}}',
     ],
     [
         cubr2lib,
@@ -127,6 +127,18 @@ fixes = [
         'wilson_renormalization_1974',
         'title',
         'The renormalization group and the $\epsilon$ expansion',
+    ],
+    [
+        cmblib,
+        'ISOTROPY',
+        'note',
+        '{{iso.byu.edu}}',
+    ],
+    [
+        cmblib,
+        'ISOTROPY',
+        'year',
+        '{n.d.}',
     ],
 ]
 

@@ -1,6 +1,6 @@
-%% Driver file to produce asdf.bst from merlin.mbs
+%% Driver file to produce hopefullyworks.bst from merlin.mbs
 %% Generated with makebst, version 4.1 (2003/09/08)
-%% Produced on 2024/04/14 at 11:58
+%% Produced on 2024/05/06 at 15:49
 %% 
 \input docstrip
 
@@ -26,21 +26,21 @@ End of customized bst file
 % babel,%: Babel
 %--------------------
 %STYLE OF CITATIONS:
-    %: (def) Numerical
-% ay,%: Author-year
+%   %: (def) Numerical
+  ay,%: Author-year
 % alph,%: Alpha style, Jon90 or JWB90
 % alph,alf-1,%: Alpha style, Jon90
 % alph,alf-f,%: Alpha style, Jones90
 % cite,%: Cite key
 %--------------------
 %HTML OUTPUT (if non author-year citations)
-    %: (def) Normal LaTeX
+%   %: (def) Normal LaTeX
 % html,%: Hypertext
 % html,htlist,%: Hypertext list
 % html,htdes,%: Hypertext with keys
 %--------------------
 %AUTHOR--YEAR SUPPORT SYSTEM (if author-year citations)
-% nat,%: Natbib
+  nat,%: Natbib
 %   %: (def) Older Natbib
 % alk,%: Apalike
 % har,%: Harvard
@@ -69,13 +69,13 @@ End of customized bst file
 % pres,pres-sc,%: Presentaion, speaker in small caps
 %--------------------
 %ORDERING OF REFERENCES (if non-author/year and non-alph)
-    %: (def) Alphabetical
+%   %: (def) Alphabetical
 % seq-no,%: Citation order
 % seq-yr,%: Year ordered
 % seq-yrr,%: Reverse year ordered
 %--------------------
 %ORDERING OF REFERENCES (if author-year citations)
-%   %: (def) Alphabetical
+    %: (def) Alphabetical
 % seq-lab,%: By label
 % seq-labc,%: By label and cite order
 % seq-key,%: By label and cite key
@@ -88,14 +88,14 @@ End of customized bst file
 % vonx,%: Sort without von part
 %--------------------
 %IGNORE FIRST NAMES (if author-year citations)
-%   %: (def) Respect first names
+    %: (def) Respect first names
 % xintls,%: Sort on surname only
 %--------------------
 %AUTHOR NAMES:
-% ed-au,%: Full, surname last
+  ed-au,%: Full, surname last
 % nm-revf,%: Full, surname first
 % nm-init,ed-au,%: Initials + surname
-  nm-rev,%: Surname + initials
+% nm-rev,%: Surname + initials
 % nm-rv,%: Surname + dotless initials
 % nm-rvvc,%: Surname + comma + spaceless initials
 % nm-rvx,%: Surname + pure initials
@@ -105,15 +105,14 @@ End of customized bst file
 % nm-revv1,%: First name reversed, with full names
 %--------------------
 %EDITOR NAMES IN COLLECTIONS (if author names reversed)
-    %: (def) Editor names NOT reversed
 % ed-rev,%: Editor names reversed
 %--------------------
 %POSITION OF JUNIOR (if author names reversed)
-  jnrlst,%: Junior comes last
+% jnrlst,%: Junior comes last
 %   %: (def) Junior between
 %--------------------
 %JUNIOR PART IN THE CITATION (if author-year citations)
-%   %: (def) No `junior' part in the citations
+    %: (def) No `junior' part in the citations
 % jnrlab,%: `Junior' in citations
 %--------------------
 %PUNCTUATION BETWEEN AUTHOR NAMES:
@@ -171,7 +170,7 @@ End of customized bst file
 % nmand-rm,%: `And' in normal font
 %--------------------
 %FONT OF CITATION LABELS IN TEXT (if author-year citations)
-%   %: (def) Cited authors plain
+    %: (def) Cited authors plain
 % lab,lab-it,%: Cited authors italic
 % lab,lab-sc,%: Cited authors small caps
 % lab,lab-bf,%: Cited authors bold
@@ -182,16 +181,16 @@ End of customized bst file
 % and-rm,%: Cited `and' in normal font
 %--------------------
 %FONT OF EXTRA LABEL (The extra letter on the year)
-%   %: (def) Extra label plain
+    %: (def) Extra label plain
 % xlab-it,%: Extra label italic
 %--------------------
 %LABEL WHEN AUTHORS MISSING (if author-year citations)
-% keyxyr,%: Year blank when KEY replaces missing author
+  keyxyr,%: Year blank when KEY replaces missing author
 %   %: (def) Year included when KEY replaces missing author
 %--------------------
 %MISSING DATE (if author-year citations)
 %   %: (def) Missing date set to ????
-% blkyear,%: Missing date left blank
+  blkyear,%: Missing date left blank
 %--------------------
 %DATE POSITION:
     %: (def) Date at end
@@ -201,7 +200,7 @@ End of customized bst file
 %--------------------
 %DATE FORMAT (if non author-year citations)
 %   %: (def) Plain month and year
-  yr-par,%: Date in parentheses
+% yr-par,%: Date in parentheses
 % yr-brk,%: Date in brackets
 % yr-col,%: Date preceded by colon
 % yr-per,%: Date preceded by period
@@ -210,7 +209,7 @@ End of customized bst file
 %--------------------
 %SUPPRESS MONTH:
 %   %: (def) Date is month and year
-  xmth,%: Date is year only
+% xmth,%: Date is year only
 %--------------------
 %REVERSED DATE (if including month)
 %   %: (def) Date as month year
@@ -218,7 +217,7 @@ End of customized bst file
 %--------------------
 %DATE FORMAT (if author-year citations)
 %   %: (def) Year plain
-% yr-par,%: Year in parentheses
+  yr-par,%: Year in parentheses
 % yr-brk,%: Year in brackets
 % yr-col,%: Year preceded by colon
 % yr-per,%: Year preceded by period
@@ -226,7 +225,7 @@ End of customized bst file
 % yr-blk,%: Year preceded by space
 %--------------------
 %INCLUDE MONTHS:
-%   %: (def) Date is year only
+    %: (def) Date is year only
 % aymth,%: Include month in date
 %--------------------
 %REVERSED DATE (if including month)
@@ -250,11 +249,11 @@ End of customized bst file
 %--------------------
 %TRUNCATE YEAR (if author-year citations)
 % note-yr,%: Year text full
-%   %: (def) Year truncated
+    %: (def) Year truncated
 %--------------------
 %TITLE OF ARTICLE:
-%   %: (def) Title plain
-  tit-it,%: Title italic
+    %: (def) Title plain
+% tit-it,%: Title italic
 % tit-qq,qt-s,%: Title and punctuation in single quotes
 % tit-qq,%: Title and punctuation in double quotes
 % tit-qq,qt-g,%: Title and punctuation in guillemets
@@ -296,9 +295,9 @@ End of customized bst file
 % trnum-it,%: Tech. report and number italic
 %--------------------
 %JOURNAL VOLUME:
-    %: (def) Volume plain
+%   %: (def) Volume plain
 % vol-it,%: Volume italic
-% vol-bf,%: Volume bold
+  vol-bf,%: Volume bold
 % vol-2bf,%: Volume and number bold
 %--------------------
 %JOURNAL VOL AND NUMBER:
@@ -470,24 +469,24 @@ End of customized bst file
 % fin-bare,%: No period at end
 %--------------------
 %ABBREVIATE WORD `PAGES' (if not using external language file)
-%   %: (def) `Page(s)'
+    %: (def) `Page(s)'
 % pp,%: `Page' abbreviated
-  ppx,%: `Page' omitted
+% ppx,%: `Page' omitted
 %--------------------
 %ABBREVIATE WORD `EDITORS':
     %: (def) `Editor(s)'
 % ed,%: `Editor' abbreviated
 %--------------------
 %OTHER ABBREVIATIONS:
-%   %: (def) No abbreviations
-  abr,%: Abbreviations
+    %: (def) No abbreviations
+% abr,%: Abbreviations
 %--------------------
 %ABBREVIATION FOR `EDITION' (if abbreviating words)
 %   %: (def) `Edition' abbreviated as `edn'
-  ednx,%: `Edition' abbreviated as `ed'
+% ednx,%: `Edition' abbreviated as `ed'
 %--------------------
 %MONTHS WITH DOTS:
-    %: (def) Months with dots
+%   %: (def) Months with dots
 % mth-bare,%: Months without dots
 %--------------------
 %EDITION NUMBERS:
@@ -553,9 +552,9 @@ End of customized bst file
 % em-ul,%: Underlining
 %--------------------
 %COMPATIBILITY WITH PLAIN TEX:
-% nfss,%: Use LaTeX commands
-  plntx,%: Use only Plain TeX
+  nfss,%: Use LaTeX commands
+% plntx,%: Use only Plain TeX
 %--------------------
   }}
-\generate{\file{asdf.bst}{\MBopts}}
+\generate{\file{hopefullyworks.bst}{\MBopts}}
 \endbatchfile

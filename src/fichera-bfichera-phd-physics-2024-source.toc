@@ -18,8 +18,8 @@
 \contentsline {subsubsection}{\numberline {1.2.1.2}Nonthermal melting}{32}{subsubsection.1.2.1.2}%
 \contentsline {subsubsection}{\numberline {1.2.1.3}Formal model: time-dependent Ginzburg-Landau theory}{33}{subsubsection.1.2.1.3}%
 \contentsline {subsubsection}{\numberline {1.2.1.4}Dynamics following an ultrafast quench}{35}{subsubsection.1.2.1.4}%
-\contentsline {subsection}{\numberline {1.2.2}Coherent control}{36}{subsection.1.2.2}%
-\contentsline {subsubsection}{\numberline {1.2.2.1}Via coherent oscillations}{36}{subsubsection.1.2.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Coherent control}{37}{subsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2.1}Via coherent oscillations}{37}{subsubsection.1.2.2.1}%
 \contentsline {subsubsection}{\numberline {1.2.2.2}Via Floquet engineering}{38}{subsubsection.1.2.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}Control as spectroscopy}{38}{subsection.1.2.3}%
 \contentsline {chapter}{\chapternumberline {2}Second harmonic generation: theory}{41}{chapter.2}%
@@ -93,27 +93,27 @@
 \contentsline {subsubsection}{\numberline {6.10.1.3}Laser-induced dynamics of competing magnetic domains: ``coherent'' scenario}{129}{subsubsection.6.10.1.3}%
 \contentsline {subsection}{\numberline {6.10.2}Nonviability of secondary order parameter in describing the \gls {rashg} data}{133}{subsection.6.10.2}%
 \contentsline {subsection}{\numberline {6.10.3}Fits to susceptibility tensors}{134}{subsection.6.10.3}%
-\contentsline {subsection}{\numberline {6.10.4}Error bar estimation for \cref {cmb-fluencedep}}{137}{subsection.6.10.4}%
-\contentsline {chapter}{\chapternumberline {7}Amplitude-mode electromagnon in the spin-spiral multiferroic \ce {CuBr2}}{149}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Preface}{149}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Abstract}{149}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Introduction}{150}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Results}{152}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Equilibrium}{152}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}Nonequilibrium}{153}{subsection.7.4.2}%
-\contentsline {section}{\numberline {7.5}Discussion}{158}{section.7.5}%
-\contentsline {section}{\numberline {7.6}Conclusion}{158}{section.7.6}%
-\contentsline {section}{\numberline {7.7}Methods}{159}{section.7.7}%
-\contentsline {section}{\numberline {7.8}Supplementary material}{159}{section.7.8}%
-\contentsline {subsection}{\numberline {7.8.1}Electromagnons in \ce {CuBr2}}{159}{subsection.7.8.1}%
-\contentsline {subsection}{\numberline {7.8.2}Energy of the pseudo-Goldstone mode}{160}{subsection.7.8.2}%
-\contentsline {subsection}{\numberline {7.8.3}Fits of time domain signals}{161}{subsection.7.8.3}%
-\contentsline {subsection}{\numberline {7.8.4}Error bars in \cref {cubr2-fig:fig4}}{161}{subsection.7.8.4}%
-\contentsline {subsection}{\numberline {7.8.5}Fits to static RASHG data}{162}{subsection.7.8.5}%
-\contentsline {subsection}{\numberline {7.8.6}Excluded possibilities for observed results}{163}{subsection.7.8.6}%
-\contentsline {subsubsection}{\numberline {7.8.6.1}$\delta \vec {P} || \hat {x}$ oscillation}{163}{subsubsection.7.8.6.1}%
-\contentsline {subsubsection}{\numberline {7.8.6.2}Zone-folded acoustic phonons}{164}{subsubsection.7.8.6.2}%
-\contentsline {subsubsection}{\numberline {7.8.6.3}Magnetic SHG}{164}{subsubsection.7.8.6.3}%
-\contentsline {subsubsection}{\numberline {7.8.6.4}Multi-phason excitation}{167}{subsubsection.7.8.6.4}%
-\contentsline {chapter}{\chapternumberline {8}Concluding remarks}{169}{chapter.8}%
-\contentsline {chapter}{Bibliography}{175}{chapter*.4}%
+\contentsline {subsection}{\numberline {6.10.4}Error bar estimation for \cref {cmb-fluencedep}}{138}{subsection.6.10.4}%
+\contentsline {chapter}{\chapternumberline {7}Amplitude-mode electromagnon in the spin-spiral multiferroic \ce {CuBr2}}{151}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Preface}{151}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Abstract}{151}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Introduction}{152}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Results}{154}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Equilibrium}{154}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Nonequilibrium}{156}{subsection.7.4.2}%
+\contentsline {section}{\numberline {7.5}Discussion}{160}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Conclusion}{161}{section.7.6}%
+\contentsline {section}{\numberline {7.7}Methods}{162}{section.7.7}%
+\contentsline {section}{\numberline {7.8}Supplementary material}{162}{section.7.8}%
+\contentsline {subsection}{\numberline {7.8.1}Electromagnons in \ce {CuBr2}}{162}{subsection.7.8.1}%
+\contentsline {subsection}{\numberline {7.8.2}Energy of the pseudo-Goldstone mode}{163}{subsection.7.8.2}%
+\contentsline {subsection}{\numberline {7.8.3}Fits of time domain signals}{164}{subsection.7.8.3}%
+\contentsline {subsection}{\numberline {7.8.4}Error bars in \cref {cubr2-fig:fig4}}{164}{subsection.7.8.4}%
+\contentsline {subsection}{\numberline {7.8.5}Fits to static RASHG data}{166}{subsection.7.8.5}%
+\contentsline {subsection}{\numberline {7.8.6}Excluded possibilities for observed results}{166}{subsection.7.8.6}%
+\contentsline {subsubsection}{\numberline {7.8.6.1}$\delta \vec {P} || \hat {x}$ oscillation}{166}{subsubsection.7.8.6.1}%
+\contentsline {subsubsection}{\numberline {7.8.6.2}Zone-folded acoustic phonons}{167}{subsubsection.7.8.6.2}%
+\contentsline {subsubsection}{\numberline {7.8.6.3}Magnetic SHG}{168}{subsubsection.7.8.6.3}%
+\contentsline {subsubsection}{\numberline {7.8.6.4}Multi-phason excitation}{170}{subsubsection.7.8.6.4}%
+\contentsline {chapter}{\chapternumberline {8}Concluding remarks}{171}{chapter.8}%
+\contentsline {chapter}{Bibliography}{177}{chapter*.4}%
