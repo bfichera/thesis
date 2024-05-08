@@ -1,4 +1,4 @@
-\begin{thebibliography}{174}
+\begin{thebibliography}{176}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Afanasiev \emph{et~al.}(2021)Afanasiev, Hortensius, Ivanov, Sasani,
@@ -782,6 +782,14 @@ Shyue~Ping Ong, William~Davidson Richards, Anubhav Jain, Geoffroy Hautier,
   python library for materials analysis.
 \newblock \emph{Computational Materials Science}, \textbf{68}, 314--319 (2013).
 
+\bibitem[{Palstra \emph{et~al.}(1985)Palstra, Menovsky, Berg, Dirkmaat, Kes,
+  Nieuwenhuys, and Mydosh}]{palstra_superconducting_1985}
+T.~T.~M. Palstra, A.~A. Menovsky, J.~van~den Berg, A.~J. Dirkmaat, P.~H. Kes,
+  G.~J. Nieuwenhuys, and J.~A. Mydosh.
+\newblock Superconducting and {Magnetic} {Transitions} in the {Heavy}-{Fermion}
+  {System} \ce{URu2Si2}.
+\newblock \emph{Physical Review Letters}, \textbf{55}(24), 2727--2730 (1985).
+
 \bibitem[{Pan \emph{et~al.}(1989)Pan, Wei, and Shen}]{pan_optical_1989}
 Ru-Pin Pan, H.~D. Wei, and Y.~R. Shen.
 \newblock Optical second-harmonic generation from magnetized surfaces.
@@ -922,6 +930,16 @@ Jun-Yi Shan, M.~Ye, H.~Chu, Sungmin Lee, Je-Geun Park, L.~Balents, and
   D.~Hsieh.
 \newblock Giant modulation of optical nonlinearity by {Floquet} engineering.
 \newblock \emph{Nature}, \textbf{600}(7888), 235--239 (2021).
+
+\bibitem[{Shen \emph{et~al.}(2020)Shen, Kuhn, Dalgliesh, de~Haan, Geerits,
+  Irfan, Li, Lu, Parnell, Plomp, van Well, Washington, Baxter, Ortiz, Snow, and
+  Pynn}]{shen_unveiling_2020}
+J.~Shen, S.~J. Kuhn, R.~M. Dalgliesh, V.~O. de~Haan, N.~Geerits, A.~a.~M.
+  Irfan, F.~Li, S.~Lu, S.~R. Parnell, J.~Plomp, A.~A. van Well, A.~Washington,
+  D.~V. Baxter, G.~Ortiz, W.~M. Snow, and R.~Pynn.
+\newblock Unveiling contextual realities by microscopically entangling a
+  neutron.
+\newblock \emph{Nature Communications}, \textbf{11}(1), 930 (2020).
 
 \bibitem[{Shen(1984)}]{shen}
 Y.R. Shen.

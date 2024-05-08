@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.27)  7 MAY 2024 13:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.27)  8 MAY 2024 09:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2390,14 +2390,6 @@ Underfull \vbox (badness 3229) has occurred while \output is active []
  [165
 
 ]
-
-Package natbib Warning: Citation `palstra_superconducting_1985' on page 166 und
-efined on input line 33.
-
-
-Package natbib Warning: Citation `shen_unveiling_2020' on page 166 undefined on
- input line 37.
-
 [166]) [167] [168
 
 ] (./fichera-bfichera-phd-physics-2024-source.bbl [169
@@ -2434,9 +2426,6 @@ Class memoir Warning: The material used in the headers is too large
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 51.
 
-
-Package natbib Warning: There were undefined citations.
-
 [192]
 \tf@toc=\write6
 \openout6 = `fichera-bfichera-phd-physics-2024-source.toc'.
@@ -2461,13 +2450,13 @@ Package rerunfilecheck Info: File `fichera-bfichera-phd-physics-2024-source.out
 (rerunfilecheck)             Checksum: F8B8BA61E7161F653585840922B93ED3;22897.
  ) 
 Here is how much of TeX's memory you used:
- 39423 strings out of 474174
- 745918 string characters out of 5749676
+ 39418 strings out of 474174
+ 746038 string characters out of 5749676
  1960460 words of memory out of 5000000
- 59786 multiletter control sequences out of 15000+600000
- 619266 words of font info for 429 fonts, out of 8000000 for 9000
+ 59792 multiletter control sequences out of 15000+600000
+ 618764 words of font info for 421 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,21n,120p,2420b,1772s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 115i,21n,120p,2420b,1766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{figure.7.5} has been referenced but does not exist,
  replaced by a fixed one
@@ -2575,10 +2564,10 @@ dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/palatino/
 uplri8a.pfb>
 Output written on fichera-bfichera-phd-physics-2024-source.pdf (192 pages, 3228
-1056 bytes).
+1367 bytes).
 PDF statistics:
- 76954 PDF objects out of 79402 (max. 8388607)
- 51725 compressed objects within 518 object streams
- 910 named destinations out of 1000 (max. 500000)
+ 76956 PDF objects out of 79402 (max. 8388607)
+ 51727 compressed objects within 518 object streams
+ 911 named destinations out of 1000 (max. 500000)
  104104 words of extra memory for PDF output out of 106986 (max. 10000000)
 
