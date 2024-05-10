@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2023)
+This is BibTeX, Version 0.99d (TeX Live 2024/Arch Linux)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: fichera-bfichera-phd-physics-2024-source.aux
 The style file: makebst_output.bst
@@ -7,57 +7,57 @@ Reallocated buffer (elt_size=1) to 40000 items from 20000.
 Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
 Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
 Reallocated out_buf (elt_size=1) to 40000 items from 20000.
-Reallocated name_tok (elt_size=4) to 40000 items from 20000.
+Reallocated name_tok (elt_size=8) to 40000 items from 20000.
 Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
 Reallocated buffer (elt_size=1) to 60000 items from 40000.
 Reallocated sv_buffer (elt_size=1) to 60000 items from 40000.
 Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
 Reallocated out_buf (elt_size=1) to 60000 items from 40000.
-Reallocated name_tok (elt_size=4) to 60000 items from 40000.
+Reallocated name_tok (elt_size=8) to 60000 items from 40000.
 Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
-Repeated entry---line 2467 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{cheong_multiferroics_2007
- :                                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2539 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{fichera_second_2020
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2573 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{fiebig_evolution_2016
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2751 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{harter_high-speed_2015
- :                                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2821 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{hong_higgs_2017
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2855 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{jain_higgs_2017
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3529 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{pekker_amplitudehiggs_2015
- :                                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3737 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{sa_generalized_2000
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3951 of file fichera-bfichera-phd-physics-2024-source.bib
- : @article{torchinsky_low_2014
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4659 of file fichera-bfichera-phd-physics-2024-source.bib
+Repeated entry---line 1306 of file fichera-bfichera-phd-physics-2024-source.bib
  : @article{dudarev_electron-energy-loss_1998
  :                                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5259 of file fichera-bfichera-phd-physics-2024-source.bib
+Repeated entry---line 4715 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{cheong_multiferroics_2007
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4751 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{fichera_second_2020
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4768 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{fiebig_evolution_2016
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4857 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{harter_high-speed_2015
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4892 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{hong_higgs_2017
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4909 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{jain_higgs_2017
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4981 of file fichera-bfichera-phd-physics-2024-source.bib
  : @article{kirilyuk_ultrafast_2010
  :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5246 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{pekker_amplitudehiggs_2015
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5350 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{sa_generalized_2000
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5457 of file fichera-bfichera-phd-physics-2024-source.bib
+ : @article{torchinsky_low_2014
+ :                             ,
 I'm skipping whatever remains of this entry
 Warning--there's a number but no volume in bednorz_possible_1986
 Warning--empty journal in camn2bi2
@@ -67,37 +67,37 @@ Warning--empty journal in zhao_pressure_2019
 Warning--there's a number but no volume in zhao_pressure_2019
 You've used 176 entries,
             2748 wiz_defined-function locations,
-            1499 strings with 41570 characters,
-and the built_in function-call counts, 131374 in all, are:
+            1500 strings with 41578 characters,
+and the built_in function-call counts, 131363 in all, are:
 = -- 9235
 > -- 8339
 < -- 64
 + -- 3094
 - -- 2888
-* -- 11571
+* -- 11569
 := -- 20530
 add.period$ -- 533
 call.type$ -- 176
 change.case$ -- 1838
 chr.to.int$ -- 177
 cite$ -- 182
-duplicate$ -- 8693
-empty$ -- 8349
+duplicate$ -- 8691
+empty$ -- 8347
 format.name$ -- 3397
-if$ -- 24544
+if$ -- 24542
 int.to.chr$ -- 4
 int.to.str$ -- 1
 missing$ -- 2132
 newline$ -- 885
 num.names$ -- 707
-pop$ -- 3853
+pop$ -- 3854
 preamble$ -- 1
 purify$ -- 1842
 quote$ -- 0
 skip$ -- 2994
 stack$ -- 0
 substring$ -- 5296
-swap$ -- 5481
+swap$ -- 5477
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0

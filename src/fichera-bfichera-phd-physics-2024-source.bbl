@@ -212,9 +212,9 @@ J.~Ducuing and N.~Bloembergen.
 \bibitem[{Dudarev \emph{et~al.}(1998)Dudarev, Botton, Savrasov, Humphreys, and
   Sutton}]{dudarev_electron-energy-loss_1998}
 S.~L. Dudarev, G.~A. Botton, S.~Y. Savrasov, C.~J. Humphreys, and A.~P. Sutton.
-\newblock Electron-energy-loss spectra and the structural stability of nickel
-  oxide: {An} {LSDA}+{U} study.
-\newblock \emph{Phys. Rev. B}, \textbf{57}(3), 1505--1509 (1998).
+\newblock {Electron-energy-loss spectra and the structural stability of nickel
+  oxide: An LSDA+U study}.
+\newblock \emph{Phys. Rev. B}, \textbf{57}, 1505--1509 (1998).
 
 \bibitem[{Dürr \emph{et~al.}(1959)Dürr, Heisenberg, Mitter, Schlieder, and
   Yamazaki}]{durr_zur_1959}
@@ -245,7 +245,7 @@ Bryan~T. Fichera, Anshul Kogar, Linda Ye, Bilal Gökce, Alfred Zong, Joseph~G.
 \newblock Second harmonic generation as a probe of broken mirror symmetry.
 \newblock \emph{Phys. Rev. B}, \textbf{101}(24), 241106 (2020).
 
-\bibitem[{Fichera \emph{et~al.}(tion)Fichera, Lv, Morey, Shen, Lee,
+\bibitem[{Fichera \emph{et~al.}(view)Fichera, Lv, Morey, Shen, Lee,
   Liebman-pel, Kogar, Kurumaji, Humberto, Arruabarrena, Ilyas, Luo, Peter,
   Checkelsky, Orenstein, and Gedik}]{camn2bi2}
 Bryan~T Fichera, Baiqing Lv, Karna Morey, Zongqi Shen, Changmin Lee, Alex
@@ -253,7 +253,7 @@ Bryan~T Fichera, Baiqing Lv, Karna Morey, Zongqi Shen, Changmin Lee, Alex
   Arruabarrena, Batyr Ilyas, Tianchuang Luo, M~Peter, Joseph~G. Checkelsky,
   Joseph Orenstein, and Nuh Gedik.
 \newblock {Light-induced reorientation transition in an antiferromagnetic
-  semiconductor} (In preparation).
+  semiconductor} (Under review).
 
 \bibitem[{Fiebig \emph{et~al.}(1994)Fiebig, Fröhlich, Krichevtsov, and
   Pisarev}]{fiebig_second_1994}
