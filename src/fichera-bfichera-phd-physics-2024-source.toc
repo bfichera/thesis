@@ -1,7 +1,7 @@
 \changetocdepth {3}
-\contentsline {chapter}{Contents}{7}{section*.1}%
-\contentsline {chapter}{List of Figures}{11}{section*.2}%
-\contentsline {chapter}{List of Tables}{13}{section*.3}%
+\contentsline {chapter}{Contents}{vii}{section*.1}%
+\contentsline {chapter}{List of Figures}{xi}{section*.2}%
+\contentsline {chapter}{List of Tables}{xiii}{section*.3}%
 \contentsline {chapter}{\chapternumberline {1}Ultrafast optics in correlated electron systems}{15}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Spectroscopy}{17}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Collective modes}{17}{subsection.1.1.1}%
@@ -17,10 +17,10 @@
 \contentsline {subsubsection}{\numberline {1.2.1.1}Heating across a phase transition}{30}{subsubsection.1.2.1.1}%
 \contentsline {subsubsection}{\numberline {1.2.1.2}Nonthermal melting}{30}{subsubsection.1.2.1.2}%
 \contentsline {subsubsection}{\numberline {1.2.1.3}Formal model: time-dependent Ginzburg-Landau theory}{31}{subsubsection.1.2.1.3}%
-\contentsline {subsubsection}{\numberline {1.2.1.4}Dynamics following an ultrafast quench}{33}{subsubsection.1.2.1.4}%
-\contentsline {subsection}{\numberline {1.2.2}Coherent control}{35}{subsection.1.2.2}%
-\contentsline {subsubsection}{\numberline {1.2.2.1}Via coherent oscillations}{35}{subsubsection.1.2.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2.2}Via Floquet engineering}{36}{subsubsection.1.2.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.1.4}Dynamics following an ultrafast quench}{32}{subsubsection.1.2.1.4}%
+\contentsline {subsection}{\numberline {1.2.2}Coherent control}{34}{subsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2.1}Via coherent oscillations}{34}{subsubsection.1.2.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2.2}Via Floquet engineering}{35}{subsubsection.1.2.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}Control as spectroscopy}{36}{subsection.1.2.3}%
 \contentsline {chapter}{\chapternumberline {2}Second harmonic generation: theory}{39}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Space groups, point groups, and Neumann's principle}{39}{section.2.1}%
@@ -39,7 +39,7 @@
 \contentsline {section}{\numberline {3.4}Data analysis}{58}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Static RA-SHG patterns}{59}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Modeling $\chi _{ijk}$: the simplified bond hyperpolarizability model}{62}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Fitting time traces in tr-SHG}{64}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.3}Fitting time traces in tr-SHG}{63}{subsection.3.4.3}%
 \contentsline {chapter}{\chapternumberline {4}Automated polarization rotation for multi-axis RA-SHG experiments}{67}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Preface}{67}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Abstract}{67}{section.4.2}%
@@ -108,7 +108,7 @@
 \contentsline {subsection}{\numberline {7.8.1}Electromagnons in \ce {CuBr2}}{156}{subsection.7.8.1}%
 \contentsline {subsection}{\numberline {7.8.2}Energy of the pseudo-Goldstone mode}{157}{subsection.7.8.2}%
 \contentsline {subsection}{\numberline {7.8.3}Fits of time domain signals}{157}{subsection.7.8.3}%
-\contentsline {subsection}{\numberline {7.8.4}Error bars in \cref {cubr2-fig:fig4}}{159}{subsection.7.8.4}%
+\contentsline {subsection}{\numberline {7.8.4}Error bars in \cref {cubr2-fig:fig4}}{158}{subsection.7.8.4}%
 \contentsline {subsection}{\numberline {7.8.5}Fits to static RASHG data}{160}{subsection.7.8.5}%
 \contentsline {subsection}{\numberline {7.8.6}Excluded possibilities for observed results}{160}{subsection.7.8.6}%
 \contentsline {subsubsection}{\numberline {7.8.6.1}$\delta \vec {P} || \hat {x}$ oscillation}{160}{subsubsection.7.8.6.1}%
